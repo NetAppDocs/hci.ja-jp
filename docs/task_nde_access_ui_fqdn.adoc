@@ -1,0 +1,77 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/task_nde_access_ui_fqdn.html 
+summary: Web UI への FQDN アクセスを使用するようにシステムを設定する方法について説明します。 
+keywords: netapp, hci, fqdn, ui, access, web, administration 
+---
+= 完全修飾ドメイン名 Web UI アクセスを設定します
+
+
+[role="lead"]
+Element 12.2 以降を搭載した NetApp HCI では、 Fully Qualified Domain Name （ FQDN ；完全修飾ドメイン名）を使用してストレージクラスタの Web インターフェイスにアクセスできます。FQDN を使用して、 Element Web UI 、ノード UI 、管理ノード UI などの Web ユーザインターフェイスにアクセスする場合は、クラスタで使用される FQDN を特定するストレージクラスタ設定を最初に追加する必要があります。これにより、クラスタはログインセッションを適切にリダイレクトできるようになり、キー管理ツールやアイデンティティプロバイダなどの外部サービスとの統合が強化されて、多要素認証に対応できるようになります。
+
+.必要なもの
+* この機能を使用するには、 Element 12.2 以降および管理サービスバージョン 2.15 以降が必要です。
+* REST API を使用するには、バージョン 11.5 以降を実行する管理ノードを導入しておく必要があります。
+
+
+.手順
+. 環境で FQDN が解決されるように、 Element ストレージノードと管理ノードの DNS がネットワーク環境に対して正しく設定されていることを確認します。DNS を設定するには、ストレージノードのノード UI および管理ノードに移動し、 * Network Settings * > * Management Network * を選択します。
++
+.. ストレージ・ノードのノード単位の UI ： https://<storage_node_management_IP>:442`
+.. 管理ノード用のノード単位の UI ： https://<management_node_IP>:442`
+
+
+. Element API にアクセスし、「 CreateClusterInterfacePreference 」 API メソッドを使用して次のクラスタインターフェイス設定を作成し、設定値としてクラスタ MVIP FQDN を挿入します。
++
+** 名前 : 「 mvip 」
+** Value ： < クラスタ MVIP の完全修飾ドメイン名 >
++
+たとえば、 FQDN は「 toragecluster.my.org`: 」です
+
++
+[listing]
+----
+https://<Cluster_MVIP>/json-rpc/12.2?method=CreateClusterInterfacePreference&name=mvip_fqdn&value=storagecluster.my.org
+----
+
+
+. 管理ノードで REST API を使用して管理ノードの設定を変更します。
++
+.. 管理ノードの REST API UI にアクセスするには、管理ノードの IP アドレスに「 /mnode/2/」 を続けて入力します。例：
++
+[listing]
+----
+https://<management_node_IP>/mnode/2/
+----
+.. 「 * Authorize * 」またはロックアイコンをクリックし、 Element クラスタのユーザ名とパスワードを入力します。
+.. クライアント ID を「 m node-client 」として入力します。
+.. セッションを開始するには、 * Authorize * をクリックします。
+.. ウィンドウを閉じます。
+.. [*Get/settings] をクリックします。
+.. [* 試してみてください * ] をクリックします。
+.. [* Execute] をクリックします。
+.. プロキシが 'Use_proxy' では 'true' または 'false' で示されているように使用されているかどうかに注意してください
+.. [* PUT / settings] をクリックします。
+.. [* 試してみてください * ] をクリックします。
+.. 要求の本文領域で、管理ノードの FQDN を「 `m node_name 」パラメータの値として入力します。また 'use_proxy' パラメータにプロキシを使用するかどうかを指定します ( 前の手順の「 true 」または「 false 」 )
++
+[listing]
+----
+{
+  "mnode_fqdn": "mnode.my.org",
+  "use_proxy": false
+}
+----
+.. [* Execute] をクリックします。
+
+
+
+
+[discrete]
+== 詳細については、こちらをご覧ください
+
+* http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-93942724-1C4C-4F3D-B352-89498F7722ED.html["SolidFire ドキュメントセンターおよび Element ドキュメントセンターの CreateClusterInterfacePreference API 情報"^]
+* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* http://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ソフトウェアドキュメントセンター"^]
+

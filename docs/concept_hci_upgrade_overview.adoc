@@ -1,0 +1,48 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/concept_hci_upgrade_overview.html 
+summary: ここでは、 NetApp HCI または SolidFire Element ストレージシステムのアップグレードを実行する方法の概要を示します。 
+keywords: netapp, hci upgrade, solidfire upgrade, VCP upgrade, element upgrade, vSphere upgrade 
+---
+= アップグレードの概要
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: hci, cloud, onprem, documentation, help
+
+
+[role="lead"]
+このセクションでは、 NetApp HCI システムまたは SolidFire オールフラッシュストレージシステムのコンポーネントに推奨されるアップグレードシーケンスを紹介します。とは
+
+* システム・アップグレード・シーケンス * コンテンツでは、 NetApp HCI システムまたは SolidFire オールフラッシュ・ストレージ・システムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大きなアップグレード手順の一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。
+
+* Element Plug-in for vCenter Server * コンテンツを含む vSphere のアップグレードシーケンスでは、 Element Plug-in for vCenter Server を再インストールするために必要な追加のアップグレード前とアップグレード後の手順について説明します。
+
+
+
+== システムのアップグレードシーケンス
+
+システムに応じて、次のいずれかのシーケンスを選択します。
+
+* link:task_hcc_upgrade_all.html["バージョン 1.8 の NetApp HCI インストールをアップグレードします"]。
+* link:task_sf_upgrade_all.html["Element 12.2 で NetApp SolidFire オールフラッシュストレージシステムをアップグレードします"]。
+
+
+
+
+== Element Plug-in for vCenter Server を含む vSphere のアップグレードシーケンス
+
+システムに応じて、次のいずれかのシーケンスを選択します。
+
+* link:task_hci_upgrade_all_vsphere.html["を使用して、 NetApp HCI システムの vSphere コンポーネントをアップグレードします vCenter Server 向け Element プラグイン"]。
+* link:task_sf_upgrade_all_vsphere.html["NetApp SolidFire ストレージシステムの vSphere コンポーネントをアップグレードします を使用： Element Plug-in for vCenter Server"]。
+
+
+[discrete]
+== 詳細については、こちらをご覧ください
+
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+* https://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ドキュメントセンター"^]
+

@@ -1,0 +1,60 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/concept_architecture_cloudinsights.html 
+summary: NetApp Cloud Insights は、 NetApp HCI クラウドサービスでリアルタイム分析を提供します。 
+keywords: netapp, hci, on premise, cloud services, cloud insights 
+---
+= NetApp Cloud Insights でリアルタイム分析を実現
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Cloud Insights を使用して、 NetApp HCI でのクラウドサービスの健常性を簡単に確認できます。
+
+このドキュメントはテクノロジプレビュー版です。
+
+NetApp Cloud Insights は、マルチベンダーの異機種混在サービスに対してコンピューティング、ネットワーク、ストレージスタック、アプリケーションステータスを監視するとともに、 NetApp HCI を含む多数のクラウドサービスを分析できるようになりました。
+
+次のような情報が表示されます。
+
+* Kubernetes クラスタの数
+* ポッドの数
+* ネットワークスループット
+* クラスタレイテンシ
+* 仮想マシンの CPU 利用率
+* IOPS
+* その他にもたくさんあります
+
+
+
+
+== Cloud Insights ダッシュボード
+
+この NetApp Cloud Insights ダッシュボードは、 NetApp Kubernetes Service クラスタとポッドの分析を表示します。image:cloudinsights_K8S_overview.png["Cloud Insights ダッシュボードの画像"]
+
+
+
+== 独自の NetApp HCI データコレクタ
+
+Cloud Insights が分析を提供する各ベンダーは、スタックメトリックを接続して収集するセントラル Acquisition Unit 上で独自の Data Collector を実行しています。同様に、 Cloud Insights では NetApp HCI 固有の Data Collector を使用します。新しい Data Collector の導入は、 1 分未満のタスクで簡単に行えます。Data Collector 固有の情報のみを Web フォームに入力し、 Data Collector を起動して実行します。
+
+image:cloudinsights_data_collector.png["NetApp HCI 向け Cloud Insights データコレクタ"]
+
+[discrete]
+== トップリンク（ Top Links ）
+
+* link:task_deploying_overview.html["『 Deploying クラウドサービス on NetApp HCI 』の概要"]
+
+
+[discrete]
+== 詳細については、こちらをご覧ください
+
+* https://cloud.netapp.com/home["NetApp Cloud Central"^]
+* https://docs.netapp.com/us-en/cloud/["ネットアップのクラウドに関するドキュメント"]
+* https://docs.netapp.com/us-en/hybridcloudsolutions/["ハイブリッドクラウドソリューションに関するドキュメント"^]
+* https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights のドキュメント"^]
+

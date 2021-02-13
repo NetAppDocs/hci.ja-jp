@@ -1,0 +1,25 @@
+---
+sidebar: solutions_sidebar 
+permalink: solutions/index.html 
+summary: NetApp HCI ソリューションは、複数のワークロードを同じインフラに配置することで、摩擦のない大規模なパフォーマンスを実現します。 
+keywords: netapp, hci, solutions, catalog, solution 
+---
+= NetApp HCI ソリューションカタログ
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:table-stripes: odd
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp HCI ソリューションカタログはに移動しました https://docs.netapp.com/us-en/hci-solutions/index.html["NetApp HCI ソリューション"]。
+
+
+
+== 詳細情報：
+
+* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のドキュメントリソース"]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+

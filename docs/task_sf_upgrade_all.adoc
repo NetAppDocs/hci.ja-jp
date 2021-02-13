@@ -1,0 +1,63 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/task_sf_upgrade_all.html 
+summary: NetApp HCI とそのすべてのコンポーネントをアップグレードできます。 
+keywords: netapp, hci, on premise, cluster, upgrade, element 
+---
+= Element 12.2 で NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
+
+
+[role="lead"]
+導入後も SolidFire Element ストレージシステムを最新の状態に保つには、すべてのネットアップストレージコンポーネントを順番にアップグレードします。
+
+これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control （ HCC ）、 Element ソフトウェア、管理ノード、および（インストール環境に応じて） Element Plug-in for vCenter Server が含まれます。
+
+.必要なもの
+* 管理ノード 11.3 以降が実行されていることを確認します。新しいバージョンの管理ノードには、個々のサービスを提供するモジュラアーキテクチャが採用されています。
++
+
+TIP: バージョンを確認するには、管理ノードにログインし、ログインバナーに表示される Element のバージョン番号を確認します。11.3 を使用していない場合は、を参照してください link:task_hcc_upgrade_management_node.html["管理ノードをアップグレードします"]。
+
+* 管理サービスをバージョン 2.1.326 以上にアップグレードしておきます。
++
+HCC を使用したアップグレードは、以前のバージョンのサービスバンドルでは使用できません。
+
+* すべてのノードのシステム時間が同期され、 NTP がストレージクラスタとノードに対して正しく設定されていることを確認しておきます。各ノードには、ノード Web UI （「 https://[IP address 」： 442 ）に DNS ネームサーバを設定する必要があります。時刻のずれに関連する未解決のクラスタ障害はありません。
+
+
+.手順
+. link:task_hcc_update_management_services.html["Hybrid Cloud Control から管理サービスを更新します"]。
++
+
+IMPORTANT: 管理サービスをバージョン 2.16 以降に更新する場合、管理ノード 11.3 から 11.8 を実行しているときは、管理サービスを更新する前に管理ノード VM の RAM を増やす必要があります。
+
++
+
+IMPORTANT: Element ソフトウェアをアップグレードする前に、最新の管理サービスバンドルに更新する必要があります。
+
+. link:task_upgrade_element_latest_healthtools.html["（オプション）最新の HealthTools にアップグレードします"]。
++
+
+NOTE: HealthTools のアップグレードは、実行している管理ノードと Element ソフトウェアが 11.1 以前の場合にのみ必要です。NetApp Hybrid Cloud Control を使用した Element のアップグレードには HealthTools は必要ありません。
+
+. link:task_hcc_upgrade_element_prechecks.html["ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します"]。
+. link:task_hcc_upgrade_element_software.html["Element ソフトウェアとストレージファームウェアをアップグレードします"]。
+. link:task_hcc_upgrade_storage_firmware.html["（オプション） Element ストレージファームウェアのみをアップグレードします"]。
++
+
+NOTE: このタスクは、メジャーリリース以外で新しいストレージファームウェアアップグレードがリリースされたときに実行することができます。
+
+. link:task_hcc_upgrade_management_node.html["（オプション）管理ノードをアップグレードします"]。
++
+
+NOTE: ストレージクラスタ上の Element ソフトウェアをアップグレードするために、管理ノードのオペレーティングシステムをアップグレードする必要がなくなりました。管理ノードのバージョンが 11.3 以降である場合は、 NetApp Hybrid Cloud Control を使用して管理サービスを最新バージョンにアップグレードするだけで Element をアップグレードできます。管理ノードのオペレーティングシステムをアップグレードする理由がほかにもある場合は、セキュリティの修正など、管理ノードのアップグレード手順に従ってください。
+
+. link:task_vcp_upgrade_plugin.html["Element Plug-in for vCenter Server をアップグレードします"]。
+
+
+[discrete]
+== 詳細については、こちらをご覧ください
+
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+

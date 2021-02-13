@@ -1,0 +1,43 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/hci_prereqs_witness_nodes.html 
+summary: NetApp HCI 監視ノードの要件について説明します。 
+keywords: netapp, hci, element, Witness Node 
+---
+= 2 ノードストレージクラスタの場合は、監視ノードのリソース要件が必要です
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: netapp, hci, element, Witness Node
+
+
+[role="lead"]
+NetApp HCI では、最小インストールサイズとして、 2 つのストレージノードと 2 つのコンピューティングノードがサポートされます。2 ノードまたは 3 ノードのストレージクラスタを使用して NetApp HCI をインストールする場合は、 NetApp HCI 監視ノードと、それらの VM リソースの要件について理解しておく必要があります。
+
+ストレージクラスタは、 2 つまたは 3 つのノードを使用する場合、各ストレージクラスタと一緒に監視ノードのペアを導入します。監視ノードには、次の VM リソース要件があります。
+
+|===
+| リソース | 要件 
+
+
+| vCPU | 4. 
+
+
+| メモリ | 12GB 
+
+
+| ディスクサイズ | 67 GB 
+|===
+NetApp HCI では、 2 ノードまたは 3 ノードのストレージクラスタでサポートされるストレージノードのモデルには制限があります。詳細については、ご使用の NetApp HCI バージョンの『リリースノート』を参照してください。
+
+
+NOTE: NetApp HCI のインストールプロセスで監視ノードがインストールされると、仮想マシンテンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください link:task_hci_h410crepl.html["こちらをご覧ください"^]。
+
+[discrete]
+== 詳細については、こちらをご覧ください
+
+* http://mysupport.netapp.com/hci/resources["NetApp HCI のリソースページ"^]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+

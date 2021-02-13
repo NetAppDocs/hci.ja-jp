@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: 詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。 
+keywords: netapp, hci, on premise, 
+---
+= NetApp HCI のドキュメント
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp HCI は、ハイブリッドクラウド向けの拡張性に優れたオンプレミスハイパーコンバージドインフラです。
+
+詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。
+
+* link:docs/index.html["* NetApp HCI 構成および管理ドキュメント *"]： NetApp HCI の概要を紹介し、前提条件について説明します。また、システムを管理するための NetApp Hybrid Cloud Control インターフェイスに関する情報も記載しています。
+* https://docs.netapp.com/us-en/hci-solutions/index.html["* NetApp HCI ソリューション・カタログ *"]：プライベートクラウドの導入と運用に必要な情報を提供する NetApp HCI ソリューションを一覧表示し、オンプレミスとオフプレミスの両方にわたる幅広いユースケースをサポートします。NetApp HCI ソリューションは、 DevOps 、エンドユーザコンピューティング、エンタープライズアプリケーション、人工知能、データ保護、データファブリック管理などのテクノロジ分野で、パブリッククラウド、プライベートクラウド、ハイブリッドクラウド、マルチクラウドにわたって付加価値を提供します。
+

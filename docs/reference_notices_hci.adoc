@@ -1,0 +1,62 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/reference_notices_hci.html 
+keywords: copyrights, notice, trademarks, patents, privacy, open source 
+summary: 著作権に関する声明、商標、特許などにアクセスできます。 
+translate: false 
+---
+= 法的通知
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+著作権に関する声明、商標、特許などにアクセスできます。
+
+
+
+== 著作権
+
+http://www.netapp.com/us/legal/copyright.aspx[""^]
+
+
+
+== 商標
+
+NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。
+
+http://www.netapp.com/us/legal/netapptmlist.aspx[""^]
+
+
+
+== 特許
+
+ネットアップが所有する特許の最新リストは、次のサイトで入手できます。
+
+https://www.netapp.com/us/media/patents-page.pdf[""^]
+
+
+
+== プライバシーポリシー
+
+https://www.netapp.com/us/legal/privacypolicy/index.aspx[""^]
+
+
+
+== オープンソース
+
+通知ファイルには、サードパーティの著作権およびライセンスに関する情報が記載されています。
+
+* link:../media/compute_firmware_bundle_2.27_notices.pdf["Compute Firmware Bundle 2.27 に関する注意"^]
+* link:../media/compute_iso_notice.pdf["コンピューティングファームウェアの ISO についての通知"^]
+* link:../media/H610S_BMC_notice.pdf["H610S BMC に関する注意事項が表示されます"^]
+* link:../media/2.17_notice.pdf["管理サービス 2.17 に関する注意事項"^]
+* link:../media/2.16_notice.pdf["管理サービス 2.16 に関する注意事項"^]
+* link:../media/mgmt_svcs_2.14_notice.pdf["管理サービス 2.14 に関する注意事項"^]
+* link:../media/2.13_notice.pdf["管理サービス 2.13 に関する注意事項"^]
+* link:../media/mgmt_svcs2.11_notice.pdf["管理サービス 2.11 に関する注意事項"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2870307["NetApp HCI 1.8 の注意事項"^]
+
