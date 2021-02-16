@@ -5722,4 +5722,5 @@
   <block id="b7f7f58ec15cebe706964cdc95d8f5cf" category="sidebar">NetApp HCI で Rancher を使用します</block>
   <block id="f095610f605f6468c776271e36c042f5" category="sidebar">導入後のタスク</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">H シリーズハードウェアのメンテナンス</block>
+  <block id="83e0166a06c1e4d297d13fcab9ad6313" category="list-text">Trident のユーザクラスタネットワークを設定しておきます。を参照してください <block ref="9d1d5963f8fee095e9b9a2e8c711199f" category="inline-link-macro-rx"></block> 手順については、を参照し</block>
 </blocks>

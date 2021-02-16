@@ -21,6 +21,7 @@ TIP: Trident の詳細については、を参照してください https://neta
 .必要なもの
 * NetApp HCI に Rancher をインストールしておきます。
 * ユーザクラスタを導入しておきます。
+* Trident のユーザクラスタネットワークを設定しておきます。を参照してください link:task_trident_configure_networking.html["ユーザクラスタで Trident のサポートを有効にします"^] 手順については、を参照し
 * Trident の作業ノードを準備するために必要な準備手順を完了しておきます。を参照してください https://netapp-trident.readthedocs.io/en/stable-v20.10/kubernetes/operations/tasks/worker.html["Trident のドキュメント"]。
 
 
