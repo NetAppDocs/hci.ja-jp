@@ -100,5 +100,5 @@ API から更新されたコントローラ情報が返されます。
 
 * link:task_mnode_add_assets.html["管理ノードにアセットを追加します"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

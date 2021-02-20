@@ -2,7 +2,7 @@
 sidebar: docs_sidebar 
 permalink: docs/task_hci_dimmcomputerepl.html 
 summary: ノード全体を交換する代わりに、 NetApp HCI コンピューティングノード内の障害のある Dual Inline Memory Module （ DIMM ）を交換することができます。 
-keywords: netapp, hci, SSDs, drives, replace drives, H410S, H610S 
+keywords: netapp, hci, dimm, compute nodes 
 ---
 = コンピューティングノードの DIMM を交換します
 :hardbreaks:
@@ -62,16 +62,20 @@ NOTE: 交換が必要な DIMM を確認し、 TUI にアクセスする必要が
 
 . キーボード、ビデオ、マウス（ KVM ）をノードの背面に接続し、エラーを報告します。
 . ノード前面の電源ボタンを押します。ノードがブートするまでに約 6 分かかります。画面にブートメニューが表示されます。
-. キーボードを使用して、「 * NetApp Safe Mode * 」を選択します。
+. エラーを記録したスロットを次のように特定します。
 +
-
-IMPORTANT: この作業は 3 秒で完了します。ウィンドウを見逃した場合は、もう一度ブートプロセスを実行する必要があります。
-
-. 表示された TUI ウィンドウで、 * メンテナンスタスク > ハードウェアの確認 * と進み、 * OK * を選択します。ウィンドウが開き、ハードウェアチェックの結果が表示されます。DIMM の問題が検出された場合は、タイムスタンプとスロット識別子が結果に含まれます。ハードウェアチェックの出力例を次に示します。
+.. H615C の場合は、次の手順を実行します。
 +
-image::dimm_hw_check.png[に、ハードウェアチェックの出力例を示します。]
+... BMC UI にログインします。
+... [ ログとレポート *>*IPMI イベントログ *] を選択します。
+... イベントログで、メモリエラーを探し、エラーが記録されているスロットを特定します。
++
+image::h615c_bmc_memoryerror.png[に、の BMC UI で修正不可能なメモリエラーを示します H615C ノード]
 
-. CPU 番号と DIMM スロット番号 /ID を記録します。これにより、シャーシ内の障害のある DIMM を特定できます。
+
+
+
+
 . H410C ノードと H615C ノードについては、手順を実行して DIMM のメーカーを特定します。
 +
 
@@ -138,6 +142,9 @@ Size: 32 GB`
 == シャーシから DIMM を交換します
 
 シャーシ内の障害のある DIMM を物理的に取り外して交換する前に、すべての作業が完了していることを確認します link:task_hci_dimmcomputerepl.html#prepare-to-replace-the-dimm["準備手順"]。
+
+
+IMPORTANT: DIMM は、取り外したスロットと同じスロットで交換する必要があります。
 
 .手順
 . シャーシまたはノードの電源をオフにします。

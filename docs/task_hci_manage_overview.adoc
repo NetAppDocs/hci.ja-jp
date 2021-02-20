@@ -21,5 +21,5 @@ NetApp HCI 、ユーザアカウント、ストレージクラスタ、ボリュ
 [discrete]
 == 詳細については、こちらをご覧ください
 
-* http://mysupport.netapp.com/hci/resources["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

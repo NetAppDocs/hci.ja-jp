@@ -59,7 +59,6 @@
   <block id="f9d55129538f50700280c66af4954a65" category="list-text">* ネットワークの再起動 * ：管理ノード上のすべてのネットワークサービスを再起動します。</block>
   <block id="6d8cb4a54a58f9923479d4340b28d71c" category="floating-title">詳細はこちら</block>
   <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">NetApp HCI のリソースページ</block>
-  <block id="8387031a7cc93e24d4a37cfa6e6366a2" category="list-text"><block ref="8387031a7cc93e24d4a37cfa6e6366a2" category="inline-link-rx"></block></block>
   <block id="a80ea9fd147150be225676ffc95c2334" category="summary">NetApp HCI または SolidFire システムのアップグレードの一環として、 NetApp Element ソフトウェアをアップグレードします。</block>
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">Element ソフトウェアをアップグレードします</block>
   <block id="b62290ff53a518e59ca66a10ffbbe80f" category="paragraph">NetApp Element ソフトウェアをアップグレードするには、 NetApp Hybrid Cloud Control UI 、 REST API 、または HealthTools ツールスイートを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。</block>
@@ -311,7 +310,6 @@
   <block id="8175bab9f0b30ef31c0b239bfd056f31" category="list-text">ノードの右側にあるカムハンドルを下に引き、両方のカムハンドルを使用してノードを引き出します。カムハンドルを下に引くと、そのハンドルの方向を示す矢印が表示されます。もう一方のカムハンドルは動かず、ノードを引き出せるようになっています。</block>
   <block id="3e91683ae36fc3c7ce98d52d3592c8a6" category="admonition">シャーシからノードを引き出すときは、両手でノードを支えてください。</block>
   <block id="2e79059d9888aef3878499a3e209ea9a" category="list-text">ノードをレベルサーフェスに配置します。</block>
-  <block id="e77e186a7e41e472257becd61311ca56" category="list-text">交換用ノードを設置するシャーシのスロットに合わせます。</block>
   <block id="1061268a66cd6f4f8f73316dc174f126" category="list-text">カチッという音がするまでノードを押し込みます。</block>
   <block id="a01d3dce46afd905888c1f2c6a5d43af" category="admonition">ノードをシャーシに挿入する際に力を入れすぎないように注意してください。</block>
   <block id="3913668fe99dfd5c0efac354d1dd57e7" category="list-text">元々ケーブルを外したポートにケーブルを再接続します。ケーブルを外したときに付けたラベルは、ガイドとして役立ちます。</block>
@@ -370,7 +368,6 @@
   <block id="a53270cb06681cdc7883dff966ea7ad0" category="list-text">設定を保存するには「」と入力し、変更を確定するには「 y 」と入力します。</block>
   <block id="1733f09dc6b00f719e4d73f13f1f9d46" category="list-text">c` を入力して ' Cluster タブに移動します</block>
   <block id="7dbfd420d3e878fa5928b57dfede6015" category="list-text">画面上の指示に従って、ノードのホスト名とクラスタを設定します。</block>
-  <block id="bc101da7b4638716304b6e9d61b2a988" category="admonition">デフォルトのホスト名を、削除したノードの名前に変更する場合は、ここで変更する必要があります。</block>
   <block id="3399d771b43c055db9eef45caa917811" category="admonition">今後混乱しないように、交換したノードと同じ名前を新しいノードに使用することを推奨します。</block>
   <block id="f8f97677c314d7db63a899cd12952532" category="list-text">「」と入力して設定を保存します。クラスタメンバーシップが「 available 」から「 Pending 」に変わります。</block>
   <block id="2dd092aa1a3f74febedbda88c2282d40" category="list-text">NetApp Element Plug-in for vCenter Server で、 * NetApp Element Management &gt; Cluster &gt; Nodes * を選択します。</block>
@@ -412,14 +409,8 @@
   <block id="bfc31a5b7c0c06e46b597db93cca8594" category="list-text">取り外すシャーシの背面に挿入されている各ケーブルにラベルを付けます。新しいシャーシを設置したら、ケーブルを元のポートに戻す必要があります。</block>
   <block id="6935a594c5db60b7f6678f1dd1cfbcf6" category="list-text">シャーシの背面からすべてのケーブルを外します。</block>
   <block id="6649f6b7c5bcaa7940afa9a84256eceb" category="list-text">取り付け耳の蝶ネジを外して、シャーシを取り外します。障害が発生したシャーシは、梱包してネットアップに返送する必要があります。</block>
-  <block id="909f1916b98060d088859d2776cc34a1" category="list-text">H615C のみ。シャーシから DIMM を取り外します。これらの DIMM を交換用シャーシに挿入します。</block>
-  <block id="7bd5e9efad5c0f6d9a109154ec0d379f" category="list-text">シャーシの両側にある 2 つの電源装置を取り外します。これらの電源装置は新しいシャーシで使用できます。</block>
-  <block id="61e4be53e87f0092671431d765b51e3e" category="list-text">オプション：レールを取り外し、交換用シャーシに同梱されていた新しいレールを取り付けます。既存のレールを再利用する場合は、この手順を省略できます。</block>
   <block id="a668f14105cccd190617348fef99b04b" category="list-text">交換用シャーシをレールにスライドさせます。</block>
   <block id="e741540d52dd769fa6d7a95591ebe47c" category="admonition">シャーシをレールにスライドさせる際に力を入れすぎないように注意してください。</block>
-  <block id="e1bfb696e1ed99a75097252a33e77be1" category="list-text">取り外したシャーシを平らな場所に置きます。パッケージを作成してネットアップに返送してください。</block>
-  <block id="9c308965b9f60cafbfa0343c04099f1f" category="list-text">電源装置を交換してください。</block>
-  <block id="df992a5e4e533ad8ea6005db6de03840" category="list-text">H615C のみ。障害が発生したシャーシから取り外した DIMM を挿入し、交換用シャーシに挿入します。</block>
   <block id="48609f85b6f3b162f84d5b7d5d7677ae" category="list-text">元々ケーブルを外したポートにケーブルを再接続します。ケーブルを外したときに追加したラベルは、ガイドとして役立ちます。</block>
   <block id="8d0dad879dbd06ad1f5f1f5acf51f28b" category="list-text">シャーシの電源をオンにします。</block>
   <block id="e8ddb30cd234af505251fddfe210e770" category="section-title">GPU ドライバをインストールします</block>
@@ -815,20 +806,6 @@
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">管理ノードにサービスバンドルをアップロードして展開するには 'put/services/upload' コマンドを使用します</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">管理ノードに管理サービスを配備します :PUT /services/deploy</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">更新のステータスを監視します。「 get/services/update/status 」</block>
-  <block id="01b07016aff93b6aa4bfab99f096dab6" category="summary">NetApp HCI の導入には、 NetApp Kubernetes Service を使用します。</block>
-  <block id="d5ffe3fb70ce54bbb333b0053915b0ec" category="doc">クラウドサービスの導入の概要</block>
-  <block id="9a2cbfb24c7d93e1da8350dc386396cb" category="paragraph">NetApp HCI のインストール環境は、 NetApp Cloud Central に接続し、登録して、導入可能なリージョンとして機能します。これにより、パブリッククラウドと同じ方法で、 NetApp HCI for クラウドサービスのオンプレミスシステムを一元管理できます。</block>
-  <block id="f2013f855bbd098a288fd8a55c9ffcc3" category="paragraph">クラウドに NetApp HCI ソリューションを導入して設定するには、次の手順を実行します。当社のユーザー・インターフェイスは、次のようなあらゆる段階でお客様を支援します。</block>
-  <block id="5521bf63c332f1037d7d5505dfaff41a" category="inline-link">NetApp HCI ドキュメントセンターの NetApp HCI 導入ガイド</block>
-  <block id="d8099f24620e783adea8fabca64fa19d" category="list-text">以前に使用していた、すばやく簡単な NetApp Deployment Engine を使用して、 NetApp HCI を導入、設定します。を参照してください<block ref="722a4f2120aa416ad1d5a9cfe686e0cc" category="inline-link-rx"></block>。</block>
-  <block id="31e864b8a138b84b17abcd9ec411042c" category="inline-link-macro">クラウドサービスを有効にします</block>
-  <block id="d34af8530fb735b1744d7d194b9f0100" category="list-text"><block ref="65f6a54c0b6da7335f872c375b6bcd50" category="inline-link-macro-rx"></block> 管理ノードと NetApp Hybrid Cloud Control ウィザードを使用する。NetApp Cloud Central への接続を確立し、 NetApp HCI 環境を認証して Cloud Central アカウントに登録します。</block>
-  <block id="500d3c8defab0707486026a482b78c38" category="inline-link-macro">Kubernetes クラスタを作成</block>
-  <block id="44287230dc25a7672f8bf9ccc5357fd9" category="list-text"><block ref="4dbe6dc4f22ab0ff3f5a898d1587b68b" category="inline-link-macro-rx"></block> NetApp Kubernetes Service を使用すると、 NetApp Cloud Central にある多数のサービスの 1 つです。</block>
-  <block id="e52374dbde9c0e083f4539244822febe" category="inline-link-macro">Kubernetes プロジェクトを作成</block>
-  <block id="02d42a8c71aa71a75ac7112adf75a6d1" category="list-text"><block ref="ae5df4dc808c6e6cbf6a396a72791ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="24f8be27fb506a2eb6d1f131bfd44e28" category="inline-link-macro">Kubernetes クラスタにアプリケーションを追加</block>
-  <block id="0681c71fec6356ddd37fb5acdee2de53" category="list-text"><block ref="8fde4083fb16f0693a052b5ac765c719" category="inline-link-macro-rx"></block>。</block>
   <block id="1a1bc57a8bba4ae3b3aa6def4721dad7" category="list-text"><block ref="1a1bc57a8bba4ae3b3aa6def4721dad7" category="inline-link-rx"></block></block>
   <block id="49fc376ed35249f3841846ede4dab884" category="inline-link">NetApp Cloud Central</block>
   <block id="24d234fce5b4e0608a37069ac65a0027" category="list-text"><block ref="24d234fce5b4e0608a37069ac65a0027" category="inline-link-rx"></block></block>
@@ -908,7 +885,6 @@
   <block id="02aa510d4e256bd1983f65863603d2eb" category="summary">ドライブで障害が発生した場合や、ドライブの摩耗度がしきい値を下回った場合は、交換する必要があります。障害が発生したドライブをホットスワップできます。</block>
   <block id="75ec7e73d66c5080707b379e6eb28e91" category="doc">ストレージノードのドライブを交換</block>
   <block id="22940a144b2025aab687e2ab099ff4de" category="paragraph">ドライブに障害が発生した場合や、ドライブの摩耗度がしきい値を下回った場合は、交換する必要があります。Element ソフトウェア UI および VMware vSphere Web Client のアラームで、ドライブで障害が発生したときや障害が発生したときに通知されます。障害が発生したドライブをホットスワップできます。</block>
-  <block id="c90f88b09e4d6cdde7aae7013f8b2923" category="paragraph">この手順は、 H410S および H610S ストレージノードのドライブを交換する場合の手順です。削除したドライブはオフラインになります。ドライブ上のデータはすべて削除され、クラスタ内の他のドライブに移行されます。システム内の他のアクティブドライブへのデータ移行には、クラスタの容量利用率とアクティブな I/O に応じて、数分から 1 時間かかります。ドライブの取り外しおよび交換時には、次のベストプラクティスに従ってください。</block>
   <block id="44f9cec2f1a55d1d6436b9afd85faa6e" category="list-text">取り付け準備ができるまで、ドライブを ESD バッグに入れたままにしておきます。</block>
   <block id="919ccf3cf67b246a2f479f9d66472da1" category="list-text">ESD バッグを手で開けるか、バッグの上部をハサミで切り落とします。</block>
   <block id="f17f9d07b23d5d06335ccdd90a3d384d" category="list-text">作業中は常に ESD リストストラップを着用し、シャーシの塗装されていない表面部分にリストストラップを接触させます。</block>
@@ -920,7 +896,6 @@
   <block id="5b10d1dc871cc4e21bac4eca0af297f9" category="list-text">スライスドライブを追加する前に、ブロックドライブをすべて追加し、ブロックの同期が完了していることを確認します。</block>
   <block id="e082543cb1eb02ec8a25bd2ff5e40789" category="list-text">Element ソフトウェア 10.x 以降の場合は、すべてのブロックドライブを一度に追加します。一度に 3 つ以上のノードでこの処理を行わないようにしてください。</block>
   <block id="dc5c75e9b65e1f4d2c1b200ddb78bd2c" category="list-text">Element ソフトウェア 9.x 以前では、 3 本のドライブを一度に追加して完全に同期したあとに、次の 3 つのグループを追加してください。</block>
-  <block id="dc6bfe26a164911b4efeee94e6832ad0" category="paragraph">クラスタからドライブを取り外す際は、次のベストプラクティスに従う必要があります。</block>
   <block id="06dd3239dc8a0bb5cf8d52f1b9e293f3" category="list-text">スライスドライブを取り外し、ブロックドライブを取り外す前にスライスの同期が完了したことを確認します。</block>
   <block id="75cdca97823f65eee0b6d8019f1c698a" category="list-text">一度に 1 つのノードからすべてのブロックドライブを削除します。ブロックの同期がすべて完了してから次のノードに進んでください。</block>
   <block id="757a6abaffddbd1b350485f533cc01ca" category="list-text">vCenter Server 用 Element プラグインの NetApp Element ソフトウェア UI または NetApp Element 管理拡張ポイントを使用して、クラスタからドライブを削除します。</block>
@@ -933,7 +908,6 @@
   <block id="2e0a4e14d700b1d5af0b96e64b28b8ac" category="list-text">複数のクラスタが追加されている場合は、このタスクに使用するクラスタがナビゲーションバーで選択されていることを確認してください。</block>
   <block id="4e47c98dceef287087077163311714f6" category="list-text">ドロップダウンリストから「 * All * 」を選択して、ドライブの完全なリストを表示します。</block>
   <block id="93ec5ac50ff0d29e4d3be422447829b8" category="list-text">削除する各ドライブのチェックボックスを選択します。</block>
-  <block id="a135152703f6936dfcf4489bd1f01bc2" category="list-text">ドライブの取り外し * をクリックします。</block>
   <block id="ad5a54b96d86e967dc2a014c681f9377" category="list-text">操作を確定します。</block>
   <block id="377da747bab0e80a95d086d5ab3816f4" category="admonition">アクティブドライブを削除するための十分な容量がない場合は、ドライブの削除を確定した時点でエラーメッセージが表示されます。エラーを解決したら、ドライブをシャーシから物理的に取り外すことができます。</block>
   <block id="a73cbb288517eb9c6ad57cca99595d24" category="list-text">シャーシからドライブを交換します。</block>
@@ -962,10 +936,7 @@
   <block id="3cd4b763840dcf128df5ff8cfb37cf18" category="list-text">ドライブトレイのハンドルを慎重に閉じます。</block>
   <block id="1f0f40718eeb8324430c7c8cd989c066" category="list-text">vCenter Server 用 Element プラグインの Element UI または NetApp Element Management 拡張ポイントを使用して、ドライブをクラスタに再度追加します。</block>
   <block id="131370b8ef8303889fe7fc0f3e63172f" category="admonition">既存のノードに新しいドライブをインストールすると、ドライブが自動的に * Available * として Element UI に登録されます。ドライブがクラスタに参加できるようにするには、ドライブをクラスタに追加する必要があります。</block>
-  <block id="5264cc7f25dc6f714f6034f89a2f306c" category="list-text">使用可能なドライブのリストを表示するには、 * Available * をクリックします。</block>
-  <block id="1f78cbcac8f77ead4196a2f6e2ee5baf" category="list-text">追加するドライブの Actions （アクション）アイコンをクリックし、 * Add * （追加）をクリックします。</block>
   <block id="ccb53991fe0d1c4591a2709652dd65b1" category="list-text">vSphere Web Client の NetApp Element Management 拡張ポイントで、 * NetApp Element Management &gt; Cluster &gt; Drives * の順に選択します。</block>
-  <block id="807909a84c4f06715bcf39081ecddbe5" category="list-text">Available （使用可能）ドロップダウンリストからドライブを選択し、 * Add * （追加）をクリックします。</block>
   <block id="334408f0e511aee8b4f25d23c40c9ff2" category="summary">NetApp HCI システムのアップグレードの一環として、ファームウェアの再アップグレードを実行する前にコンピューティングノードの健全性チェックを実行する必要があります。</block>
   <block id="8c00a71d4d6882897094dae8371f9ff5" category="doc">コンピューティングノードの健全性チェックは、コンピューティングファームウェアをアップグレードする前に実行します</block>
   <block id="1627e52c42f9bb2ee66537d3c67b82b5" category="paragraph">コンピューティングファームウェアをアップグレードする前に健全性チェックを実行して、クラスタ内のすべてのコンピューティングノードをアップグレードする準備ができていることを確認する必要があります。コンピューティングノードの健全性チェックは、管理対象の 1 つ以上の NetApp HCI コンピューティングノードのコンピューティングクラスタに対してのみ実行できます。</block>
@@ -1297,8 +1268,6 @@
   <block id="4b78840fe10d478b48df64eca7f72655" category="list-text"><block ref="4b78840fe10d478b48df64eca7f72655" category="inline-link-macro-rx"></block></block>
   <block id="ff62c349e13c6c96f92a1e0db03b7101" category="summary">NetApp HCI ストレージクラスタの保護ドメイン機能について説明します。</block>
   <block id="9077d0c626c6abe8e5c94e742b66762a" category="doc">保護ドメイン</block>
-  <block id="26ae889ffd01482045e6efabe90a9aeb" category="paragraph">NetApp Element ソフトウェアでは、保護ドメイン機能がサポートされています。保護ドメインは、ストレージノードのデータレイアウトを最適化してデータの可用性を最大限に高める機能です。この機能を使用するには、 3 台以上の NetApp H シリーズシャーシにストレージ容量を均等に分割して、ストレージの信頼性を最適化する必要があります。この場合、ストレージクラスタで保護ドメインが自動的に有効になります。</block>
-  <block id="db44bd4317aeddd12845bd1fdbf8738c" category="list-text"><block ref="db44bd4317aeddd12845bd1fdbf8738c" category="inline-link-rx"></block></block>
   <block id="599e1a6809dc1d900ef010f35876e742" category="summary">NetApp HCI の VMware コンポーネントをアップグレードして、 vCenter Plug-in を再インストールする手順を追加で実行できます。</block>
   <block id="7c77d1cd8cf59e7967bc28ab7e2b5510" category="doc">を使用して、 NetApp HCI システムの vSphere コンポーネントをアップグレードします vCenter Server 向け Element プラグイン</block>
   <block id="1dde7381a082a94c2b207b46bd2bcf27" category="paragraph">NetApp HCI 環境の VMware vSphere コンポーネントをアップグレードするときは、 Element Plug-in for vCenter Server についていくつかの追加の手順を実行する必要があります。</block>
@@ -1651,9 +1620,7 @@
   <block id="f990e553cdc4c29c2efffba33e08a8c7" category="inline-link-macro">詳細はこちら。</block>
   <block id="882325c8d62460e65b6b682c2060de4c" category="cell">NetApp Deployment Engine ウィザードにアクセスして、 NetApp HCI をインストールおよび設定します。 <block ref="c3264de5d3bf9c29c39ccb8e557df3f1" category="inline-link-macro-rx"></block></block>
   <block id="79f096e4547eada00ae7d57f70afee02" category="cell">https://[management ノード IP アドレス</block>
-  <block id="a35150430201e37c2d79a1bc866153ec" category="cell">NetApp Hybrid Cloud Control にアクセスして、 NetApp HCI のインストール、拡張、監視、管理サービスの更新を行うことができます。 <block ref="fbdd4c653e258ec288b798a2bcdd6373" category="inline-link-macro-rx"></block></block>
   <block id="5f4d0cf334dbb7b7e88793d53168ae18" category="cell">「 https://[IP アドレス」： 442`</block>
-  <block id="aaa17ffd848222f607acc5f0066a7ad5" category="cell">ノード UI から、ネットワークとクラスタの設定にアクセスし、システムのテストとユーティリティを利用できます。<block ref="63024a364e1da47d361ab066d0489cf6" category="inline-link-rx"></block></block>
   <block id="74efb1b4cb9a8967d035cd3cd2830fda" category="cell">「 https://[management node IP address 」 : 9443</block>
   <block id="b0692672c692f202a0fbb91ba7ae408c" category="cell">vCenter Plug-in パッケージを vSphere Web Client に登録します。</block>
   <block id="22af5c1dbed33fa68c93caf10941c67f" category="cell">https://activeiq.solidfire.com`</block>
@@ -2074,7 +2041,6 @@
   <block id="6bfd79c0fce4f05b8b10a7cdfd024e31" category="section-title">既存の NetApp HCI インストールを展開します</block>
   <block id="5e74aa3b306cd24a8ff545742656046e" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。</block>
   <block id="a5ab2f145ade9fe927d9c5664cce04a7" category="inline-link-macro">NetApp Hybrid Cloud Control にアクセスします</block>
-  <block id="0b109ffb0404f970196426043daaffba" category="paragraph">を参照してください <block ref="d982f2c5b0935c894576dc72adbd464b" category="inline-link-macro-rx"></block>。</block>
   <block id="e68dd77ececf646c64129165fec43027" category="list-text">ウィザードの手順に従って、ストレージノードとコンピューティングノードを NetApp HCI 環境に追加します。</block>
   <block id="1141055d277af6daa8951036962776b2" category="admonition">H410C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.4 以降を実行している必要があります。H615C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.7 以降を実行している必要があります。</block>
   <block id="64469e6c1f3faa349fcab16b3be11577" category="admonition">同じネットワーク上に新しく設置した NetApp HCI ノードは自動的に検出されます。</block>
@@ -2694,11 +2660,6 @@
   <block id="1913e140182c3e78c64e4a5188d313fc" category="admonition">交換が必要な DIMM を確認し、 TUI にアクセスする必要がない場合は、このセクションの以下の手順をスキップしてかまいません。</block>
   <block id="a237e0e7a40980d10234e37953df453d" category="list-text">キーボード、ビデオ、マウス（ KVM ）をノードの背面に接続し、エラーを報告します。</block>
   <block id="c32cc84637790b581f19e5b5f962dc7d" category="list-text">ノード前面の電源ボタンを押します。ノードがブートするまでに約 6 分かかります。画面にブートメニューが表示されます。</block>
-  <block id="eac70b5df2291cdc153b17b494768831" category="list-text">キーボードを使用して、「 * NetApp Safe Mode * 」を選択します。</block>
-  <block id="8ad102615cb1e17b69fee37a016699b4" category="admonition">この作業は 3 秒で完了します。ウィンドウを見逃した場合は、もう一度ブートプロセスを実行する必要があります。</block>
-  <block id="d53a3509921fb83a75857ae0c1c359fd" category="list-text">表示された TUI ウィンドウで、 * メンテナンスタスク &gt; ハードウェアの確認 * と進み、 * OK * を選択します。ウィンドウが開き、ハードウェアチェックの結果が表示されます。DIMM の問題が検出された場合は、タイムスタンプとスロット識別子が結果に含まれます。ハードウェアチェックの出力例を次に示します。</block>
-  <block id="521f5fb272ed23f0ce54a15c9839ec54" category="image-alt">に、ハードウェアチェックの出力例を示します。</block>
-  <block id="a1983a97363384f4699f4d8ce0fe451a" category="list-text">CPU 番号と DIMM スロット番号 /ID を記録します。これにより、シャーシ内の障害のある DIMM を特定できます。</block>
   <block id="96b24ffc2a8b15ea2c06e10cb44ce6d1" category="list-text">H410C ノードと H615C ノードについては、手順を実行して DIMM のメーカーを特定します。</block>
   <block id="caaf8f4e6dc4bd9fb40d50940b398510" category="admonition">H410C ノードと H615C ノードにはメーカーが異なる DIMM が搭載されています。同じシャーシ内に異なるタイプの DIMM を混在させないでください。障害が発生した DIMM のメーカーを特定し、同じタイプの交換用 DIMM を注文する必要があります。</block>
   <block id="de1afba5707a375b859bd0706d7eef83" category="list-text">BMC にログインして、ノードでコンソールを起動します。</block>
@@ -3039,15 +3000,6 @@
   <block id="a76e6e4155ef7e0aafda30663c39208f" category="list-text">vCenter Server ライセンスは一時的な評価ライセンスです。評価期間後も運用を継続するには、 VMware から新しいライセンスキーを取得して vCenter Server ライセンスインベントリに追加する必要があります。</block>
   <block id="67925452e36e2c8d5b927fcdc447dc0e" category="admonition">vSphere のインベントリ設定がフォルダを使用して vCenter データセンター内の NetApp HCI クラスタを格納している場合、 NetApp HCI コンピューティングリソースの拡張などの一部の処理が失敗します。NetApp HCI クラスタが vSphere Web Client インベントリツリーのデータセンターの直下にあり、フォルダに格納されていないことを確認してください。詳細については、ネットアップの技術情報アーティクルを参照してください。</block>
   <block id="822fe2d991e6c36560bc165b2469e2f6" category="paragraph">新しい vCenter Server をインストールする場合は、ネットワーク構成時に vSphere 標準スイッチまたは vSphere Distributed Switch （ VDS ）をインストールできます。VDS を使用すると、 NetApp HCI の導入後に仮想マシンのネットワーク構成を簡単かつ一元的に管理できます。NetApp HCI のクラウドデータサービス機能には VDS が必要です。クラウドデータサービスでは vSphere Standard Switch はサポートされません。</block>
-  <block id="a8d595f47ad81a879165ac36a152a2ad" category="summary">NetApp HCI には、 NetApp HCI システムに接続している任意の Web ブラウザからログインできます。</block>
-  <block id="a7de264997dc6cf4713d68b7d66d59e0" category="doc">Cloud Central アカウントに登録します</block>
-  <block id="bc450099b974554b5917dce1f7b909c3" category="paragraph">NetApp HCI でクラウドサービスを有効にする前に、 Cloud Central アカウントを用意する必要があります。</block>
-  <block id="f9e7912a258783aeea63e6b8ad7d46ac" category="list-text">に進みます<block ref="acbb6886c35e57125998fe7d6c5eea1f" category="inline-link-rx"></block>。</block>
-  <block id="cb95642e206c980191590d63445b26a7" category="list-text">[ サインアップ ] をクリックします。</block>
-  <block id="05d2a837df7692f0d65e4466b2fb05bd" category="list-text">有効なビジネス用 E メールアドレスを入力し、パスワードを選択してください。</block>
-  <block id="84b0553637d331aaa248cf3a624c2e5c" category="list-text">会社名と氏名を入力します。</block>
-  <block id="4c06cb4a1ddf48a942b31fd3adc6beac" category="list-text">利用規約に同意して、 [ * サインアップ * ] をクリックします。</block>
-  <block id="c1bfdb9cde617e25c09e77b1c94301da" category="list-text"><block ref="c1bfdb9cde617e25c09e77b1c94301da" category="inline-link-rx"></block></block>
   <block id="81a98ff8027ae63cb194d5c2051a720c" category="summary">NetApp HCI ネットワーク構成オプション A について説明します</block>
   <block id="ba94a232ffcb3269296e4704d5ee3514" category="paragraph">NetApp HCI では、複数の異なるネットワークケーブル配線と VLAN 構成を使用できます。最初の構成では、オプション A でコンピューティングノードごとに 2 本のネットワークケーブルを使用します。</block>
   <block id="d22f3561a8511117e3224bc405c9381d" category="section-title">構成オプション A ：ケーブル 2 本でのコンピューティングノードの構成</block>
@@ -3496,24 +3448,6 @@
   <block id="7de1d9d84b91ac769eb6aa6ed365c3c4" category="list-text">IP アドレスだけを使用する場合は vCenter の新しい DNS レコードを作成する必要はありません。 NetApp HCI</block>
   <block id="cef30eda4c0b7af9b31a5d98cc9a55e8" category="list-text">NetApp HCI には、タイムキーパー機能のための有効な NTP サーバが必要です。環境に NTP サーバがない場合は、一般に公開されているタイムサーバを使用してもかまいません。</block>
   <block id="37aa99a448ecdc70dac167f71e6faaac" category="list-text">ストレージノードとコンピューティングノードのすべてのクロックが相互に同期されていること、および NetApp HCI へのログインに使用するデバイスのクロックが NetApp HCI ノードと同期されていることを確認してください。</block>
-  <block id="f73e8f093f33f57041553e158a391290" category="summary">NetApp Kubernetes Service を使用して Kubernetes クラスタを作成</block>
-  <block id="3155feef85e0efee09d36809c893f47e" category="doc">試用版ライセンスから本番環境ライセンスへの変換</block>
-  <block id="59dbbc60b2d322a52648672b3469d8d1" category="paragraph">NetApp HCI でクラウドサービスを初めて有効にすると、 90 日間の試用版ライセンスがインストールプロセスによって設定されます。この期間が経過したあとも継続して使用するには、試用版ライセンスを本番環境ライセンスに変換する必要があります。</block>
-  <block id="8ced0bc05e77cf49c7bb6b07c39f795c" category="paragraph">ライセンスに関する情報は、 NetApp Hybrid Cloud Control のバナーに表示されます。</block>
-  <block id="c8a9926fcca580e912e1e57dbf43ab99" category="paragraph">ネットアップライセンスファイル（ .nlf ファイル）は NetApp Hybrid Cloud Control からアップロードできます。</block>
-  <block id="11613f00d34c2de2fa55f36d03aca078" category="list-text">Web ブラウザを開いて管理ノードの IP アドレスを入力し、 NetApp Hybrid Cloud Control （ HCC ）にアクセスします。<block ref="ec58cffb15669f9d9eb6ab7d2a8ee640" category="inline-link-rx"></block></block>
-  <block id="90a9db06a75cdd826d9b9fedbebd4999" category="image-alt">NetApp Hybrid Cloud Control のライセンスリンクの画像</block>
-  <block id="9c431a413669a776fc925e3f761a2d3c" category="list-text">NetApp Hybrid Cloud Control のバナーで、 * ライセンスのアップロード * をクリックします。</block>
-  <block id="88fa2eebfbdf6d9fc8152ce47188e228" category="list-text">ライセンスファイルを参照して検索し、 * ライセンスのアップロード * をクリックします。</block>
-  <block id="a00a488100cc1c97af08134aaf1bf237" category="paragraph">更新されたライセンス情報が NetApp Hybrid Cloud Control のバナーに表示されます。</block>
-  <block id="f52b614fbf9b07a23cb04b3e31923395" category="floating-title">トップリンク（ Top Links ）</block>
-  <block id="d0893d6c9785572178af5e3fa2df4ef5" category="inline-link-macro">『 Deploying クラウドサービス on NetApp HCI 』の概要</block>
-  <block id="c45d2a891587e18a0178e969d4271f5d" category="list-text"><block ref="c45d2a891587e18a0178e969d4271f5d" category="inline-link-macro-rx"></block></block>
-  <block id="a136464e5f9b093e6667a604b15e3605" category="list-text"><block ref="a136464e5f9b093e6667a604b15e3605" category="inline-link-macro-rx"></block></block>
-  <block id="28aca16503274a865149a08593f845c0" category="inline-link">ハイブリッドクラウドソリューションに関するドキュメント</block>
-  <block id="147f6137d6bd14f1e1471dbce16d8d31" category="list-text"><block ref="147f6137d6bd14f1e1471dbce16d8d31" category="inline-link-rx"></block></block>
-  <block id="5858ee4031acd7b896faa2d3d2c1a299" category="inline-link">Cloud Insights のドキュメント</block>
-  <block id="2b93b48daf034e4100d00b85950e109d" category="list-text"><block ref="2b93b48daf034e4100d00b85950e109d" category="inline-link-rx"></block></block>
   <block id="17486c877c1be358549c349bb034eda1" category="paragraph">導入を成功させるためには、 NetApp HCI に使用するスイッチで特別な設定が必要になります。以降に記載するそれぞれの要件を環境に実装する手順については、使用するスイッチのドキュメントを参照してください。</block>
   <block id="630c5bd4739aa20a3330119d3c5903dc" category="paragraph">NetApp HCI 環境には、次のトラフィックタイプごとに 1 つ、少なくとも 3 つのネットワークセグメントが必要です。</block>
   <block id="d86030abdf90a0e463f815e6366bf38e" category="list-text">VMware vMotion</block>
@@ -3788,26 +3722,6 @@
   <block id="99dafd3fa7e1df46bd27afeef95eecd8" category="list-text">[* エンドユーザーライセンス * （ End User Licenses * ） ] ページで、次の手順を実行します。</block>
   <block id="3c144899035d1f5ad949c085e6ee4659" category="list-text">ネットアップのエンドユーザライセンス契約を読みます</block>
   <block id="5bce251e003fd05547d9def428c9289b" category="list-text">条件に同意する場合は、契約テキストの下部にある [* 同意します ] をクリックします。</block>
-  <block id="0e2dafffc9f74510922f82b39dea5885" category="summary">NetApp Cloud Insights は、 NetApp HCI クラウドサービスでリアルタイム分析を提供します。</block>
-  <block id="58169fb970503d0757420b3f942b0675" category="doc">NetApp Cloud Insights でリアルタイム分析を実現</block>
-  <block id="c0663e8fef968b527a432373c6bcafd4" category="paragraph">NetApp Cloud Insights を使用して、 NetApp HCI でのクラウドサービスの健常性を簡単に確認できます。</block>
-  <block id="ed97f23f3df5a4ff8c040181125b2c15" category="paragraph">このドキュメントはテクノロジプレビュー版です。</block>
-  <block id="404a2a3eea79550519cfd85282d5fed2" category="paragraph">NetApp Cloud Insights は、マルチベンダーの異機種混在サービスに対してコンピューティング、ネットワーク、ストレージスタック、アプリケーションステータスを監視するとともに、 NetApp HCI を含む多数のクラウドサービスを分析できるようになりました。</block>
-  <block id="ca4b2a12abf27b4eeb405ef104736420" category="paragraph">次のような情報が表示されます。</block>
-  <block id="ecc4a18ef55aafd71f1a17005f43c43d" category="list-text">Kubernetes クラスタの数</block>
-  <block id="6e0eaed37f7e20d6910989f9035652a8" category="list-text">ポッドの数</block>
-  <block id="627523657aecf3ef142d15c2bf6524f1" category="list-text">ネットワークスループット</block>
-  <block id="e3db9bb15c8feffd9c38a9f32c187d16" category="list-text">クラスタレイテンシ</block>
-  <block id="62e9fa272bd170977ef9d122a1b90d83" category="list-text">仮想マシンの CPU 利用率</block>
-  <block id="7fba34465d8517582ac4a21d2e002811" category="list-text">IOPS</block>
-  <block id="3adc75ef154468a12538cfe94862643a" category="list-text">その他にもたくさんあります</block>
-  <block id="6a381362d2b189ba84d9255b6be06915" category="section-title">Cloud Insights ダッシュボード</block>
-  <block id="dbdf6be0ed93109296149236cc75982d" category="inline-image-macro">Cloud Insights ダッシュボードの画像</block>
-  <block id="6a0b8500ad0d5602dc01c303ae7f7163" category="paragraph">この NetApp Cloud Insights ダッシュボードは、 NetApp Kubernetes Service クラスタとポッドの分析を表示します。<block ref="caf6db1b198ae58b22db517bf303e84e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bb56ca902869612b7e529599ecc9c233" category="section-title">独自の NetApp HCI データコレクタ</block>
-  <block id="1ff36a90430e5f121c764da47a1495ca" category="paragraph">Cloud Insights が分析を提供する各ベンダーは、スタックメトリックを接続して収集するセントラル Acquisition Unit 上で独自の Data Collector を実行しています。同様に、 Cloud Insights では NetApp HCI 固有の Data Collector を使用します。新しい Data Collector の導入は、 1 分未満のタスクで簡単に行えます。Data Collector 固有の情報のみを Web フォームに入力し、 Data Collector を起動して実行します。</block>
-  <block id="19dcb0f4e9ebad36dfb75430c4c17373" category="inline-image-macro">NetApp HCI 向け Cloud Insights データコレクタ</block>
-  <block id="9fb9052bb70db5fb60c6abdda3604199" category="paragraph"><block ref="9fb9052bb70db5fb60c6abdda3604199" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0948987e4b4e66a263c1007184c84ba8" category="paragraph">NetApp HCI の導入が完了したら、ネットアップハイブリッドクラウド制御を使用して NetApp HCI コンピューティングリソースを拡張および設定できます。</block>
   <block id="967aaf9cd998e055946d7ee3f5dfc768" category="list-text">を使用して、新しいノードを NetApp HCI シャーシに設置します に従ってください <block ref="910964aa6e1db49922721d32931256bd" category="inline-link-macro-rx"></block>。</block>
   <block id="5966bca7bce7b6503babdb553115ed00" category="list-text">Available Inventory * ページで、既存の NetApp HCI 環境に追加するノードを選択します。</block>
@@ -4251,7 +4165,6 @@
   <block id="03dbd4dfb18097d129c7aa4ea3744baf" category="list-text">現在の NetApp HCI インストールで、最新バージョンよりも前のバージョンの Bootstrap OS を実行しています。この場合、 RTFI プロセスによって、新しいノードが NetApp HCI のインストールを実行している OS バージョンにダウングレードされます。</block>
   <block id="58aa069049ff69bcf90a026d3b0863b5" category="inline-link">USB キーを使用して RTFI を実行する方法（ログインが必要）</block>
   <block id="68c84cd409c37fe6a2a2f61bce0f9292" category="inline-link">BMC を使用して RTFI を実行する方法（ログインが必要）</block>
-  <block id="fe3a89a69a4263db38dc3570efb40641" category="list-text">工場出荷状態のノードで最新バージョンよりも前のバージョンの OS が実行されており、既存の NetApp HCI インストールですでに最新バージョンが実行されている場合。この場合、 RTFI プロセスによって、新しいノードの OS バージョンが最新バージョンにアップグレードされます。を参照してください <block ref="4ec563bc712a921365902a71ea465c69" category="inline-link-rx"></block> および <block ref="16cb84cd7a9852bf4c5aab43d8ed607e" category="inline-link-rx"></block>。</block>
   <block id="eccc3e99e2ecb4388a5376fbe6a0547f" category="list-text">コンピューティングノードに接続される各ケーブルにラベルを付けておきます。</block>
   <block id="0d5228cf80832928fe934652a94cdf4f" category="paragraph">VMware vSphere Web Client のアラームは、ノードで障害が発生したときに通知されます。VMware vSphere Web Client で障害が発生したノードのシリアル番号を、ノード背面のステッカーに記載されているシリアル番号と照合する必要があります。</block>
   <block id="51345fe1ab5e7f7efb63a32d183cdda9" category="paragraph">H410C コンピューティングノードを交換する場合は、次の点を考慮してください。</block>
@@ -4915,51 +4828,6 @@
   <block id="893af10adfc625cc78ae6b31f194e8e2" category="list-text">* クラスタ管理者権限 * ：ストレージクラスタに対する管理者権限があります。</block>
   <block id="204d3c154f864ee97bb3dd2dbae72656" category="list-text">* 管理サービス * ：管理サービスをバージョン 2.1.326 以上にアップグレードしておきます。NetApp Hybrid Cloud Control は、それよりも前のバージョンのサービスバンドルでは利用できません。現在のサービスバンドルバージョンについては、を参照してください<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>。</block>
   <block id="b5f1a6579293165e1f281312e8898d42" category="admonition">十分な権限を使用してログインしないと、 HCC のリソースページ全体で「ロードできません」というメッセージが表示され、リソースを使用できなくなります。</block>
-  <block id="78e7ff9cbe2d2c81c80e7120d2290016" category="summary">NetApp HCI でクラウドサービスを使用する前に、次の前提条件を確認してください。</block>
-  <block id="1438a4c436b0ca0ba8171cfb0af9f882" category="doc">クラウドサービスで作業を開始する前の要件</block>
-  <block id="1ed832812c6a28f7a3e3f71913dd80a4" category="paragraph">NetApp HCI でクラウドサービスを使用する前に、ネットワークとその他の要件を完了しておく必要があります</block>
-  <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">システム要件</block>
-  <block id="e1a8d44d941bc84b19a2c5b5b57070a4" category="list-text">によって導入されている NetApp HCI 1.6 以降のシステム NetApp Deployment Engine （ NDE ）</block>
-  <block id="07d3659061317b2f1e28f2d5031774b5" category="inline-link">NetApp Element ユーザーガイド</block>
-  <block id="50c3b9beac780b67262fad55c6202d8d" category="list-text">NetApp HCI 管理サービスをアップグレードした。の管理サービスに関する情報を参照してください<block ref="dce88f4aa9441bb8db0a364a7ca41122" category="inline-link-rx"></block>。</block>
-  <block id="48cc23dd8721892d76b9837029a8a2ec" category="list-text">NetApp Hybrid Cloud Control をの管理ノードで使用できるようにしておきます お使いのシステム</block>
-  <block id="815a137b2eb2a612f9784b0068a0a8e2" category="list-text">NetApp HCI 管理ノードバージョン 2.2 以降が必要です （ 2.0 バージョンからの更新が必要）</block>
-  <block id="8ccc2c143d5ad6d6572ffa3aedacfe63" category="list-text">NetApp HCI でサポートされる対応するバージョンの VMware vCenter が必要です Deployment Engine の略</block>
-  <block id="25c4216f5bcad13f02d3c5f24a764fbd" category="list-text">すべてのノードに、動的 DHCP から IP アドレスが割り当てられている必要があります。すべての NKS ネットワークで DHCP サーバを実行できる必要があります。</block>
-  <block id="29e84f32742ac9616fe558146580718e" category="list-text">「 NetApp-HCI-Datastore-02 」データストアが vSphere に存在している必要があります。これは、 NKS を有効にするために必要です。データストアが存在しない場合、クラウドサービスのインストールは成功しません。クラウドサービスを有効にする前に、データストアが vSphere にあることを確認してください。データストアを作成する場合は、サイズは 2TiB 、フォーマットは VMware Virtual Machine File System （ VMFS ）にする必要があります。また、すべてのコンピューティングホストで共有し、デフォルトの QoS （またはそれ以上）を使用する必要があります。</block>
-  <block id="6811bf0f1fd077bb3d9f0b2d24d35904" category="list-text">NKS の情報に従って、ファイアウォールでポートを開いておく必要があります。<block ref="fabcb239431e10be38bec644a20f08d2" category="inline-link-rx"></block></block>
-  <block id="645cfe40feb55a890075c5972a8b692a" category="admonition">プロキシサーバを介した NKS サービスの実行はサポートされていません。</block>
-  <block id="9251700e586dc1a410f2e755a8643751" category="section-title">ネットワーク要件</block>
-  <block id="66ea47c205d3461f0012853aacf67d28" category="list-text">必要な vSphere 分散スイッチ（ VDS ）を設定しておく必要があります。VMware 標準スイッチ（ VSS ）はサポートされていません。</block>
-  <block id="e88d510e673720e0eea6b6ef1d23ea59" category="list-text">推奨される vSphere Distributed Switch （ VDS ）ポートグループを用意しておく必要があります。これは、クラウドサービスを有効にする前後どちらでも作成できます。ポートグループ名は次の形式で指定します。</block>
-  <block id="d29e1278abc3dc0d0f94d24dc95fed88" category="list-text">HCI_NKS _ 管理 _01</block>
-  <block id="e06ffa4dbe6d9c8b46fea980f5ff803c" category="list-text">HCI_NKS _ ワークロード _01</block>
-  <block id="9ff280e3092bccab1fe0c697ae90efb1" category="list-text">HCI_NKS _Data_01</block>
-  <block id="09829ef99a0932c6552c38a3f564e134" category="list-text">VDS を使用するには、 vSphere Enterprise Plus ライセンスが必要です。このライセンスを用意しておく必要があります。</block>
-  <block id="0651e94bd8b74b2ca35815f9d6e22ce8" category="list-text">スイッチには、管理用と vMotion 用に VMK アダプタ上に少なくとも 2 つのアップリンクが必要です。 iSCSI アダプタ上に 2 つのアップリンクが必要です。</block>
-  <block id="e8e09ba081187f35a1354e7a111e0456" category="section-title">システムサイズの要件</block>
-  <block id="d21107c1f6885957082b740c9166d66a" category="list-text">本番環境では、 2x4 システムはサポートされていません。ただし、本番以外の作業には使用できます。</block>
-  <block id="3e291660be7b771a2a3b2185b2300035" category="list-text">本番用システムとしてサポートされる最小サイズは、 3x4 システムです。</block>
-  <block id="c0e8b52b3e5ee92784daaf6ebea5916b" category="list-text">推奨される最小サイズは、 4x4 システムです。</block>
-  <block id="459b19b0c457c6b35ac74408e9481813" category="section-title">NetApp Kubernetes Service の IP 要件</block>
-  <block id="49541d88d789bec642b3d79a254bb2ce" category="paragraph">複数の IP が必要です。</block>
-  <block id="c4ebb95826dcaa72db045c068dc962fd" category="list-text">管理ネットワーク IP の要件（合計： 10 IP ）</block>
-  <block id="70c604e246298ed78d3537ab2a26a934" category="list-text">ブートストラップ VM 用に 1 つの IP （登録に成功した後にリリース）</block>
-  <block id="710dfacca9da9cfa460d984cda48621b" category="list-text">6 台のサービスクラスタマシン （マスターノード × 3 、ワーカーノード × 3 ）</block>
-  <block id="eebc596002882d9b9738977a5bc76c54" category="list-text">ロードバランサマシン間で 1 つの仮想 IP を共有。2 つのロードバランサがそれぞれ独自に IP を割り当てています。</block>
-  <block id="0feb888efe7db61fe20826e6dfb7d854" category="list-text">ワークロードのネットワーク IP 要件 （推奨値が 5 つ以上の IP アドレスの合計 256 を超えるワークロードの増加に対応）</block>
-  <block id="16919767749a7ce84c51c82fa1260e6b" category="list-text">ワーカーノードごとに 1 つの IP （デフォルトは 2 つのワーカーノード）</block>
-  <block id="47cc5f1fdea2598647e261a156342dfd" category="list-text">ロードバランサの IP プール （導入の目的とインストール時に定義される内容によって異なります）</block>
-  <block id="fd3dc3517c2883e77579677cb8e76ec9" category="list-text">データ（ iSCSI ストレージ）ネットワーク（ワークロードクラスタあたり 111 個の IP アドレス、デフォルトは /16 個または 65534 個）</block>
-  <block id="55a21793ac79fbca24982e6471612b14" category="list-text">各マスターノードに 1 つの IP （デフォルトは 1 マスターノード）</block>
-  <block id="8de34e83e740b9ac2f29729657e91e54" category="list-text">ワーカーノードごとに 1 つの IP （デフォルトは 2 つのワーカーノード）</block>
-  <block id="5eed6a15d68e5702bc9e5963a994ecda" category="list-text">デフォルトの /16 IP を使用するか、または独自の範囲を作成して、 111 個以上の IP アドレス（ストレージノード用に 100 個、ストレージ仮想 IP 用に 1 個、ユーザクラスタ用に 10 個）を割り当てる必要があります。</block>
-  <block id="2ea395d1e0cda7d962a78180198ad6a9" category="section-title">NetApp Kubernetes Service の要件</block>
-  <block id="62b72cf67f28b698602ebc94efe640ac" category="list-text">NetApp Kubernetes Service （ NKS ）アカウント</block>
-  <block id="db204c055236db0e4f552463e76bb7ea" category="list-text">NetApp Kubernetes Service API トークン。インストーラに NKS 組織へのアクセスを許可します。これは、 NetApp HCI でクラウドサービスを有効にする前に作成するか、または有効にするプロセス中に作成できます。</block>
-  <block id="e36cd0669ec87ccc7bece62dda2eac40" category="section-title">ブラウザ要件</block>
-  <block id="6c223d14f7f354b9587d7403d78ce2cb" category="list-text">任意の最新のブラウザ</block>
-  <block id="9937758395d2480f7581d76ca1ec1aac" category="list-text"><block ref="9937758395d2480f7581d76ca1ec1aac" category="inline-link-rx"></block></block>
   <block id="abb8bbbceffad016fd34ee82c1a27b40" category="summary">ネットアップが提供するベストプラクティスと手順に従って、障害のある SN2000 シリーズスイッチを無停止で交換できます。</block>
   <block id="7a4dd69b33ba0cb526b3f529660227ed" category="doc">SN2010 、 SN2100 、および SN2700 の各スイッチを交換してください</block>
   <block id="d086b9f16da9239e3500aa470a12d258" category="list-text">Putty がラップトップにインストールされていること、および出力をキャプチャしたことを確認します。このビデオでは、 Putty を設定して出力セッションをキャプチャする方法を紹介しています。</block>
@@ -5173,12 +5041,7 @@
   <block id="e86a6554a577f025d8a8ca52bc2f37e8" category="list-text">ネットアップサポートで障害ノードのシリアル番号を確認します。</block>
   <block id="14d53ef3c80a3a31f0e0600c7cb7333e" category="list-text">シャーシの電源を切ります。</block>
   <block id="e0079477269f1464543e3ccc53390972" category="list-text">前面のドライブと背面のケーブルに位置を示すラベルを付け、交換後も同じ場所に戻すことができます。</block>
-  <block id="c11ebfde8eec2829eef0ba21687fdf59" category="list-text">電源装置とケーブルを取り外します。</block>
-  <block id="bbe9ba9e0a40f69ec20df0d7f269cac4" category="list-text">ドライブを慎重に取り外し、静電気防止処置を施した平らな場所に置きます。</block>
-  <block id="b4630f0e427f23a1e5d20bb2ca4a1e7b" category="list-text">オプション：レールを取り外し、交換用レールに同梱されていた新しいレールを取り付けます。既存のレールを再利用することもできます。</block>
-  <block id="a280d37c42c2ee7f3532304554d19b6d" category="list-text">取り外したドライブを挿入します。</block>
   <block id="efc974d36a8b8dc85c7c9f08ef6d6219" category="admonition">ドライブを取り外す前に、ドライブが取り付けられていたスロットにドライブを挿入する必要があります。</block>
-  <block id="4b04c8753186209b26e2041e37a905ad" category="list-text">電源装置を取り付けます。</block>
   <block id="f2ed9f304dfde190e0127eb1aa8df698" category="list-text">電源装置ケーブルとネットワークケーブルを元のポートに差し込みます。</block>
   <block id="150bf2867a68f288575be08fba9f9ab5" category="list-text">交換用ノードの 10GbE ポートに、 Small Form-Factor Pluggable （ SFP ）トランシーバが差し込まれている場合があります。10GbE ポートにケーブルを接続する前に、これらを取り外す必要があります。</block>
   <block id="30e90840ac6f6d2e5ca8ff9d0b030cd0" category="admonition">スイッチがケーブルを認識しない場合は、スイッチベンダーのマニュアルを参照してください。</block>
@@ -5523,7 +5386,6 @@
   <block id="2e02ae79fb104d3c608baf3627930722" category="paragraph">プライマリストレージのソースボリュームとセカンダリストレージのデスティネーションボリュームの関係を、データ保護関係と呼びます。クラスタは、ボリュームが配置されているエンドポイントと呼ばれ、レプリケートされたデータを含むボリュームがピアリングされている必要があります。ピア関係にあることで、クラスタとボリュームの間でデータをセキュアにやり取りできます。</block>
   <block id="e8eee300f648a33639310b4549ed1596" category="paragraph">SnapMirror は、 NetApp ONTAP コントローラにあらかじめ搭載されており、 NetApp HCI クラスタと SolidFire クラスタで実行される Element に統合されています。SnapMirror を制御するロジックは ONTAP ソフトウェアにあるため、連携して機能するには、すべての SnapMirror 関係に少なくとも 1 つ ONTAP システムが含まれている必要があります。ユーザは主に Element UI から Element クラスタと ONTAP クラスタの間の関係を管理しますが、一部の管理タスクは NetApp ONTAP System Manager で実行します。また、 ONTAP と Element の両方で使用できる CLI と API を使用して SnapMirror を管理することもできます。</block>
   <block id="d95bb83fde5706bb5398bb94c8106f7f" category="inline-link">TR-4651 ：『 NetApp SolidFire SnapMirror Architecture and Configuration 』</block>
-  <block id="05f383efa661d49bdf542c9e9e281e05" category="paragraph">を参照してください<block ref="eea98aade109823686927fb53af38fab" category="inline-link-rx"></block> （ログインが必要）</block>
   <block id="52b5fba1a62806fe621dc72218549e9c" category="paragraph">Element ソフトウェアを使用して、クラスタレベルで SnapMirror 機能を手動で有効にする必要があります。SnapMirror 機能はデフォルトでは無効になっており、新規インストール時やアップグレード時に自動的に有効になることはありません。</block>
   <block id="237207bac5b8584faf6c036500958cad" category="paragraph">SnapMirror を有効にしたあと、 Element ソフトウェアの Data Protection タブで SnapMirror 関係を作成できます。</block>
   <block id="ced6f02fa4444aad2c499194d415578f" category="section-title">データ保護用のボリューム Snapshot</block>
@@ -5553,8 +5415,6 @@
   <block id="4955b339c381c3355161ea5b7c1af363" category="list-text">各ノードが別々のシャーシに配置されたクラスタでは、この 2 つのレベルは機能的に同じです。</block>
   <block id="782e39f766b724b6fbc23172ab9d1f48" category="paragraph">NetApp Element Plug-in for vCenter Server の NetApp Element Configuration 拡張ポイントを使用して、保護ドメインの監視を手動で有効にすることができます。ノードドメインまたはシャーシドメインに基づいて保護ドメインのしきい値を選択できます。</block>
   <block id="6cb03c98c76534df27d193a6f33f65b1" category="paragraph">新しいクラスタの作成時に共有シャーシにあるストレージノードを使用する場合は、保護ドメイン機能を使用してシャーシレベルの障害から保護することを検討してください。</block>
-  <block id="2a967aa6bf55d76db9823f4232586589" category="inline-link">SolidFire および Element 12.0 ドキュメントセンター</block>
-  <block id="796e89e2dcc44ea59a61c84336f055c8" category="paragraph">カスタムの保護ドメインレイアウトを定義できます。このレイアウトでは、各ノードが 1 つだけのカスタム保護ドメインに関連付けられます。デフォルトでは、各ノードは同じデフォルトのカスタム保護ドメインに割り当てられます。詳細については、を参照してください<block ref="ece6a99dbd2437739e189c312f7232bd" category="inline-link-rx"></block>。</block>
   <block id="980179142e595d55f1d5d1281611417d" category="section-title">Double Helix の高可用性</block>
   <block id="53ec645d7f176e7648a168024a6c6662" category="paragraph">Double Helix データ保護は、システム内のすべてのドライブに、少なくとも 2 つのデータの冗長コピーを分散するレプリケーション方法です。「 RAID レス」アプローチにより、システムは、ストレージシステムのあらゆるレベルで同時に発生する複数の障害を吸収し、迅速に修復することができます。</block>
   <block id="9e5edd6ddd42c15545ab7c5457536fc9" category="summary">NetApp Hybrid Cloud Control を使用して、 HCC を使用して以前にインストールした NetApp HCI 上のランチャ導入環境のコンポーネントをアップグレードできます。</block>
@@ -5624,8 +5484,6 @@
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">以下の更新処理は一度に 1 つずつ実行します。</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">NetApp HCI ソフトウェアのダウンロード</block>
   <block id="ee2173a85bb67a0d4771cd4c2fd0a819" category="list-text">を参照します<block ref="586f94736261e3cc826ee8e69c814c18" category="inline-link-rx"></block> ページをクリックし、ダウンロードリンクをクリックして正しいバージョンの NetApp HCI を入手します。</block>
-  <block id="344a374cb917730f658e5ad364a0c92d" category="list-text">ドロップダウンリストから * Compute_Firmware_Bundle* を選択します。</block>
-  <block id="b7a89fccb7b3ab5b04a81d6139cad3f5" category="list-text">[*Driver Packages for VMware ESXi* ] 見出しの下で、ノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。</block>
   <block id="583b2202b6101e8fb6a6243369ac0f58" category="list-text">ダウンロードしたドライババンドルをローカルコンピュータに展開します。</block>
   <block id="8ac52d731af552b5cc23f653ec478d24" category="admonition">ネットアップのドライババンドルには、 VMware オフラインバンドルの ZIP ファイルが 1 つ以上含まれています。これらの ZIP ファイルは展開しないでください。</block>
   <block id="13ab3a528650d52ca852e01568814bc9" category="list-text">コンピューティングノードでファームウェアをアップグレードしたあと、 VMware vCenter の * VMware Update Manager * に移動します。</block>
@@ -5668,9 +5526,6 @@
   <block id="aad773c64100f77a8f265003d71729f6" category="doc">NetApp HCI ソリューションカタログ</block>
   <block id="f5925eb0265a585d14f6a64ad359e976" category="inline-link">NetApp HCI ソリューション</block>
   <block id="afaabfd5c5e7b47c504d7e127e94e030" category="paragraph">NetApp HCI ソリューションカタログはに移動しました<block ref="02a6a484b3495968a77494dcb488024b" category="inline-link-rx"></block>。</block>
-  <block id="21ae16c2cbcf44c5efe1beda48170ea0" category="section-title">詳細情報：</block>
-  <block id="caff7d94ecd90edc51ed7e2f7fc8417c" category="inline-link">NetApp HCI のドキュメントリソース</block>
-  <block id="41b0e7c8917aa3dec4ca3610cd1e0fb4" category="list-text"><block ref="41b0e7c8917aa3dec4ca3610cd1e0fb4" category="inline-link-rx"></block></block>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。</block>
   <block id="ad0a505756223d68dc11afeae3459351" category="doc">NetApp HCI のドキュメント</block>
   <block id="8c3db6067199c1e6136e1b14a0452c96" category="paragraph">NetApp HCI は、ハイブリッドクラウド向けの拡張性に優れたオンプレミスハイパーコンバージドインフラです。</block>
@@ -5723,4 +5578,48 @@
   <block id="f095610f605f6468c776271e36c042f5" category="sidebar">導入後のタスク</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">H シリーズハードウェアのメンテナンス</block>
   <block id="83e0166a06c1e4d297d13fcab9ad6313" category="list-text">Trident のユーザクラスタネットワークを設定しておきます。を参照してください <block ref="9d1d5963f8fee095e9b9a2e8c711199f" category="inline-link-macro-rx"></block> 手順については、を参照し</block>
+  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
+  <block id="d2474f66e7104844e66cde87fadc4606" category="image-alt">は、カムハンドルを呼び出せたストレージノードを示しています。</block>
+  <block id="6b82508d9077c3b6e79dc42a1b0f9fae" category="list-text">交換用ノードを設置</block>
+  <block id="30eff853cab1826b278be3508c5588b6" category="admonition">デフォルトのホスト名を、削除したノードの名前に変更する場合は、ここで変更します。</block>
+  <block id="1ece2a53514d0a5a2e2d79d3658c354f" category="admonition">ドライブを一度に追加するとシステムが停止する可能性があります。ドライブの追加と取り外しに関するベストプラクティスについては、を参照してください<block ref="5efdfed3e3ee218c0937724134d9005d" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="5eaa763e3d4ed19324c46a9cb887d5bd" category="list-text">H615C のみ。障害が発生したシャーシから DIMM を取り外し、交換用シャーシにこれらの DIMM を挿入します。</block>
+  <block id="966da7c2f91662ef8c9d0b35b3a89fe9" category="admonition">障害が発生したノードの同じスロットから取り外した DIMM を交換する必要があります。</block>
+  <block id="8daca91d830ace0c305c774cb41e9ecd" category="list-text">障害が発生したシャーシの両側にある 2 台の電源装置を取り外し、交換用シャーシに挿入します。</block>
+  <block id="c620cc6ae988865469832ddc6e196f98" category="paragraph">この手順は、 H410S および H610S ストレージノードのドライブを交換する場合の手順です。削除したドライブはオフラインになります。ドライブ上のデータはすべて削除され、クラスタ内の他のドライブに移行されます。システム内の他のアクティブドライブへのデータ移行には、クラスタの容量利用率とアクティブな I/O に応じて、数分から 1 時間かかります。</block>
+  <block id="c9cfa950bdd449d3d7bf60d0cc39ad59" category="section-title">ドライブの取り扱いに際してのベストプラクティス</block>
+  <block id="1098b5543e2e45b6c9eb01f8d61031e0" category="paragraph">ドライブの取り扱いに際しては、次のベストプラクティスに従う必要があります。</block>
+  <block id="00d86638d5b399e6cbf90a0c1f0dc622" category="section-title">ドライブの追加と取り外しを行う際のベストプラクティス</block>
+  <block id="f1ad8123d23d2c0762f0e44adf696f0d" category="paragraph">クラスタにドライブを追加し、クラスタからドライブを取り外す際は、次のベストプラクティスに従う必要があります。</block>
+  <block id="f65f793d63a008ecb2d34b0553822b6b" category="list-text">ドライブの取り外し * を選択します。</block>
+  <block id="052842603320af440912c24f2e1234be" category="image-alt">に、 H610S ノードに設置されているドライブを示します。</block>
+  <block id="0a0b91d5d99f6e166fbd7b04dda87f25" category="list-text">Element UI で、 * Cluster &gt; Drives * を選択します。</block>
+  <block id="64efe97c16298f313a94633c492bcdba" category="list-text">使用可能なドライブのリストを表示するには、「 * Available * 」を選択します。</block>
+  <block id="989e5f78df6a0ad43d822c87676bc3ab" category="list-text">追加するドライブの Actions （アクション）アイコンを選択し、 * Add * （追加）を選択します。</block>
+  <block id="6ce4b425965b75929d52b1096702e4aa" category="list-text">Available （使用可能）ドロップダウンリストからドライブを選択し、 * Add * （追加）を選択します。</block>
+  <block id="9ef8eb5c5e3bd60fc76110f6e72ef902" category="paragraph">NetApp Element ソフトウェアでは、保護ドメイン機能がサポートされています。保護ドメインは、ストレージノードのデータレイアウトを最適化してデータの可用性を最大限に高める機能です。この機能を使用するには、 3 台以上の NetApp H シリーズシャーシにストレージ容量を均等に分割して、ストレージの信頼性を最適化する必要があります。この場合、ストレージクラスタで保護ドメインが自動的に有効になります。</block>
+  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
+  <block id="1426a14d282b02c953edd5f4f077691a" category="cell">NetApp Hybrid Cloud Control にアクセスして、 NetApp HCI のインストール、拡張、監視、管理サービスの更新を行うことができます。 <block ref="a1c11cad5b609b760f3755aa65408949" category="inline-link-macro-rx"></block></block>
+  <block id="492eabcd4d5c52a3da4f0a3ddcbaba8a" category="cell">ノード UI から、ネットワークとクラスタの設定にアクセスし、システムのテストとユーティリティを利用できます。<block ref="92c32659ebda0049a938c593172037b2" category="inline-link-rx"></block></block>
+  <block id="7d1f6fad6e68f4a100a700425c505423" category="list-text">エラーを記録したスロットを次のように特定します。</block>
+  <block id="5c611f983c31c0bf784d03258576596d" category="list-text">H615C の場合は、次の手順を実行します。</block>
+  <block id="675624094713a288a8265a62f2ff8a7c" category="list-text">BMC UI にログインします。</block>
+  <block id="58125103c2424a617a5fefd862ee477d" category="list-text">[ ログとレポート *&gt;*IPMI イベントログ *] を選択します。</block>
+  <block id="69612875b49368cf6d913f53c6df75c3" category="list-text">イベントログで、メモリエラーを探し、エラーが記録されているスロットを特定します。</block>
+  <block id="ad6383eacc67c5fb4f7f1e206ceee67d" category="image-alt">に、の BMC UI で修正不可能なメモリエラーを示します H615C ノード</block>
+  <block id="e6774df6c7ed69f5789cdaa6a70d6ba0" category="admonition">DIMM は、取り外したスロットと同じスロットで交換する必要があります。</block>
+  <block id="dfda3f9869be37d38a9aff5df1d936bf" category="list-text">出荷された交換用ノードでは、最新バージョンよりも前のブートストラップ OS バージョンが実行されており、ノードを交換する NetApp HCI インストールではすでに最新バージョンが実行されています。この場合、 RTFI プロセスによって、新しいノードの OS バージョンが最新バージョンにアップグレードされます。を参照してください <block ref="4ec563bc712a921365902a71ea465c69" category="inline-link-rx"></block> および <block ref="16cb84cd7a9852bf4c5aab43d8ed607e" category="inline-link-rx"></block>。</block>
+  <block id="092ca6225b68d75823f18626f2ef0dec" category="admonition">障害が発生したノードの同じスロットの DIMM を交換する必要があります。</block>
+  <block id="58d1e71e2d6ecc27869e1d3955e1f2fc" category="paragraph">シャーシ内のドライブの配置については、次の図を参照してください。</block>
+  <block id="70d0beb3c2a399d8752d53ac974d9aa3" category="image-alt">は、 H610S シャーシの前面とドライブのラベルを示しています。</block>
+  <block id="4904d887ad2776ce24f14850b208fe39" category="list-text">ケーブルを取り外します。</block>
+  <block id="aa2d6914a479a333ad80539c9f6d6562" category="list-text">取り付け耳の蝶ネジを外して、シャーシを取り外します。障害が発生したシャーシは、梱包してネットアップに返送してください。</block>
+  <block id="fcb08d1c25a530aa657e32f134f0b1a1" category="list-text">交換用シャーシを設置</block>
+  <block id="2c1339aa69479626a356cc5356b75d7d" category="list-text">ドライブを障害が発生したシャーシから慎重に取り外し、交換用シャーシに挿入します。</block>
+  <block id="6020cad554f8adea0cd6552997276ffc" category="list-text">障害が発生したシャーシから電源装置を取り外し、交換用シャーシに挿入します。</block>
+  <block id="4fc978d76b71bb356c99b41a9196b459" category="paragraph">を参照してください<block ref="eea98aade109823686927fb53af38fab" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="30bf48918e558b2df1d38f79b26a1ba6" category="paragraph">カスタムの保護ドメインレイアウトを定義できます。このレイアウトでは、各ノードが 1 つだけのカスタム保護ドメインに関連付けられます。デフォルトでは、各ノードは同じデフォルトのカスタム保護ドメインに割り当てられます。</block>
+  <block id="71cea3dbc70b2630c5ad6bc4c945bbd6" category="paragraph">を参照してください<block ref="2a6e2368d20039c9a2c4f9acbc781c5a" category="inline-link-rx"></block>。</block>
+  <block id="3a238ed477365094aba2542d83b9d7e1" category="list-text">ドロップダウンリストから * esxi_drivers * を選択します。</block>
+  <block id="3e60e9735750995ab5055c09cb6b687b" category="list-text">使用しているノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。</block>
 </blocks>

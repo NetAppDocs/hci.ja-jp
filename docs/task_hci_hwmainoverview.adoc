@@ -28,7 +28,7 @@ keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, ra
 [discrete]
 == 詳細については、こちらをご覧ください
 
-* http://mysupport.netapp.com/hci/resources["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 * https://www.netapp.com/us/media/tr-4820.pdf["_TR-48820 ：『 NetApp HCI ネットワーククイックプランニングガイド』 _"^]
 * https://mysupport.netapp.com/site/tools["NetApp Configuration Advisor"^] 5.8.1 以降のネットワーク検証ツール

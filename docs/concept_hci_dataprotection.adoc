@@ -94,7 +94,7 @@ SnapMirror は、地理的に離れたサイトのプライマリストレージ
 
 SnapMirror は、 NetApp ONTAP コントローラにあらかじめ搭載されており、 NetApp HCI クラスタと SolidFire クラスタで実行される Element に統合されています。SnapMirror を制御するロジックは ONTAP ソフトウェアにあるため、連携して機能するには、すべての SnapMirror 関係に少なくとも 1 つ ONTAP システムが含まれている必要があります。ユーザは主に Element UI から Element クラスタと ONTAP クラスタの間の関係を管理しますが、一部の管理タスクは NetApp ONTAP System Manager で実行します。また、 ONTAP と Element の両方で使用できる CLI と API を使用して SnapMirror を管理することもできます。
 
-を参照してください https://fieldportal.netapp.com/content/616239["TR-4651 ：『 NetApp SolidFire SnapMirror Architecture and Configuration 』"^] （ログインが必要）
+を参照してください https://fieldportal.netapp.com/content/616239["TR-4651 ：『 NetApp SolidFire SnapMirror Architecture and Configuration 』"^] （ログインが必要です）。
 
 Element ソフトウェアを使用して、クラスタレベルで SnapMirror 機能を手動で有効にする必要があります。SnapMirror 機能はデフォルトでは無効になっており、新規インストール時やアップグレード時に自動的に有効になることはありません。
 
@@ -162,7 +162,9 @@ NetApp Element Plug-in for vCenter Server の NetApp Element Configuration 拡�
 
 新しいクラスタの作成時に共有シャーシにあるストレージノードを使用する場合は、保護ドメイン機能を使用してシャーシレベルの障害から保護することを検討してください。
 
-カスタムの保護ドメインレイアウトを定義できます。このレイアウトでは、各ノードが 1 つだけのカスタム保護ドメインに関連付けられます。デフォルトでは、各ノードは同じデフォルトのカスタム保護ドメインに割り当てられます。詳細については、を参照してくださいhttps://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-7D31AC22-8815-4BDA-984A-9AED750B96B1.html["SolidFire および Element 12.0 ドキュメントセンター"^]。
+カスタムの保護ドメインレイアウトを定義できます。このレイアウトでは、各ノードが 1 つだけのカスタム保護ドメインに関連付けられます。デフォルトでは、各ノードは同じデフォルトのカスタム保護ドメインに割り当てられます。
+
+を参照してください https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-7D31AC22-8815-4BDA-984A-9AED750B96B1.html["SolidFire および Element 12.2 ドキュメントセンター"^]。
 
 
 
@@ -173,6 +175,6 @@ Double Helix データ保護は、システム内のすべてのドライブに�
 [discrete]
 == 詳細については、こちらをご覧ください
 
-* http://mysupport.netapp.com/hci/resources["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 

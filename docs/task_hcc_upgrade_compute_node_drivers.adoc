@@ -16,9 +16,9 @@ H シリーズのコンピューティングノードでは、ノードで使用
 
 .手順
 . を参照します https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ソフトウェアのダウンロード"] ページをクリックし、ダウンロードリンクをクリックして正しいバージョンの NetApp HCI を入手します。
-. ドロップダウンリストから * Compute_Firmware_Bundle* を選択します。
+. ドロップダウンリストから * esxi_drivers * を選択します。
 . エンドユーザライセンス契約に同意します。
-. [*Driver Packages for VMware ESXi* ] 見出しの下で、ノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。
+. 使用しているノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。
 . ダウンロードしたドライババンドルをローカルコンピュータに展開します。
 +
 
@@ -45,5 +45,5 @@ NOTE: クラスタで VMware DRS （ Distributed Resource Scheduler ）が有効
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

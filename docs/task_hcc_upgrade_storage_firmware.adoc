@@ -28,6 +28,9 @@ IMPORTANT: ストレージノードのファームウェアをアップグレー
 * * H610S ノードの BMC を更新 * ： H610S ノードの BMC バージョンをアップグレードしました。を参照してください link:rn_H610S_BMC_3.84.07.html["リリースノートおよびアップグレード手順"^]。
 
 
+
+NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"] （ログインが必要です）。
+
 次のいずれかのストレージファームウェアアップグレードオプションを選択します。
 
 * <<Use NetApp Hybrid Cloud Control UI to upgrade storage firmware>>
@@ -436,5 +439,5 @@ https://[management node IP]/storage/1/
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

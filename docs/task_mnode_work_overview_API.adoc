@@ -47,5 +47,5 @@ REST API で実行できるタスクは次のとおりです。
 
 * link:task_mnode_access.html["管理ノードにアクセスします"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

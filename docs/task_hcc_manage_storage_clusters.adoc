@@ -108,5 +108,5 @@ CAUTION: [ はい ] をクリックすると、クラスタがインストール
 == 詳細については、こちらをご覧ください
 
 * link:task_mnode_manage_storage_cluster_assets.html["ストレージクラスタアセットを作成および管理する"]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

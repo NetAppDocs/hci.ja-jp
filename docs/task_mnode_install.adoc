@@ -335,5 +335,5 @@ https://[management node IP]/mnode
 * link:task_mnode_add_assets.html["管理ノードにアセットを追加します"]
 * link:task_mnode_install_add_storage_NIC.html["ストレージ NIC を設定します"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://docs.netapp.com/us-en/documentation/hci.aspx["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

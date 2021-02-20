@@ -373,18 +373,16 @@ NOTE: 他のすべての NetApp HCI ノードは自動的に検出されます�
 .手順
 . Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
-+
-を参照してください link:task_hcc_access.html["NetApp Hybrid Cloud Control にアクセスします"]。
-
 . ウィザードの手順に従って、ストレージノードとコンピューティングノードを NetApp HCI 環境に追加します。
 +
 
 TIP: H410C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.4 以降を実行している必要があります。H615C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.7 以降を実行している必要があります。
 
-
-
++
 
 NOTE: 同じネットワーク上に新しく設置した NetApp HCI ノードは自動的に検出されます。
+
+
 
 
 
@@ -417,7 +415,7 @@ H615C ノードに GPU が搭載されている場合は、設置した H615C �
 [discrete]
 == 詳細については、こちらをご覧ください
 
-* http://mysupport.netapp.com/hci/resources["NetApp HCI のリソースページ"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 * https://www.netapp.com/us/media/tr-4820.pdf["_TR-48820 ：『 NetApp HCI ネットワーククイックプランニングガイド』 _"^]
 * https://mysupport.netapp.com/site/tools["NetApp Configuration Advisor"^] 5.8.1 以降のネットワーク検証ツール
