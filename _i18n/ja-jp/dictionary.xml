@@ -5622,4 +5622,10 @@
   <block id="71cea3dbc70b2630c5ad6bc4c945bbd6" category="paragraph">を参照してください<block ref="2a6e2368d20039c9a2c4f9acbc781c5a" category="inline-link-rx"></block>。</block>
   <block id="3a238ed477365094aba2542d83b9d7e1" category="list-text">ドロップダウンリストから * esxi_drivers * を選択します。</block>
   <block id="3e60e9735750995ab5055c09cb6b687b" category="list-text">使用しているノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。</block>
+  <block id="4b07ee081088aae3fb4d0eecd6d5e33c" category="inline-link-macro">Compute Firmware Bundle 2.76 に関する注意</block>
+  <block id="620e2d12cdf5e08b9753be70962af1c2" category="list-text"><block ref="620e2d12cdf5e08b9753be70962af1c2" category="inline-link-macro-rx"></block></block>
+  <block id="927feedbfb9bbc4a93e285ba9504ab0b" category="inline-link-macro">ストレージファームウェアバンドル 2.76 に関する注意</block>
+  <block id="8ef06865130f39fba4f2f1bd57b10db9" category="list-text"><block ref="8ef06865130f39fba4f2f1bd57b10db9" category="inline-link-macro-rx"></block></block>
+  <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">ストレージファームウェアバンドル 2.27 に関する注意</block>
+  <block id="628635daa878466322430a063a3be8a2" category="list-text"><block ref="628635daa878466322430a063a3be8a2" category="inline-link-macro-rx"></block></block>
 </blocks>

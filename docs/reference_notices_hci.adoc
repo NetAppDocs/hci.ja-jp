@@ -50,7 +50,10 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[""^]
 
 通知ファイルには、サードパーティの著作権およびライセンスに関する情報が記載されています。
 
+* link:../media/compute_firmware_bundle_2.76_notices.pdf["Compute Firmware Bundle 2.76 に関する注意"^]
+* link:../media/storage_firmware_bundle_2.76_notices.pdf["ストレージファームウェアバンドル 2.76 に関する注意"^]
 * link:../media/compute_firmware_bundle_2.27_notices.pdf["Compute Firmware Bundle 2.27 に関する注意"^]
+* link:../media/storage_firmware_bundle_2.27_notices.pdf["ストレージファームウェアバンドル 2.27 に関する注意"^]
 * link:../media/compute_iso_notice.pdf["コンピューティングファームウェアの ISO についての通知"^]
 * link:../media/H610S_BMC_notice.pdf["H610S BMC に関する注意事項が表示されます"^]
 * link:../media/2.17_notice.pdf["管理サービス 2.17 に関する注意事項"^]
