@@ -2660,7 +2660,6 @@
   <block id="1913e140182c3e78c64e4a5188d313fc" category="admonition">交換が必要な DIMM を確認し、 TUI にアクセスする必要がない場合は、このセクションの以下の手順をスキップしてかまいません。</block>
   <block id="a237e0e7a40980d10234e37953df453d" category="list-text">キーボード、ビデオ、マウス（ KVM ）をノードの背面に接続し、エラーを報告します。</block>
   <block id="c32cc84637790b581f19e5b5f962dc7d" category="list-text">ノード前面の電源ボタンを押します。ノードがブートするまでに約 6 分かかります。画面にブートメニューが表示されます。</block>
-  <block id="96b24ffc2a8b15ea2c06e10cb44ce6d1" category="list-text">H410C ノードと H615C ノードについては、手順を実行して DIMM のメーカーを特定します。</block>
   <block id="caaf8f4e6dc4bd9fb40d50940b398510" category="admonition">H410C ノードと H615C ノードにはメーカーが異なる DIMM が搭載されています。同じシャーシ内に異なるタイプの DIMM を混在させないでください。障害が発生した DIMM のメーカーを特定し、同じタイプの交換用 DIMM を注文する必要があります。</block>
   <block id="de1afba5707a375b859bd0706d7eef83" category="list-text">BMC にログインして、ノードでコンソールを起動します。</block>
   <block id="21400f3fae59ee3a86e7d16ae6d6aa02" category="list-text">キーボードの * F2 * を押して、 * システムのカスタマイズ / ログの表示 * メニューを表示します。</block>
@@ -5628,4 +5627,10 @@
   <block id="8ef06865130f39fba4f2f1bd57b10db9" category="list-text"><block ref="8ef06865130f39fba4f2f1bd57b10db9" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">ストレージファームウェアバンドル 2.27 に関する注意</block>
   <block id="628635daa878466322430a063a3be8a2" category="list-text"><block ref="628635daa878466322430a063a3be8a2" category="inline-link-macro-rx"></block></block>
+  <block id="e1349adcfa947da1079f117525a828f8" category="list-text">H410C ノードと H615C ノードについては、手順を実行して DIMM メーカーのパーツ番号を確認してください。</block>
+  <block id="68ba057aa43973d6ff29b6f41ed0dee5" category="list-text">次の手順については、ネットアップサポートにお問い合わせください。ネットアップサポートでパーツの交換を処理するには、次の情報が必要です。</block>
+  <block id="a051cb6fe36d0d57186040136f51ded4" category="list-text">ノードのシリアル番号</block>
+  <block id="0dbae4d42c7a0db53e2eb32adee12892" category="list-text">クラスタ名</block>
+  <block id="b121a23033ac234bce07d8c16b0d43a6" category="list-text">BMC UI からのシステムイベントログです （ * ログとレポート * &gt; * IPMI イベント・ログ * &gt; * ダウンロード・イベント・ログ * ）</block>
+  <block id="0749b79d692304e59ce32bf710546e6f" category="list-text">「 biosDump 」コマンドの出力</block>
 </blocks>
