@@ -96,7 +96,7 @@ keywords: netapp, hci, ports, tcp, udp
 | 管理ノード | ストレージノード MVIP | 442 | ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード 
 
 
-| 管理ノード | 「 po.netapp.com/api/repos/netapp-downloads` 」、「 po.netapp.com/bintray/dl/` 」、「 po.netapp.com/bintray/api/package` netapp-downloads.bintray.com 」、「 bintray.com 」、「 re po.netapp.com` 」、「 library.netapp.com` 」 | 443 | 管理ノードサービスのアップグレード 
+| 管理ノード | 「 po.netapp.com/downloads` 」、「 po.netapp.com/bintray/api/package` 」となります | 443 | 管理ノードサービスのアップグレード 
 
 
 | 管理ノード | 「 onitoring.solidfire.com 」と入力します | 443 | Active IQ に報告するストレージクラスタ 
