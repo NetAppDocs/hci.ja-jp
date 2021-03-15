@@ -3607,8 +3607,6 @@
   <block id="d20a53f0f6934177e690e38a85903142" category="list-text"><block ref="d20a53f0f6934177e690e38a85903142" category="inline-link-macro-rx"></block></block>
   <block id="a04e943dbcdb750d041999712b0c3468" category="inline-link-macro">H610S BMC に関する注意事項が表示されます</block>
   <block id="c0897cc71834939a3e05ac01145a60a3" category="list-text"><block ref="c0897cc71834939a3e05ac01145a60a3" category="inline-link-macro-rx"></block></block>
-  <block id="100141723ef7d01ffdac754d62e6a291" category="inline-link-macro">管理サービス 2.17 に関する注意事項</block>
-  <block id="4518fc8ed5b80919dd68931f62ae4ff3" category="list-text"><block ref="4518fc8ed5b80919dd68931f62ae4ff3" category="inline-link-macro-rx"></block></block>
   <block id="0ee51fae49898e7b795797b58419f657" category="inline-link-macro">管理サービス 2.16 に関する注意事項</block>
   <block id="570ca364d74790bfbe606047e4a556eb" category="list-text"><block ref="570ca364d74790bfbe606047e4a556eb" category="inline-link-macro-rx"></block></block>
   <block id="1dfa4a8c715814e4b02560de4804ce2d" category="inline-link-macro">管理サービス 2.14 に関する注意事項</block>
@@ -5632,4 +5630,8 @@
   <block id="6a9bb7fbe77a8c1c62273ca4bb44d79c" category="list-text">DIMM メーカーのパーツ番号を確認する手順を実行します。</block>
   <block id="cc12afa4a914746c744ee2b15c20c464" category="list-text">BMC UI からシステムイベントログの詳細を取得します</block>
   <block id="6aeb5cc7fd94454dc22b9e78bfd8d5e9" category="cell">「 po.netapp.com/downloads` 」、「 po.netapp.com/bintray/api/package` 」となります</block>
+  <block id="6a277dcdcf3e292a520228548566382d" category="inline-link-macro">管理サービス 2.17.56 に関する注意事項</block>
+  <block id="3a065af05993a8689a4841cbc2767d14" category="list-text"><block ref="3a065af05993a8689a4841cbc2767d14" category="inline-link-macro-rx"></block></block>
+  <block id="a7f3524da37a8fea65e29d2411b8d139" category="inline-link-macro">管理サービス 2.17.52 に関する注意事項</block>
+  <block id="43d4cb6f3c0d76aaf39069d4af0a227b" category="list-text"><block ref="43d4cb6f3c0d76aaf39069d4af0a227b" category="inline-link-macro-rx"></block></block>
 </blocks>
