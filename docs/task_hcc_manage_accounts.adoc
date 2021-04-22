@@ -94,7 +94,7 @@ NetApp Hybrid Cloud Control を使用して、ユーザアカウントの権限�
 . link:task_mnode_manage_storage_cluster_assets.html#edit-the-stored-credentials-for-a-storage-cluster-asset["クレデンシャルを更新します"] NetApp Hybrid Cloud Control API を使用して、権限のあるクラスタアセットに対してアクセスします。
 +
 
-NOTE: NetApp Hybrid Cloud Control の UI でインベントリの更新に最大 15 分かかる場合があります。インベントリを手動で更新するには、 REST API UI インベントリサービスの「 https://[management node ip]/inventory/1/` にアクセスし、クラスタに対して「 get/installationsationsationsationsationsationsationsationsations/{ id} 」を実行します。
+NOTE: NetApp Hybrid Cloud Control の UI でインベントリの更新に最大 2 分かかる場合があります。インベントリを手動で更新するには、 REST API UI インベントリサービスの「 https://[management node ip]/inventory/1/` にアクセスし、クラスタに対して「 get/installationsationsationsationsationsationsationsationsations/{ id} 」を実行します。
 
 . NetApp Hybrid Cloud Control にログインします。
 

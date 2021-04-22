@@ -32,7 +32,7 @@ https://[management node IP]/inventory/1/
 ----
 +
 
-NOTE: また、 NetApp Hybrid Cloud Control の UI でインベントリが更新されるまで 15 分待つこともできます。
+NOTE: また、 NetApp Hybrid Cloud Control の UI でインベントリが更新されるまで 2 分待つこともできます。
 
 +
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行

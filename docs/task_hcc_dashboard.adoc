@@ -83,7 +83,7 @@ NOTE: Warning のしきい値はデフォルトで Error のしきい値の 3% �
 
 +
 
-TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9B1D06D7-8FEE-4A52-B3C2-33F03D8540FB.html["「 getClusterFullThreshold 」"] を参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-58E03E89-C183-4E23-B9B4-8D466210E8B4.html["クラスタフルレベルの概要"] を参照してください。
+TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9B1D06D7-8FEE-4A52-B3C2-33F03D8540FB.html["「 getClusterFullThreshold 」"] を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-58E03E89-C183-4E23-B9B4-8D466210E8B4.html["クラスタフルレベルの概要"] を参照してください。
 
 . [*Effective *] タブをクリックすると、接続されているホストにプロビジョニングされている合計ストレージの情報が表示され、効率性の評価を確認できます。
 +
@@ -113,7 +113,7 @@ Storage Performance ペインを使用すると、クラスタから取得でき
 
 このペインの情報は 10 秒ごとに更新され、グラフ上のすべてのポイントの平均値が表示されます。
 
-関連付けられている Element API メソッドの詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-63BEAEDE-74F7-421E-9360-08F166A603F4.html["GetClusterStats から参照できます"] メソッド（ _Element API リファレンスガイド内） _ 。
+関連付けられている Element API メソッドの詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-63BEAEDE-74F7-421E-9360-08F166A603F4.html["GetClusterStats から参照できます"] メソッド（ _Element ソフトウェア API ドキュメント内）。
 
 .手順
 . Storage Performance ペインを表示します。詳細については、グラフのポイントにカーソルを合わせます。

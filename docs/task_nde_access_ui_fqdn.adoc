@@ -71,7 +71,7 @@ https://<management_node_IP>/mnode/2/
 [discrete]
 == 詳細については、こちらをご覧ください
 
-* http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-93942724-1C4C-4F3D-B352-89498F7722ED.html["SolidFire ドキュメントセンターおよび Element ドキュメントセンターの CreateClusterInterfacePreference API 情報"^]
+* https://docs.netapp.com/us-en/element-software/api/reference_element_api_createclusterinterfacepreference.html["SolidFire および Element ドキュメントの CreateClusterInterfacePreference API 情報"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
-* http://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ソフトウェアドキュメントセンター"^]
+* https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 

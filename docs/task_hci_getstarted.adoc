@@ -269,7 +269,7 @@ NetApp Hybrid Cloud Control のインターフェイスが表示されます。
 * https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 * link:../media/hseries-isi.pdf["NetApp HCI のセットアップガイド"^]
 * https://www.netapp.com/us/media/tr-4820.pdf["TR-48820 ：『 NetApp HCI Networking Quick Planning Guide 』"^]
-* https://docs.netapp.com/us-en/vcp/index.html["『 NetApp Element Plug-in for vCenter Server Guide 』を参照してください"^]
+* https://docs.netapp.com/us-en/vcp/index.html["NetApp Element Plug-in for vCenter Server のドキュメント"^]
 * https://mysupport-beta.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2["NetApp Configuration Advisor"^] 5.8.1 以降のネットワーク検証ツール
 * https://help.monitoring.solidire.com["NetApp SolidFire Active IQ のドキュメント"^]
 

@@ -2,7 +2,7 @@
 sidebar: docs_sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。 
-keywords: netapp, vcp, vCenter plug-in, cluster, 4.4 upgrade, 4.5 upgrade, 4.6 upgrade 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7 
 ---
 = Element Plug-in for vCenter Server をアップグレードします
 
@@ -14,13 +14,13 @@ keywords: netapp, vcp, vCenter plug-in, cluster, 4.4 upgrade, 4.5 upgrade, 4.6 u
 
 このアップグレード手順では、次のアップグレードシナリオについて説明します。
 
-* VCP 4.6 、 4.5 、または 4.4 にアップグレードする。
+* VCP 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。
 * 7.0 、 6.7 、または 6.5 の HTML5 vSphere Web Client にアップグレードする。
 * 6.7 または 6.5 の Flash vSphere Web Client にアップグレードする。
 
 
 
-IMPORTANT: このプラグインは、 Flash 用の vSphere Web Client バージョン 6.7 U2 、 Flash および HTML5 用の 6.7 U3 、および 7.0 U1 に対応しています。このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62701["プラグインのバージョン"]。
+IMPORTANT: このプラグインは、 Flash 用の vSphere Web Client バージョン 6.7 U2 、 Flash および HTML5 用の 6.7 U3 、および 7.0 U1 に対応しています。このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください https://docs.netapp.com/us-en/vcp/rn_relatedrn_vcp.html#netapp-element-plug-in-for-vcenter-server["プラグインのバージョン"]。
 
 .必要なもの
 * * 管理者権限 * ：プラグインをインストールするための vCenter Administrator ロールの権限があります。
@@ -84,8 +84,8 @@ NOTE: vCenter Plug-in のアイコンが表示されない場合は、プラグ�
 
 [listing]
 ----
-NetApp Element Plug-in Version: 4.6
-NetApp Element Plug-in Build Number: 29
+NetApp Element Plug-in Version: 4.7
+NetApp Element Plug-in Build Number: 10
 ----
 
 NOTE: vCenter Plug-in には、オンラインヘルプが用意されています。ヘルプの最新のコンテンツが読み込まれるようにするために、プラグインをアップグレードしたあとにブラウザキャッシュをクリアしてください。

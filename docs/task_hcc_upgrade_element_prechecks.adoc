@@ -180,7 +180,7 @@ https://[management node IP]/storage/1/
 
 「 fupgradecheck 」コマンドを使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。このコマンドは、保留中のノード、ディスクスペース、クラスタ障害などの情報を検証します。
 
-管理ノードがダークサイトにある場合、アップグレードの準備状況を確認するには、ダウンロードした「 metadatadats.json 」ファイルが必要です link:task_upgrade_element_latest_healthtools.html["HealthTools のアップグレード"] を実行してください。
+管理ノードが外部に接続されていないダークサイトにある場合、アップグレードの準備状況を確認するには、ダウンロードした「 metadats.json 」ファイルが必要です link:task_upgrade_element_latest_healthtools.html["HealthTools のアップグレード"] を実行してください。
 
 ここでは、次のいずれかの結果をもたらすアップグレードチェックに対処する方法について説明します。
 

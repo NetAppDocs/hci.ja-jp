@@ -19,9 +19,10 @@ keywords: netapp, hci, deployment, review, deploy
 NOTE: 導入時、管理ノードのインストールプロセスでは、 Element ストレージクラスタに「 NetApp-HCI - 」で始まる名前のボリュームが作成されます。また、「 tenant_ 」で始まる名前の SolidFire アカウントも作成されます。これらのボリュームやアカウントは削除しないでください。削除すると、管理機能が失われます。
 
 .手順
-. オプション：「 * Download * 」アイコンをクリックして、インストール情報を CSV 形式でダウンロードします。
+. オプション：「 * Download * 」アイコンをクリックして、インストール情報を CSV 形式でダウンロードします。このファイルを保存し、あとで設定情報として参照できます。
 +
-このファイルを保存し、あとで設定情報として参照できます。
+
+NOTE: 将来のインストールで必要になった場合は、 NetApp Deployment Engine の * インストールプロファイル * ページで、 CSV ファイルをインストールプロファイルとしてインポートできます。
 
 . 各セクションを展開し、情報を確認します。すべてのセクションを一度に展開するには、 * すべて展開 * をクリックします。
 . オプション：表示されているセクションの情報を変更するには、次の手順を実行します。
@@ -66,5 +67,5 @@ NOTE: vSphere 6.7 を使用する NetApp HCI 環境では、このリンクを�
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
-* http://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ソフトウェアドキュメントセンター"^]
+* https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 

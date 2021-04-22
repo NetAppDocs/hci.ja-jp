@@ -14,12 +14,13 @@ keywords: netapp, hci, netapp deployment engine, deployment, vsphere
 
 
 [role="lead"]
-vCenter Server のネットワーク情報とクレデンシャルを指定して、既存の vSphere 環境に NetApp HCI を導入するように設定します。
+vCenter Server のネットワーク情報とクレデンシャルを指定すると、既存の vSphere 環境を活用するように NetApp HCI を設定できます。
 
 .必要なもの
 * 既存の vSphere 6.7 の環境に参加する場合は、 vCenter Server がバージョン 6.7 Update 1 を実行していることを確認します。
 * 既存の vSphere 6.5 環境に参加する場合は、 vCenter Server がバージョン 6.5 Update 2 以降を実行していることを確認します。
 * 既存の vSphere 環境のネットワークの詳細と管理者クレデンシャルを取得します。
+* NetApp Element Plug-in for vCenter Server が既存の vCenter インスタンスに登録されている場合は、が必要です https://docs.netapp.com/us-en/vcp/task_vcp_unregister.html["登録解除します"^] 続行する前に。NetApp HCI の導入が完了すると、プラグインが再登録されます。
 
 
 vCenter リンクモードを使用して接続されている複数の vCenter Server システムに参加した場合、 NetApp HCI は 1 つの vCenter Server システムのみを認識します。
@@ -30,6 +31,9 @@ vCenter リンクモードを使用して接続されている複数の vCenter 
 . vSphere 管理者のクレデンシャルを「 * User Name 」フィールドと「 Password * 」フィールドに入力します。
 . [* Continue （続行） ] をクリックします
 
+
+
+NOTE: この手順で NetApp Element Plug-in for vCenter Server が登録されていると、エラーメッセージが表示されて要求されます https://docs.netapp.com/us-en/vcp/task_vcp_unregister.html["登録解除します"^] プラグイン。これは、 NetApp HCI の導入を続行する前に行ってください。導入完了後、プラグインが再登録されます。
 
 [discrete]
 == 詳細については、こちらをご覧ください

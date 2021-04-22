@@ -1,0 +1,20 @@
+---
+sidebar: docs_sidebar 
+permalink: docs/reference_earlier_versions.html 
+keywords: documentation, earlier, previous, versions 
+summary: 最新バージョンを実行していない場合は、以前のリリースの NetApp HCI に関するドキュメントを参照できます。 
+---
+= 以前のバージョンの NetApp HCI ドキュメント
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: hci, earlier, documentation, versions
+
+
+[role="lead"]
+最新バージョンを実行していない場合は、以前のリリースの NetApp HCI に関するドキュメントを参照できます。
+
+* http://docs.netapp.com/us-en/hci18/docs/index.html["NetApp HCI 1.8P1"^]
+

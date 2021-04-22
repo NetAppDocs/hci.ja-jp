@@ -8,7 +8,7 @@ keywords: netapp, mnode, management node, ssh, disable, enable, rest api
 
 
 [role="lead"]
-REST API を使用して、管理ノード（ mNode ）の SSH 機能の無効化、再有効化、ステータスの確認を行うことができます。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。
+REST API を使用して、管理ノード（ mNode ）の SSH 機能の無効化、再有効化、ステータスの確認を行うことができます。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。
 
 .必要なもの
 * * クラスタ管理者権限 * ：ストレージクラスタに対する管理者権限があります。
@@ -27,7 +27,7 @@ REST API を使用して、管理ノード（ mNode ）の SSH 機能の無効�
 
 == 管理ノードで SSH 機能を無効または有効にします
 
-管理ノードで SSH 機能を無効にしたり、再度有効にしたりできます。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。SSH を無効にしても、管理ノードへの既存の SSH クライアントセッションは終了せず、切断もされません。SSH を無効にしたあとで再度有効にすることを選択した場合は、同じ API を使用して再度有効にすることができます。
+管理ノードで SSH 機能を無効にしたり、再度有効にしたりできます。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。SSH を無効にしても、管理ノードへの既存の SSH クライアントセッションは終了せず、切断もされません。SSH を無効にしたあとで再度有効にすることを選択した場合は、同じ API を使用して再度有効にすることができます。
 
 .API コマンド
 [listing]
@@ -65,7 +65,7 @@ https://<managementNodeIP>/mnode/
 
 == 管理ノードの SSH 機能のステータスを確認します
 
-管理ノードで SSH 機能が有効になっているかどうかは、管理ノードのサービス API を使用して確認できます。管理ノードでは、 SSH がデフォルトで有効になっています。
+管理ノードで SSH 機能が有効になっているかどうかは、管理ノードのサービス API を使用して確認できます。管理サービス 2.18 以降を実行する管理ノードでは、 SSH はデフォルトで無効になっています。
 
 .API コマンド
 [listing]

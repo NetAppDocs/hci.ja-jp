@@ -119,5 +119,5 @@ esxcli system maintenanceMode set --enable false
 == 詳細については、こちらをご覧ください
 
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
-* http://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ソフトウェアドキュメントセンター"^]
+* https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 

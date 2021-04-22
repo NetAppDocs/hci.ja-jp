@@ -46,5 +46,7 @@ keywords: netapp, hci, storage nodes, maintenance, mode
 
 == 詳細については、こちらをご覧ください
 
-* https://docs.netapp.com/sfe-122/index.jsp["SolidFire と Element ドキュメントセンター"^]
+* https://docs.netapp.com/us-en/element-software/api/concept_element_api_about_the_api.html["NetApp Element API ドキュメント"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 
