@@ -65,7 +65,6 @@
   <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">必要なもの</block>
   <block id="af97413bfe0fcaebbe8c8bbf7a552c1e" category="list-text">* admin 権限 * ：アップグレードを実行する権限がストレージクラスタ管理者に付与されています。</block>
   <block id="992d266839a579e9b62b9fbb2193d3bf" category="inline-link">ネットアップの技術情報： NetApp Element ソフトウェアを実行するストレージクラスタのアップグレードマトリックス</block>
-  <block id="c2e2a319bacd62bef69624848cf7f936" category="list-text">* 有効なアップグレードパス * ：アップグレード先の Element バージョンのアップグレードパス情報を確認し、アップグレードパスが有効であることを確認しておきます。<block ref="7e09ae63669afba01906577e0500f039" category="inline-link-rx"></block></block>
   <block id="f12957e444375fe5047af820df02fd1a" category="list-text">* システム時間の同期 * ：すべてのノードのシステム時間が同期されており、 NTP がストレージクラスタとノードに対して正しく設定されていることを確認しておきます。各ノードには、ノード Web UI （「 https://[IP address 」： 442 ）に DNS ネームサーバを設定する必要があります。時刻のずれに関連する未解決のクラスタ障害はありません。</block>
   <block id="7288066bab95a3c45011203ce6806721" category="inline-link-macro">ネットワークポート</block>
   <block id="dfa30feec8b64a244b445bfd33b6271a" category="list-text">* システムポート * ： NetApp Hybrid Cloud Control をアップグレードに使用している場合は、必要なポートが開いていることを確認しておきます。を参照してください <block ref="580a730e8363f1cd8dbb520150bdd1d9" category="inline-link-macro-rx"></block> を参照してください。</block>
@@ -569,7 +568,6 @@
   <block id="4eca7112a8ddccdb8eea23dc6752cfbc" category="list-text">Rancher UI で、ユーザクラスタを作成します。</block>
   <block id="92f931e19caf8af4e3a31a82b06ccabd" category="summary">NetApp HCI ノードにダウンロードして適用できるファームウェアパッケージのリリースノートへのリンクを入手できます。</block>
   <block id="826ed2a2fd875eeb127f73e48856de14" category="doc">ストレージファームウェアバンドル 2.76 リリースノート</block>
-  <block id="1306dc9ea4338023c7070b7e904be88f" category="paragraph">Element 12.0 以降および管理サービスバージョン 2.14 以降では、 NetApp Hybrid Cloud Control の UI と REST API を使用して、 H シリーズストレージノードでファームウェアのみのアップグレードを実行できます。この手順では、 Element ソフトウェアはアップグレードされず、 Element のメジャーリリース以外のバージョンのストレージファームウェアもアップグレードできます。</block>
   <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="section-title">新機能</block>
   <block id="1d1633bfe72bbc8d0c4b0a029ebed057" category="inline-link-macro">ストレージファームウェアをアップグレードします</block>
   <block id="9a2f1ab5c842ae73f28def84c43b25c4" category="paragraph">ストレージファームウェアバンドルバージョン 2.76 には、セキュリティ上の脆弱性の修正など、さまざまなバグ修正と新機能が含まれています。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
@@ -4492,8 +4490,6 @@
   <block id="87c4dceb3b7e859ee28b5df49ff43883" category="list-text">ケーブル 6 本の構成を使用する 3 つのコンピューティングノードに Cat 5e / 6 ケーブルが 6 本、 Twinax ケーブルが 12 本必要です。</block>
   <block id="451ea6f06481d8471ac166075c39c8cd" category="summary">管理ノード（ mNode ）は、システムサービスの使用、クラスタのアセットと設定の管理、システムのテストとユーティリティの実行、システム監視用の Active IQ の設定、トラブルシューティング用のネットアップサポートアクセスの有効化に使用できます。</block>
   <block id="cbd3ec19d301a96c2ad3c73557cee800" category="paragraph">Element ソフトウェアバージョン 11.3 以降を実行するクラスタでは、次のいずれかのインターフェイスを使用して管理ノードを操作できます。</block>
-  <block id="88764e1bb4e56c24e0473640963f8b31" category="list-text">管理ノード UI （「 https ： // [mNode IP ｝ ： 442'] ）を使用すると、ネットワークとクラスタの設定を変更したり、システムテストを実行したり、システムユーティリティを使用したりできます。</block>
-  <block id="865790162874a65831acb50a292472ec" category="list-text">組み込みの REST API UI （「 https://[mNode ip ｝ /mnode 」）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理など、管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
   <block id="7202b61afd9e432d7def09b11b24d1a9" category="paragraph">管理ノードをインストールまたはリカバリします。</block>
   <block id="c9f75b7ce03f705cec34ee168137235a" category="list-text"><block ref="c9f75b7ce03f705cec34ee168137235a" category="inline-link-macro-rx"></block></block>
   <block id="3a94a0bfa09a6011bad07afa39abc05f" category="list-text"><block ref="3a94a0bfa09a6011bad07afa39abc05f" category="inline-link-macro-rx"></block></block>
@@ -5812,4 +5808,8 @@
   <block id="021194ed35c1ca85c5ddd9daaf8630c3" category="admonition">アップグレードプロセスは、ストレージノードあたり約 30 分かかります。Element ストレージクラスタをバージョン 2.76 よりも新しいストレージファームウェアにアップグレードする場合、ノードに新しいファームウェアが書き込まれたときのみ、個々のストレージノードがアップグレード中にリブートされます。</block>
   <block id="08463a3c40795eccbc178bf35fd11c20" category="sidebar">NetApp HCI でクレデンシャルを変更します</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">以前のバージョン</block>
+  <block id="1f530b0c76d9de4275104c651b6d5411" category="list-text">* 有効なアップグレードパス * ：アップグレード先の Element バージョンのアップグレードパス情報を確認し、アップグレードパスが有効であることを確認しておきます。<block ref="b87eae6ace29db9b17ab7b20ed6745f5" category="inline-link-rx"></block></block>
+  <block id="7bb9848301f8ece6cf7cd1a03218b8ff" category="paragraph">Element 12.0 以降および管理サービスバージョン 2.14 以降では、 NetApp Hybrid Cloud Control の UI と REST API を使用して、ストレージノードでファームウェアのみのアップグレードを実行できます。この手順では、 Element ソフトウェアはアップグレードされず、 Element のメジャーリリース以外のバージョンのストレージファームウェアもアップグレードできます。</block>
+  <block id="bcf4a46adde5d2f973d259f255d1e80a" category="list-text">管理ノード UI (`https://[mNode ip:442') を使用すると ' ネットワークとクラスタの設定を変更したり ' システムテストを実行したり ' システムユーティリティを使用したりできます</block>
+  <block id="c6c6f0000a926fbfe7df6b316e0a9fc9" category="list-text">組み込みの REST API UI （「 https://[mNode ip ｝ /mnode 」）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理など、管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
 </blocks>
