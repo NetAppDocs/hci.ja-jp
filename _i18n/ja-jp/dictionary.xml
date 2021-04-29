@@ -832,8 +832,6 @@
   <block id="e6f04bc267aa8b790e8358fbcafd13da" category="inline-link">vCenter Plug-in 4.3 リリースノート</block>
   <block id="f94aef7fdb1d34c6764ffb66c5feda58" category="list-text"><block ref="f94aef7fdb1d34c6764ffb66c5feda58" category="inline-link-rx"></block></block>
   <block id="ff87ebe2c25e682bd61568ba1a06d717" category="section-title">ファームウェアを計算します</block>
-  <block id="3b912116949947004f7508c5e18dbffe" category="inline-link-macro">Compute Firmware Bundle 2.76 リリースノート（最新）</block>
-  <block id="9d5f945bd4ca73db5a71ce7ce9de85a0" category="list-text"><block ref="9d5f945bd4ca73db5a71ce7ce9de85a0" category="inline-link-macro-rx"></block></block>
   <block id="add6cf39bf48bd4bb95153935993051e" category="inline-link-macro">Compute Firmware Bundle 2.27 リリースノート</block>
   <block id="8b8c8134b91716e60636957418102f63" category="list-text"><block ref="8b8c8134b91716e60636957418102f63" category="inline-link-macro-rx"></block></block>
   <block id="3a155d4e218deae857aac98fd3d2be2c" category="inline-link-macro">Compute Firmware Bundle 12.2.109 リリースノート</block>
@@ -5812,4 +5810,17 @@
   <block id="7bb9848301f8ece6cf7cd1a03218b8ff" category="paragraph">Element 12.0 以降および管理サービスバージョン 2.14 以降では、 NetApp Hybrid Cloud Control の UI と REST API を使用して、ストレージノードでファームウェアのみのアップグレードを実行できます。この手順では、 Element ソフトウェアはアップグレードされず、 Element のメジャーリリース以外のバージョンのストレージファームウェアもアップグレードできます。</block>
   <block id="bcf4a46adde5d2f973d259f255d1e80a" category="list-text">管理ノード UI (`https://[mNode ip:442') を使用すると ' ネットワークとクラスタの設定を変更したり ' システムテストを実行したり ' システムユーティリティを使用したりできます</block>
   <block id="c6c6f0000a926fbfe7df6b316e0a9fc9" category="list-text">組み込みの REST API UI （「 https://[mNode ip ｝ /mnode 」）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理など、管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
+  <block id="b8a3e041719b8e9752b150f5cd409639" category="inline-link-macro">Compute Firmware Bundle 2.76.10 リリースノート ( 最新 )</block>
+  <block id="d4ca81d1f96be06a7eb408daa677f195" category="list-text"><block ref="d4ca81d1f96be06a7eb408daa677f195" category="inline-link-macro-rx"></block></block>
+  <block id="e408d2698eab83bad6a25c0414c9fccd" category="list-text"><block ref="e408d2698eab83bad6a25c0414c9fccd" category="inline-link-macro-rx"></block></block>
+  <block id="5fdb538f00d44b4e663cc26d707fee0d" category="doc">Compute Firmware Bundle 2.76.10 リリースノート</block>
+  <block id="6d87ab8a4146897fc42c7206f9a8e527" category="paragraph">バージョン 2.76.10 には一般的なバグ修正が含まれています。</block>
+  <block id="0f24412e4ffe8570e662187ede29e938" category="cell">NATP3.9</block>
+  <block id="c112d8a6d18320ba865a2f16c6161d8c" category="cell">* 6.71.20 *</block>
+  <block id="b85924f01b8856c717c2055338665fd3" category="admonition">バージョン 2.76.10 にアップグレードする前に、 ESXi ドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン 2.99 にアップグレードします。にアクセスします <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
+  <block id="14847821469b75e97842f3b3b659d33f" category="section-title">Compute Firmware Bundle 2.76.10 をダウンロードします</block>
+  <block id="c0b463cbd41df59f6382ed14cfa1847f" category="section-title">H410C BMC 6.71.20</block>
+  <block id="a1cea245b8c0c135f94686cb958182c1" category="list-text">CVE-2017-1010022 、 CVE-2019-9169 、 CVE-2017-15804 、 CVE-2018-11236 、 CVE-2017-15670 、 CVE-2015-1010023 、 CVE-2015-8982 、 CVE-2015-8983 、 CVE-2017-16997 、 CVE-2018-20838 、</block>
+  <block id="7d90f1467b98485e9cf2b2fb83702c8d" category="list-text">CVE-2017-1000408 、 CVE-2017-1000409 、 CVE-2018-1000001 、 CVE-2018-19591 、 CVE-2009-5155 、 CVE-2018-20796 、 CVE-2016-3706 、 CVE-20120-1752 、 CVE-2017-1010024 、 CVE-2018-1010025 、</block>
+  <block id="cf261c3577b4324bcb29a13a2bf54a6f" category="list-text">CVE-2015-15671 、 CVE-2015-8985 、 CVE-2016-4429 、 CVE-2016-10739 、 CVE-2018-6485 CVE-2020-10029 、 CVE-20-14155</block>
 </blocks>
