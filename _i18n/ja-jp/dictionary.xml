@@ -5836,8 +5836,8 @@
   <block id="737fbda59a4f5d2c9f5eb38c650c419e" category="list-text">* Ansible コントロールノード * で自動化を実行する準備：物理サーバまたは仮想サーバで Ansible でファームウェア更新の自動化を実行します。</block>
   <block id="a1c6e7e95c797346381866e156460cb0" category="paragraph">本番環境では、 NetApp HCI インストール環境のコンピューティングノードを、 1 つずつローリング方式で更新する必要があります。NetApp Hybrid Cloud Control の API は、健全性チェックの実行、コンピューティングノード上の ESXi のメンテナンス、ファームウェアアップグレードを適用するためのコンピューティングノードのリブートなど、コンピューティングノードのファームウェアアップグレードプロセス全体を 1 つのコンピューティングノードに対してオーケストレーションします。Ansible ロールは、コンピューティングノードのグループまたはクラスタ全体に対してファームウェアアップグレードをオーケストレーションするためのオプションを提供します。</block>
   <block id="39e0115b52067ca373c2974cabbedb66" category="inline-link">GitHub 上の NetApp Ansible リポジトリ</block>
-  <block id="1def8fcd7264cd8852a095770a262520" category="paragraph">作業を開始するには、に移動します<block ref="bccd2a114de53f015b618c5be388b78b" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
   <block id="0c13e0dd6ebaa11c814ce3c5b29ab7f1" category="paragraph">H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。</block>
   <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">ファームウェアのアップグレードを実行する前に、 ESXi ドライバの現在のバージョンを確認する必要があります。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。</block>
   <block id="c6972aeb3a2332cb320c9779d55b24a0" category="list-text">VMware vCenter の * VMware Update Manager * にアクセスします。</block>
+  <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">作業を開始するには、に移動します<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
 </blocks>

@@ -23,7 +23,7 @@ NOTE: アップグレード用の Ansible のロールは、 NetApp HCI H シリ
 
 本番環境では、 NetApp HCI インストール環境のコンピューティングノードを、 1 つずつローリング方式で更新する必要があります。NetApp Hybrid Cloud Control の API は、健全性チェックの実行、コンピューティングノード上の ESXi のメンテナンス、ファームウェアアップグレードを適用するためのコンピューティングノードのリブートなど、コンピューティングノードのファームウェアアップグレードプロセス全体を 1 つのコンピューティングノードに対してオーケストレーションします。Ansible ロールは、コンピューティングノードのグループまたはクラスタ全体に対してファームウェアアップグレードをオーケストレーションするためのオプションを提供します。
 
-作業を開始するには、に移動します https://github.com/NetApp/ansible/tree/master/nar_compute_nodes_firmware_upgrades["GitHub 上の NetApp Ansible リポジトリ"^] および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします
+作業を開始するには、に移動します https://github.com/NetApp-Automation/nar_compute_firmware_upgrade["GitHub 上の NetApp Ansible リポジトリ"^] および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします
 
 [discrete]
 == 詳細については、こちらをご覧ください
