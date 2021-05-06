@@ -1317,8 +1317,6 @@
   <block id="ace3e39e393144eceb1f9ae4ff8d3c5d" category="list-text"><block ref="dd829c5049f30330148dc16f26fde06c" category="inline-link-macro-rx"></block>。</block>
   <block id="2b7837d4a7374f83f1caba7a5346a7e8" category="inline-link-macro">コンピューティングノードのドライバを更新します</block>
   <block id="45ee4e9ecd63b929624ac5dc76329a7b" category="list-text"><block ref="909690bf52bc8f0f631c787371ed321b" category="inline-link-macro-rx"></block>。</block>
-  <block id="a2e4eb1bc31f62d89ef31cc57e17eda8" category="inline-link-macro">コンピューティングノードのファームウェアを更新します</block>
-  <block id="2a5af2e852a2c5d19cbc2237e24b5fd3" category="list-text"><block ref="4cf9f37ae607f44f9e582749a36ad29d" category="inline-link-macro-rx"></block>。</block>
   <block id="87784ae499554350dea6d8c727af6813" category="summary">Hybrid Cloud Control Nodes ページを使用すると、システムのストレージアセットとコンピューティングアセットの両方を表示できます。</block>
   <block id="1587f6667afe5b768dfe958cc33c0348" category="doc">ノードページでインベントリを表示します</block>
   <block id="fde3b3c9faf9cb9a3df7c86052f8c308" category="paragraph">システム内のストレージアセットとコンピューティングアセットの両方を表示し、それらの IP アドレス、名前、およびソフトウェアバージョンを確認することができます。</block>
@@ -5278,7 +5276,6 @@
   <block id="14f06c631f2b46db62265e16689f5de0" category="list-text">REST API UI から * POST/upgrade投入 / applyNodeUpdates * を実行します。</block>
   <block id="495a77927689f5e0cb0a71d7b73ee6b7" category="list-text">/tasksanges/{taskID}* 応答から、アップグレードが適用されたことを確認します。</block>
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">NetApp HCI システムのアップグレードの一環として、コンピューティングノードのドライバをアップグレードします。</block>
-  <block id="82e5744878618120a206bac8016277c4" category="paragraph">H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。</block>
   <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">ネットアップの技術情報アーティクル</block>
   <block id="f6f57ef583a2a8f65eca6d1dd3ad430c" category="paragraph">のハードウェアのファームウェアとドライバのマトリックスを参照してください<block ref="281f8980032ebb79864d728ec2225e48" category="inline-link-rx"></block> （ログインが必要です）。</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">以下の更新処理は一度に 1 つずつ実行します。</block>
@@ -5286,7 +5283,6 @@
   <block id="ee2173a85bb67a0d4771cd4c2fd0a819" category="list-text">を参照します<block ref="586f94736261e3cc826ee8e69c814c18" category="inline-link-rx"></block> ページをクリックし、ダウンロードリンクをクリックして正しいバージョンの NetApp HCI を入手します。</block>
   <block id="583b2202b6101e8fb6a6243369ac0f58" category="list-text">ダウンロードしたドライババンドルをローカルコンピュータに展開します。</block>
   <block id="8ac52d731af552b5cc23f653ec478d24" category="admonition">ネットアップのドライババンドルには、 VMware オフラインバンドルの ZIP ファイルが 1 つ以上含まれています。これらの ZIP ファイルは展開しないでください。</block>
-  <block id="13ab3a528650d52ca852e01568814bc9" category="list-text">コンピューティングノードでファームウェアをアップグレードしたあと、 VMware vCenter の * VMware Update Manager * に移動します。</block>
   <block id="c7bbe9e0cbf5a288fc641b66af382299" category="list-text">コンピューティングノードのドライバオフラインバンドルファイルを * パッチリポジトリ * にインポートします。</block>
   <block id="151c76834ad80bda72b790ed956b343b" category="list-text">コンピューティングノードの新しいホストベースラインを作成します。</block>
   <block id="a103a95f7d753b061f47218b727a92a9" category="list-text">名前とタイプに * Host Extension * を選択し、インポートされたすべてのドライバパッケージを新しいベースラインに含めるように選択します。</block>
@@ -5823,4 +5819,25 @@
   <block id="a1cea245b8c0c135f94686cb958182c1" category="list-text">CVE-2017-1010022 、 CVE-2019-9169 、 CVE-2017-15804 、 CVE-2018-11236 、 CVE-2017-15670 、 CVE-2015-1010023 、 CVE-2015-8982 、 CVE-2015-8983 、 CVE-2017-16997 、 CVE-2018-20838 、</block>
   <block id="7d90f1467b98485e9cf2b2fb83702c8d" category="list-text">CVE-2017-1000408 、 CVE-2017-1000409 、 CVE-2018-1000001 、 CVE-2018-19591 、 CVE-2009-5155 、 CVE-2018-20796 、 CVE-2016-3706 、 CVE-20120-1752 、 CVE-2017-1010024 、 CVE-2018-1010025 、</block>
   <block id="cf261c3577b4324bcb29a13a2bf54a6f" category="list-text">CVE-2015-15671 、 CVE-2015-8985 、 CVE-2016-4429 、 CVE-2016-10739 、 CVE-2018-6485 CVE-2020-10029 、 CVE-20-14155</block>
+  <block id="b09b3ddef5713d8c729037ea2fb7b234" category="inline-link-macro">NetApp Hybrid Cloud Control を使用してコンピューティングノードのファームウェアを更新します</block>
+  <block id="5a5285cbae65a3a4e6d2325887861e01" category="inline-link-macro">Ansible でコンピューティングファームウェアのアップグレードを自動化できます</block>
+  <block id="7cb9171d2e41fd487907a91fb38fae31" category="list-text"><block ref="9c1d2a43cd65a3c0eacb2a0469676bce" category="inline-link-macro-rx"></block> または <block ref="ea7bc6be827f510faa492af963f76183" category="inline-link-macro-rx"></block>。</block>
+  <block id="97b77951b2d4eaea0f64d30f79d9ee22" category="admonition">アップグレードする前に、 ESXi ドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。</block>
+  <block id="4ba16aa779bc8ad075658a848d8a534f" category="inline-link-macro">コンピューティングのアップグレードに向けた Ansible のロールに関する注意事項があります</block>
+  <block id="92650cf5badd89aace1461d0525236fd" category="list-text"><block ref="92650cf5badd89aace1461d0525236fd" category="inline-link-macro-rx"></block></block>
+  <block id="4201481fbe6b2ce374c5546cadaf4a4e" category="admonition">VM テンプレートを削除した場合は、ネットアップサポートに問い合わせて監視ノードの .ova イメージを取得して再導入する必要があります。テンプレートは、からダウンロードできます <block ref="d11585bd3c11623cea2cdab43143f748" category="inline-link-rx"></block>。ただし、サポートを利用して設定に関するガイダンスを受ける必要があります。</block>
+  <block id="00415b6fb565410eea76dc891605762c" category="summary">H シリーズのコンピューティングノードには Ansible のロールが用意されており、 BMC 、 BIOS 、 NIC などのハードウェアコンポーネントのファームウェアのアップグレードを自動化できます。</block>
+  <block id="eacf1eb0cf3662016ce47146687bec73" category="doc">Ansible によるコンピューティングノードのファームウェアアップグレードの自動化</block>
+  <block id="14427a22f723384059c45e3e1e6b5fcd" category="paragraph">NetApp Hybrid Cloud Control のワークフローを使用して、 NetApp HCI コンピューティングノードのシステムファームウェアを更新できます。これには、 BMC 、 BIOS 、 NIC などのコンポーネントのファームウェアも含まれます。大規模なコンピューティングクラスタを含む環境では、 Ansible を使用してクラスタ全体のローリングアップグレードを実行することでワークフローを自動化できます。</block>
+  <block id="e23426bcb203e258a965b5a6229d58ca" category="admonition">コンピューティングノードのファームウェアアップグレードを自動化する Ansible のロールはネットアップによって提供されますが、自動化は補助コンポーネントとして機能し、追加のセットアップやソフトウェアコンポーネントの実行が必要となります。Ansible 自動化の変更はベストエフォートベースでのみサポートされます。</block>
+  <block id="7c9cebcdff1799392ec97d17aea37372" category="admonition">アップグレード用の Ansible のロールは、 NetApp HCI H シリーズのコンピューティングノードでのみ機能します。サードパーティ製コンピューティングノードのアップグレードにはこのロールを使用できません。</block>
+  <block id="ada468cc15057fe172438bfd87c04f0f" category="inline-link-macro">ファームウェアのアップグレードを実行する</block>
+  <block id="f03a00011dc315dde060309081399447" category="list-text">* ファームウェアのアップグレードの準備と前提条件 * ：の手順に従って、 NetApp HCI のインストール環境でファームウェアのアップグレードの準備ができている必要があります <block ref="a3ff980f82a3d1c0c391deb12394e2dd" category="inline-link-macro-rx"></block>。</block>
+  <block id="737fbda59a4f5d2c9f5eb38c650c419e" category="list-text">* Ansible コントロールノード * で自動化を実行する準備：物理サーバまたは仮想サーバで Ansible でファームウェア更新の自動化を実行します。</block>
+  <block id="a1c6e7e95c797346381866e156460cb0" category="paragraph">本番環境では、 NetApp HCI インストール環境のコンピューティングノードを、 1 つずつローリング方式で更新する必要があります。NetApp Hybrid Cloud Control の API は、健全性チェックの実行、コンピューティングノード上の ESXi のメンテナンス、ファームウェアアップグレードを適用するためのコンピューティングノードのリブートなど、コンピューティングノードのファームウェアアップグレードプロセス全体を 1 つのコンピューティングノードに対してオーケストレーションします。Ansible ロールは、コンピューティングノードのグループまたはクラスタ全体に対してファームウェアアップグレードをオーケストレーションするためのオプションを提供します。</block>
+  <block id="39e0115b52067ca373c2974cabbedb66" category="inline-link">GitHub 上の NetApp Ansible リポジトリ</block>
+  <block id="1def8fcd7264cd8852a095770a262520" category="paragraph">作業を開始するには、に移動します<block ref="bccd2a114de53f015b618c5be388b78b" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
+  <block id="0c13e0dd6ebaa11c814ce3c5b29ab7f1" category="paragraph">H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。</block>
+  <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">ファームウェアのアップグレードを実行する前に、 ESXi ドライバの現在のバージョンを確認する必要があります。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。</block>
+  <block id="c6972aeb3a2332cb320c9779d55b24a0" category="list-text">VMware vCenter の * VMware Update Manager * にアクセスします。</block>
 </blocks>

@@ -279,6 +279,8 @@ entries:
       url: "/task_hcc_upgrade_compute_node_drivers.html"
     - title: コンピューティングノードのファームウェアをアップグレードします
       url: "/task_hcc_upgrade_compute_node_firmware.html"
+    - title: Ansible によるコンピューティングノードのファームウェアアップグレードの自動化
+      url: "/task_hcc_upgrade_compute_firmware_ansible.html"
   - title: vCenter Plug-in を使用した vSphere のアップグレードシーケンス
     entries:
     - title: を使用して、 NetApp HCI システムの vSphere コンポーネントをアップグレードします vCenter Server 向け

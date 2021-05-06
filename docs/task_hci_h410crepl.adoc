@@ -601,6 +601,9 @@ image::vm-template.png[に、監視ノードの VM テンプレートのスク�
 
 
 
+
+NOTE: VM テンプレートを削除した場合は、ネットアップサポートに問い合わせて監視ノードの .ova イメージを取得して再導入する必要があります。テンプレートは、からダウンロードできます link:https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/WN_12.0/downloads["こちら（ログインが必要です）"^]。ただし、サポートを利用して設定に関するガイダンスを受ける必要があります。
+
 .手順
 . VMware vSphere Web Client で、 * Hosts and Clusters * を選択します。
 . 監視ノード VM をホストするコンピューティングノードを右クリックし、 * 新規仮想マシン * を選択します。
