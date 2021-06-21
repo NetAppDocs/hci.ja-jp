@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_hwmainoverview.html 
 summary: ノードの交換、ストレージノードのドライブの交換、電源装置の交換など、ハードウェアのメンテナンス作業を実行できます。 
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, rails, h-series, nodes 

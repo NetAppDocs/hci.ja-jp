@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_hci_clusters.html 
 summary: クラスタは、複数のストレージノードで構成されます。NetApp HCI ストレージクラスタには、少なくとも 2 つのストレージノードが必要です。クラスタはネットワーク上では 1 つの論理グループとして認識され、ブロックストレージとしてアクセスできます。 
 keywords: netapp, hci, storage nodes, clusters, two-node cluster, three-node cluster, 2-node cluster, 3-node cluster 

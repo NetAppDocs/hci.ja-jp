@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_h610ch615crepl.html 
 summary: シャーシを交換して、 CPU 、マザーボード、または電源が入らない場合にコンピューティングノードの障害を修復する必要があります。NetApp HCI Bootstrap OS バージョン 1.6 以降を実行する H610C コンピューティングノードで障害のある DIMM がある場合は、 DIMM を交換することができ、シャーシを交換する必要はありません。H615C ノードの場合、 DIMM に障害が発生したときはシャーシを交換する必要はありません。交換できるのは障害が発生した DIMM のみです。 
 keywords: netapp, hci, H610C, H615C, chassis replacement, node replacement 

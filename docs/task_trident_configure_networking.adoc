@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_trident_configure_networking.html 
 summary: ユーザクラスタで Trident のサポートを有効にします。 
 keywords: netapp, hci, netapp, networking, clusters, user, trident, rancher 

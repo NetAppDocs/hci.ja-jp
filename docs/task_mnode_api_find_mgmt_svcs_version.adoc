@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_api_find_mgmt_svcs_version.html 
 summary: 管理ノードの OS および管理サービスのバージョンは、 REST API を使用して確認できます。 
 keywords: netapp, hci, management node, management services, version, bundle version, what is 

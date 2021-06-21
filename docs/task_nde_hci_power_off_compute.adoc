@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_hci_power_off_compute.html 
 summary: NetApp HCI コンピューティングノードの電源をオフにする方法について説明します。 
 keywords: netapp, hci, netapp deployment engine, deployment, vsphere 

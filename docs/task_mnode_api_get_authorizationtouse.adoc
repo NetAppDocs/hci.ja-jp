@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_api_get_authorizationtouse.html 
 summary: REST API UI で管理サービス用の API を使用するには、事前に承認が必要です。 
 keywords: netapp, hci, management node, mnode, api, token 

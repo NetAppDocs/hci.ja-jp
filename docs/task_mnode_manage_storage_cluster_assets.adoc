@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_manage_storage_cluster_assets.html 
 summary: REST API UI を使用して、管理ノードのストレージクラスタアセットを追加、削除、および変更できます。 
 keywords: netapp, mnode, management node, rest api, hci, assets 

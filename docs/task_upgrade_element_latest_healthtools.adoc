@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_upgrade_element_latest_healthtools.html 
 summary: システムのアップグレードの一環として、最新の HealthTools for NetApp Element ソフトウェアにアップグレードする必要があります。 
 keywords: netapp, HealthTools upgrade, sfupdate-healthtools, element 

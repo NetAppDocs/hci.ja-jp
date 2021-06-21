@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_upgrade_compute_prechecks.html 
 summary: NetApp HCI システムのアップグレードの一環として、ファームウェアの再アップグレードを実行する前にコンピューティングノードの健全性チェックを実行する必要があります。 
 keywords: netapp, compute prechecks, compute node upgrade, netapp hci 

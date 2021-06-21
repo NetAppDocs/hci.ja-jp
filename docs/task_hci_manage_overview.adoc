@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_manage_overview.html 
 summary: NetApp HCI 、ユーザアカウント、ストレージクラスタ、ボリューム、ボリュームアクセスグループ、イニシエータ、ボリューム QoS ポリシー、および管理ノードのクレデンシャルを管理できます。 
 keywords: netapp, hci, install, deploy, get started 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_manage_accounts.html 
 summary: ユーザアカウントを作成してボリュームに関連付ける方法について説明します。 
 keywords: netapp, hci, on premise, cluster, element, account, user, volume, hybrid cloud control, hcc 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_logs.html 
 summary: REST API を使用して、管理 ndoe で実行されているサービスからログを取得できます。 
 keywords: netapp, element, management node, management services, mnode, logs 

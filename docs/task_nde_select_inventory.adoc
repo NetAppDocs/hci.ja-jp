@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_select_inventory.html 
 summary: 導入時に NetApp HCI ノードインベントリを選択する方法について説明します。 
 keywords: netapp, hci, deployment, compatibility, nodes 

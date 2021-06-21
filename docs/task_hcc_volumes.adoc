@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_volumes.html 
 summary: Hybrid Cloud Control Volumes のページを使用して、システムのボリュームを監視できます。 
 keywords: netapp, hci, on premise, volumes, storage, access groups, initiators, capacity, data protection, QoS 

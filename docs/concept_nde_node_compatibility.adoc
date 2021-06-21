@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_nde_node_compatibility.html 
 summary: 導入に必要な NetApp HCI ノードの互換性に関する要件について説明します。 
 keywords: netapp, hci, deployment, compatibility, nodes 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/rn_H610S_BMC_3.84.07.html 
 summary: NetApp HCI ノードにダウンロードして適用できるファームウェアパッケージのリリースノートへのリンクを入手できます。 
 keywords: netapp, hci, compute firmware 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_removewn.html 
 summary: 2 ノードストレージクラスタを 4 つ以上のノードに拡張したら、監視ノードのペアを削除して、 NetApp HCI 環境のコンピューティングリソースを解放できます。 
 keywords: netapp, hci, witness nodes, two-node cluster, four-node cluster, compute nodes, virtual machine, vm 

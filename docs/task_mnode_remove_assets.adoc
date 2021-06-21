@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_remove_assets.html 
 summary: REST API を使用してコンピューティングノードアセットをシステムから削除する方法について説明します。 
 keywords: netapp, hci, api, REST, remove, compute, asset 

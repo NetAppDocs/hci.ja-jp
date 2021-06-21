@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_hci_storage.html 
 summary: NetApp HCI には、コンピューティングとストレージの両方に対応するさまざまな設定オプションがあります。NetApp HCI 1.8 以降では、最小構成で 2 つのストレージノードと 2 つのコンピューティングノードを構成できます。以前のバージョンでは、必要な最小構成は 4 つのストレージノードと 2 つのコンピューティングノードでした。 
 keywords: netapp, hci, storage nodes, volumes 

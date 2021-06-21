@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_edit_bmc_info.html 
 summary: NetApp Hybrid Cloud Control を使用して、 NetApp HCI が接続できるようにベースボード管理コントローラ（ BMC ）の接続情報を編集できます。 
 keywords: netapp, hci, BMC, connection, credentials, monitor 

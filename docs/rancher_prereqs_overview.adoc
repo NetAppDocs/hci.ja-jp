@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/rancher_prereqs_overview.html 
 summary: NetApp HCI のインストールを成功させるための要件について説明します。 
 keywords: netapp, hci, Rancher, install, installation, requirements 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_compute_firmware_ansible.html 
 summary: H シリーズのコンピューティングノードには Ansible のロールが用意されており、 BMC 、 BIOS 、 NIC などのハードウェアコンポーネントのファームウェアのアップグレードを自動化できます。 
 keywords: netapp, hci, on premise, cluster, element, compute node, ansible upgrade, upgrade role 

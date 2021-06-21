@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_enable_monitoring.html 
 summary: NetApp HCI 導入の Rancher 後に監視を設定する方法について説明します。 
 keywords: netapp, hci, rancher, deploy, cluster, kubernetes, telemetry, monitoring 

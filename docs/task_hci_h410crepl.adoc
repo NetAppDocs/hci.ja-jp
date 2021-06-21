@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_h410crepl.html 
 summary: CPU の障害、その他のマザーボードの問題、または電源が入らない場合は、コンピューティングノードを交換する必要があります。この手順は H410C ノードに該当します。NetApp HCI Bootstrap OS バージョン 1.6P1 以降の H410C コンピューティングノードを使用している場合は、メモリ DIMM に障害が発生した場合でもノードを交換する必要はありません。障害が発生した DIMM のみを交換する必要があります。ノード内の DIMM で障害が発生していない場合は、交換用ノードで使用できます。 
 keywords: netapp, hci, H410C nodes, replacement, node replacement 

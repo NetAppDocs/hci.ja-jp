@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_dimmcomputerepl.html 
 summary: ノード全体を交換する代わりに、 NetApp HCI コンピューティングノード内の障害のある Dual Inline Memory Module （ DIMM ）を交換することができます。 
 keywords: netapp, hci, dimm, compute nodes 

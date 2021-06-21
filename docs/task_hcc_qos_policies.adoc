@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_qos_policies.html 
 summary: QoS ポリシーを設定および変更して、ストレージクラスタ内のボリュームに適用することができます。 
 keywords: netapp, qos policy, quality of service, qos policies, volumes, element 

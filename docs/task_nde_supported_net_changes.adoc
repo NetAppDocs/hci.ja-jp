@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_supported_net_changes.html 
 summary: NetApp HCI の導入後に実行する必要がある導入後のタスクについて説明します。 
 keywords: netapp, hci, deployment, review, deploy 

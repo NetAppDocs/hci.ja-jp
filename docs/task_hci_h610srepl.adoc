@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_h610srepl.html 
 summary: ファン、 CPU 、または Dual Inline Memory Module （ DIMM ）に障害が発生した場合や、過熱やブートプロセスの問題を解決する場合には、シャーシの交換が必要になることがあります。シャーシ前面の黄色の LED の点滅は、シャーシの交換が必要な可能性があることを示しています。続行する前にネットアップサポートにお問い合わせください。 
 keywords: netapp, hci, h610s, chassis replacement, node replacement 

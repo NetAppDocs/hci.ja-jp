@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_createcluster.html 
 summary: Rancher の導入後、 Rancher UI を使用して Kubernetes ユーザクラスタを作成できます。 
 keywords: netapp, hci, rancher, kubernetes clusters, create cluster 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/hci_prereqs_task_validate_config_advisor.html 
 summary: Active IQ Config Advisor を使用して導入前の構成を検証する方法について説明します。 
 keywords: netapp, hci, element, configuration, validation 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_expand_storage.html 
 summary: NetApp HCI の導入が完了したら、ネットアップハイブリッドクラウド制御を使用して NetApp HCI のストレージリソースを拡張および設定できます。 
 keywords: netapp, hci, on premise, expand, storage, cluster 

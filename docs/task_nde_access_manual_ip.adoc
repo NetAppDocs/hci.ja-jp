@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_access_manual_ip.html 
 summary: NetApp HCI ノードに IP アドレスを手動で割り当てて、 NetApp Deployment Engine にアクセスする方法を説明します。 
 keywords: netapp, hci, netapp deployment engine, deployment, engine, deploy, access 

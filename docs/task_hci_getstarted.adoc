@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_getstarted.html 
 summary: 以下の手順を使用して、 NetApp HCI をインストールおよび導入します。 
 keywords: netapp, hci, install, deploy, get started 

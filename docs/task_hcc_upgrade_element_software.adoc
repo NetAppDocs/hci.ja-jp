@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_element_software.html 
 summary: NetApp HCI または SolidFire システムのアップグレードの一環として、 NetApp Element ソフトウェアをアップグレードします。 
 keywords: netapp, hci, HealthTools, cluster, element, H610S upgrade, hcc 

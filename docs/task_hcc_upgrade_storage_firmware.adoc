@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_storage_firmware.html 
 summary: NetApp HCI または SolidFire システムのアップグレードの一環として、ストレージノードに関連付けられているファームウェアをアップグレードします。 
 keywords: netapp, element, hcc, firmware, storage firmware 

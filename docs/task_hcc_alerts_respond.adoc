@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/hcc_dashboard.html 
 summary: Hybrid Cloud Control のダッシュボードでアラートに対応することができます。 
 keywords: netapp, hci, hcc, on premise, alerts, warnings 

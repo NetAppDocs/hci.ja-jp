@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_psurepl.html 
 summary: 電源装置に障害が発生した場合は、シャーシの電源の冗長性を維持するために、できるだけ早く交換する必要があります。 
 keywords: netapp, hci, psu, replace power supply, H410S, H610S, H410C, H610C, H615C 

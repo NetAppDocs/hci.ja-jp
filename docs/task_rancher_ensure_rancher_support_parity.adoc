@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_ensure_rancher_support_parity.html 
 summary: Rancher で使用しているライセンスが購入したライセンスと一致していることを確認する方法について説明します。 
 keywords: netapp, hci, Rancher, licensing 

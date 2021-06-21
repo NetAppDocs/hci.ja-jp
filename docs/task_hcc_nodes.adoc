@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_nodes.html 
 summary: Hybrid Cloud Control Nodes ページを使用すると、システムのストレージアセットとコンピューティングアセットの両方を表示できます。 
 keywords: netapp, hci, on premise, cluster, inventory, nodes, storage, compute 

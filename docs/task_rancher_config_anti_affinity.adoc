@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_config_anti_affinity.html 
 summary: ホストの耐障害性を高めるために、ランチ元 VM に非アフィニティルールを設定する方法について説明します。 
 keywords: netapp, hci, rancher, deploy, cluster, kubernetes, anti, affinity, resiliency 

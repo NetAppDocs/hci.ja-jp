@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_dcpsurepl.html 
 summary: H615C および H610S ノードは、 2 ~ 48 V ~ 60 V の DC 電源装置をサポートします。これらのユニットは、 H615C または H610S ノードを発注するとオプションのアドオンとして提供されます。同じ手順でシャーシ内の AC 電源装置を取り外し、 DC 電源装置ユニットに交換したり、障害のある DC 電源装置ユニットを新しい DC 電源装置ユニットに交換したりできます。 
 keywords: netapp, hci, psu, replace power supply, H610S, H615C, DC 

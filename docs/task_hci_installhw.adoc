@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_installhw.html 
 summary: NetApp HCI の使用を開始する前に、ストレージノードとコンピューティングノードを正しくインストールする必要があります。 
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, rails, h-series, nodes 

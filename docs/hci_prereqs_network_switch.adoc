@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/hci_prereqs_network_switch.html 
 summary: このバージョンの NetApp HCI の新機能について説明します。 
 keywords: netapp, hci, network, switch, requirements 

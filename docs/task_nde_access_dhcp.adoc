@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_access_dhcp.html 
 summary: DHCP を使用して IP アドレスを割り当てる環境で NetApp Deployment Engine にアクセスする方法について説明します。 
 keywords: netapp, hci, netapp deployment engine, deployment, engine, deploy, access, dhcp 

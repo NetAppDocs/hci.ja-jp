@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_update_management_services.html 
 summary: NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、管理サービスを更新する必要があります。 
 keywords: netapp, hci, on premise, cluster, management services 

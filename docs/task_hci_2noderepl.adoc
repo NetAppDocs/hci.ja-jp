@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_2noderepl.html 
 summary: 2 ノードクラスタの一部であるノードを交換する前に、 3 つ目のストレージノード（新しい IP アドレスのセットが必要）を追加し、同期が完了してから、障害ノードを削除してください。4 ノードクラスタ：追加の MIP と SIP が必要です。 
 keywords: netapp, hci, H610C, H615C, chassis replacement, node replacement 

@@ -1,8 +1,9 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/index.html 
 summary: NetApp HCI は、ストレージリソースとコンピューティングリソースの両方を提供します。これらのリソースを組み合わせて、 NetApp Element ソフトウェアの機能を基盤とする VMware vSphere 環境を構築します。 
 keywords: netapp, hci, on premise, hybrid cloud control, hcc, kubernetes 
+redirect: hci/index.html 
 ---
 = NetApp HCI の設定および管理に関するドキュメント
 :hardbreaks:

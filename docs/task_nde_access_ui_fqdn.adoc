@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_access_ui_fqdn.html 
 summary: Web UI への FQDN アクセスを使用するようにシステムを設定する方法について説明します。 
 keywords: netapp, hci, fqdn, ui, access, web, administration 

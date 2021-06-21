@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_recover.html 
 summary: NetApp Element ソフトウェアを実行しているクラスタの管理ノードをリカバリして再導入できます。設定によっては、管理ノード用に認証を再設定しなければならない場合があります。 
 keywords: netapp, element, management node, mnode, disaster recovery, redeploy, VM 

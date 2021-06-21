@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_manage_vol_access_groups.html 
 summary: NetApp HCI ストレージボリュームを操作するための新しいボリュームアクセスグループの追加、システムからのボリュームアクセスグループの削除、既存のボリュームアクセスグループの編集、ボリュームアクセスグループの詳細の表示を行う方法について説明します。 
 keywords: netapp, hci, on premise, cluster, element 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_hci_upgrade_overview.html 
 summary: ここでは、 NetApp HCI または SolidFire Element ストレージシステムのアップグレードを実行する方法の概要を示します。 
 keywords: netapp, hci upgrade, solidfire upgrade, VCP upgrade, element upgrade, vSphere upgrade 

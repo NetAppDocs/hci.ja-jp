@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hcc_manage_vol_management.html 
 summary: ボリュームを作成して特定のアカウントに関連付ける方法について説明します。 
 keywords: netapp, hci, cluster, element, volume 

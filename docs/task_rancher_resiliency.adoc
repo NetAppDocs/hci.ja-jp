@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_resiliency.html 
 summary: NetApp HCI に Rancher をインストールしたあと、耐障害性を最適化するために VM の配置を設定する方法について説明します。 
 keywords: netapp, hci, Rancher, install, resiliency, vm, affinity 

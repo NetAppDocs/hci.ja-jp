@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_install_GPU_drivers.html 
 summary: NetApp HCI の導入後に GPU 対応のコンピューティングノード用の GPU ドライバをインストールする方法について説明します。 
 keywords: netapp, hci, deployment, review, GPU, install, driver, drivers 

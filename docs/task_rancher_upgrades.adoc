@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_rancher_upgrades.html 
 summary: NetApp Hybrid Cloud Control を使用して、 HCC を使用して以前にインストールした NetApp HCI 上のランチャ導入環境のコンポーネントをアップグレードできます。 
 keywords: netapp, hci, rancher, upgrade, hcc 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/reference_notices_hci.html 
 keywords: copyrights, notice, trademarks, patents, privacy, open source 
 summary: 著作権に関する声明、商標、特許などにアクセスできます。 

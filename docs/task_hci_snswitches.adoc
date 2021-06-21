@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_snswitches.html 
 summary: ネットアップが提供するベストプラクティスと手順に従って、障害のある SN2000 シリーズスイッチを無停止で交換できます。 
 keywords: netapp, hci, SSDs, drives, replace drives, H410S, H610S 

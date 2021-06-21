@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_hci_driverepl.html 
 summary: ドライブで障害が発生した場合や、ドライブの摩耗度がしきい値を下回った場合は、交換する必要があります。障害が発生したドライブをホットスワップできます。 
 keywords: netapp, hci, SSDs, drives, replace drives, H410S, H610S 

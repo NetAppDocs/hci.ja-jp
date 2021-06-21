@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/hci_prereqs_network_cables.html 
 summary: NetApp HCI ネットワークケーブルの要件について説明します。 
 keywords: netapp, hci, network, cable, requirements 

@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/reference_hcc_config_maximums.html 
 summary: NetApp Hybrid Cloud Control には特定の機能があります。その中で運用することを推奨します。 
 keywords: netapp, hci, HCC, configuration, capabilities, limits, maximums 

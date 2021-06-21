@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_hci_storage_maintenance_mode.html 
 summary: ソフトウェアのアップグレードやホストの修復などのメンテナンスのためにストレージノードをオフラインにする必要がある場合は、そのノードのメンテナンスモードを有効にすることで、ストレージクラスタの残りの部分への I/O の影響を最小限に抑えることができます。メンテナンスモードは、アプライアンスノードと SolidFire エンタープライズ SDS ノードの両方で使用できます。 
 keywords: netapp, hci, storage nodes, maintenance, mode 

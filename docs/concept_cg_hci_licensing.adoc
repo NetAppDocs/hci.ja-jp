@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/concept_cg_hci_licensing.html 
 summary: NetApp HCI を使用する場合は、追加のライセンスが必要になることがあります。 
 keywords: netapp, hci, license 

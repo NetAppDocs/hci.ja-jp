@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/reference_earlier_versions.html 
 keywords: documentation, earlier, previous, versions 
 summary: 最新バージョンを実行していない場合は、以前のリリースの NetApp HCI に関するドキュメントを参照できます。 

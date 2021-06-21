@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/hci_prereqs_final_prep.html 
 summary: NetApp HCI を導入する前に完了しておく必要がある最終的な準備と設定について説明します。 
 keywords: netapp, hci, final preparations, requirements 

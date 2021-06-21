@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_mnode_enable_activeIQ.html 
 summary: 管理ノード（ mNode ）を使用して、 NetApp Active IQ と NetApp HCI テレメトリを有効にすることができます。 
 keywords: netapp, hci, api, enable, active iq, activeiq, hci monitoring 

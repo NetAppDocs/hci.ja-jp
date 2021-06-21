@@ -2677,7 +2677,6 @@
   <block id="827caa54c6358e2c35901d53e8016bdd" category="inline-link-macro">永続ボリューム</block>
   <block id="2ca8b91b8c27928feab2dbf1c98a1cc9" category="list-text"><block ref="2ca8b91b8c27928feab2dbf1c98a1cc9" category="inline-link-macro-rx"></block></block>
   <block id="c7bc15401e60cafe10794d83f9b6cd85" category="summary">NetApp HCI に Rancher をインストールした後に実行する必要があるタスクについて説明します。</block>
-  <block id="79eb140f108330b0f3a75d9cc5c4ba44" category="doc">導入後のタスクの概要</block>
   <block id="2762edb7d4f681b6a17dff45c92924ab" category="paragraph">NetApp HCI に Rancher を導入したら、展開後の作業を続行する必要があります。</block>
   <block id="c543ef56d9d045884c703917c22c41af" category="list-text"><block ref="c543ef56d9d045884c703917c22c41af" category="inline-link-macro-rx"></block></block>
   <block id="7cbd1eff19cdbaa29c89553dc167314d" category="inline-link-macro">VM の耐障害性を向上</block>
@@ -5316,19 +5315,9 @@
   <block id="cbba2755a405305c04008eba28b81066" category="list-text">前の手順でコピーしたファームウェアパッケージ ID を * id * で入力します。</block>
   <block id="3982b15a7d8608c803ba0fea915a806a" category="list-text">インストールアセット ID を確認します。</block>
   <block id="befd59adbc7ca9bef6a93304fb2e0271" category="list-text">ストレージファームウェアのアップグレードを実行します。</block>
-  <block id="4f8fc3e1fce78186b06dfda99cdedd17" category="summary">NetApp HCI ソリューションは、複数のワークロードを同じインフラに配置することで、摩擦のない大規模なパフォーマンスを実現します。</block>
-  <block id="aad773c64100f77a8f265003d71729f6" category="doc">NetApp HCI ソリューションカタログ</block>
   <block id="f5925eb0265a585d14f6a64ad359e976" category="inline-link">NetApp HCI ソリューション</block>
-  <block id="afaabfd5c5e7b47c504d7e127e94e030" category="paragraph">NetApp HCI ソリューションカタログはに移動しました<block ref="02a6a484b3495968a77494dcb488024b" category="inline-link-rx"></block>。</block>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。</block>
   <block id="ad0a505756223d68dc11afeae3459351" category="doc">NetApp HCI のドキュメント</block>
-  <block id="8c3db6067199c1e6136e1b14a0452c96" category="paragraph">NetApp HCI は、ハイブリッドクラウド向けの拡張性に優れたオンプレミスハイパーコンバージドインフラです。</block>
-  <block id="f66f605c95781345f34b2e8e6319fc12" category="paragraph">詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。</block>
-  <block id="75ad69824094a991aba6b00009b642c5" category="inline-link-macro">* NetApp HCI 構成および管理ドキュメント *</block>
-  <block id="3eca18fb42394fefcb76f73f0a2887a3" category="list-text"><block ref="eede2a94b9bfaab133ab453378a118d6" category="inline-link-macro-rx"></block>： NetApp HCI の概要を紹介し、前提条件について説明します。また、システムを管理するための NetApp Hybrid Cloud Control インターフェイスに関する情報も記載しています。</block>
-  <block id="f69b89b4abfb58688c350c2623e4d933" category="inline-link">* NetApp HCI ソリューション・カタログ *</block>
-  <block id="57e5177ee68bc49defb8ad2c6312e249" category="list-text"><block ref="b0b964ed170c9b71149bebce017d7f7a" category="inline-link-rx"></block>：プライベートクラウドの導入と運用に必要な情報を提供する NetApp HCI ソリューションを一覧表示し、オンプレミスとオフプレミスの両方にわたる幅広いユースケースをサポートします。NetApp HCI ソリューションは、 DevOps 、エンドユーザコンピューティング、エンタープライズアプリケーション、人工知能、データ保護、データファブリック管理などのテクノロジ分野で、パブリッククラウド、プライベートクラウド、ハイブリッドクラウド、マルチクラウドにわたって付加価値を提供します。</block>
-  <block id="32378966c1d3af19b7f65dca7797c803" category="sidebar">NetApp HCI の設定と管理</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">リリースノート</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="4b983fff716674f120176e09551dd445" category="sidebar">製品の概要</block>
@@ -5369,7 +5358,6 @@
   <block id="d3185a38b712d1d4ca3dad90064bfb57" category="sidebar">概要を展開します</block>
   <block id="9a273d2d550df11ef961cf667f623547" category="sidebar">ネットアップストレージとコンピューティングのリソースを拡張</block>
   <block id="b7f7f58ec15cebe706964cdc95d8f5cf" category="sidebar">NetApp HCI で Rancher を使用します</block>
-  <block id="f095610f605f6468c776271e36c042f5" category="sidebar">導入後のタスク</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">H シリーズハードウェアのメンテナンス</block>
   <block id="83e0166a06c1e4d297d13fcab9ad6313" category="list-text">Trident のユーザクラスタネットワークを設定しておきます。を参照してください <block ref="9d1d5963f8fee095e9b9a2e8c711199f" category="inline-link-macro-rx"></block> 手順については、を参照し</block>
   <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
@@ -5840,4 +5828,39 @@
   <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">ファームウェアのアップグレードを実行する前に、 ESXi ドライバの現在のバージョンを確認する必要があります。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。</block>
   <block id="c6972aeb3a2332cb320c9779d55b24a0" category="list-text">VMware vCenter の * VMware Update Manager * にアクセスします。</block>
   <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">作業を開始するには、に移動します<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
+  <block id="c71ec2ef6ee8df4c8ce96c2b779dc917" category="inline-link">NetApp Element ソフトウェア 12.2.1 リリースノート</block>
+  <block id="7b6c2344660bf791251cb170d62d26dc" category="list-text"><block ref="7b6c2344660bf791251cb170d62d26dc" category="inline-link-rx"></block></block>
+  <block id="3aa4b17575032362b7124d4aeb9c09f1" category="inline-link">NetApp Element ソフトウェア 12.0.1 リリースノート</block>
+  <block id="948802112ff01dd0135eb1b95727ae31" category="list-text"><block ref="948802112ff01dd0135eb1b95727ae31" category="inline-link-rx"></block></block>
+  <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element ソフトウェア 11.8.1 リリースノート</block>
+  <block id="74af8720eb38c9567cf35e4e63e54dd8" category="list-text"><block ref="74af8720eb38c9567cf35e4e63e54dd8" category="inline-link-rx"></block></block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">ハードウェアのメンテナンスをインストールします</block>
+  <block id="147fc8b7d94adc0dceb5978ab928f776" category="sidebar">H シリーズハードウェアの設置</block>
+  <block id="09af8dd99d422c917dcb27847056b045" category="sidebar">H シリーズハードウェアのメンテナンス</block>
+  <block id="bc2592cdeeae26af69f28b4f6a1c8ca0" category="sidebar">NetApp HCI をインストールします</block>
+  <block id="96e1a5a82d70a24f161f0adb6e19ac8d" category="sidebar">インストールと導入の概要</block>
+  <block id="8a6e336622cf399a6453e4659f2a6147" category="sidebar">NetApp Deployment Engine を使用して導入を開始します</block>
+  <block id="a54d0ac20b8277a267fb90e8c0b05032" category="sidebar">導入後のタスクを実行</block>
+  <block id="cfe80b2a0cabf734adc7b7c1613cfe4f" category="sidebar">NetApp HCI を使用します</block>
+  <block id="930dca22f6f735a61fd8f484808fecb3" category="sidebar">NetApp Hybrid Cloud Control を使用して管理します</block>
+  <block id="6cb5dfacb4ee1684b5483221bfcf580c" category="sidebar">NetApp Element Plug-in for vCenter Server を使用します</block>
+  <block id="4584c33b1e8065c9dccf2c31d92f9dbf" category="sidebar">Rancher を使用します</block>
+  <block id="d02b5df8c0bf5a555ea650be898817f7" category="sidebar">NetApp HCI を展開します</block>
+  <block id="748ace58318ab9d82392d680b07e89e6" category="sidebar">NetApp HCI をアップグレードします</block>
+  <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">トラブルシューティングを行う</block>
+  <block id="f7731734f4507319f744fe2c8158536a" category="sidebar">NetApp HCI と Rancher のトラブルシューティングを行います</block>
+  <block id="eeabaf7c41bcd50a6a02694c070dbfb4" category="sidebar">コンピューティングノードの BMC をリセットします</block>
+  <block id="166868e0f588717c1c62116a03c9b979" category="sidebar">技術情報に関するその他の記事</block>
+  <block id="2a9dbfa4b74c53d7304fc8b79a1874d3" category="sidebar">解決策</block>
+  <block id="fcf140abed196b8eba71c45f21312bce" category="sidebar">ネットアップのソリューション</block>
+  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">デモチュートリアル</block>
+  <block id="45a52e6c046bce2a0f9f5253cc23fbd6" category="sidebar">NetApp HCI ビデオライブラリ</block>
+  <block id="9135ac6f13de11d3b4b9f2f98ff9bcb8" category="sidebar">ネットアップラーニングサービス</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログコミュニティ</block>
+  <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">ネットアップコミュニティ</block>
+  <block id="213686afc3803be7caa09348765467fe" category="sidebar">サポートへのアクセス</block>
+  <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 に関するドキュメント</block>
 </blocks>

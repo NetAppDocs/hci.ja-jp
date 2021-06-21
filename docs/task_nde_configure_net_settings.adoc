@@ -1,5 +1,5 @@
 ---
-sidebar: docs_sidebar 
+sidebar: sidebar 
 permalink: docs/task_nde_configure_net_settings.html 
 summary: NetApp HCI 導入ネットワークの設定方法について説明します。 
 keywords: netapp, hci, deployment, compatibility, nodes 
