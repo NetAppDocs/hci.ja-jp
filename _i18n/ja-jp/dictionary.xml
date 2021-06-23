@@ -1239,10 +1239,7 @@
   <block id="82025c546bc781f162d4eb7a9ddcb3dc" category="paragraph">ボリュームアクセスグループは、ユーザが iSCSI イニシエータまたは Fibre Channel イニシエータを使用してアクセスできるボリュームの集まりです。</block>
   <block id="ddc68691fceae11e532f52779f072b62" category="paragraph">ボリュームアクセスグループを作成して使用することで、一連のボリュームへのアクセスを制御できます。一連のボリュームと一連のイニシエータをボリュームアクセスグループに関連付けると、アクセスグループはそれらのイニシエータにそのボリュームセットへのアクセスを許可します。</block>
   <block id="6e6dc102552e10d180955118b6887da2" category="paragraph">ボリュームアクセスグループには次の制限があります。</block>
-  <block id="a54c4323ef6178e661df14d534210f64" category="list-text">1 つのアクセスグループに含めることができる IQN または WWPN は最大 64 個です。</block>
   <block id="9c96a7dccf2207624d1dce3c2b426a7d" category="list-text">1 つのアクセスグループに含めることができるボリュームは最大 2 、 000 個です。</block>
-  <block id="c4d272e4e3851e12ed3dc8fd40519ff8" category="list-text">1 つの IQN または WWPN が属することのできるアクセスグループは 1 つだけです。</block>
-  <block id="122516800657b782a18227f192eaec4b" category="list-text">1 つのボリュームが最大 4 つのアクセスグループに属することができます。</block>
   <block id="92a8ed36d68e1b878c9a02a330480988" category="inline-link-macro">ボリュームアクセスグループを管理します</block>
   <block id="4b78840fe10d478b48df64eca7f72655" category="list-text"><block ref="4b78840fe10d478b48df64eca7f72655" category="inline-link-macro-rx"></block></block>
   <block id="ff62c349e13c6c96f92a1e0db03b7101" category="summary">NetApp HCI ストレージクラスタの保護ドメイン機能について説明します。</block>
@@ -5863,4 +5860,7 @@
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">ネットアップコミュニティ</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">サポートへのアクセス</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 に関するドキュメント</block>
+  <block id="707132cf030e377aaa3a61957be8aeaf" category="list-text">ボリュームアクセスグループあたり最大 128 個のイニシエータ</block>
+  <block id="c4504691cfa27072597d8e1e7a152f3f" category="list-text">ボリュームあたり最大 64 個のアクセスグループ。</block>
+  <block id="edce8794351fe0da7c485a7f83c05807" category="list-text">1 つの IQN または WWPN が属することのできるボリュームアクセスグループは 1 つだけです。</block>
 </blocks>
