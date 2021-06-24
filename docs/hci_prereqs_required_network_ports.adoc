@@ -18,7 +18,7 @@ keywords: netapp, hci, ports, tcp, udp
 
 [NOTE]
 ====
-ネットアップのオンラインソフトウェアリポジトリから、 NetApp Hybrid Cloud Control の Web UI および API ダウンロードソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Bintray を配信ハブとして、 Akamai Technologies をファイルホスティングとして使用しています。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。
+NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。
 
 .手順
 . URL （ repo.netapp.com など）にアクセスするには、 wget または cURL ユーティリティを使用します。
@@ -42,6 +42,21 @@ keywords: netapp, hci, ports, tcp, udp
 | ソース | 宛先 | ポート | 説明 
 
 
+| コンピューティングノードの BMC / IPMI | 管理ノード | 111 TCP/UDP | NetApp Hybrid Cloud Control の API 通信 
+
+
+| コンピューティングノードの BMC / IPMI | 管理ノード | 137-138 UDP | NetApp Hybrid Cloud Control の API 通信 
+
+
+| コンピューティングノードの BMC / IPMI | 管理ノード | 445 | NetApp Hybrid Cloud Control の API 通信 
+
+
+| コンピューティングノードの BMC / IPMI | 管理ノード | 623 UDP | Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。 
+
+
+| コンピューティングノードの BMC / IPMI | 管理ノード | 2049 TCP/UDP | NetApp Hybrid Cloud Control の API 通信 
+
+
 | iSCSI クライアント | ストレージクラスタの MVIP | 443 | （オプション） UI および API アクセス 
 
 
@@ -49,36 +64,6 @@ keywords: netapp, hci, ports, tcp, udp
 
 
 | iSCSI クライアント | ストレージノードの SIP | 3260 | クライアント iSCSI 通信 
-
-
-| コンピューティングノードの BMC / IPMI | 管理ノード | 111 TCP/UDP | NetApp Hybrid Cloud Control の API 通信 
-
-
-| コンピューティングノードの BMC / IPMI | 管理ノード | 445 | NetApp Hybrid Cloud Control の API 通信 
-
-
-| コンピューティングノードの BMC / IPMI | 管理ノード | 2049 TCP/UDP | NetApp Hybrid Cloud Control の API 通信 
-
-
-| コンピューティングノードの BMC / IPMI | 管理ノード | 137-138 UDP | NetApp Hybrid Cloud Control の API 通信 
-
-
-| コンピューティングノードの BMC / IPMI | 管理ノード | 623 UDP | Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。 
-
-
-| 管理ノード | コンピューティングノードの BMC / IPMI | 139 | NetApp Hybrid Cloud Control の API 通信 
-
-
-| 管理ノード | コンピューティングノードの BMC / IPMI | 443 | NetApp Hybrid Cloud Control の HTTPS 通信 
-
-
-| 管理ノード | VMware vCenter | 5988-5989 | NetApp Hybrid Cloud Control の HTTPS 通信 
-
-
-| 管理ノード | VMware vCenter | 443 | NetApp Hybrid Cloud Control の HTTPS 通信 
-
-
-| 管理ノード | コンピューティングノードの BMC / IPMI | 623 UDP | Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。 
 
 
 | 管理ノード | 「 fsupport.solidfire.com 」 | 22 | サポートアクセス用リバース SSH トンネル 
@@ -90,25 +75,46 @@ keywords: netapp, hci, ports, tcp, udp
 | 管理ノード | DNS サーバ | 53 TCP/UDP | DNS ルックアップ 
 
 
+| 管理ノード | コンピューティングノードの BMC / IPMI | 139 | NetApp Hybrid Cloud Control の API 通信 
+
+
 | 管理ノード | ストレージノードの MIP | 442 | ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード 
 
 
 | 管理ノード | ストレージノード MVIP | 442 | ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード 
 
 
-| 管理ノード | 「 po.netapp.com/downloads` 」、「 po.netapp.com/bintray/api/package` 」となります | 443 | 管理ノードサービスのアップグレード 
-
-
-| 管理ノード | 「 onitoring.solidfire.com 」と入力します | 443 | Active IQ に報告するストレージクラスタ 
-
-
-| 管理ノード | ストレージクラスタの MVIP | 443 | ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード 
+| 管理ノード | 「 23.32.54.122`, 」 216.240.21.15` | 443 | Element ソフトウェアのアップグレード 
 
 
 | 管理ノード | ベースボード管理コントローラ（ BMC ） | 443 | ハードウェア監視およびインベントリ接続（ Redfish および IPMI コマンド） 
 
 
-| 管理ノード | 「 23.32.54.122`, 」 216.240.21.15` | 443 | Element ソフトウェアのアップグレード 
+| 管理ノード | コンピューティングノードの BMC / IPMI | 443 | NetApp Hybrid Cloud Control の HTTPS 通信 
+
+
+| 管理ノード | 「 onitoring.solidfire.com 」と入力します | 443 | Active IQ に報告するストレージクラスタ 
+
+
+| 管理ノード  a| 
+オンラインのソフトウェアリポジトリ：
+
+* https://repo.netapp.com/bintray/api/package`
+* https://netapp-downloads.bintray.com`
+
+| 443 | 管理ノードサービスのアップグレード 
+
+
+| 管理ノード | ストレージクラスタの MVIP | 443 | ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード 
+
+
+| 管理ノード | VMware vCenter | 443 | NetApp Hybrid Cloud Control の HTTPS 通信 
+
+
+| 管理ノード | コンピューティングノードの BMC / IPMI | 623 UDP | Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。 
+
+
+| 管理ノード | VMware vCenter | 5988-5989 | NetApp Hybrid Cloud Control の HTTPS 通信 
 
 
 | 管理ノード | 監視ノード | 9442 | ノード単位の設定 API サービス 
@@ -129,9 +135,6 @@ keywords: netapp, hci, ports, tcp, udp
 | ストレージノードの MIP | 管理ノード | 80 | Element ソフトウェアのアップグレード 
 
 
-| ストレージノードの MIP | 管理ノード | 443 | Element ソフトウェアのアップグレード 
-
-
 | ストレージノードの MIP | S3 / Swift エンドポイント | 80 | （オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTP 通信 
 
 
@@ -147,6 +150,9 @@ keywords: netapp, hci, ports, tcp, udp
 | ストレージノードの MIP | LDAP サーバ | 389 TCP/UDP | （任意） LDAP 検索 
 
 
+| ストレージノードの MIP | 管理ノード | 443 | Element ソフトウェアのアップグレード 
+
+
 | ストレージノードの MIP | リモートストレージクラスタの MVIP | 443 | リモートレプリケーションのクラスタペアリング通信 
 
 
@@ -156,13 +162,13 @@ keywords: netapp, hci, ports, tcp, udp
 | ストレージノードの MIP | S3 / Swift エンドポイント | 443 | （オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTPS 通信 
 
 
+| ストレージノードの MIP | LDAPS サーバ | 636 TCP/UDP | LDAPS ルックアップ 
+
+
 | ストレージノードの MIP | 管理ノード | 10514 TCP/UDP 、 514 TCP/UDP | syslog 転送 
 
 
 | ストレージノードの MIP | syslog サーバ | 10514 TCP/UDP 、 514 TCP/UDP | syslog 転送 
-
-
-| ストレージノードの MIP | LDAPS サーバ | 636 TCP/UDP | LDAPS ルックアップ 
 
 
 | ストレージノードの MIP | リモートストレージノードの MIP | 2181 | リモートレプリケーション用のクラスタ間通信 
@@ -171,16 +177,19 @@ keywords: netapp, hci, ports, tcp, udp
 | ストレージノードの SIP | S3 / Swift エンドポイント | 80 | （オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTP 通信 
 
 
+| ストレージノードの SIP | コンピューティングノードの SIP | 442 | コンピューティングノード API 、設定と検証、ソフトウェアインベントリへのアクセス 
+
+
 | ストレージノードの SIP | S3 / Swift エンドポイント | 443 | （オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTPS 通信 
 
 
 | ストレージノードの SIP | リモートストレージノードの SIP | 2181 | リモートレプリケーション用のクラスタ間通信 
 
 
+| ストレージノードの SIP | ストレージノードの SIP | 3260 | ノード間 iSCSI 
+
+
 | ストレージノードの SIP | リモートストレージノードの SIP | 4000 ～ 4020 | リモートレプリケーションのノード間のデータ転送 
-
-
-| ストレージノードの SIP | コンピューティングノードの SIP | 442 | コンピューティングノード API 、設定と検証、ソフトウェアインベントリへのアクセス 
 
 
 | システム管理者の PC | ストレージノードの MIP | 80 | （ NetApp HCI のみ） NetApp Deployment Engine のランディングページ 

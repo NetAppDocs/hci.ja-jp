@@ -4545,7 +4545,6 @@
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">出荷時の箱に同梱されている手順に従って、障害が発生したユニットをネットアップに返送してください。</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">NetApp HCI で使用される TCP ポートと UDP ポート。</block>
   <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにし、内部サービスが適切に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。特に記載がないかぎり、ポートはすべて TCP です。</block>
-  <block id="1d00bb886d190bacecf300365a02f94e" category="paragraph">ネットアップのオンラインソフトウェアリポジトリから、 NetApp Hybrid Cloud Control の Web UI および API ダウンロードソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Bintray を配信ハブとして、 Akamai Technologies をファイルホスティングとして使用しています。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
   <block id="c23be595ff2a6ce3fc50807942a4b8be" category="list-text">URL （ repo.netapp.com など）にアクセスするには、 wget または cURL ユーティリティを使用します。</block>
   <block id="a6ef25224f54dbfe30361976f2ce77d9" category="list-text">URL へのアクセスに失敗しました（ repo.netapp.com とは異なります）。</block>
   <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">新しい URL を許可するようにファイアウォールルールを編集します。</block>
@@ -5414,7 +5413,6 @@
   <block id="cf0ff2e3b0cfda8e2259ee931cc75b88" category="image-alt">に、 H410C ノードの BMC UI のメモリエラーを示します。</block>
   <block id="6a9bb7fbe77a8c1c62273ca4bb44d79c" category="list-text">DIMM メーカーのパーツ番号を確認する手順を実行します。</block>
   <block id="cc12afa4a914746c744ee2b15c20c464" category="list-text">BMC UI からシステムイベントログの詳細を取得します</block>
-  <block id="6aeb5cc7fd94454dc22b9e78bfd8d5e9" category="cell">「 po.netapp.com/downloads` 」、「 po.netapp.com/bintray/api/package` 」となります</block>
   <block id="6a277dcdcf3e292a520228548566382d" category="inline-link-macro">管理サービス 2.17.56 に関する注意事項</block>
   <block id="3a065af05993a8689a4841cbc2767d14" category="list-text"><block ref="3a065af05993a8689a4841cbc2767d14" category="inline-link-macro-rx"></block></block>
   <block id="a7f3524da37a8fea65e29d2411b8d139" category="inline-link-macro">管理サービス 2.17.52 に関する注意事項</block>
@@ -5863,4 +5861,11 @@
   <block id="707132cf030e377aaa3a61957be8aeaf" category="list-text">ボリュームアクセスグループあたり最大 128 個のイニシエータ</block>
   <block id="c4504691cfa27072597d8e1e7a152f3f" category="list-text">ボリュームあたり最大 64 個のアクセスグループ。</block>
   <block id="edce8794351fe0da7c485a7f83c05807" category="list-text">1 つの IQN または WWPN が属することのできるボリュームアクセスグループは 1 つだけです。</block>
+  <block id="664201cfc1ee6ed25a90ecc4a544c8b4" category="inline-link">NetApp HCI 1.8 以前</block>
+  <block id="f53dca4485e79543df019ec4f0ebb5ea" category="list-text"><block ref="f53dca4485e79543df019ec4f0ebb5ea" category="inline-link-rx"></block></block>
+  <block id="1b1965ab9261b2d5c557a2c1b29aa90a" category="paragraph">NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
+  <block id="5144ef28ff0fa7b5ab2a36331abbe530" category="paragraph">オンラインのソフトウェアリポジトリ：</block>
+  <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">https://repo.netapp.com/bintray/api/package`</block>
+  <block id="3c4e7d36b83203c98211dd7b73ab93f0" category="list-text">https://netapp-downloads.bintray.com`</block>
+  <block id="3c775c7c4ce05f0bb9c5d395099d545c" category="cell">ノード間 iSCSI</block>
 </blocks>
