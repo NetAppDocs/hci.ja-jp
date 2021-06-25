@@ -203,6 +203,8 @@ sidebar:
           url: "/docs/task_mnode_multi_vcenter_config.html"
         - title: 管理ノードにコンピューティングアセットとコントローラアセットを追加します
           url: "/docs/task_mnode_add_assets.html"
+        - title: コンピューティングノードのハードウェアタグを確認する方法
+          url: "/docs/task_mnode_locate_hardware_tag.html"
         - title: ストレージクラスタアセットを作成および管理する
           url: "/docs/task_mnode_manage_storage_cluster_assets.html"
         - title: 既存のコントローラアセットを表示または編集する

@@ -5107,7 +5107,6 @@
   <block id="1ed1378560f3434340b1ab5dbf1db633" category="paragraph">アセットの追加は、環境を拡張したあとに、新しいアセットが構成に自動的に追加されなかった場合などに必要になります。これらの API を使用して、最近追加されたアセットを環境に追加します。</block>
   <block id="9d494cd79b1a161fddcb11257ec6f296" category="paragraph">（ NetApp HCI のみ） NetApp HCI システムの拡張後に Hybrid Cloud Control （ HCC ）にコンピューティングノードが表示されない場合は、この手順で説明する「 POST /assets/｛ asset_id ｝ /compute-nodes 」を使用してコンピューティングノードを追加できます。</block>
   <block id="5a1e97531d7b2ec63a8fcf1a3a8b455c" category="list-text">応答から、後の手順で使用するために、クラスタコントローラ ID （「 ControllerID 」）をコピーして保存します。</block>
-  <block id="61ccc05a036540c883732b4aa42c8e23" category="list-text">（コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認します。</block>
   <block id="081638782d27afc841be31d9c288b8fa" category="list-text">コンピューティングノードまたはコントローラサブアセットを既存のベースアセットに追加するには、次のいずれかをクリックします。</block>
   <block id="27c4364e56307eb643e742e538d431fb" category="cell">POST / assets / ｛ asset_id ｝ / コントローラ</block>
   <block id="76275c2e49152502f3520aeb12806557" category="list-text">管理ノードで mNode サービス REST API UI を開きます。</block>
@@ -5868,4 +5867,18 @@
   <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">https://repo.netapp.com/bintray/api/package`</block>
   <block id="3c4e7d36b83203c98211dd7b73ab93f0" category="list-text">https://netapp-downloads.bintray.com`</block>
   <block id="3c775c7c4ce05f0bb9c5d395099d545c" category="cell">ノード間 iSCSI</block>
+  <block id="ec44888d025d4ddae04c2461c877b1eb" category="summary">REST API UI を使用してコンピューティングノードアセットを管理ノードの構成に追加するには、ハードウェアタグが必要です。</block>
+  <block id="c483f82946735c5ca5698f1fc1040122" category="doc">コンピューティングノードのハードウェアタグを確認する方法</block>
+  <block id="6dcfa9cd7840ccf3dd3b56ac2f95c517" category="paragraph">このセクションでは、コンピューティングノードのハードウェアタグを確認する方法について説明します。</block>
+  <block id="0c39613a4d355765e3c6e885914dd859" category="list-text">[*Monitor*] タブを選択し、 [*Hardware Health*] を選択します。</block>
+  <block id="5bda68c4fcd7a9979eccfd0348b09494" category="list-text">実行している vSphere のバージョンに応じて、ハードウェアタグは * Hardware Health * 画面の次のいずれかの場所にあります。</block>
+  <block id="cff71303ad38702f3f76b04d53170202" category="list-text">タグが BIOS の製造元とモデル番号で表示されているかどうかを確認します。</block>
+  <block id="d70118c13354555917fde4b6088a9583" category="inline-image-macro">ハードウェアの健常性</block>
+  <block id="adb31c712c26ddc2a65a373961e263a9" category="paragraph"><block ref="adb31c712c26ddc2a65a373961e263a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d21c4a45cbd75d1ead015e3e933158e3" category="list-text">[ * 構成 * （ Configure * ） ] タブを選択します。サイドバーから、「 * Hardware * 」および「 * Overview * 」を選択します。ハードウェアタグが「システム」テーブルに表示されているかどうかを確認します。</block>
+  <block id="dca98c8002ae66dd3c8d9ff91fb6d0d1" category="paragraph"><block ref="dca98c8002ae66dd3c8d9ff91fb6d0d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c36d4c54bb2d689723c264a2d2a063fa" category="list-text">「タグ」の値をコピーして保存します。</block>
+  <block id="de6540d697b9613c19bf71ffca341287" category="list-text">コンピューティングノードアセットを管理ノードに追加するには、に進みます <block ref="651a7a2ca86890afaac8b601884a58e1" category="inline-xref-macro-rx"></block>。</block>
+  <block id="26b2b0df9cdd214cbe1123eff096fe46" category="inline-xref-macro">コンピューティングノードのハードウェアタグを確認する方法</block>
+  <block id="227077b9671db976934c253016dcf363" category="list-text">（コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認するには、に進みます <block ref="67168798c8bb9f0eabb30427bd3b7747" category="inline-xref-macro-rx"></block>。</block>
 </blocks>
