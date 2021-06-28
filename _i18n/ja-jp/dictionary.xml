@@ -5881,4 +5881,5 @@
   <block id="de6540d697b9613c19bf71ffca341287" category="list-text">コンピューティングノードアセットを管理ノードに追加するには、に進みます <block ref="651a7a2ca86890afaac8b601884a58e1" category="inline-xref-macro-rx"></block>。</block>
   <block id="26b2b0df9cdd214cbe1123eff096fe46" category="inline-xref-macro">コンピューティングノードのハードウェアタグを確認する方法</block>
   <block id="227077b9671db976934c253016dcf363" category="list-text">（コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認するには、に進みます <block ref="67168798c8bb9f0eabb30427bd3b7747" category="inline-xref-macro-rx"></block>。</block>
+  <block id="183782ec8f70f632a4ebde5c4ad4f363" category="admonition">コンピューティングノードを手動で追加する場合は、 BMC アセットも追加するようにしてください。追加しないとエラーが返されます。</block>
 </blocks>
