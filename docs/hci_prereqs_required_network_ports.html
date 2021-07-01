@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head class="at-element-marker">
+  <title>ネットワークポートの要件</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="ネットワークポートの要件" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ja-jp/hci/docs/hci_prereqs_required_network_ports.html" />
+	<meta property="og:description" content="NetApp HCI で使用される TCP ポートと UDP ポート。" />
+  <meta property="og:image" content="https://docs.netapp.com/ja-jp/hci/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="NetApp HCI で使用される TCP ポートと UDP ポート。">
+  <meta name="keywords" content=" netapp, hci, ports, tcp, udp">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/ja-jp/hci/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/hci/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/ja-jp/hci/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/hci/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/hci/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/ja-jp/hci/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/ja-jp/hci/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/ja-jp/hci/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/ja-jp/hci/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/ja-jp/hci/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/ja-jp/hci/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/hci/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/hci/css/na-pagenav.css' type='text/css'>
+
+  
+
+  
+  <link rel='stylesheet' href='/ja-jp/hci/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/ja-jp/hci/js/na-search.js'></script>
+  
+
+  
+  <script src='/ja-jp/hci/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/ja-jp/hci/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/hci/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/ja-jp/hci/js/na-utility.js'></script>
+  <script src='/ja-jp/hci/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/ja-jp/hci/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/ja-jp/hci/js/toc.js'></script>
+  <script src='/ja-jp/hci/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">製品とソリューション</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">サポートとトレーニング</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">コミュニティ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">ブログ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">ユーザ事例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/ja-jp/hci/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/ja-jp/hci/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/ja-jp/hci/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" data-type="widget" data-placeholder="ドキュメントを検索" data-no-results-found="{query}に該当する結果はありません" data-did-you-mean="{suggestion} を検索" data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?" data-results-found="{hitCount} 件見つかりました"  ></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar"><div id="ie-i18n-tooltip" class="luci-tooltip luci-tooltip--left-bottom">
+      <div class="luci-tooltip__trigger" aria-describedby="luci-tooltip-1">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/ja-jp/hci/common/svg/sprite.svg#circle-info">
+          </use>
+        </svg>
+      </div>
+      <div class="luci-tooltip__content" role="tooltip" id="luci-tooltip-1">
+        <div class="luci-tooltip__content-inner">
+          <div id="nmt-disclaimer" class="luci-tooltip__text"> NetAppは、業界をリードするニューラル機械翻訳ツールを利用して、このコンテンツを提供しています。 </div>
+        </div>
+      </div>
+    </div><!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">日本語</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <div class="n-language-selector-menu__header">
+            <span class="n-language-selector-menu__title">言語を選択</span>
+          </div>
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/hci" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/hci" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li></ul>
+            </li>
+          </ul>
+          <div class="menu__footer">
+            <p>選択中の言語: 日本語
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+        <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">ホーム</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">ドキュメント</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/ja-jp/hci/">HCI</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          ネットワークポートの要件
+        </li>
+      </ul>
+    </div>
+
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">PDF<span>
+    </span>
+  </a>
+</div>
+<ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><div class="n-pdf-section">
+      <span class="n-pdf-section-title">サイト</span>
+    </div>
+    <li>
+      <a target="_blank" href="/ja-jp/hci/pdfs/fullsite-sidebar/NetApp_HCI_のドキュメント.pdf" >
+        <img src="/ja-jp/hci/images/pdf.png" width="20" height="20"/>
+        NetApp HCI のドキュメント
+      </a>
+    </li>
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/hci/pdfs/sidebar/NetApp_HCI_のドキュメント.pdf" >
+            <img src="/ja-jp/hci/images/pdf.png" width="20" height="20"/>
+            NetApp HCI のドキュメント
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+</ul>
+
+<script>
+  $("#toggleContainerPdf li.active").parents('li').toggle('display');
+  $("#toggleContainerPdf li.active").parents('span.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+  });
+</script><ul id="mysidebar" class="nav"><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> NetApp HCI のドキュメント</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="docs/index.html">
+        NetApp HCI の設定と管理
+      </a></li><li class=" "><a class="na-navbar-padding" href="https://docs.netapp.com/us-en/hci-solutions/index.html">
+        NetApp HCI ソリューション
+      </a></li></ul></li></ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      
+
+
+
+<div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">ネットワークポートの要件</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-06-24 06:16:21 +0000">06/24/2021</time>
+    
+  
+
+<span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-mwallis">
+    <img  class="avatar avatar-small"
+          alt="netapp-mwallis"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/53353653?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-dbagwell">
+    <img  class="avatar avatar-small"
+          alt="netapp-dbagwell"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/53352450?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-pcarriga">
+    <img  class="avatar avatar-small"
+          alt="netapp-pcarriga"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/77334475?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/akseldavis">
+    <img  class="avatar avatar-small"
+          alt="akseldavis"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/33839009?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-amitha">
+    <img  class="avatar avatar-small"
+          alt="netapp-amitha"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/42010398?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/amgrissino">
+    <img  class="avatar avatar-small"
+          alt="amgrissino"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/36450105?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+  <span>
+    <a target="_blank" href="/ja-jp/hci/pdfs/pages/docs/hci_prereqs_required_network_ports.pdf" role="button">
+      <img src="/ja-jp/hci/images/pdf.png" width="20" height="20"/>このページの PDF をダウンロード</a>
+  </span>
+
+
+</p>
+
+
+<div class="paragraph lead">
+<p>システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにし、内部サービスが適切に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。特に記載がないかぎり、ポートはすべて TCP です。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="注記"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</p>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>URL （ repo.netapp.com など）にアクセスするには、 wget または cURL ユーティリティを使用します。</p>
+</li>
+<li>
+<p>URL へのアクセスに失敗しました（ repo.netapp.com とは異なります）。</p>
+</li>
+<li>
+<p>新しい URL を許可するようにファイアウォールルールを編集します。</p>
+</li>
+<li>
+<p>アクセスが成功するまで上記の手順を繰り返します。</p>
+</li>
+</ol>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>この表では次の略語を使用します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>mip ：管理 IP アドレス。ノードごとのアドレスです</p>
+</li>
+<li>
+<p>sip ：ストレージ IP アドレス。ノードごとのアドレスです</p>
+</li>
+<li>
+<p>MVIP ：管理仮想 IP アドレス</p>
+</li>
+<li>
+<p>SVIP ：ストレージ仮想 IP アドレス</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>特に記載がないかぎり、テーブル内のポートはすべて TCP です。</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">ソース</th>
+<th class="tableblock halign-left valign-top">宛先</th>
+<th class="tableblock halign-left valign-top">ポート</th>
+<th class="tableblock halign-left valign-top">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">111 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の API 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">137-138 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の API 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">445</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の API 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">623 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2049 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の API 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iSCSI クライアント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション） UI および API アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iSCSI クライアント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの SVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3260</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">クライアント iSCSI 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iSCSI クライアント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3260</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">クライアント iSCSI 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">「 fsupport.solidfire.com 」</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">サポートアクセス用リバース SSH トンネル</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">サポート用 SSH アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">53 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS ルックアップ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">139</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の API 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノード MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">「 23.32.54.122`, 」 216.240.21.15`</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Element ソフトウェアのアップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ベースボード管理コントローラ（ BMC ）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ハードウェア監視およびインベントリ接続（ Redfish および IPMI コマンド）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の HTTPS 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">「 onitoring.solidfire.com 」と入力します</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Active IQ に報告するストレージクラスタ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>オンラインのソフトウェアリポジトリ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://repo.netapp.com/bintray/api/package`" class="bare">https://repo.netapp.com/bintray/api/package`</a></p>
+</li>
+<li>
+<p><a href="https://netapp-downloads.bintray.com`" class="bare">https://netapp-downloads.bintray.com`</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノードサービスのアップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VMware vCenter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の HTTPS 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの BMC / IPMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">623 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Remote Management Control Protocol （ RMCP ）ポート。NetApp Hybrid Cloud Control のコンピューティングファームウェアをアップグレードする場合は必須です。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VMware vCenter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5988-5989</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Hybrid Cloud Control の HTTPS 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">監視ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ノード単位の設定 API サービス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Server の各サービスを提供</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ポート 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Plug-in の登録。登録が完了したら、ポートを閉じることができます。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SNMP サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">161 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SNMP ポーリング</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SNMP サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">161 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SNMP ポーリング</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">53 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS ルックアップ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Element ソフトウェアのアップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S3 / Swift エンドポイント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTP 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NTP サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">123 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NTP</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">162 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（任意） SNMP トラップ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SNMP サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">162 UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（任意） SNMP トラップ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LDAP サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">389 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（任意） LDAP 検索</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Element ソフトウェアのアップグレード</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートレプリケーションのクラスタペアリング通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートレプリケーションのクラスタペアリング通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S3 / Swift エンドポイント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTPS 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LDAPS サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">636 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LDAPS ルックアップ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10514 TCP/UDP 、 514 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">syslog 転送</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">syslog サーバ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10514 TCP/UDP 、 514 TCP/UDP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">syslog 転送</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2181</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートレプリケーション用のクラスタ間通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S3 / Swift エンドポイント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTP 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コンピューティングノード API 、設定と検証、ソフトウェアインベントリへのアクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S3 / Swift エンドポイント</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTPS 通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2181</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートレプリケーション用のクラスタ間通信</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3260</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ノード間 iSCSI</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートストレージノードの SIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4000 ～ 4020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">リモートレプリケーションのノード間のデータ転送</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（ NetApp HCI のみ） NetApp Deployment Engine のランディングページ</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノードへの HTTPS UI アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">442</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NetApp Deployment Engine でのストレージノードへの HTTPS UI および API アクセス（ NetApp HCI のみ）の設定と導入の監視</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノードへの HTTPS UI および API アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタへの HTTPS UI および API アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージノードの MIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTPS によるストレージクラスタの作成、ストレージクラスタへの導入後の UI アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">システム管理者の PC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">監視ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8080 です</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">監視ノードのノード Web UI</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Server の各サービスを提供</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Plug-in の API アクセス</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Server の各サービスを提供</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8443</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">（オプション） vCenter Plug-in の QoSSIOC サービス。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Server の各サービスを提供</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ストレージクラスタの MVIP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8444</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter VASA プロバイダアクセス（ VVol のみ）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Server の各サービスを提供</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">管理ノード</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ポート 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vCenter Plug-in の登録。登録が完了したら、ポートを閉じることができます。</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="詳細についてはこちらをご覧ください" class="discrete">詳細については、こちらをご覧ください</h2>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.netapp.com/hybrid-cloud/hci-documentation/" target="_blank" rel="noopener">"NetApp HCI のリソースページ"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/vcp/index.html" target="_blank" rel="noopener">"vCenter Server 向け NetApp Element プラグイン"</a></p>
+</li>
+</ul>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div class="page-nav-contribute"  >
+      <div class="page-nav-contribute-title">寄稿する</div>
+      <a target="_blank" href="https://github.com/NetAppDocs/hci/blob/main/docs/hci_prereqs_required_network_ports.adoc" class="btn btn-default githubEditButton" role="button"><img src="/ja-jp/hci/images/github.png" class="github-icon" />GitHub で編集</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/hci/issues/new?body=Page%3A%20[ネットワークポートの要件](https://docs.netapp.com/ja-jp/hci/docs/hci_prereqs_required_network_ports.html)" class="btn btn-default githubEditButton" role="button"><img src="/ja-jp/hci/images/github.png" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >寄稿者向けガイド</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">このページ</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/hci/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">Web サイトについてのフィードバックを<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">お寄せください</a>
+  <a href="https://docs.netapp.com/ja-jp/announcements/" class="n-footer__copyright">お知らせ</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ja-jp/hci/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ja-jp/hci/js/prism.js'></script>
+      <script type="text/javascript" src='/ja-jp/hci/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ja-jp/hci/js/www-ntap.js'></script>
+  </body>
+
+  
+</html>
