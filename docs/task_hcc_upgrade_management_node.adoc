@@ -60,7 +60,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 .手順
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["要素（ Element ）"] ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -106,6 +106,10 @@ sudo /sf/rtfi/bin/sfrtfi_inplace file:///upgrade/casper/filesystem.squashfs sf_u
 +
 アップグレードプロセスが完了すると、管理ノードが新しい OS でリブートします。
 
++
+
+NOTE: この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。
+
 . 管理ノードで「 redeploy -mnode 」スクリプトを実行して、以前の管理サービスの設定を保持します。
 +
 
@@ -119,7 +123,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。
+IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能  管理ノードではデフォルトで有効になっています。
 
 
 
@@ -155,7 +159,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["要素（ Element ）"] ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -201,6 +205,10 @@ sudo /sf/rtfi/bin/sfrtfi_inplace file:///upgrade/casper/filesystem.squashfs sf_u
 +
 アップグレードプロセスが完了すると、管理ノードが新しい OS でリブートします。
 
++
+
+NOTE: この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。
+
 . 管理ノードで「 redeploy -mnode 」スクリプトを実行して、以前の管理サービスの設定を保持します。
 +
 
@@ -214,7 +222,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります link:task_mnode_ssh_management.html["SSH を再度無効にします"] をクリックします。
+IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります  をクリックします。
 
 
 
@@ -250,7 +258,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["要素（ Element ）"] ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -296,6 +304,10 @@ sudo /sf/rtfi/bin/sfrtfi_inplace file:///upgrade/casper/filesystem.squashfs sf_u
 +
 アップグレードプロセスが完了すると、管理ノードが新しい OS でリブートします。
 
++
+
+NOTE: この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。
+
 . 管理ノードで「 redeploy -mnode 」スクリプトを実行して、以前の管理サービスの設定を保持します。
 +
 
@@ -309,7 +321,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります link:task_mnode_ssh_management.html["SSH を再度無効にします"] をクリックします。
+IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります  をクリックします。
 
 
 
@@ -345,7 +357,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["要素（ Element ）"] ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -406,6 +418,10 @@ sudo /sf/rtfi/bin/sfrtfi_inplace file:///upgrade/casper/filesystem.squashfs sf_u
 ----
 +
 アップグレードプロセスが完了すると、管理ノードが新しい OS でリブートします。
+
++
+
+NOTE: この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。
 
 
 

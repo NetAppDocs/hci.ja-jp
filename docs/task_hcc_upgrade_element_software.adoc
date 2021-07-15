@@ -636,13 +636,13 @@ IMPORTANT: H610S シリーズノードを Element 12.3 にアップグレード�
 HealthTools ツールスイートを使用して、外部接続がないダークサイトで NetApp Element ソフトウェアを更新できます。
 
 .必要なもの
-. NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"]。SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["ページをダウンロードします"]。
+. NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"]。SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します。
 . 適切なソフトウェアリリースを選択し、管理ノードではないコンピュータに最新のストレージノードイメージをダウンロードします。
 +
 
 NOTE: Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。
 
-. こちらをダウンロードしてください https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740)[""] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
+. こちらをダウンロードしてください https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"]  管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
 . ISO ファイルを '/tmp のようなアクセス可能な場所にある管理ノードにコピーします
 +
 

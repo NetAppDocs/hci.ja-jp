@@ -54,7 +54,7 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 
 . ネットアップサポートサイトから、インストール環境に対応した OVA または ISO をダウンロードします。
 +
-Element ソフトウェア https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[""]NetApp HCI https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[""]
+Element ソフトウェア https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[]NetApp HCI
 
 +
 .. [Download Latest Release] をクリックして、 EULA に同意します。
@@ -240,7 +240,7 @@ NOTE: ユーザ名を追加するか、または情報の入力を求めるプ�
 
 
 
-IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。
+IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります  リカバリされた管理ノード。
 
 [discrete]
 == 詳細はこちら

@@ -46,7 +46,7 @@ NOTE: ネットワークトポロジは、ここに示すものとは異なる�
 次のリソースを参照してください。
 
 * インストール前に NetApp HCI インストール検出ワークブック _ を使用してネットワークを設定してください。
-* その他のサポートされる構成の詳細については、を参照してください https://www.netapp.com/us/media/tr-4820.pdf["_TR-48820 ：『 NetApp HCI ネットワーククイックプランニングガイド』 _"] および https://library.netapp.com/ecm/ecm_download_file/ECMLP2856176["NetApp HCI のインストールとセットアップの手順 _"]。
+* その他のサポートされる構成の詳細については、を参照してください https://www.netapp.com/us/media/tr-4820.pdf["_TR-48820 ：『 NetApp HCI ネットワーククイックプランニングガイド』 _"] および。
 * 4 つのストレージノードよりも小規模な NetApp HCI 構成の詳細については、を参照してください https://www.netapp.com/us/media/tr-4823.pdf["TR-4823 ：『 NetApp HCI 2 Node Storage Cluster _ 』"^]。
 * 各ストレージノードに使用されるスイッチポートでの Link Aggregation Control Protocol （ LACP ）の設定の詳細については、を参照してください link:hci_prereqs_LACP_configuration.html["ストレージパフォーマンスを最適化するために LCAP を設定します"]。
 
@@ -255,7 +255,7 @@ Hybrid Cloud Control を使用すると、次の操作を実行できます。
 
 . Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
 +
-https://_<ManagementNodeIP>_[""]
+https://_<ManagementNodeIP>_[]
 
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 +

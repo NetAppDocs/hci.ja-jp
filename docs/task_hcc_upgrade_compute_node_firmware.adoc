@@ -47,7 +47,7 @@ NOTE: H300E 、 H500E 、 H700E の各コンピューティングノードでは
 NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"] （ログインが必要です）。
 
 * *BIOS 起動順序 *: 各ノードの BIOS セットアップで起動順序を手動で変更して、起動リストに「 USB CD/DVD」 が表示されるようにします。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades#BootOrder["記事"] を参照してください。
-* * BMC クレデンシャル * ： NetApp Hybrid Cloud Control がコンピューティングノードの BMC への接続に使用するクレデンシャルを更新します。これは、ネットアップのハイブリッドクラウドを使用して実行できます 制御 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] または link:task_hcc_edit_bmc_info.html#use-the-rest-api-to-edit-bmc-information["API"]。アップグレード前に BMC 情報を更新すると、インベントリが更新され、アップグレードの完了に必要なすべてのハードウェアパラメータが管理ノードサービスで認識されるようになります。
+* * BMC クレデンシャル * ： NetApp Hybrid Cloud Control がコンピューティングノードの BMC への接続に使用するクレデンシャルを更新します。これは、ネットアップのハイブリッドクラウドを使用して実行できます 制御 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] または 。アップグレード前に BMC 情報を更新すると、インベントリが更新され、アップグレードの完了に必要なすべてのハードウェアパラメータが管理ノードサービスで認識されるようになります。
 * * 接続されているメディア * ：コンピューティングノードのアップグレードを開始する前に、物理 USB または ISO の接続をすべて解除してください。
 * * KVM ESXi コンソール * ：コンピューティングノードのアップグレードを開始する前に、 BMC UI で開いているすべての Serial-Over-LAN （ SOL ）セッションとアクティブな KVM セッションを閉じます。
 * * 監視ノードの要件 * ： 2 ノードおよび 3 ノードのストレージクラスタでは、 1 つ link:concept_hci_nodes.html["監視ノード"] 常に NetApp HCI インストール環境で実行しておく必要があります。
@@ -130,7 +130,7 @@ CAUTION: アップグレードは開始後に一時停止できません。フ�
 NOTE: アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。アップグレードの実行中、アップグレードのステータスに関するさまざまなメッセージが UI に表示されます。
 
 
-CAUTION: H610C コンピューティングノードのファームウェアをアップグレードする際、 BMC Web UI で Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。
+CAUTION: H610C および H615S コンピューティングノードのファームウェアをアップグレードする場合は、 BMC Web UI から Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。
 
 アップグレードの完了後に、 UI にメッセージが表示されます。アップグレードの完了後にログをダウンロードできます。
 

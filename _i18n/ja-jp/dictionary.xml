@@ -2044,7 +2044,6 @@
   <block id="a3341b6eded1e35dfa9b561f8a07b57d" category="admonition">アップグレードは開始後に一時停止できません。ファームウェアは、 NIC 、 BIOS 、および BMC の順序で順番に更新されます。アップグレード中は BMC UI にログインしないでください。BMC にログインすると、アップグレードプロセスを監視する Hybrid Cloud Control Serial-Over-LAN （ SOL ）セッションが終了します。</block>
   <block id="45ad41240a82d6ed24a2dabee37f2a5a" category="list-text">クラスタレベルまたはノードレベルでヘルスチェックに警告が渡され、重大な障害がなければ、「 * アップグレードの準備が完了しています * 」と表示されます。[ ノードのアップグレード ] をクリックします。</block>
   <block id="576792eafbabeb08a721725d8cd7f8c5" category="admonition">アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。アップグレードの実行中、アップグレードのステータスに関するさまざまなメッセージが UI に表示されます。</block>
-  <block id="a6fa4ddc74cb5b3f72ea4b3e8bad7f26" category="admonition">H610C コンピューティングノードのファームウェアをアップグレードする際、 BMC Web UI で Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。</block>
   <block id="f018c25e2ba6e7d9e59d6f27fbefc1d1" category="paragraph">アップグレードの完了後に、 UI にメッセージが表示されます。アップグレードの完了後にログをダウンロードできます。</block>
   <block id="c0b4c391ffe1e98755b4499ece43961c" category="list-text">[* Browse] をクリックして、ダウンロードしたアップグレード・パッケージをアップロードします から<block ref="132031089c33792b234781a9d8501a93" category="inline-link-rx"></block>。</block>
   <block id="67986ad534a347b7de1afe60bc4bad42" category="admonition">ブラウザウィンドウから別の場所に移動すると、ファイルのアップロードがバックグラウンドで実行されます。</block>
@@ -5883,4 +5882,6 @@
   <block id="227077b9671db976934c253016dcf363" category="list-text">（コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認するには、に進みます <block ref="67168798c8bb9f0eabb30427bd3b7747" category="inline-xref-macro-rx"></block>。</block>
   <block id="183782ec8f70f632a4ebde5c4ad4f363" category="admonition">コンピューティングノードを手動で追加する場合は、 BMC アセットも追加するようにしてください。追加しないとエラーが返されます。</block>
   <block id="c1ecaea7fa6a6815242524f00425d6cc" category="list-text">カスタム保護ドメイン：カスタムの保護ドメインがクラスタで使用されている場合、クラスタ内の各ノードのカスタムの保護ドメインの割り当てを確認できます。カスタムの保護ドメインが有効になっていない場合は、この列は表示されません。</block>
+  <block id="79df72a933d3593ef7d9131e8d7c509c" category="admonition">H610C および H615S コンピューティングノードのファームウェアをアップグレードする場合は、 BMC Web UI から Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。</block>
+  <block id="8bce974438769fbac12eab13496c79d6" category="admonition">この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。</block>
 </blocks>

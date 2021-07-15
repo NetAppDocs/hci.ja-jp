@@ -117,14 +117,14 @@ CAUTION: ケーブルをポートに無理に押し込まないでください�
 .. ノードのノード ID をメモします。
 
 
-. ノードを特定したら、次の API 呼び出しを使用して iSCSI セッションをノードから移動します。「 wget --no-check-certificate-q --user> -password=<user> -O-post-data' ｛ "method" ： "MovePrimaryiesAFrommNode " 、 "params" ： ｛ DEnodeID ｝ 」 https://<MVIP>/json-rpc/8.0`[""]MVIP には MVIP IP アドレス、 NODEID にはノード ID 、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したユーザ名にはユーザ名を、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したパスワードには pass を指定します。
+. ノードを特定したら、次の API 呼び出しを使用して iSCSI セッションをノードから移動します。「 wget --no-check-certificate-q --user> -password=<user> -O-post-data' ｛ "method" ： "MovePrimaryiesAFrommNode " 、 "params" ： ｛ DEnodeID ｝ 」 https://<MVIP>/json-rpc/8.0`[]MVIP には MVIP IP アドレス、 NODEID にはノード ID 、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したユーザ名にはユーザ名を、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したパスワードには pass を指定します。
 . クラスタ > ドライブ * を選択して、ノードに関連付けられているドライブを削除します。
 +
 
 NOTE: 取り外したドライブが使用可能として表示されるまで待ってから、ノードを削除します。
 
 . ノードを削除するには、 * Cluster > Nodes > Actions > Remove * を選択します。
-. 次の API 呼び出しを使用してノードをシャットダウンします。 `wget --no-check-certificate-q --user>--password=<pass> -O--post-data'{" method" ： "Shutdown" 、 "params" ： "option" 、 "nodes" ： [<NODEID> ｝ ] https://<MVIP>/json-rpc/8.0`[""]MVIP には MVIP IP アドレス、 NODEID にはノード ID 、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したユーザ名にはユーザ名を、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したパスワードには pass を指定します。ノードがシャットダウンされると、シャーシからノードを物理的に取り外すことができます。
+. 次の API 呼び出しを使用してノードをシャットダウンします。 `wget --no-check-certificate-q --user>--password=<pass> -O--post-data'{" method" ： "Shutdown" 、 "params" ： "option" 、 "nodes" ： [<NODEID> ｝ ] https://<MVIP>/json-rpc/8.0`[]MVIP には MVIP IP アドレス、 NODEID にはノード ID 、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したユーザ名にはユーザ名を、 NetApp HCI のセットアップ時に NetApp Deployment Engine で設定したパスワードには pass を指定します。ノードがシャットダウンされると、シャーシからノードを物理的に取り外すことができます。
 . 次の手順で、シャーシ内のノードからドライブを取り外します。
 +
 .. ベゼルを取り外します。
