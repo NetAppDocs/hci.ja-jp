@@ -39,6 +39,10 @@ NOTE: この IPv4 アドレスは、 NetApp Deployment Engine を使用した以
 http://<Bond1G IP address>
 ----
 +
+
+NOTE: ここで HTTP を使用していることを確認してください。
+
++
 NetApp Deployment Engine のユーザインターフェイスが表示されます。
 
 
