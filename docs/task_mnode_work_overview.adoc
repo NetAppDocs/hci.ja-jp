@@ -44,7 +44,7 @@ Element ソフトウェアバージョン 11.3 以降を実行するクラスタ
 リモート SSH 機能を無効または有効にするか、ネットアップサポートとのリモートサポートトンネルセッションを開始して、トラブルシューティングに役立ててください。
 
 * link:task_mnode_enable_remote_support_connections.html["ネットアップサポートによるリモート接続を有効にする"]
-* link:task_mnode_ssh_management["管理ノードで SSH 機能を管理します"]
+* link:task_mnode_ssh_management.html["管理ノードで SSH 機能を管理します"]
 
 
 [discrete]

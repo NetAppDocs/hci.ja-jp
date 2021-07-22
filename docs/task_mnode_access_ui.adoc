@@ -57,7 +57,7 @@ image::mnode_swagger_ui.png[管理ノードの REST API UI]
 [discrete]
 == 詳細はこちら
 
-* link:task_hci_mnode_enable_activeIQ.html["SolidFire オールフラッシュストレージに対して Active IQ コレクタサービスを有効にします"]
+* link:task_mnode_enable_activeIQ.html["Active IQ と NetApp HCI の監視を有効にします"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
 * https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
 

@@ -1460,8 +1460,6 @@
   <block id="9e05ce9aec1d6f36600d2cb721fa7ef8" category="list-text">管理サービスの REST API UI にアクセスするには、管理ノードの IP アドレスに「 /mnode 」を続けて入力します。</block>
   <block id="428ed99d0a7bd2ca1ff42a5e1be869ea" category="image-alt">管理ノードの REST API UI</block>
   <block id="34ce81002e3f5477eacf9ee1401c8fac" category="list-text">Authorize * または任意のロックアイコンをクリックし、 API を使用する権限を付与するクラスタ管理者クレデンシャルを入力します。</block>
-  <block id="19c38a20a7967b11dff520a3ef7b89f9" category="inline-link-macro">SolidFire オールフラッシュストレージに対して Active IQ コレクタサービスを有効にします</block>
-  <block id="3e4ba64c4d692ae0b01d9ef97b12795d" category="list-text"><block ref="3e4ba64c4d692ae0b01d9ef97b12795d" category="inline-link-macro-rx"></block></block>
   <block id="246ad48c2457f4d117d2a2deae096786" category="summary">NetApp HCI 導入ネットワークの設定方法について説明します。</block>
   <block id="e2a7e1b0e5f6f59b627d2fc40fab294f" category="doc">ネットワークの設定を行います</block>
   <block id="ecc011031693616d2f5c69654e5dc2a2" category="list-text">次の情報を入手しておきます。</block>
@@ -4495,7 +4493,6 @@
   <block id="b0475226b0ab3967b6494917c92c571f" category="paragraph">リモート SSH 機能を無効または有効にするか、ネットアップサポートとのリモートサポートトンネルセッションを開始して、トラブルシューティングに役立ててください。</block>
   <block id="49d020b60ff4477b61f1d75d5080ef57" category="inline-link-macro">ネットアップサポートによるリモート接続を有効にする</block>
   <block id="0e53d0eba97570e32d7916e47110c204" category="list-text"><block ref="0e53d0eba97570e32d7916e47110c204" category="inline-link-macro-rx"></block></block>
-  <block id="725baed005d9597435f40b45f9640bb5" category="list-text"><block ref="725baed005d9597435f40b45f9640bb5" category="inline-link-macro-rx"></block></block>
   <block id="b681d8f929be47f38bb9e10e568d51db" category="summary">導入に必要な NetApp HCI ノードの互換性に関する要件について説明します。</block>
   <block id="58f085fa950ff6e745ebd11efc2e27ca" category="doc">インベントリの選択とノードの互換性</block>
   <block id="3347cc02f3a802fde799552d85cde469" category="paragraph">導入するノードを選択する際、同じ環境で組み合わせ可能なノード構成にはいくつかの制限があります。</block>
@@ -5885,4 +5882,6 @@
   <block id="79df72a933d3593ef7d9131e8d7c509c" category="admonition">H610C および H615S コンピューティングノードのファームウェアをアップグレードする場合は、 BMC Web UI から Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。</block>
   <block id="8bce974438769fbac12eab13496c79d6" category="admonition">この手順で説明した sudo コマンドを実行すると、 SSH セッションが強制終了されます。継続的な監視を行うには、コンソールアクセスが必要です。アップグレードの実行中にコンソールにアクセスできない場合は、 SSH ログインを再試行し、 15~30 分後に接続を確認します。ログイン後、アップグレードが正常に完了したことを示す SSH バナーで新しい OS バージョンを確認できます。</block>
   <block id="9fd3000ea9282cd063c289df7fdec474" category="admonition">ここで HTTP を使用していることを確認してください。</block>
+  <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
+  <block id="b699ffaa70a5cdf708fca1e6ce6761c0" category="list-text"><block ref="b699ffaa70a5cdf708fca1e6ce6761c0" category="inline-link-macro-rx"></block></block>
 </blocks>
