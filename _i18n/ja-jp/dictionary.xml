@@ -5433,8 +5433,6 @@
   <block id="fddc57c7c9e5e8c37506eaee33bfccd7" category="list-text"><block ref="fddc57c7c9e5e8c37506eaee33bfccd7" category="inline-link-rx"></block></block>
   <block id="8cf0a7fd902364db0eaa5ec60ad654f3" category="inline-link">vCenter Plug-in 4.7 リリースノート</block>
   <block id="c9973d0a1ee56161c6330507362f4803" category="list-text"><block ref="c9973d0a1ee56161c6330507362f4803" category="inline-link-rx"></block></block>
-  <block id="2b7dd4e3b734a3463631c30749f4f77d" category="inline-link-macro">ストレージファームウェアバンドル 2.76 リリースノート（最新）</block>
-  <block id="5a7ec38858a2e791888196c755ce7146" category="list-text"><block ref="5a7ec38858a2e791888196c755ce7146" category="inline-link-macro-rx"></block></block>
   <block id="d088a1f4d001e2296c444d0510f58474" category="list-text"><block ref="d088a1f4d001e2296c444d0510f58474" category="inline-link-macro-rx"></block></block>
   <block id="b686dcb06d81fe7eadf2b2346e4f4d78" category="paragraph">NetApp Hybrid Cloud Control では、最大 500 個のネットアップコンピューティングノードを含む VMware vSphere 環境がサポートされます。NetApp Element ソフトウェアベースのストレージクラスタを最大 20 個サポートします。</block>
   <block id="a1dd4e46f9941cb2ace7d1d90b8b6ce2" category="inline-link">保護ドメイン</block>
@@ -5884,4 +5882,21 @@
   <block id="9fd3000ea9282cd063c289df7fdec474" category="admonition">ここで HTTP を使用していることを確認してください。</block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
   <block id="b699ffaa70a5cdf708fca1e6ce6761c0" category="list-text"><block ref="b699ffaa70a5cdf708fca1e6ce6761c0" category="inline-link-macro-rx"></block></block>
+  <block id="e2b165ab46734aee4acaaada05a4c247" category="inline-link-macro">ストレージファームウェアバンドル 2.99.2 リリースノート（最新）</block>
+  <block id="8b5c8a6773f97ff3494ca9591056d8e5" category="list-text"><block ref="8b5c8a6773f97ff3494ca9591056d8e5" category="inline-link-macro-rx"></block></block>
+  <block id="c8c0126253556981205e840452e290ad" category="list-text"><block ref="c8c0126253556981205e840452e290ad" category="inline-link-macro-rx"></block></block>
+  <block id="2e5993f9d970daebf225967bb1e45acc" category="inline-link-macro">ストレージファームウェアバンドル 2.99.2 に関する注意事項</block>
+  <block id="9b66050651411f30ce4e4e60cd49154f" category="list-text"><block ref="9b66050651411f30ce4e4e60cd49154f" category="inline-link-macro-rx"></block></block>
+  <block id="176d9ae1b8e18dc2cedc534e1da45e7c" category="doc">ストレージファームウェアバンドル 2.99.2 リリースノート</block>
+  <block id="03ec75563d6db38087cb2ce848280847" category="paragraph">ストレージファームウェアバンドルバージョン 2.99.2 には、セキュリティ脆弱性の修正など、さまざまなバグ修正と新機能が含まれています。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
+  <block id="7d2dc5beeabfee405a9d12db063b9e5e" category="cell">3B06</block>
+  <block id="9f9cc94477333eb0fb7b09a53f7bda17" category="cell">* 3.91.07 *</block>
+  <block id="8ddd455ce6934a7c3f8c6dda42922af0" category="cell">HXT7904Q</block>
+  <block id="51589afd3622d758f32a52534360a5f6" category="cell">EDA5402Q</block>
+  <block id="d55f135fda9bee95a60c2eea951f2fb6" category="cell">EDA5700Q</block>
+  <block id="bbe9047444895de971dcc65fe7f9504f" category="cell">0109</block>
+  <block id="dea6f0f4bf83a3af0eb8a63eb0de7c2d" category="cell">H610S BMC 3.91.07</block>
+  <block id="0400038e3cce41a0680914fdbddac771" category="list-text">BMC フラッシュの摩耗度を改善します</block>
+  <block id="380ee8d5ea5c4bdcd4985cd9b5e56c15" category="section-title">Bugs Online のツールへのアクセス</block>
+  <block id="fee5dfe66cac80b0bd60697144bc656a" category="list-text">に移動します <block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> ドロップダウンリストから * Element Software * を選択します。</block>
 </blocks>
