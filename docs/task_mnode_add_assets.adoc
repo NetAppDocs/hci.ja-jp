@@ -4,7 +4,7 @@ permalink: docs/task_mnode_add_assets.html
 summary: REST API UI を使用して、管理ノードの構成にコンピューティングアセットとコントローラアセットを追加できます。 
 keywords: netapp, mnode, management node, rest api, hci 
 ---
-= 管理ノードにアセットを追加します
+= 管理ノードにコンピューティングアセットとコントローラアセットを追加します
 
 
 [role="lead"]
@@ -15,6 +15,7 @@ REST API UI を使用して、管理ノードの構成にコンピューティ�
 .必要なもの
 * クラスタで NetApp Element ソフトウェア 11.3 以降を実行している必要があります。
 * バージョン 11.3 以降を実行する管理ノードを導入しておきます。
+* vCenter で新しい NetApp HCC ロールを作成して、管理ノードのサービス表示をネットアップ専用のアセットに制限します。を参照してください link:task_mnode_create_netapp_hcc_role_vcenter.html["vCenter で NetApp HCC ロールを作成します"]。
 
 
 （ NetApp HCI のみ） NetApp HCI システムの拡張後に Hybrid Cloud Control （ HCC ）にコンピューティングノードが表示されない場合は、この手順で説明する「 POST /assets/｛ asset_id ｝ /compute-nodes 」を使用してコンピューティングノードを追加できます。
@@ -31,17 +32,17 @@ NOTE: コンピューティングノードを手動で追加する場合は、 B
 ----
 https://[management node IP]/inventory/1/
 ----
-.. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+.. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 ... クラスタのユーザ名とパスワードを入力します。
 ... クライアント ID を「 m node-client 」として入力します。
-... セッションを開始するには、 * Authorize * をクリックします。
+... セッションを開始するには、 * Authorize * を選択します。
 ... ウィンドウを閉じます。
 
 
-.. REST API UI で、 * 一部のユーザに適用 / インストール * をクリックします。
-.. [* 試してみてください * ] をクリックします。
-.. [* Execute] をクリックします。
+.. REST API UI で、 * 一部のユーザに一時的な処理を開始 / インストール * を選択します。
+.. [* 試してみてください * ] を選択します。
+.. [* Execute] を選択します。
 .. コード 200 の応答本文から ' インストールの ID をコピーします
 +
 [listing, subs="+quotes"]
@@ -59,15 +60,15 @@ https://[management node IP]/inventory/1/
 
 NOTE: インストール環境には、インストールまたはアップグレード時に作成されたベースアセットの構成が含まれています。
 
-.. REST API UI で、 * GET / Installations / ｛ id ｝ * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. REST API UI から、 * GET / Installations / ｛ id ｝ * を選択します。
+.. [* 試してみてください * ] を選択します。
 .. インストールアセット ID を *id* フィールドに貼り付けます。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 .. 応答から、後の手順で使用するために、クラスタコントローラ ID （「 ControllerID 」）をコピーして保存します。
 
 
 . （コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認するには、に進みます xref:task_mnode_locate_hardware_tag.adoc[コンピューティングノードのハードウェアタグを確認する方法]。
-. コンピューティングノードまたはコントローラサブアセットを既存のベースアセットに追加するには、次のいずれかをクリックします。
+. コンピューティングノードと BMC アセット、またはコントローラサブアセットを既存のベースアセットに追加するには、次のいずれかを選択します。
 +
 [cols="40,60"]
 |===
@@ -82,21 +83,21 @@ NOTE: インストール環境には、インストールまたはアップグ�
 https://[management node IP]/mnode
 ----
 +
-... 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+... 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 .... クラスタのユーザ名とパスワードを入力します。
 .... クライアント ID を「 m node-client 」として入力します。
-.... セッションを開始するには、 * Authorize * をクリックします。
+.... セッションを開始するには、 * Authorize * を選択します。
 .... ウィンドウを閉じます。
 
 
 
 
-.. POST /assets/｛ asset_id ｝ /controllers * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. 「 * POST /assets/｛ asset_id ｝ /controllers * 」を選択します。
+.. [* 試してみてください * ] を選択します。
 .. 親ベースアセット ID を「 * asset_id * 」フィールドに入力します。
 .. 必要な値をペイロードに追加します。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 
 
 
@@ -109,18 +110,18 @@ https://[management node IP]/mnode
 https://[management node IP]/mnode
 ----
 +
-... 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+... 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 .... クラスタのユーザ名とパスワードを入力します。
 .... クライアント ID を「 m node-client 」として入力します。
-.... セッションを開始するには、 * Authorize * をクリックします。
+.... セッションを開始するには、 * Authorize * を選択します。
 .... ウィンドウを閉じます。
 
 
 
 
-.. POST /assets/｛ asset_id ｝ /compute-nodes * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. 「 * POST /assets/｛ asset_id ｝ /compute-nodes 」を選択します。
+.. [* 試してみてください * ] を選択します。
 .. 前の手順でコピーした親ベースアセットの ID を「 * asset_id * 」フィールドに入力します。
 .. ペイロードで、次の手順を実行します。
 +
@@ -129,7 +130,7 @@ https://[management node IP]/mnode
 ... 必要に応じて、他の値を入力します。
 
 
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 
 
 |===

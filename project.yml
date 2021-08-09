@@ -133,6 +133,8 @@ sidebar:
         url: "/docs/task_nde_supported_net_changes.html"
       - title: NetApp HCI コンピューティングノードで smartd サービスを無効にします
         url: "/docs/task_nde_disable_smartd.html"
+      - title: vCenter で NetApp HCC ロールを作成します
+        url: "/docs/task_mnode_create_netapp_hcc_role_vcenter.html"
       - title: VMware vSphere を最新の状態に維持
         url: "/docs/task_nde_update_vsphere.html"
       - title: GPU 対応のコンピューティングノード用の GPU ドライバをインストールします
