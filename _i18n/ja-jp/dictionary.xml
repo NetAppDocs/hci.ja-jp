@@ -673,25 +673,19 @@
   <block id="1f7790ed35a0ab861da3622b15bd9e8a" category="list-text">[ アップグレード * （ Upgrades * ） ] ページで、 [ * ストレージ * （ Storage * ） ] タブを選択します。</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">をクリックします。</block>
   <block id="1d7f9233eaf459ab8773ffdc120f9299" category="list-text">健全性チェックをクリックします <block ref="121ad3230a694a5231762b0ae438963f" category="inline-image-macro-rx" type="image"></block> アップグレードの準備状況を確認するクラスタ</block>
-  <block id="9d9b424c865d23b69b5f4f871d858838" category="list-text">[* Storage Health Check] ページで、 [* Run Health Check] をクリックします。</block>
   <block id="632000ef95a99f26126652cc6173582d" category="list-text">問題がある場合は、次の手順を実行します。</block>
   <block id="51e0b5f7cd91462d8704ed2fbefc7c23" category="list-text">クラスタの問題を解決したら、 * 健全性チェックの再実行 * をクリックします。</block>
   <block id="ae63f08b8df1b31ff7d5bceda29c396a" category="paragraph">健全性チェックの完了後、エラーは発生しません。ストレージクラスタをアップグレードする準備は完了しています。ストレージノードのアップグレードを参照してください <block ref="193d61eccd9a78513080c941407efd8c" category="inline-link-macro-rx"></block> 続行してください。</block>
   <block id="77f8ee6733d725918aa1db978c6a5e76" category="section-title">API を使用して、実行前に Element ストレージの健全性チェックを実行 ストレージをアップグレードする</block>
   <block id="593af18822a2c5658285cf2d1936edd9" category="paragraph">REST API を使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。健全性チェックでは、保留中のノード、ディスクスペースの問題、クラスタ障害など、アップグレードが必要な障害がないことを確認します。</block>
   <block id="65c8e9fe3474b804ceb1cd31970c8897" category="list-text">値がまだ入力されていない場合は、クライアント ID を「 m node-client 」として入力します。</block>
-  <block id="edc1830b9d140024e0359dcd917fd915" category="list-text">応答から ' アップグレードの準備状況を確認するクラスタのストレージ・クラスタ ID （ ID ）をコピーして保存します</block>
   <block id="d1483ae0669765c4a088eb3dcfa2f692" category="list-text">ストレージクラスタで健全性チェックを実行します。</block>
-  <block id="8ca6ea66c73ac870ad2c08d5b46e8948" category="list-text">[* POST/Health-Checks （ POST / ヘルスチェック） ] をクリックします。</block>
-  <block id="b0dfcf445c870768d62aab548419f24b" category="list-text">指定したストレージクラスタでヘルスチェックを実行するには、 * Execute * をクリックします。</block>
   <block id="cb3aef0b3c5467ed739e791fb147d29d" category="paragraph">応答は ' ステータスを初期化中と表示する必要があります</block>
   <block id="ec29a8b782e4e2f39916c021c70bef7c" category="list-text">応答の一部である「 healthCheckID 」をコピーします。</block>
   <block id="7a4bf928df66672ed07ec35abc1a90ea" category="list-text">健全性チェックの結果を確認します。</block>
-  <block id="35db48dddbd320ea2c3015f9f62a95c3" category="list-text">[* 一時的なもの / 健康チェックの実行 ] をクリックします。 \n 一時的なもの / ｛ healthCheckId ｝ * 。</block>
   <block id="e3698fe7f5f462a9bad8822f653ed593" category="list-text">パラメータフィールドにヘルスチェック ID を入力します。</block>
   <block id="39e96f3817ad92c0e85e2a366ec09912" category="list-text">応答の本文の一番下までスクロールします。</block>
   <block id="43e219eb554eaef812172fe6c3c5a102" category="list-text">「メッセージ」が「クラスタの正常性」に問題があることを示している場合は、次の手順を実行します。</block>
-  <block id="bb3def6d9fbea7695c410a8b9dcff5ac" category="list-text">クラスタの問題を解決したら、 * Get Sagain/health-checksRuns/｛ healthCheckId ｝ * を再度実行します。</block>
   <block id="5d4c4627ab3986f6f8eabdffd3b2f5ef" category="paragraph">すべての健全性チェックが成功した場合の出力例を次に示します。</block>
   <block id="59a71894f03a45e8e483f46324a0cbe2" category="section-title">前に HealthTools を使用して Element ストレージの健全性チェックを実行してください ストレージをアップグレードする</block>
   <block id="0d1274d4382b6170548bfed6eb0a1d26" category="paragraph">「 fupgradecheck 」コマンドを使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。このコマンドは、保留中のノード、ディスクスペース、クラスタ障害などの情報を検証します。</block>
@@ -5978,4 +5972,17 @@
   <block id="d7b971b45d73a3e160aa7065e904708f" category="list-text">コンピューティングノードと BMC アセット、またはコントローラサブアセットを既存のベースアセットに追加するには、次のいずれかを選択します。</block>
   <block id="97c58645694b4b37731fb27c7e0cf206" category="list-text">「 * POST /assets/｛ asset_id ｝ /controllers * 」を選択します。</block>
   <block id="6274b4439cba5b53460127164f5e20ec" category="list-text">「 * POST /assets/｛ asset_id ｝ /compute-nodes 」を選択します。</block>
+  <block id="6f2c388bfbd8977b6fbfc3a23a18b5c1" category="list-text">健全性チェックを選択します <block ref="121ad3230a694a5231762b0ae438963f" category="inline-image-macro-rx" type="image"></block> アップグレードの準備状況を確認するクラスタ</block>
+  <block id="927a19e2798cfa276de99f482c7c4c41" category="list-text">[ * ストレージヘルスチェック * ] ページで、 [ * ヘルスチェックの実行 * ] を選択します。</block>
+  <block id="9d249bf8d09a96d9cec27900a43d59ce" category="list-text">クラスタの問題を解決したら、「 * Re-Run Health Check * 」を選択します。</block>
+  <block id="630786bd9beca178276e5be4414d5e18" category="list-text">REST API UI から 'get/assets' を選択します</block>
+  <block id="358e464420222396ce0269f2426db9e8" category="list-text">応答から ' アップグレードの準備状況を確認するクラスタのストレージセクションから 'id' をコピーします</block>
+  <block id="01bae82379747eef8fcb4ed570670706" category="admonition">このセクションの「親」の値は、ストレージクラスタの ID ではなく、管理ノードの ID であるため使用しないでください。</block>
+  <block id="af462ff88834818ad879bf850f197655" category="list-text">[* POST/Health-Checks （ POST / ヘルスチェック） ] を選択します。</block>
+  <block id="eac5f5221f026e7d1f818ea92658a8ac" category="list-text">パラメータフィールドに、手順 1 で取得したストレージクラスタ ID を入力します。</block>
+  <block id="a2e0f6cc4cd18e1e117998534a4e27f8" category="list-text">指定したストレージクラスタでヘルスチェックを実行するには、 * Execute * を選択します。</block>
+  <block id="b0c7b8a684336449ac14713621d1540d" category="list-text">[* 一時的なもの / 正常性チェックの一時的なもの / ｛ healthCheckId ｝ * ] を選択します。</block>
+  <block id="2531dd1ed0ade9f475e182123de3f411" category="list-text">[* Get Singges/health-checksSries/｛ healthCheckId}/log* ] を選択します</block>
+  <block id="d84036b22a23f84fa8de705bbe508b0b" category="list-text">特定のエラーを確認し、関連する KB 記事のリンクを取得します。</block>
+  <block id="ebf662609bd0c670a5048adf12e5dd87" category="list-text">クラスタの問題を解決したら、 * Get Sedges/health-checksRunges/｛ healthCheckId ｝ /log * を再度実行します。</block>
 </blocks>
