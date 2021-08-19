@@ -5461,7 +5461,6 @@
   <block id="6f9e2770d251f1899f5e2365113c333a" category="paragraph">NetApp HCI 1.9 には、ストレージクラスタ用の Element 12.3 が含まれています。Element 12.3 では、ソフトウェアによる保存データの暗号化の機能強化、セキュリティの強化、ストレージファームウェアのアップデート、スナップショット機能の強化、障害ドライブの動作の改善が導入されています。</block>
   <block id="0eb91c90051a8280b5d03272245097b3" category="section-title">NetApp Bugs Online には、既知の問題と解決済みの問題があります</block>
   <block id="69893000f4da30e1e42922cbcf8dac0e" category="inline-link">NetApp Bugs Online では</block>
-  <block id="d495ca7a3417545d03eb9f93f0e065ab" category="paragraph">Element 12.3 以降では、 NetApp Bugs Online ツールに既知の問題と解決済みの問題が表示されるようになりました。これらの問題は Element およびその他の製品で参照できます から<block ref="8f6bf1d90cda7ac5d466a1caf35f182b" category="inline-link-rx"></block>。</block>
   <block id="7e0c9d10dc35dcd647c7fb7b97f5935e" category="section-title">FIFO スナップショット・キューのサポート</block>
   <block id="d0de8a7d64b7a1726c0136e09cc34ddc" category="paragraph">Element 12.3 では、ボリュームスナップショットの First-In First-Out （ FIFO ）キューを作成できます。Element API を使用すると、ボリュームの作成時に予約する FIFO スナップショットスロットの最小数と最大数を指定できます。ボリュームの FIFO スナップショットキューがいっぱいになると、そのボリュームに次に作成するスナップショットは、そのボリュームの最も古いスナップショットをシステムから削除します。FIFO スナップショットと非 FIFO スナップショットはどちらも、ボリューム上の使用可能なスナップショットスロットの同じプールを使用します。</block>
   <block id="c08a6bc5249e5f81c4e136382fe69500" category="inline-link">Element API のドキュメント</block>
@@ -5985,4 +5984,13 @@
   <block id="2531dd1ed0ade9f475e182123de3f411" category="list-text">[* Get Singges/health-checksSries/｛ healthCheckId}/log* ] を選択します</block>
   <block id="d84036b22a23f84fa8de705bbe508b0b" category="list-text">特定のエラーを確認し、関連する KB 記事のリンクを取得します。</block>
   <block id="ebf662609bd0c670a5048adf12e5dd87" category="list-text">クラスタの問題を解決したら、 * Get Sedges/health-checksRunges/｛ healthCheckId ｝ /log * を再度実行します。</block>
+  <block id="eb9b597f5610631d63cab0f7fb6e45e2" category="paragraph">Element 12.3 以降では、 NetApp Bugs Online ツールに既知の問題と解決済みの問題が表示されるようになりました。これらの問題は Element およびその他の製品で参照できます。</block>
+  <block id="6fdef1a96dd1317b8f4387931b94852d" category="list-text">に進みます<block ref="0c12cf8c0cec0405a310594288c146b6" category="inline-link-rx"></block>。</block>
+  <block id="06f64729610d29108de18fcd67a1a763" category="list-text">[ キーワードで検索（ Search by Keyword ） ] フィールドに製品名（例えば、「エレメント」）を入力します。</block>
+  <block id="768d18144454e6cec5a96d61cb09fd9c" category="inline-image-macro">プラスアイコン</block>
+  <block id="7c75467b9025ab54b5203e9be5da57c6" category="list-text">を選択します <block ref="0e4f90d154c4fd3ec2823d6eacadfce7" category="inline-image-macro-rx" type="image"></block> アイコンをクリックし、 * バージョン * で固定を選択し、 * OK * を選択します。</block>
+  <block id="63801fa6564f3399ab4e8333c83d2c00" category="inline-image-macro">BOL フィルタ、「センター」の位置合わせ</block>
+  <block id="9827e0c740afc425e59daef8f234fb98" category="paragraph"><block ref="9827e0c740afc425e59daef8f234fb98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b12de5800c8fbcca989d128168d70a05" category="list-text">リリースでフィルタリングするには、 [ バージョン * で固定 ] フィールドにリリースバージョンを入力します。</block>
+  <block id="abb3dae171133339f899210b56c4d2b0" category="admonition">環境によっては、管理ノードのリブートが必要になることがあります。</block>
 </blocks>
