@@ -5847,7 +5847,6 @@
   <block id="1b1965ab9261b2d5c557a2c1b29aa90a" category="paragraph">NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
   <block id="5144ef28ff0fa7b5ab2a36331abbe530" category="paragraph">オンラインのソフトウェアリポジトリ：</block>
   <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">https://repo.netapp.com/bintray/api/package`</block>
-  <block id="3c4e7d36b83203c98211dd7b73ab93f0" category="list-text">https://netapp-downloads.bintray.com`</block>
   <block id="3c775c7c4ce05f0bb9c5d395099d545c" category="cell">ノード間 iSCSI</block>
   <block id="ec44888d025d4ddae04c2461c877b1eb" category="summary">REST API UI を使用してコンピューティングノードアセットを管理ノードの構成に追加するには、ハードウェアタグが必要です。</block>
   <block id="c483f82946735c5ca5698f1fc1040122" category="doc">コンピューティングノードのハードウェアタグを確認する方法</block>
@@ -5993,4 +5992,8 @@
   <block id="9827e0c740afc425e59daef8f234fb98" category="paragraph"><block ref="9827e0c740afc425e59daef8f234fb98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b12de5800c8fbcca989d128168d70a05" category="list-text">リリースでフィルタリングするには、 [ バージョン * で固定 ] フィールドにリリースバージョンを入力します。</block>
   <block id="abb3dae171133339f899210b56c4d2b0" category="admonition">環境によっては、管理ノードのリブートが必要になることがあります。</block>
+  <block id="f5395c9793af8a11b406ca7c1ac70da9" category="inline-link">詳細はこちら。</block>
+  <block id="73f6f247f92d43dc1a02705cd9cb72df" category="admonition">ネットアップは現在、 NetApp Hybrid Cloud Control の自動アップグレードワークフローをサポートするソフトウェアとファームウェアのバンドルのダウンロードをホストするオンラインリポジトリを再構築しています。<block ref="d8be8d6cc7cc728c856f13214fa255cd" category="inline-link-rx"></block></block>
+  <block id="387d5419d340e95ff756a4806e220b45" category="list-text">https://repo.netapp.com/downloads`</block>
+  <block id="983c91027e090f85708d6c62fd362220" category="list-text">https://netappdownloads.jfrog.io:443`</block>
 </blocks>

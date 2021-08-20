@@ -16,6 +16,9 @@ keywords: netapp, hci, ports, tcp, udp
 [role="lead"]
 システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにし、内部サービスが適切に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。特に記載がないかぎり、ポートはすべて TCP です。
 
+
+IMPORTANT: ネットアップは現在、 NetApp Hybrid Cloud Control の自動アップグレードワークフローをサポートするソフトウェアとファームウェアのバンドルのダウンロードをホストするオンラインリポジトリを再構築しています。 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU474["詳細はこちら。"]
+
 [NOTE]
 ====
 NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。
@@ -100,7 +103,8 @@ NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオン
 オンラインのソフトウェアリポジトリ：
 
 * https://repo.netapp.com/bintray/api/package`
-* https://netapp-downloads.bintray.com`
+* https://repo.netapp.com/downloads`
+* https://netappdownloads.jfrog.io:443`
 
 | 443 | 管理ノードサービスのアップグレード 
 
