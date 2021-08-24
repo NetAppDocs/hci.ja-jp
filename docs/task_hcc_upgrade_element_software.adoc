@@ -46,8 +46,8 @@ NetApp Hybrid Cloud Control の UI を使用して、ストレージクラスタ
 .必要なもの
 * 管理ノードがインターネットに接続されていない場合は、該当する場所からパッケージをダウンロードしておきます。
 +
-** https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ストレージクラスタのストレージファームウェアパッケージ"^]
-** https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Element ソフトウェアを実行する SolidFire ストレージクラスタのストレージファームウェアパッケージ"^]
+** https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ"^]
+** https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz"^]
 
 
 

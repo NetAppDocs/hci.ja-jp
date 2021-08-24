@@ -5996,4 +5996,8 @@
   <block id="73f6f247f92d43dc1a02705cd9cb72df" category="admonition">ネットアップは現在、 NetApp Hybrid Cloud Control の自動アップグレードワークフローをサポートするソフトウェアとファームウェアのバンドルのダウンロードをホストするオンラインリポジトリを再構築しています。<block ref="d8be8d6cc7cc728c856f13214fa255cd" category="inline-link-rx"></block></block>
   <block id="387d5419d340e95ff756a4806e220b45" category="list-text">https://repo.netapp.com/downloads`</block>
   <block id="983c91027e090f85708d6c62fd362220" category="list-text">https://netappdownloads.jfrog.io:443`</block>
+  <block id="358a3ff6d008d52e4a816f3c9f4d8d5f" category="inline-link">NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ</block>
+  <block id="579fd310dd6393c99694f665c7c50306" category="list-text"><block ref="579fd310dd6393c99694f665c7c50306" category="inline-link-rx"></block></block>
+  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz</block>
+  <block id="49e349363aad0972c82ddaf25dd30f70" category="list-text"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
 </blocks>
