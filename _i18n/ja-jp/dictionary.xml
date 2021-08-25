@@ -1148,7 +1148,6 @@
   <block id="5fe3ac619fc22d4b4488d2da3ed95ac1" category="section-title">API コマンド</block>
   <block id="4d0864d7743f4e32d15628a66a0d2401" category="list-text">管理ノードで実行されている管理ノードの OS 、管理サービスバンドル、および管理ノードの API （ mnode-API ）サービスに関するバージョン情報を取得します。</block>
   <block id="1f79ed9dbc48bd3fa3e0b381408a9816" category="list-text">管理ノードで実行されている個々のサービスに関するバージョン情報を取得します。</block>
-  <block id="e64a913dd3838f69e2c1598f7689e033" category="admonition">API で使用されるベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。</block>
   <block id="137ddd8831f8f1375bde44b1492e802c" category="section-title">REST API の UI の手順</block>
   <block id="832327513c71b1077ccba330ead249f5" category="list-text">管理ノードの IP アドレスのあとに「 /mnode/ 」を入力して、サービスの REST API UI にアクセスします。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">次のいずれかを実行します。</block>
@@ -5224,7 +5223,6 @@
   <block id="7d1fe0c90ec59fb67d282729cb6d232f" category="list-text"><block ref="26470bc474ffedd4c6facab2cfc04f9b" category="inline-xref-macro-rx"></block></block>
   <block id="6af62aec1ec1632d48358c364882e6a2" category="section-title">Rancher サーバをアップグレードします</block>
   <block id="99c3af29fb477a2e2f9f24ab4b6f5ce7" category="list-text">アップグレードバージョンリストの要求を開始します。</block>
-  <block id="282d400241b2196e0dd8396d88c59e25" category="admonition">API で使用されているベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。</block>
   <block id="c50b72b45b1056c58b4a36a9830d91ef" category="list-text">前のコマンドのタスク ID を使用してタスクステータスを取得し、応答から最新のバージョン番号をコピーします。</block>
   <block id="9df9a0d8b4631e538f89f68b44b0f85c" category="list-text">Rancher サーバのアップグレード要求を開始します。</block>
   <block id="1168cf0849098b691306026239f91215" category="list-text">アップグレードコマンドの応答からタスク ID を使用してタスクステータスを取得します。</block>
@@ -6000,4 +5998,8 @@
   <block id="579fd310dd6393c99694f665c7c50306" category="list-text"><block ref="579fd310dd6393c99694f665c7c50306" category="inline-link-rx"></block></block>
   <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz</block>
   <block id="49e349363aad0972c82ddaf25dd30f70" category="list-text"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
+  <block id="0c5c43c7900a58a998c872f937ae33ad" category="inline-link-macro">許可します</block>
+  <block id="f5f61ce15f6fc00904ccb602ea18ba4f" category="admonition">API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます <block ref="13f13ef2cfa191d3bfde7dc1932402de" category="inline-link-macro-rx"></block>。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。</block>
+  <block id="085a0793a542f0eebf46d23f033ee424" category="paragraph">管理サービス 2.18 以降の場合：</block>
+  <block id="9d5d97be2b35b2991e27e028a5e6269e" category="paragraph">管理サービス 2.17 以前：</block>
 </blocks>

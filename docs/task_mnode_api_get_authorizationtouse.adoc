@@ -19,7 +19,12 @@ REST API UI で管理サービス用の API を使用するには、事前に承
 * バージョン 11.3 以降を実行する管理ノードを導入しておく必要があります。
 
 
-.手順
+.API コマンド
+[listing]
+----
+TOKEN=`curl -k -X POST https://MVIP/auth/connect/token -F client_id=mnode-client -F grant_type=password -F username=CLUSTER_ADMIN -F password=CLUSTER_PASSWORD|awk -F':' '{print $2}'|awk -F',' '{print $1}'|sed s/\"//g`
+----
+.REST API の UI の手順
 . サービスの REST API UI にアクセスするには、管理ノードの IP アドレスのあとにサービス名を入力します。例：「 /mnode/` ：
 +
 [listing]

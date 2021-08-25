@@ -34,11 +34,11 @@ curl -X GET "https://<managementNodeIP>/mnode/about" -H  "accept: application/js
 +
 [listing]
 ----
-curl -X GET "https://<managementNodeIP>/mnode/services?status=running" -H  "accept: */*" -H  "Authorization: Bearer <ID>"
+curl -X GET "https://<managementNodeIP>/mnode/services?status=running" -H  "accept: */*" -H  "Authorization: Bearer ${TOKEN}"
 ----
 +
 
-NOTE: API で使用されるベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 
 

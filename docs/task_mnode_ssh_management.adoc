@@ -29,13 +29,20 @@ REST API を使用して、管理ノード（ mNode ）の SSH 機能の無効�
 
 管理ノードで SSH 機能を無効にしたり、再度有効にしたりできます。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。SSH を無効にしても、管理ノードへの既存の SSH クライアントセッションは終了せず、切断もされません。SSH を無効にしたあとで再度有効にすることを選択した場合は、同じ API を使用して再度有効にすることができます。
 
-.API コマンド
+管理サービス 2.18 以降の場合：
+
 [listing]
 ----
-curl -X PUT "https://<managementNodeIP>/mnode/settings/ssh?enabled=<false/true>" -H  "accept: application/json" -H  "Authorization: Bearer <ID>"
+curl -k -X PUT "https://<<managementNodeIP>/mnode/2/settings/ssh?enabled=<false/true>" -H  "accept: application/json" -H  "Authorization: Bearer ${TOKEN}"
+----
+管理サービス 2.17 以前：
+
+[listing]
+----
+curl -X PUT "https://<managementNodeIP>/mnode/settings/ssh?enabled=<false/true>" -H  "accept: application/json" -H  "Authorization: Bearer ${TOKEN}"
 ----
 
-NOTE: API で使用されるベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 .REST API の UI の手順
 . 管理ノードの IP アドレスのあとに「 /mnode/ 」を入力して、管理ノード API サービスの REST API UI にアクセスします。
@@ -67,13 +74,20 @@ https://<managementNodeIP>/mnode/
 
 管理ノードで SSH 機能が有効になっているかどうかは、管理ノードのサービス API を使用して確認できます。管理サービス 2.18 以降を実行する管理ノードでは、 SSH はデフォルトで無効になっています。
 
-.API コマンド
+管理サービス 2.18 以降の場合：
+
 [listing]
 ----
-curl -X GET "https://<managementNodeIP>/mnode/settings/ssh" -H  "accept: application/json" -H  "Authorization: Bearer <ID>"
+curl -k -X PUT "https://<<managementNodeIP>/mnode/2/settings/ssh?enabled=<false/true>" -H  "accept: application/json" -H  "Authorization: Bearer ${TOKEN}"
+----
+管理サービス 2.17 以前：
+
+[listing]
+----
+curl -X PUT "https://<managementNodeIP>/mnode/settings/ssh?enabled=<false/true>" -H  "accept: application/json" -H  "Authorization: Bearer ${TOKEN}"
 ----
 
-NOTE: API で使用されるベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 .REST API の UI の手順
 . 管理ノードの IP アドレスのあとに「 /mnode/ 」を入力して、管理ノード API サービスの REST API UI にアクセスします。

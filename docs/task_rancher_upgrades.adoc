@@ -102,17 +102,17 @@ NOTE: ノード OS の場合、セキュリティパッチの無人アップグ�
 +
 [listing]
 ----
-curl -X POST "https://<managementNodeIP>/k8sdeployer/1/upgrade/rancher-versions" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X POST "https://<managementNodeIP>/k8sdeployer/1/upgrade/rancher-versions" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 +
 
-NOTE: API で使用されているベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 . 前のコマンドのタスク ID を使用してタスクステータスを取得し、応答から最新のバージョン番号をコピーします。
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 . Rancher サーバのアップグレード要求を開始します。
 +
@@ -124,7 +124,7 @@ curl -X PUT "https://<mNodeIP>/k8sdeployer/1/upgrade/rancher/<version number>" -
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 
 
@@ -171,17 +171,17 @@ https://<managementNodeIP>/k8sdeployer/api/
 +
 [listing]
 ----
-curl -X POST "https://<mNodeIP>/k8sdeployer/1/upgrade/rke-versions" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X POST "https://<mNodeIP>/k8sdeployer/1/upgrade/rke-versions" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 +
 
-NOTE: API で使用されているベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 . 前のコマンドのタスク ID を使用してタスクステータスを取得し、応答から最新のバージョン番号をコピーします。
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 . RKE アップ・リクエストを開始します
 +
@@ -193,7 +193,7 @@ curl -X PUT "https://<mNodeIP>/k8sdeployer/1/upgrade/rke/<version number>" -H "a
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 
 
@@ -240,17 +240,17 @@ https://<managementNodeIP>/k8sdeployer/api/
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/upgrade/checkNodeUpdates" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/upgrade/checkNodeUpdates" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 +
 
-NOTE: API で使用されているベアラー ID は、 get コマンドを実行して curl 応答から取得することによって確認できます。
+NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます link:task_mnode_api_get_authorizationtouse.html["許可します"]。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。
 
 . 前のコマンドのタスク ID を使用してタスクステータスを取得し、応答から新しいバージョン番号を取得できることを確認します。
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 . ノードの更新を適用します。
 +
@@ -266,7 +266,7 @@ NOTE: ノード OS の場合、セキュリティパッチの無人アップグ�
 +
 [listing]
 ----
-curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer <ID>"
+curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 
 
