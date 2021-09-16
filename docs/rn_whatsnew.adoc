@@ -14,150 +14,35 @@ keywords: netapp, hci, element, new, whatsnew
 
 
 [role="lead"]
-ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.9 には、ストレージクラスタ用の Element 12.3 が含まれています。
+ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.1 が含まれます。
 
-* 。 <<NetApp HCI 1.9>> セクションでは、 NetApp HCI バージョン 1.9 の新機能と更新について説明します。
-* 。 <<Element 12.3>> ここでは、 NetApp Element 12.3 の新機能とアップデートについて説明します。
-
-
-
-
-== NetApp HCI 1.9 の略
-
-NetApp HCI 1.9 では、セキュリティと安定性が向上しています。
+* 。 <<NetApp HCI 1.9P1>> セクションでは、 NetApp HCI バージョン 1.9P1 の新機能とアップデートについて説明します。
+* 。 <<Element 12.3.1>> ここでは、 NetApp Element 12..1 の新機能とアップデートについて説明します。
 
 
 
-=== 導入構成プロファイルのサポート
 
-NetApp HCI 1.9 の導入時に、導入設定プロファイルをインポートできます。NetApp Deployment Engine は、プロファイル内の情報を使用して、導入環境に関する情報を自動的に入力します。独自のインストール情報から構成プロファイルをコンパイルすることも、以前に成功した導入環境からエクスポートした CSV ファイルを再利用することもできます。
+== NetApp HCI 1.9P1
 
-
-
-=== NetApp Deployment Engine のネットワーク構成が改善されました
-
-NetApp HCI 1.9 では、導入時のネットワーク設定が簡単になります。NetApp Deployment Engine のネットワーク設定手順は、入力を簡単にするために複数のセクションに分かれています。
+NetApp HCI 1.9P1 では、セキュリティと安定性が向上しています。
 
 
 
-=== コンピューティングノードの VMware ESXi を更新
+== Element 12.3.1
 
-コンピューティングノードにインストールされている VMware ESXi のバージョンを新規導入用に更新し、 6.7U3 に更新しました。
-
-
-
-=== NetApp Element Plug-in for vCenter Server の可用性
-
-NetApp Element Plug-in for vCenter Server は、管理ノード 12.3 および NetApp HCI 1.9 リリース以外で使用できます。プラグインを最新バージョンにアップグレードするには、の手順に従います https://docs.netapp.com/us-en/hci/docs/concept_hci_upgrade_overview.html["NetApp HCI のアップグレード"] ドキュメント
+NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.1 が含まれます。
 
 
 
-=== NetApp Hybrid Cloud Control の機能拡張
+=== ストレージファームウェアバンドル 2.99.2
 
-NetApp Hybrid Cloud Control はバージョン 1.9 で強化されています。 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["詳細はこちら。"]。
-
-
-
-== Element 12.3
-
-NetApp HCI 1.9 には、ストレージクラスタ用の Element 12.3 が含まれています。Element 12.3 では、ソフトウェアによる保存データの暗号化の機能強化、セキュリティの強化、ストレージファームウェアのアップデート、スナップショット機能の強化、障害ドライブの動作の改善が導入されています。
+Element 12.3.1 リリースには、ストレージファームウェアバンドルバージョン 2.99.2 が含まれています。ストレージクラスタがすでに Element 12.3 にある場合は、新しい 2.99.2 ファームウェアバンドルをインストールするだけで済みます。
 
 
 
 === NetApp Bugs Online には、既知の問題と解決済みの問題があります
 
-Element 12.3 以降では、 NetApp Bugs Online ツールに既知の問題と解決済みの問題が表示されるようになりました。これらの問題は Element およびその他の製品で参照できます。
-
-. に進みます https://mysupport.netapp.com/site/products/all/details/solidfire-elementos/bugsonline-tab["NetApp Bugs Online では"^]。
-. [ キーワードで検索（ Search by Keyword ） ] フィールドに製品名（例えば、「エレメント」）を入力します。
-. を選択します image:plus_icon.PNG["プラスアイコン"] アイコンをクリックし、 * バージョン * で固定を選択し、 * OK * を選択します。
-+
-image:bol_filters.PNG["BOL フィルタ、「センター」の位置合わせ"]
-
-. リリースでフィルタリングするには、 [ バージョン * で固定 ] フィールドにリリースバージョンを入力します。
-
-
-
-
-=== FIFO スナップショット・キューのサポート
-
-Element 12.3 では、ボリュームスナップショットの First-In First-Out （ FIFO ）キューを作成できます。Element API を使用すると、ボリュームの作成時に予約する FIFO スナップショットスロットの最小数と最大数を指定できます。ボリュームの FIFO スナップショットキューがいっぱいになると、そのボリュームに次に作成するスナップショットは、そのボリュームの最も古いスナップショットをシステムから削除します。FIFO スナップショットと非 FIFO スナップショットはどちらも、ボリューム上の使用可能なスナップショットスロットの同じプールを使用します。
-
-次の Element API メソッドは、 FIFO スナップショットに関連しています （を参照してください https://docs.netapp.com/us-en/element-software/api/index.html["Element API のドキュメント"] 各 API メソッドの詳細については、を参照してください）。
-
-* CreateGroupSnapshot を作成します
-* スケジュールの作成
-* CreateSnapshot の更新
-* CreateVolume を使用します
-* ModifyGroupSnapshot の追加
-* ModifySchedule の追加
-* ModifySnapshot の追加
-* ModifyVolume の追加
-* ModifyVolumes の場合に使用でき
-
-
-
-
-=== スナップショットシリアル化のサポート
-
-Element 12.3 では、シリアル化スナップショットの作成がサポートされてElement API を使用して新しい Snapshot を作成する際、以前の Snapshot レプリケーションがまだ実行中の場合は Snapshot を作成しないように指定できます。
-
-次の Element API メソッドは、スナップショットのシリアル化に関連しています （を参照してください https://docs.netapp.com/us-en/element-software/api/index.html["Element API のドキュメント"] 各 API メソッドの詳細については、を参照してください）。
-
-* CreateGroupSnapshot を作成します
-* スケジュールの作成
-* CreateSnapshot の更新
-* ModifySchedule の追加
-
-
-
-
-=== Snapshot 保持のサポート
-
-Element 12.3 では、スナップショットの保存期間を指定できます。Snapshot の保持期限または有効期限を指定しない場合、 Snapshot は無期限に保持されます。
-
-Snapshot の保持には次の Element API メソッドが関連します （を参照してください https://docs.netapp.com/us-en/element-software/api/index.html["Element API のドキュメント"] 各 API メソッドの詳細については、を参照してください）。
-
-* CreateGroupSnapshot を作成します
-* スケジュールの作成
-* CreateSnapshot の更新
-* ModifyGroupSnapshot の追加
-* ModifySchedule の追加
-* ModifySnapshot の追加
-
-
-
-
-=== ソフトウェアによる保存データの暗号化の機能拡張
-
-ソフトウェア保存時の暗号化機能では、 Element 12.3 に外部キー管理（ EKM ）とソフトウェア暗号化マスターキーのキー変更機能が導入されています。ストレージクラスタの作成時に保存データのソフトウェア暗号化を有効にすることができます。SolidFire エンタープライズ SDS ストレージクラスタを作成すると、保存データのソフトウェア暗号化がデフォルトで有効になります。この機能では、ストレージノード内の SSD に格納されているすべてのデータが暗号化され、クライアント IO のパフォーマンスへの影響は非常に小さく（最大 2% ）すぎません。
-
-ソフトウェア暗号化に関連する Element API メソッドは次のとおりです 休止状態（を参照） https://docs.netapp.com/us-en/element-software/api/index.html["Element API のドキュメント"] 各 API メソッドの詳細については、を参照してください）。
-
-* クラスタを作成
-* DisableEncryptionAtRest
-* EnableEncryptionAtRest
-* GetSoftwareEncryptionAtRestInfo
-* RekeySoftwareEncryptionAtRestMasterKey
-
-
-
-
-=== ストレージノードのファームウェアの更新
-
-Element 12.3 では、ストレージノード用のファームウェアの更新が含まれています。 http://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html["詳細はこちら。"]。
-
-
-
-=== セキュリティの機能拡張
-
-Element 12.3 では、ストレージノードおよび管理ノードのセキュリティの脆弱性を解決します。 http://security.netapp.com/["詳細はこちら。"] これらのセキュリティ機能拡張について
-
-
-
-=== ドライブ障害時の動作が改善されました
-
-Element 12.3 は、ドライブの SMART ヘルスデータを使用して、 SolidFire アプライアンスドライブの定期的なヘルスチェックを実行します。SMART ヘルスチェックに失敗したドライブは、障害に近い可能性があります。ドライブが SMART ヘルスチェックに失敗すると、ドライブは「 Failed * 」状態に移行し、重大度が「 D rive with serial ： <serial number> in slot ： <node slot><drive slot> has failed the Smart overall health check. 」という重大なクラスタエラーが表示されます。この問題を解決するには ' ドライブを交換してください
+既知の問題と解決済みの問題の一覧については、 NetApp Bugs Online ツールを参照してください。これらの問題は Element およびその他の製品で参照できます から https://mysupport.netapp.com/site/products/all/details/solidfire-elementos/bugsonline-tab["NetApp Bugs Online では"]。
 
 [discrete]
 == 詳細については、こちらをご覧ください

@@ -26,8 +26,8 @@ keywords: netapp, hci upgrade, solidfire upgrade, VCP upgrade, element upgrade, 
 
 システムに応じて、次のいずれかのシーケンスを選択します。
 
-* link:task_hcc_upgrade_all.html["バージョン 1.9 の NetApp HCI インストールをアップグレードします"]。
-* link:task_sf_upgrade_all.html["Element 12.3 で NetApp SolidFire オールフラッシュストレージシステムをアップグレードします"]。
+* link:task_hcc_upgrade_all.html["バージョン 1.9 または 1.9P1 の NetApp HCI インストールをアップグレードします"]。
+* link:task_sf_upgrade_all.html["Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします"]。
 
 
 

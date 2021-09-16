@@ -13,46 +13,16 @@ translate: false
 :imagesdir: ../media/
 
 
-[role="lead"]
-著作権に関する声明、商標、特許などにアクセスできます。
+link:https://raw.githubusercontent.com/NetAppDocs/common/main/_include/common-legal-notices.adoc[""]
 
-
-
-== 著作権
-
-http://www.netapp.com/us/legal/copyright.aspx[]
-
-
-
-== 商標
-
-NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。
-
-http://www.netapp.com/us/legal/netapptmlist.aspx[]
-
-
-
-== 特許
-
-ネットアップが所有する特許の最新リストは、次のサイトで入手できます。
-
-https://www.netapp.com/us/media/patents-page.pdf[]
-
-
-
-== プライバシーポリシー
-
-https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
-
-
-
-== オープンソース
-
-通知ファイルには、サードパーティの著作権およびライセンスに関する情報が記載されています。
+link:https://raw.githubusercontent.com/NetAppDocs/common/main/_include/open-source-notice-intro.adoc[""]
 
 * link:../media/ansible-products-notice.pdf["コンピューティングのアップグレードに向けた Ansible のロールに関する注意事項があります"^]
-* link:../media/Ember_12.3_notice.pdf["Ember OS の注意"^]
+* link:../media/Ember_12.3_notice.pdf["Ember OS 12.3.1 の注意"^]
+* link:../media/Ember_12.3_notice.pdf["Ember OS 12.3 の注意"^]
+* link:../media/mNode_12.3_notice.pdf["管理ノード 12.3.1 の通知です"^]
 * link:../media/mNode_12.3_notice.pdf["管理ノード 12.3 についての注意"^]
+* link:../media/NetApp_HCI_1.9_notice.pdf["NetApp HCI 1.9P1 に関する通知です"^]
 * link:../media/NetApp_HCI_1.9_notice.pdf["NetApp HCI 1.9 の注意事項"^]
 * link:../media/storage_firmware_bundle_2.99_notices.pdf["ストレージファームウェアバンドル 2.99.2 に関する注意事項"^]
 * link:../media/compute_firmware_bundle_2.76_notices.pdf["Compute Firmware Bundle 2.76 に関する注意"^]

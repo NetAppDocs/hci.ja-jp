@@ -4,7 +4,7 @@ permalink: docs/task_sf_upgrade_all.html
 summary: NetApp HCI とそのすべてのコンポーネントをアップグレードできます。 
 keywords: netapp, hci, on premise, cluster, upgrade, element 
 ---
-= Element 12.3 で NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
+= Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
 
 
 [role="lead"]

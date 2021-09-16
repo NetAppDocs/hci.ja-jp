@@ -4,7 +4,7 @@ permalink: docs/task_hcc_upgrade_all.html
 summary: NetApp HCI とそのすべてのコンポーネントをアップグレードできます。 
 keywords: netapp, hci, on premise, cluster, upgrade, element 
 ---
-= NetApp HCI システムのバージョン 1.9 をアップグレードします
+= バージョン 1.9 または 1.9P1 の NetApp HCI システムをアップグレードします
 
 
 [role="lead"]

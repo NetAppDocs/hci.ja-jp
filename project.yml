@@ -257,9 +257,9 @@ sidebar:
       url: "/docs/concept_hci_upgrade_overview.html"
     - title: アップグレードシーケンス
       entries:
-      - title: NetApp HCI システムのバージョン 1.9 をアップグレードします
+      - title: バージョン 1.9 または 1.9P1 の NetApp HCI システムをアップグレードします
         url: "/docs/task_hcc_upgrade_all.html"
-      - title: Element 12.3 で NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
+      - title: Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
         url: "/docs/task_sf_upgrade_all.html"
     - title: システムのアップグレード手順
       entries:
