@@ -2629,7 +2629,6 @@
   <block id="79a26a29d17e6425a3d5b1deaf51ab27" category="list-text">完了したら構成ファイルを保存します。</block>
   <block id="47b45d19326795031f64b4a16a828d92" category="list-text">新しく追加したサーバと NTP 同期を強制します。</block>
   <block id="618bc09f6dd3ac7774f4a78b0820ef99" category="list-text">NTPD を再起動します。</block>
-  <block id="1762cc1b5e6eebf5fb5751caa2d5e094" category="list-text">ハイパーバイザーによるホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
   <block id="c1798ee92e0bd5e5c8c50bf5ebcaa536" category="admonition">OpenStack 環境の .iso イメージなどで、 VMware 以外のハイパーバイザー環境に mNode を導入する場合は、同等のコマンドについてハイパーバイザーのドキュメントを参照してください。</block>
   <block id="4bfd69891f28eda7e15bd040a2453d6b" category="list-text">定期的な時刻同期を無効にします。</block>
   <block id="28655cad1f55952f073e7a99ee4770e7" category="list-text">サービスの現在のステータスを表示して確認します。</block>
@@ -5960,4 +5959,13 @@
   <block id="81044b834120f4f6ae976694410c56b7" category="list-text">アップグレードする管理ノードのバージョンが 11.0 または 11.1 で、 IPv4 ネットワークを使用していることを確認します。管理ノードバージョン 12.3.x は IPv6 をサポートしていません。</block>
   <block id="c9440d3431e64f8d1456fbd256043dc5" category="list-text">12.3.x 管理ノードで、「 upgrade-mnode 」スクリプトを実行して、以前の設定を保持します。</block>
   <block id="17102379fc0bc7ea881f95eab28fb8d1" category="list-text">（ NetApp Element Plug-in for vCenter Server を使用したすべての NetApp HCI インストールおよび SolidFire オールフラッシュストレージインストールの場合）で、の手順に従って、 12.3.x 管理ノードの vCenter Plug-in を更新します <block ref="61768f3798a436486dacb908355263cd" category="inline-link-macro-rx"></block> トピック：</block>
+  <block id="4ff9fc7c23fbbdf410e784b18625c201" category="inline-xref">サブステップ (f)</block>
+  <block id="ebb10f305c99ec7bfab143a8e38bdcc7" category="admonition">Element 12..1 以降では、手順（ a ） ～ （ e ）が自動的に実行されます。管理ノード 12..1 の場合は、に進みます <block ref="e7aead760c231b389589c93842d555c1" category="inline-xref-macro-rx"></block> 時刻同期の設定を完了します。</block>
+  <block id="51aa09599efde7b5f904971077e61890" category="list-text">[[[[suf_recover_config_time_sync]] ハイパーバイザーを使用したホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
+  <block id="2402451989cd172cbc3b634b598a7bf7" category="inline-xref">再導入コマンド</block>
+  <block id="f495ed37a1bc23c35eb85ae7536b34f8" category="admonition">の実行時は NTP に影響するため、時刻の同期設定の完了後は NTP を編集しないでください <block ref="09beec75f3bf74c9ec51917f2b1066ff" category="inline-xref-macro-rx"></block> 管理ノード。</block>
+  <block id="26e6608a1d4408ec1913111c30b06508" category="admonition">Element 12..1 以降では、手順（ a ） ～ （ e ）が自動的に実行されます。管理ノード 12..1 の場合は、に進みます <block ref="745b7d927b75ef73b131f4d1b2da0731" category="inline-xref-macro-rx"></block> 時刻同期の設定を完了します。</block>
+  <block id="e7538fbaab3148e24ff8ae41d09df5ce" category="list-text">[[[[suf_install_config_time_sync]] ハイパーバイザーを介したホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
+  <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">Setup コマンド</block>
+  <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">の実行時は NTP に影響するため、時刻の同期設定の完了後は NTP を編集しないでください <block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block> 管理ノード。</block>
 </blocks>
