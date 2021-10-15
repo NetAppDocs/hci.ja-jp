@@ -24,15 +24,13 @@ SolidFire エンタープライズ SDS ノードの場合、 [ ストレージ ]
 https://[management node IP address]
 ----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
-+
-NetApp Hybrid Cloud Control Dashboard が表示されます。
-
 . 左側のナビゲーションで、 * ノード * をクリックします。
 +
-Storage （ストレージ）タブが表示されます。
+image::hcc_nodes_storage_2nodes.png[Hybrid Cloud Control Nodes ページの画像]
 
 +
-image::hcc_nodes_storage_2nodes.png[Hybrid Cloud Control Nodes ページの画像]
+
+NOTE: 新しい NetApp Hybrid Cloud Control セッションを初めて起動したときは、管理ノードで多数のクラスタを管理しているときに NetApp Hybrid Cloud Control Nodes ページのロードに時間がかかることがあります。ロードにかかる時間は、管理ノードでアクティブに管理されているクラスタの数によって異なります。その後の起動では、読み込み時間が短縮されます。
 
 . Nodes ページの * Storage * タブで、次の情報を確認します。
 +

@@ -19,7 +19,6 @@ keywords: netapp, hci, deployment, review, deploy
 * link:task_nde_disable_smartd.html["NetApp HCI コンピューティングノードで smartd サービスを無効にします"^]
 * link:task_nde_update_vsphere.html["VMware vSphere を最新の状態に維持"^]
 * link:task_nde_install_GPU_drivers.html["GPU 対応のコンピューティングノード用の GPU ドライバをインストールします"^]
-* link:task_nde_access_ui_fqdn.html["完全修飾ドメイン名 Web UI アクセスを設定します"^]
 * link:task_nde_access_hcc.html["NetApp Hybrid Cloud Control にアクセスします"^]
 * link:task_reduce_boot_media_wear.html["NetApp HCI コンピューティングノードのブートメディアの摩耗度を低減します"^]
 

@@ -139,8 +139,6 @@ sidebar:
         url: "/docs/task_nde_update_vsphere.html"
       - title: GPU 対応のコンピューティングノード用の GPU ドライバをインストールします
         url: "/docs/task_nde_install_GPU_drivers.html"
-      - title: 完全修飾ドメイン名 Web UI アクセスを設定します
-        url: "/docs/task_nde_access_ui_fqdn.html"
       - title: NetApp Hybrid Cloud Control にアクセスします
         url: "/docs/task_nde_access_hcc.html"
       - title: NetApp HCI コンピューティングノードのブートメディアの摩耗度を低減します
@@ -149,6 +147,8 @@ sidebar:
     entries:
     - title: Manage NetApp HCI の概要
       url: "/docs/task_hci_manage_overview.html"
+    - title: 完全修飾ドメイン名 Web UI アクセスを設定します
+      url: "/docs/task_nde_access_ui_fqdn.html"
     - title: NetApp HCI でクレデンシャルを変更します
       url: "/docs/task_post_deploy_credentials.html"
     - title: vCenter および ESXi のクレデンシャルを更新します

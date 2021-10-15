@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
 ---
 = Element Plug-in for vCenter Server をアップグレードします
 
@@ -14,13 +14,18 @@ keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7
 
 このアップグレード手順では、次のアップグレードシナリオについて説明します。
 
-* VCP 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。
+* VCP 4.8 、 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。
 * 7.0 、 6.7 、または 6.5 の HTML5 vSphere Web Client にアップグレードする。
-* 6.7 または 6.5 の Flash vSphere Web Client にアップグレードする。
++
+
+IMPORTANT: このプラグインは、 VMware vCenter Server 6.5 for VCP 4.7 以降と互換性がありません。
+
+* 6.7 Flash vSphere Web Client にアップグレードする。
++
+
+IMPORTANT: このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 ビルド 13007421 および更新 2a より前にリリースされたその他の 6.7 U2 ビルド（ビルド 13643870 ）とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください https://docs.netapp.com/us-en/vcp/rn_relatedrn_vcp.html#netapp-element-plug-in-for-vcenter-server["プラグインのバージョン"]。
 
 
-
-IMPORTANT: このプラグインは、 Flash 用の vSphere Web Client バージョン 6.7 U2 、 Flash および HTML5 用の 6.7 U3 、および 7.0 U1 に対応しています。このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください https://docs.netapp.com/us-en/vcp/rn_relatedrn_vcp.html#netapp-element-plug-in-for-vcenter-server["プラグインのバージョン"]。
 
 .必要なもの
 * * 管理者権限 * ：プラグインをインストールするための vCenter Administrator ロールの権限があります。
@@ -29,7 +34,7 @@ IMPORTANT: このプラグインは、 Flash 用の vSphere Web Client バージ
 * * 管理サービスの更新 * ：を更新しました https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["管理サービスのバンドル"] を最新バージョンに更新します。vCenter プラグインの更新は、 NetApp HCI および SolidFire オールフラッシュストレージの主要製品リリース以外でリリースされた管理サービスの更新を使用して配布されます。
 * * 管理ノードのアップグレード * ：以前に実行されていた管理ノードを実行します link:task_hcc_upgrade_management_node.html["アップグレード済み"] バージョン 11.3 以降。vCenter Plug-in 4.4 以降では、個別のサービスを提供するモジュラアーキテクチャを備えた 11.3 以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。
 * * Element ストレージのアップグレード * ： NetApp Element ソフトウェア 11.3 以降を実行しているクラスタが必要です。
-* * vSphere Web Client * ： vSphere 6.5 および 6.7 では、プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしています。これらのバージョンの Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。vSphere 7.0 では、 Web Client からログアウトする必要はありません。
+* * vSphere Web Client * ：プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしました。Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。
 
 
 .手順
@@ -62,7 +67,7 @@ NOTE: HTTP または HTTPS サーバ（ダークサイト）を使用してい�
 +
 登録が完了すると、登録ユーティリティの UI にバナーが表示されます。
 
-. （ vSphere 6.5 および 6.7 ユーザ） vCenter Administrator として vSphere Web Client にログインします。
+. vSphere Web Client に vCenter Administrator としてログインします。vSphere Web Client にすでにログインしている場合は、ログアウトし、 2~3 分待ってから再度ログインする必要があります。
 +
 
 NOTE: この操作により、新しいデータベースが作成され、 vSphere Web Client でのインストールが完了します。
@@ -73,9 +78,13 @@ NOTE: この操作により、新しいデータベースが作成され、 vSph
 image::vcp_shortcuts_page_accessing_plugin.png[は、アップグレードまたはが正常に完了したあとのプラグインの拡張ポイントを示しています をインストールします]
 
 +
+[NOTE]
+====
+vCenter Plug-in のアイコンが表示されない場合は、を参照してください link:https://review.docs.netapp.com/us-en/vcp_2.19_vcp4.8_release_vcp_repo/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server 向け Element プラグイン"^] プラグインのトラブルシューティングに関するドキュメント。
 
-NOTE: vCenter Plug-in のアイコンが表示されない場合は、プラグインのトラブルシューティングに関する Element Plug-in for vCenter Server のドキュメントを参照してください。
+VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードしたあとに、ストレージクラスタが表示されないか、 NetApp Element 構成の「クラスタ * 」および「 QoSSIOC 設定 * 」のセクションにサーバエラーが表示されます。を参照してください link:https://review.docs.netapp.com/us-en/vcp_2.19_vcp4.8_release_vcp_repo/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
 
+====
 . プラグインの * NetApp Element 構成 * 拡張ポイントの * バージョン情報 * タブでバージョンの変更を確認します。
 +
 次のバージョンの詳細またはより新しいバージョンの詳細が表示されます。
@@ -84,8 +93,8 @@ NOTE: vCenter Plug-in のアイコンが表示されない場合は、プラグ�
 
 [listing]
 ----
-NetApp Element Plug-in Version: 4.7
-NetApp Element Plug-in Build Number: 10
+NetApp Element Plug-in Version: 4.8
+NetApp Element Plug-in Build Number: 34
 ----
 
 NOTE: vCenter Plug-in には、オンラインヘルプが用意されています。ヘルプの最新のコンテンツが読み込まれるようにするために、プラグインをアップグレードしたあとにブラウザキャッシュをクリアしてください。

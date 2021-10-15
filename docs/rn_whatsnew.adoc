@@ -44,6 +44,17 @@ Element 12.3.1 リリースには、ストレージファームウェアバン�
 
 既知の問題と解決済みの問題の一覧については、 NetApp Bugs Online ツールを参照してください。これらの問題は Element およびその他の製品で参照できます から https://mysupport.netapp.com/site/products/all/details/solidfire-elementos/bugsonline-tab["NetApp Bugs Online では"]。
 
+.手順
+. に進みます https://mysupport.netapp.com/site/products/all/details/solidfire-elementos/bugsonline-tab["NetApp Bugs Online では"^]。
+. [ キーワードで検索 * ] フィールドに、製品名（「要素」など）を入力します。
+. を選択します image:icon_plus.PNG["プラスアイコン"]をクリックし、 * バージョンで固定 * フィルタを選択し、 * OK * を選択します。
++
+image:bol_filters.PNG["BOL フィルタの位置合わせ = \"center\""]
+
+. [ 新規検索（ New Search ） ] を選択します。
+. [ バージョン * で固定 ] フィールドにリリースバージョンを入力します。
+
+
 [discrete]
 == 詳細については、こちらをご覧ください
 
