@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_compute_node_firmware.html 
 summary: NetApp HCI システムのアップグレードの一環として、コンピューティングノードのファームウェアをアップグレードします。 
-keywords: netapp, hci, on premise, cluster, element, compute node 
+keywords: netapp, hci, on premise, cluster, element, compute node, vmware, upgrade firmware 
 ---
 = コンピューティングノードのファームウェアをアップグレードします
 
@@ -55,6 +55,9 @@ NOTE: ご使用のハードウェアのファームウェアとドライバの�
 
 
 本番環境では、一度に 1 つのコンピューティングノードのファームウェアをアップグレードします。
+
+
+NOTE: ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi ホストでロックダウンモードを無効にする方法"] および  を参照してください。
 
 NetApp Hybrid Cloud Control の UI または API のアップグレードでは、 DRS 機能と必要なライセンスがある場合、アップグレードプロセス中に ESXi ホストが自動的にメンテナンスモードになります。ノードがリブートされ、アップグレードプロセスが完了すると、 ESXi ホストがメンテナンスモードから除外されます。USB および BMC UI オプションでは、各手順の説明に従って、 ESXi ホストを手動でメンテナンスモードにする必要があります。
 
@@ -532,7 +535,7 @@ image:boot_option_iso_h410c.png["に、仮想 ISO の起動先画面を示しま
 . 上記の画面で、 *Enter* キーを押します。ネットワークによっては、アップグレードを開始するために * Enter キーを押してから数分かかることがあります。
 +
 
-NOTE: メモ：ファームウェアのアップグレードによっては、コンソールが切断されたり、 BMC のセッションが切断されたりする場合があります。BMC に再度ログインできますが、ファームウェアのアップグレードにより、コンソールなどの一部のサービスを使用できない場合があります。アップグレードが完了すると、ノードのコールドリブートが実行されます。これには約 5 分かかることがあります。
+NOTE: ファームウェアのアップグレードによっては、コンソールが切断されたり、 BMC のセッションが切断されたりする場合があります。BMC に再度ログインできますが、ファームウェアのアップグレードにより、コンソールなどの一部のサービスを使用できない場合があります。アップグレードが完了すると、ノードのコールドリブートが実行されます。これには約 5 分かかることがあります。
 
 . BMC UI に再度ログインし、 * System * をクリックして、 OS の起動後に BIOS のバージョンとビルド時間を確認します。アップグレードが正常に完了すると、新しい BIOS と BMC のバージョンが表示されます。
 +
