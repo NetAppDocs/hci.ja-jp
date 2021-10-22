@@ -90,11 +90,11 @@ TIP: クラスタの健常性を確認するには、 SolidFire Active IQ のダ
 
 +
 
-NOTE: Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C238E415-E83C-4F1F-92D4-E0534B601FCA.html["クラスタフルしきい値を設定しています"]。
+NOTE: Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください https://docs.netapp.com/us-en/element-software/storage/task_system_manage_cluster_set_the_cluster_full_threshold.html["クラスタフルしきい値を設定しています"^]。
 
 +
 
-TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9B1D06D7-8FEE-4A52-B3C2-33F03D8540FB.html["「 getClusterFullThreshold 」"] を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください を参照してください。
+TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください https://docs.netapp.com/us-en/element-software/api/reference_element_api_getclusterfullthreshold.html["「 getClusterFullThreshold 」"^] を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください を参照してください。
 
 . 接続されているホストにプロビジョニングされている合計ストレージの情報を表示し、効率性の評価を表示するには、 * Effective * タブを選択します。
 +
@@ -124,7 +124,7 @@ Storage Performance ペインを使用すると、クラスタから取得でき
 
 このペインの情報は 10 秒ごとに更新され、グラフ上のすべてのポイントの平均値が表示されます。
 
-関連付けられている Element API メソッドの詳細については、を参照してください http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-63BEAEDE-74F7-421E-9360-08F166A603F4.html["GetClusterStats から参照できます"] メソッド（ _Element ソフトウェア API ドキュメント内）。
+関連付けられている Element API メソッドの詳細については、を参照してください https://docs.netapp.com/us-en/element-software/api/reference_element_api_getclusterstats.html["GetClusterStats から参照できます"^] メソッド（ _Element ソフトウェア API ドキュメント内）。
 
 .手順
 . Storage Performance ペインを表示します。詳細については、グラフのポイントにカーソルを合わせます。

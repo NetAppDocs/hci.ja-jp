@@ -2213,7 +2213,6 @@
   <block id="96d00bc2793bb4023c14428713025bfe" category="admonition">クラスタの健常性を確認するには、 SolidFire Active IQ のダッシュボードも参照してください。を参照してください <block ref="8d44a7e1afde37374ce375f3a116c977" category="inline-link-macro-rx"></block>。</block>
   <block id="55b3969b622414751acdc95c64d12be9" category="paragraph">縦の線を見て、使用済み容量が警告、エラー、または重大のしきい値を下回っていないかどうかを確認します。行にカーソルを合わせると詳細が表示されます。</block>
   <block id="59b61de9ef53528d04c0ac4985281f7a" category="inline-link">クラスタフルしきい値を設定しています</block>
-  <block id="42100c8df7d3a947a0c952b140d5b0df" category="admonition">Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください<block ref="271e2b9039c5ae1a723910ceb32d4624" category="inline-link-rx"></block>。</block>
   <block id="bfa7fc8868ae0d51b6032a1fdec2b573" category="inline-link">「 getClusterFullThreshold 」</block>
   <block id="b7faac9d3c1075939da92d3aa8607943" category="inline-link">クラスタフルレベルの概要</block>
   <block id="ac1728f7558e0204fe429ca349240673" category="list-text">必要に応じて、 [ シンプロビジョニングを含める ] をオンにして、 [ 実効容量 ] 棒グラフでシンプロビジョニングの効率化率を確認します。</block>
@@ -5471,8 +5470,6 @@
   <block id="89363695961f98be6b89a6302cd4ef63" category="summary">最新バージョンを実行していない場合は、以前のリリースの NetApp HCI に関するドキュメントを参照できます。</block>
   <block id="ef8931a2533213c6835fb82c00d4530f" category="doc">以前のバージョンの NetApp HCI ドキュメント</block>
   <block id="65102c5055fadf434d3ac16f330e2b45" category="list-text"><block ref="65102c5055fadf434d3ac16f330e2b45" category="inline-link-rx"></block></block>
-  <block id="7b063525e616f93516124a19d8811984" category="admonition">関連するクラスタのしきい値 Element API の詳細については、を参照してください<block ref="44fada2e400e775cbc4d680b7af1f21a" category="inline-link-rx"></block> を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください<block ref="cc5ac63813196fa2974b04f333883a65" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="6910f383b0319bdf0d896404616b0b4d" category="paragraph">関連付けられている Element API メソッドの詳細については、を参照してください<block ref="023dd4aacccb67b4a9238fffb38ea37c" category="inline-link-rx"></block> メソッド（ _Element ソフトウェア API ドキュメント内）。</block>
   <block id="3500be2d6452b665360ea9b308c6c109" category="inline-link">SolidFire および Element のドキュメント</block>
   <block id="06ace0d3bf47e1a95240223bce9b2125" category="list-text"><block ref="06ace0d3bf47e1a95240223bce9b2125" category="inline-link-rx"></block></block>
   <block id="528196403c44aeba2f2149ca404cee36" category="summary">NetApp HCI 管理ノードのベストプラクティスについて説明します。</block>
@@ -6076,4 +6073,7 @@
   <block id="51e2f064fae02b78d50335320fa64dee" category="inline-link-macro">VMware ロックダウンモードの動作</block>
   <block id="edd8b3282549ec1d6dc78d1eb7e1c40e" category="admonition">ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください <block ref="fb19a39b93a06583d5a94b26b178d3e3" category="inline-link-macro-rx"></block> および <block ref="53ad52678690a80a10338f589ef87ae4" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="c61e49078f881925dbdfe8eb0ca8d922" category="admonition">ファームウェアのアップグレードによっては、コンソールが切断されたり、 BMC のセッションが切断されたりする場合があります。BMC に再度ログインできますが、ファームウェアのアップグレードにより、コンソールなどの一部のサービスを使用できない場合があります。アップグレードが完了すると、ノードのコールドリブートが実行されます。これには約 5 分かかることがあります。</block>
+  <block id="fb78892e3578cfd18a036951c1c4971f" category="admonition">Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください<block ref="2ce41e26226fd62d356a7c6ed5af0e35" category="inline-link-rx"></block>。</block>
+  <block id="bb8e9580bc946448407e8e1eed6c5970" category="admonition">関連するクラスタのしきい値 Element API の詳細については、を参照してください<block ref="84fc0ed2d196ef8bccc3b67e17fc160b" category="inline-link-rx"></block> を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください<block ref="c30e41b20522ef308202e2e023ffe13e" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="672333a8784a136e1ea5871a046574d4" category="paragraph">関連付けられている Element API メソッドの詳細については、を参照してください<block ref="b80673baab676937916ca74e16dcdde3" category="inline-link-rx"></block> メソッド（ _Element ソフトウェア API ドキュメント内）。</block>
 </blocks>
