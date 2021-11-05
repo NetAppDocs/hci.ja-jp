@@ -376,10 +376,6 @@
   <block id="7dc71fc1ba8b3b46bc5aa180659fd0c4" category="list-text">静電放電（ ESD ）リストバンドを装着するか、静電気防止処置を行っておきます。</block>
   <block id="4177894d92f9956a6f7250cb8b52d834" category="list-text">シャーシに接続された各ケーブルにラベルを付けておきます。</block>
   <block id="af230ec2183265faedfc900d2b43745d" category="paragraph">VMware vSphere Web Client のアラームでは、ホストで障害が発生するとアラートが通知されます。VMware vSphere Web Client で障害が発生したホストのシリアル番号を、ノード背面のステッカーに記載されているシリアル番号と一致させる必要があります。</block>
-  <block id="c2d5d00e12371f6ccf5c90c330a43b75" category="paragraph">ここでは、この手順の概要を示します。<block ref="8b400d38091051616c1c5cc1808de640" category="inline-xref-macro-rx"></block>
-<block ref="3bbd6094cc077cc68f8084464864b066" category="inline-xref-macro-rx"></block>
-<block ref="74302f10271a48c9df46742d43d08db8" category="inline-xref-macro-rx"></block>
-<block ref="85d7ff8f1e3fd6efa440dcd74d3d3e02" category="inline-xref-macro-rx"></block></block>
   <block id="d7f6ba0367c50b236e879580284dfabe" category="section-title">ノードを交換する準備をします</block>
   <block id="15e52a108fb327eeb4e05584634031a8" category="paragraph">ノードを交換する前に、ノードでホストされている仮想マシン（ VM ）を使用可能なホストに移行し、クラスタからノードを削除しておく必要があります。シリアル番号やネットワークの情報など、ノードの詳細を確認する必要があります。</block>
   <block id="d8d7c90a9eba54aa51121a64132d7c53" category="list-text">VMware vSphere Web Client で、次の手順を実行して VM を別の使用可能なホストに移行します。</block>
@@ -403,7 +399,6 @@
   <block id="48609f85b6f3b162f84d5b7d5d7677ae" category="list-text">元々ケーブルを外したポートにケーブルを再接続します。ケーブルを外したときに追加したラベルは、ガイドとして役立ちます。</block>
   <block id="8d0dad879dbd06ad1f5f1f5acf51f28b" category="list-text">シャーシの電源をオンにします。</block>
   <block id="e8ddb30cd234af505251fddfe210e770" category="section-title">GPU ドライバをインストールします</block>
-  <block id="8df338ab213d077dc42b8b468dc318b1" category="paragraph">H610C ノードなどの NVIDIA グラフィックス処理ユニット（ GPU ）を搭載したコンピューティングノードでは、 NVIDIA ソフトウェアドライバを VMware ESXi にインストールして、強化された処理能力を活用できるようにする必要があります。</block>
   <block id="d7dc44e401260dbcb4fba3e3f12c02e3" category="list-text">ブラウザを開き、次の URL から NVIDIA ライセンスポータルにアクセスします。 https://nvid.nvidia.com/dashboard/`</block>
   <block id="b2103fba1bd5328076195ac35de4dfcd" category="list-text">ご使用の環境に応じて、次のいずれかのドライバパッケージをコンピュータにダウンロードします。</block>
   <block id="6e2a2eb46a6584886a7e4f865e6c6f73" category="cell">vSphere のバージョン</block>
@@ -1942,20 +1937,16 @@
   <block id="592faa3fc44bfcb329ca98f0f5b83b87" category="paragraph">NetApp HCI および Element ソフトウェアでは、クラスタのさまざまなノードロールが定義されています。ノードのロールには、 * 管理ノード * 、 * ストレージノード * 、 * コンピューティングノード * 、 * NetApp HCI 監視ノード * の 4 種類があります。</block>
   <block id="3fb1292a90b80b9cc1a3f200dfc17b80" category="section-title">管理ノード</block>
   <block id="e42382ee96981e6cd16bf50df1d242f1" category="paragraph">管理ノード（ mNode とも呼ばれます）は、ストレージクラスタと通信して管理操作を実行しますが、ストレージクラスタのメンバーではありません。管理ノードは、 API 呼び出しを使用してクラスタに関する情報を定期的に収集し、この情報を Active IQ に報告してリモート監視（有効な場合）に利用します。管理ノードでは、クラスタノードのソフトウェアアップグレードの調整も担当します。</block>
-  <block id="cb26289e96710e0720eec4089e6b29ac" category="paragraph">管理ノードは、 Element ソフトウェアベースの 1 つ以上のストレージクラスタと同時に実行される仮想マシンです。アップグレードに加え、監視と計測などのシステムサービスの提供、クラスタのアセットと設定の管理、システムテストとユーティリティの実行、ネットアップサポートによるトラブルシューティングアクセスの有効化にも使用されます。Element 11.3 リリース以降、管理ノードはマイクロサービスホストとして機能するようになりました。そのため、メジャーリリースを待つことなく、希望するソフトウェアサービスを更新できます。これらのマイクロサービスまたは管理サービス（ Active IQ コレクタ、 vCenter Plug-in 用の QoSSIOC 、管理ノードサービスなど）は、サービスバンドルとして頻繁に更新されます。</block>
   <block id="136c07ee64e1881b929de11861c01b0f" category="section-title">ストレージノード</block>
   <block id="2191b09019466c8efef0cd752d7696e0" category="paragraph">NetApp HCI ストレージノードは、 NetApp HCI システムのストレージリソースを提供するハードウェアです。ノード内のドライブには、データの格納用と管理用にブロックスペースとメタデータスペースが確保されます。各ノードには、 NetApp Element ソフトウェアの工場出荷時のイメージが含まれています。NetApp HCI ストレージノードは、 NetApp Element Management 拡張ポイントを使用して管理できます。</block>
   <block id="0a90ae9733f3b799ab6f5203099a1799" category="section-title">コンピューティングノード</block>
   <block id="36d3df322550ec93e10b1da2e3571f62" category="paragraph">NetApp HCI コンピューティングノードは、 NetApp HCI 環境での仮想化に必要な、 CPU 、メモリ、ネットワークなどのコンピューティングリソースを提供するハードウェアです。各サーバは VMware ESXi を実行するため、 vSphere のホストおよびクラスタメニューにあるプラグイン以外で NetApp HCI コンピューティングノードの管理（ホストの追加または削除）を行う必要があります。コンピューティングノードは、 4 ノードストレージクラスタと 2 ノードストレージクラスタのどちらであるかに関係なく、 NetApp HCI 環境では最低 2 つの数が維持されます。</block>
   <block id="3366c96036458b6c9eedbdaccbd3dc34" category="section-title">監視ノード</block>
-  <block id="b167b61d3d114de9f0dc00ca901c06f4" category="paragraph">NetApp HCI 監視ノードは、 Element ソフトウェアベースのストレージクラスタと並行してコンピューティングノードで実行される仮想マシンです。監視ノードでは、スライスサービスまたはブロックサービスがホストされません。監視ノードを使用すると、ストレージノードに障害が発生した場合のストレージクラスタの可用性を確保できます。監視ノードは、他のストレージノードと同じ方法で管理およびアップグレードできます。ストレージクラスタには、最大 4 つの監視ノードを含めることができます。主な目的は、有効なアンサンブルクォーラムを形成できるだけの十分な数のクラスタノードが存在することを確認することです。</block>
   <block id="ebd9bcbadb9c9789b855381b4b3c91a1" category="inline-link-macro">監視ノードのリソース要件</block>
   <block id="ed227f04b96772f206d5427ed842cdf1" category="inline-link-macro">監視ノードの IP アドレスの要件</block>
   <block id="8625403690840d272c440cb55d94d1dc" category="admonition">の詳細を確認してください <block ref="89e09228b3fab130467e907f6f51a08c" category="inline-link-macro-rx"></block> および <block ref="928b75d5563d22bd4a824c39b5bfffb3" category="inline-link-macro-rx"></block>。</block>
-  <block id="5e41954da9c62375a20d4294a9674353" category="admonition">2 ノードストレージクラスタでは、監視ノードに障害が発生した場合の冗長性を確保するために、最低 2 つの監視ノードが導入されます。NetApp HCI のインストールプロセスで監視ノードがインストールされると、仮想マシンテンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
   <block id="cb41a10c3ad1c89de8c68f4308811042" category="summary">NetApp HCI 監視ノードの要件について説明します。</block>
   <block id="6bc3cc5c8a1df1f098ef6e35a878f98e" category="doc">2 ノードストレージクラスタの場合は、監視ノードのリソース要件が必要です</block>
-  <block id="d733be81ad8a897fa8707a86bc18a29e" category="paragraph">NetApp HCI では、最小インストールサイズとして、 2 つのストレージノードと 2 つのコンピューティングノードがサポートされます。2 ノードまたは 3 ノードのストレージクラスタを使用して NetApp HCI をインストールする場合は、 NetApp HCI 監視ノードと、それらの VM リソースの要件について理解しておく必要があります。</block>
   <block id="06f435b9eb45ffebbfd7844fe4d7d4d8" category="paragraph">ストレージクラスタは、 2 つまたは 3 つのノードを使用する場合、各ストレージクラスタと一緒に監視ノードのペアを導入します。監視ノードには、次の VM リソース要件があります。</block>
   <block id="be8545ae7ab0276e15898aae7acfbd7a" category="cell">リソース</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="cell">要件</block>
@@ -1965,7 +1956,6 @@
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="cell">ディスクサイズ</block>
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67 GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">NetApp HCI では、 2 ノードまたは 3 ノードのストレージクラスタでサポートされるストレージノードのモデルには制限があります。詳細については、ご使用の NetApp HCI バージョンの『リリースノート』を参照してください。</block>
-  <block id="4e882eaa503c9eb9dbbab92c955188b0" category="admonition">NetApp HCI のインストールプロセスで監視ノードがインストールされると、仮想マシンテンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
   <block id="c9ce4a5a8a9d1a8092a6ff7b76b8bc89" category="summary">SolidFire ストレージシステムの VMware コンポーネントをアップグレードして、 vCenter Plug-in を再インストールする手順を追加で実行できます。</block>
   <block id="ae39d371b28f32c0d2467b06b77ffdc4" category="doc">NetApp SolidFire ストレージシステムの vSphere コンポーネントをアップグレードします を使用： Element Plug-in for vCenter Server</block>
   <block id="9960455891f61a3653ec820987bcbc47" category="paragraph">SolidFire Element ストレージインストールの VMware vSphere コンポーネントをアップグレードするときは、 Element Plug-in for vCenter Server を使用するシステムで行う必要がある手順がいくつか追加されています。</block>
@@ -6076,4 +6066,15 @@
   <block id="fb78892e3578cfd18a036951c1c4971f" category="admonition">Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください<block ref="2ce41e26226fd62d356a7c6ed5af0e35" category="inline-link-rx"></block>。</block>
   <block id="bb8e9580bc946448407e8e1eed6c5970" category="admonition">関連するクラスタのしきい値 Element API の詳細については、を参照してください<block ref="84fc0ed2d196ef8bccc3b67e17fc160b" category="inline-link-rx"></block> を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください<block ref="c30e41b20522ef308202e2e023ffe13e" category="inline-link-rx"></block> を参照してください。</block>
   <block id="672333a8784a136e1ea5871a046574d4" category="paragraph">関連付けられている Element API メソッドの詳細については、を参照してください<block ref="b80673baab676937916ca74e16dcdde3" category="inline-link-rx"></block> メソッド（ _Element ソフトウェア API ドキュメント内）。</block>
+  <block id="b1579568b723cfa21964d9882eb934fb" category="paragraph">ここでは、この手順の概要を示します。<block ref="8b400d38091051616c1c5cc1808de640" category="inline-xref-macro-rx"></block>
+<block ref="3bbd6094cc077cc68f8084464864b066" category="inline-xref-macro-rx"></block>
+<block ref="85d7ff8f1e3fd6efa440dcd74d3d3e02" category="inline-xref-macro-rx"></block>
+<block ref="74302f10271a48c9df46742d43d08db8" category="inline-xref-macro-rx"></block></block>
+  <block id="34a9fb6a8c162efa753bd66e9b87e554" category="paragraph">H610C ノードなどの NVIDIA グラフィックス処理ユニット（ GPU ）を搭載したコンピューティングノードでは、 NVIDIA ソフトウェアドライバを VMware ESXi にインストールして、強化された処理能力を活用できるようにする必要があります。GPU ドライバをインストールするには、コンピューティングノードに GPU カードが必要です。</block>
+  <block id="c484451a896ce37f81a357bd535b03fc" category="paragraph">管理ノードは、 Element ソフトウェアベースの 1 つ以上のストレージクラスタと同時に実行される仮想マシン（ VM ）です。アップグレードに加え、監視と計測などのシステムサービスの提供、クラスタのアセットと設定の管理、システムテストとユーティリティの実行、ネットアップサポートによるトラブルシューティングアクセスの有効化にも使用されます。Element 11.3 リリース以降、管理ノードはマイクロサービスホストとして機能するようになりました。そのため、メジャーリリースを待つことなく、希望するソフトウェアサービスを更新できます。これらのマイクロサービスまたは管理サービス（ Active IQ コレクタ、 vCenter Plug-in 用の QoSSIOC 、管理ノードサービスなど）は、サービスバンドルとして頻繁に更新されます。</block>
+  <block id="13637fc461c216e2f133872aa68284f3" category="paragraph">NetApp HCI 監視ノードは、 Element ソフトウェアベースのストレージクラスタと並行してコンピューティングノードで実行される VM です。監視ノードでは、スライスサービスまたはブロックサービスがホストされません。監視ノードを使用すると、ストレージノードに障害が発生した場合のストレージクラスタの可用性を確保できます。監視ノードは、他のストレージノードと同じ方法で管理およびアップグレードできます。ストレージクラスタには、最大 4 つの監視ノードを含めることができます。主な目的は、有効なアンサンブルクォーラムを形成できるだけの十分な数のクラスタノードが存在することを確認することです。</block>
+  <block id="2c9355f24d4fb92e48ff0624b5165e70" category="paragraph">* ベストプラクティス：監視ノードの VM でコンピューティングノードのローカルデータストアを使用するように設定する（ NDE のデフォルト設定）。 SolidFire ストレージボリュームなどの共有ストレージには設定しないでください。VM が自動的に移行されないようにするには、監視ノード VM の Distributed Resource Scheduler （ DRS ）自動化レベルを「 * Disabled 」に設定します。これにより、両方の監視ノードが同じコンピューティングノードで実行されないようにし、非ハイアベイラビリティ（ HA ）ペア構成を作成することができます。</block>
+  <block id="a14d86f6e1b539c968e4bd45fb67c0a1" category="admonition">2 ノードストレージクラスタでは、監視ノードに障害が発生した場合の冗長性を確保するために、最低 2 つの監視ノードが導入されます。NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b2deb2ee0646b01bfac86564456e1c2" category="paragraph">NetApp HCI では、最小インストールサイズとして、 2 つのストレージノードと 2 つのコンピューティングノードがサポートされます。2 ノードまたは 3 ノードのストレージクラスタを使用して NetApp HCI をインストールする場合は、 NetApp HCI 監視ノードとその仮想マシン（ VM ）リソースの要件について理解しておく必要があります。</block>
+  <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
 </blocks>
