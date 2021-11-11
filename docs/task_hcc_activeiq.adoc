@@ -29,7 +29,7 @@ SolidFire Active IQ を使用して、クラスタのイベント、パフォー
 +
 [listing]
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . ダッシュボードの右上にあるメニューをクリックします。

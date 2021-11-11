@@ -24,7 +24,7 @@ REST API を使用して、管理ノード構成内の既存の VMware vCenter �
 +
 [listing]
 ----
-https://[management node IP]/vcenter/1/
+https://<ManagementNodeIP>/vcenter/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +

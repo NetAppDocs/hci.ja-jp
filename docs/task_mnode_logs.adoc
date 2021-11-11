@@ -20,7 +20,7 @@ REST API を使用して、管理ノードで実行されているサービス�
 +
 [listing]
 ----
-https://[managementNodeIP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 . 「 * Authorize * （認証）」または任意のロックアイコンを選択し、次の手順を実行します。
 +

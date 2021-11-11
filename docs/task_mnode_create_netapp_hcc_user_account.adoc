@@ -197,7 +197,7 @@ IMPORTANT: Do * not * select * Propagate to children * を選択します。
 .手順
 . 管理ノードの mNode サービス API UI にアクセスします。
 +
-「 https://[management node ip]/mnode 」
+https://<ManagementNodeIP>/mnode`
 
 . 「 * Authorize * 」を選択し、 API 呼び出しにアクセスするためのクレデンシャルを入力します。
 . [get/assets] を選択して、親 ID を取得します。

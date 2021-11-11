@@ -28,7 +28,7 @@ NOTE: 必要に応じて link:task_hcc_edit_bmc_info.html["コンピューティ
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 +
 

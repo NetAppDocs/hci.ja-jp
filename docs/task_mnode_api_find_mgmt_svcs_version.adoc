@@ -28,13 +28,13 @@ keywords: netapp, hci, management node, management services, version, bundle ver
 +
 [listing]
 ----
-curl -X GET "https://<managementNodeIP>/mnode/about" -H  "accept: application/json"
+curl -X GET "https://<ManagementNodeIP>/mnode/about" -H  "accept: application/json"
 ----
 * 管理ノードで実行されている個々のサービスに関するバージョン情報を取得します。
 +
 [listing]
 ----
-curl -X GET "https://<managementNodeIP>/mnode/services?status=running" -H  "accept: */*" -H  "Authorization: Bearer ${TOKEN}"
+curl -X GET "https://<ManagementNodeIP>/mnode/services?status=running" -H  "accept: */*" -H  "Authorization: Bearer ${TOKEN}"
 ----
 +
 
@@ -50,7 +50,7 @@ NOTE: API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検�
 +
 [listing]
 ----
-https://<managementNodeIP>/mnode/
+https://<ManagementNodeIP>/mnode/
 ----
 . 次のいずれかを実行します。
 +

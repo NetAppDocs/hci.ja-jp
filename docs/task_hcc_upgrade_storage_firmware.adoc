@@ -24,12 +24,15 @@ IMPORTANT: Element ソフトウェアバージョン 12.0 を実行している 
 
 IMPORTANT: ストレージノードのファームウェアをアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。Element ソフトウェアをバージョン 12.2 以降に更新する場合は、管理サービス 2.14.60 以降が必要です。
 
+
+IMPORTANT: iDRAC / BIOS ファームウェアを更新するには、ネットアップサポートにお問い合わせください。追加情報の場合は、を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_to_update_iDRAC%2F%2FBIOS_firmware_on_SF_Series_nodes["こちらの技術情報アーティクル"^]。
+
 * * クラスタの健全性 * ：健全性チェックを実行しました。を参照してください link:task_hcc_upgrade_element_prechecks.html["ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します"]。
 * * H610S ノードの BMC を更新 * ： H610S ノードの BMC バージョンをアップグレードしました。を参照してください link:rn_H610S_BMC_3.84.07.html["リリースノートおよびアップグレード手順"^]。
 
 
 
-NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"] （ログインが必要です）。
+NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"] （ログインが必要です）。
 
 次のいずれかのストレージファームウェアアップグレードオプションを選択します。
 
@@ -177,7 +180,7 @@ API を使用して、クラスタ内のストレージノードを最新バー�
 +
 [listing]
 ----
-https://[management node IP]/package-repository/1/
+https://<ManagementNodeIP>/package-repository/1/
 ----
 ... 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -218,7 +221,7 @@ https://[management node IP]/package-repository/1/
 +
 [listing]
 ----
-https://[management node IP]/package-repository/1/
+https://<ManagementNodeIP>/package-repository/1/
 ----
 ... 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -255,7 +258,7 @@ https://[management node IP]/package-repository/1/
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -305,7 +308,7 @@ https://[management node IP]/inventory/1/
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +

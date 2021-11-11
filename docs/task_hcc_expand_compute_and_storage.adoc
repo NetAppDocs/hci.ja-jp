@@ -42,7 +42,7 @@ NetApp HCI の導入が完了したら、 NetApp Hybrid Cloud Control を使用�
 +
 [listing]
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . インターフェイスの右上隅にある * Expand * をクリックします。

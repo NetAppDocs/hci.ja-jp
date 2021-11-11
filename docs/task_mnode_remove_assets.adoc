@@ -20,7 +20,7 @@ keywords: netapp, hci, api, REST, remove, compute, asset
 +
 [listing]
 ----
-https://<managementNodeIP>/mnode/1/
+https://<ManagementNodeIP>/mnode/1/
 ----
 . Authorize * または任意のロックアイコンをクリックし、 API を使用する権限を付与するクラスタ管理者クレデンシャルを入力します。
 +

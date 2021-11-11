@@ -30,7 +30,7 @@ NOTE: コンピューティングノードを手動で追加する場合は、 B
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
@@ -80,7 +80,7 @@ NOTE: インストール環境には、インストールまたはアップグ�
 +
 [listing]
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 +
 ... 「 * Authorize * 」（認証）を選択して、次の手順を実行
@@ -107,7 +107,7 @@ https://[management node IP]/mnode
 +
 [listing]
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 +
 ... 「 * Authorize * 」（認証）を選択して、次の手順を実行

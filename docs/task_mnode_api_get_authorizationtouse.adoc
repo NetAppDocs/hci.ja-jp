@@ -29,7 +29,7 @@ TOKEN=`curl -k -X POST https://MVIP/auth/connect/token -F client_id=mnode-client
 +
 [listing]
 ----
-https://<managementNodeIP>/mnode/
+https://<ManagementNodeIP>/mnode/
 ----
 . 「 * 許可」をクリックします。
 +

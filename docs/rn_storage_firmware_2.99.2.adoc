@@ -32,13 +32,13 @@ Element 12.0 以降および管理サービスバージョン 2.14 以降では�
 | コンポーネント | SolidFire SF シリーズ | H410S | H610S 
 
 
-| BIOS | 該当なし | NA2.1 | 3B06 
+| BIOS | 含まれません | NA2.1 | 3B06 
 
 
-| BMC の場合 | 該当なし | 6.8400 | * 3.91.07 * 
+| BMC の場合 | 含まれません | 6.8400 | * 3.91.07 * 
 
 
-| NIC / Mellanox | - | 14.25.1020 | 14.25.1020 
+| NIC / Mellanox | 含まれません | 14.25.1020 | 14.25.1020 
 
 
 | RMS200 | aeb8cc | aeb8cc | - 
@@ -156,4 +156,5 @@ image::bol_list_bugs_found.png[ストレージファームウェアバンドル�
 
 * https://docs.netapp.com/hci/index.jsp["NetApp HCI ドキュメントセンター"^]
 * https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_to_update_iDRAC%2F%2FBIOS_firmware_on_SF_Series_nodes["KB ： SF シリーズノードで IDRAC / BIOS ファームウェアを更新する方法"^]
 

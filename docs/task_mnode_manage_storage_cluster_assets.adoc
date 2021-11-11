@@ -34,7 +34,7 @@ REST API のインストール ID およびストレージクラスタの ID を
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +
@@ -69,7 +69,7 @@ API は、既知のすべてのインストールのリストを返します。
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +
@@ -109,7 +109,7 @@ NOTE: 信頼できるクラスタで定義されたすべてのユーザが、 H
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +
@@ -168,7 +168,7 @@ NOTE: の手順に従っていることを確認します <<Retrieve the install
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +
@@ -217,7 +217,7 @@ NOTE: の手順に従っていることを確認します <<Retrieve the install
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +

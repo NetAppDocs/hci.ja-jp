@@ -72,7 +72,7 @@ REST API を使用して、クラスタ内のコンピューティングノー�
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -130,7 +130,7 @@ https://[management node IP]/inventory/1/
 +
 [listing]
 ----
-https://[management node IP]/vcenter/1/
+https://<ManagementNodeIP>/vcenter/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -173,7 +173,7 @@ https://[management node IP]/vcenter/1/
 +
 [listing]
 ----
-https://[management node IP]/vcenter/1/
+https://<ManagementNodeIP>/vcenter/1/
 ----
 .. [*Get/computeTole/tasks/{tasks_id}*] をクリックします。
 .. [* 試してみてください * ] をクリックします。

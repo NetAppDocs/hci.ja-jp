@@ -96,7 +96,7 @@ NOTE: インターネットにアクセスできない環境では、現在の�
 NOTE: 各サービスバンドルバージョンで使用可能なサービスのリストについては、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理サービスリリースノート"]。
 
 .手順
-. 管理ノードで REST API UI を開きます：「 https://[management node ip]/mnode 」
+. 管理ノードで REST API UI を開きます https://<ManagementNodeIP>/mnode`
 . 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
 .. クラスタのユーザ名とパスワードを入力します。
@@ -149,7 +149,7 @@ NOTE: 各サービスバンドルバージョンで使用可能なサービス�
 
 
 .手順
-. 管理ノードで REST API UI を開きます：「 https://[management node ip]/mnode 」
+. 管理ノードで REST API UI を開きます https://<ManagementNodeIP>/mnode`
 . 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
 .. クラスタのユーザ名とパスワードを入力します。

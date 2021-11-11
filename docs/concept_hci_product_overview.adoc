@@ -64,7 +64,7 @@ NetApp HCI で使用する一般的な URL を次に示します。
 | 「ストレージノード上の Bond1G インターフェイスの https://[IPv4 アドレス」 | NetApp Deployment Engine ウィザードにアクセスして、 NetApp HCI をインストールおよび設定します。 link:concept_nde_access_overview.html["詳細はこちら。"] 
 
 
-| https://[management ノード IP アドレス | NetApp Hybrid Cloud Control にアクセスして、 NetApp HCI のインストール、拡張、監視、管理サービスの更新を行うことができます。 link:task_nde_access_hcc.html["詳細はこちら。"] 
+| https://<ManagementNodeIP>` | NetApp Hybrid Cloud Control にアクセスして、 NetApp HCI のインストール、拡張、監視、管理サービスの更新を行うことができます。 link:task_nde_access_hcc.html["詳細はこちら。"] 
 
 
 | 「 https://[IP アドレス」： 442` | ノード UI から、ネットワークとクラスタの設定にアクセスし、システムのテストとユーティリティを利用できます。 https://docs.netapp.com/us-en/hci/docs/task_mnode_access_ui.html#access-the-management-node-per-node-ui["詳細はこちら。"] 
@@ -76,7 +76,7 @@ NetApp HCI で使用する一般的な URL を次に示します。
 | https://activeiq.solidfire.com` | データを監視し、パフォーマンスのボトルネックや潜在的なシステムの問題に対するアラートを受信します。 
 
 
-| 「 https://[management node IP address 」 /mnode 」を参照してください | 管理ノードから REST API UI を使用して管理サービスを手動で更新します。 
+| https://<ManagementNodeIP>/mnode` | 管理ノードから REST API UI を使用して管理サービスを手動で更新します。 
 
 
 | https://[storage クラスタ MVIP アドレス ' | NetApp Element ソフトウェア UI にアクセスします。 

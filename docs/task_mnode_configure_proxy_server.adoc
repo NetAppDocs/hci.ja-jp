@@ -26,7 +26,7 @@ keywords: netapp, hci, mnode, api, management node, add proxy, proxy server
 +
 [listing]
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 . [* Authorize * （認証） ] または任意のロックアイコンをクリックして、次の手順を実行します。
 +

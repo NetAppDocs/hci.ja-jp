@@ -74,7 +74,7 @@ REST API を使用して、ストレージクラスタをアップグレード�
 +
 [listing]
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 .. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
@@ -112,7 +112,7 @@ NOTE: このセクションの「親」の値は、ストレージクラスタ�
 +
 [listing]
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 .. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +

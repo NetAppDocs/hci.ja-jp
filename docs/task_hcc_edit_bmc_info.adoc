@@ -32,7 +32,7 @@ BMC クレデンシャルを変更するには、次のいずれかのオプシ�
 +
 [listing]
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . 左側のナビゲーション青いボックスで、 NetApp HCI のインストールを選択します。
@@ -66,7 +66,7 @@ NOTE: BMC の情報を更新すると、インベントリが更新され、管�
 +
 [listing]
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -107,7 +107,7 @@ https://[management node IP]/inventory/1/
 +
 [listing]
 ----
-https://[management node IP]/hardware/2/
+https://<ManagementNodeIP>/hardware/2/
 ----
 . 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +

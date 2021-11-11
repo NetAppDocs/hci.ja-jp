@@ -21,7 +21,7 @@ SolidFire システムは、ボリュームを使用してストレージをプ�
 +
 [listing]
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . 左側のナビゲーション青いボックスで、 NetApp HCI のインストールを選択します。

@@ -32,7 +32,7 @@ NetApp HCI または SolidFire オールフラッシュストレージの設置�
 +
 [listing]
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . NetApp HCI または Element ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . ダッシュボードの右上にあるメニューをクリックします。
@@ -75,7 +75,7 @@ REST API を使用して NetApp HCI ログまたは Element ログを収集で�
 +
 [listing]
 ----
-https://[management node IP]/logs/1/
+https://<ManagementNodeIP>/logs/1/
 ----
 .. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
 +
@@ -102,7 +102,7 @@ https://[management node IP]/logs/1/
 | 「 computeLogs 」を参照してください | ブール値 | コンピューティング・ノード・ログを含めるには ' このパラメータを TRUE に設定します 
 
 
-| 「 computeIds 」 | UUID の配列 | 「 computeLogs 」が「 true 」に設定されている場合、このパラメータにコンピューティングノードの管理ノードアセット ID を入力して、ログ収集を特定のコンピューティングノードに制限します。使用可能なすべてのノード ID を表示するには 'get https://[management node ip]/logs/1/bundle/options エンドポイントを使用します 
+| 「 computeIds 」 | UUID の配列 | 「 computeLogs 」が「 true 」に設定されている場合、このパラメータにコンピューティングノードの管理ノードアセット ID を入力して、ログ収集を特定のコンピューティングノードに制限します。GET を使用します https://<ManagementNodeIP>/logs/1/bundle/options`[] 使用可能なすべてのノード ID が表示されます。 
 
 
 | 「ムノドノグス」 | ブール値 | 管理ノードのログを含めるには、このパラメータを「 true 」に設定します。 
@@ -114,7 +114,7 @@ https://[management node IP]/logs/1/
 | 'torageLogs' | ブール値 | ストレージ・ノード・ログを含めるには、このパラメータを「 true 」に設定します。 
 
 
-| 「 torageNodeIds 」 | UUID の配列 | 「 torageLogs 」が「 true 」に設定されている場合は、ログ収集を特定のストレージノードに制限するために、このパラメータにストレージクラスタのノード ID を入力します。使用可能なすべてのノード ID を表示するには 'get https://[management node ip]/logs/1/bundle/options エンドポイントを使用します 
+| 「 torageNodeIds 」 | UUID の配列 | 「 torageLogs 」が「 true 」に設定されている場合は、ログ収集を特定のストレージノードに制限するために、このパラメータにストレージクラスタのノード ID を入力します。GET を使用します https://<ManagementNodeIP>/logs/1/bundle/options`[] 使用可能なすべてのノード ID が表示されます。 
 |===
 .. [*Execute] をクリックして ' ログ収集を開始します次のような応答が返されます。
 +

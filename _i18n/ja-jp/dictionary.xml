@@ -763,7 +763,6 @@
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">アップグレードの開始後は、このページにアップグレードのステータスが表示されます。アップグレードの実行中に NetApp Hybrid Cloud Control との接続が失われ、ログインし直さないとアップグレードの結果が表示されないことがあります。</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">管理ノード API を使用して管理サービスを更新する</block>
   <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">管理サービスの更新は、 NetApp Hybrid Cloud Control から実行することを推奨します。ただし、管理ノードから REST API UI を使用して管理サービスを手動で更新することはできます。</block>
-  <block id="af268dbd6a20b35e8fafa53f0e7acfc3" category="list-text">管理ノードで REST API UI を開きます：「 https://[management node ip]/mnode 」</block>
   <block id="dca88fc888afa88e757dfbda4102fd6c" category="list-text">ウィンドウを閉じます。</block>
   <block id="fe1085046bceaf490556bf74e0f01c15" category="list-text">（任意）利用可能な管理ノードサービスのバージョンを確認します。「 get/services/versions</block>
   <block id="0edefa8da79067ac4b94f9b1b2a9af8c" category="list-text">（任意）最新バージョンの詳細情報を取得します。「 get/services/versions/latest</block>
@@ -1507,13 +1506,11 @@
   <block id="2b19d5363317a239f1c2c9c105c6c76d" category="cell">「ストレージノード上の Bond1G インターフェイスの https://[IPv4 アドレス」</block>
   <block id="f990e553cdc4c29c2efffba33e08a8c7" category="inline-link-macro">詳細はこちら。</block>
   <block id="882325c8d62460e65b6b682c2060de4c" category="cell">NetApp Deployment Engine ウィザードにアクセスして、 NetApp HCI をインストールおよび設定します。 <block ref="c3264de5d3bf9c29c39ccb8e557df3f1" category="inline-link-macro-rx"></block></block>
-  <block id="79f096e4547eada00ae7d57f70afee02" category="cell">https://[management ノード IP アドレス</block>
   <block id="5f4d0cf334dbb7b7e88793d53168ae18" category="cell">「 https://[IP アドレス」： 442`</block>
   <block id="74efb1b4cb9a8967d035cd3cd2830fda" category="cell">「 https://[management node IP address 」 : 9443</block>
   <block id="b0692672c692f202a0fbb91ba7ae408c" category="cell">vCenter Plug-in パッケージを vSphere Web Client に登録します。</block>
   <block id="22af5c1dbed33fa68c93caf10941c67f" category="cell">https://activeiq.solidfire.com`</block>
   <block id="2a6075eef4e199e5b47cd13779d16ca4" category="cell">データを監視し、パフォーマンスのボトルネックや潜在的なシステムの問題に対するアラートを受信します。</block>
-  <block id="0fd0e7c3e6bacb0c497f03c01857af7c" category="cell">「 https://[management node IP address 」 /mnode 」を参照してください</block>
   <block id="51aef48b611bd95a2a7a8f33b0858147" category="cell">管理ノードから REST API UI を使用して管理サービスを手動で更新します。</block>
   <block id="0598a98d3fc53e6ee8627aacad7feaff" category="cell">https://[storage クラスタ MVIP アドレス '</block>
   <block id="066e8c37353c7ec59955c8fd1f13b916" category="cell">NetApp Element ソフトウェア UI にアクセスします。</block>
@@ -2034,7 +2031,6 @@
   <block id="54011adfa7bb72ee88b88d3ba0d26d4e" category="cell">アップグレードを実行中です。進行状況バーにアップグレードステータスが表示されます。</block>
   <block id="819180dac1edd7f3ad94afb1cd39ecc4" category="section-title">NetApp Hybrid Cloud Control API を使用してコンピューティングをアップグレードします ノード</block>
   <block id="28e250dd03d1d6c42bd639d46927b2f8" category="paragraph">API を使用して、クラスタ内の各コンピューティングノードを最新のファームウェアバージョンにアップグレードできます。API の実行には、任意の自動化ツールを使用できます。ここで説明する API ワークフローでは、例として管理ノードで使用可能な REST API UI を使用します。</block>
-  <block id="e9d2dbd1e3557c8d013e326d156844ce" category="paragraph">vCenter やハードウェアのアセットなど、コンピューティングノードのアセットを管理ノードのアセットに認識しておく必要があります。インベントリサービス API を使用して、アセット (`https://[management node ip]/inventory/1/`) を確認できます。</block>
   <block id="689c642c94aa6268a48bbbc19bb529c5" category="list-text">管理ノードでパッケージサービス REST API UI を開きます。</block>
   <block id="325b3df765685b8bf7d0a291e60ff0d7" category="list-text">応答から、後の手順で使用するために、アップグレードパッケージ名（「 packageName 」）とパッケージバージョン（「 packageVersion 」）をコピーして保存します。</block>
   <block id="6d766ad7112c950eb04002ef1c7fc39c" category="list-text">NetApp HCI ソフトウェアにアクセスします<block ref="3dffc4c3eb8dd9089d721ea160bd23f1" category="inline-link-rx"></block> をクリックし、管理ノードからアクセス可能なデバイスに最新のコンピューティングノードファームウェアイメージをダウンロードします。</block>
@@ -2680,7 +2676,6 @@
   <block id="563b9e811f20a61bad36baf4c76bf550" category="paragraph">NetApp Hybrid Cloud Control のインターフェイスが表示されます。</block>
   <block id="60ab2bd7c82926193a03f5c5a737a700" category="summary">管理ノード UI を使用 <block ref="a7b0ad1acc22482b3121a6ffb43d70b9" category="inline-link-rx"></block>を使用して、ネットワークとクラスタの設定を変更したり、システムテストを実行したり、システムユーティリティを使用したりできます。</block>
   <block id="76aaec2f503ca4060e52d3afcacbf7ac" category="doc">管理ノード UI の概要</block>
-  <block id="5f6a3d453e620c04e86ab8777de65a84" category="paragraph">管理ノード UI （ https://&lt;managementNodeIP&gt;:442` ）を使用すると、ネットワークおよびクラスタの設定を変更したり、システムテストを実行したり、システムユーティリティを使用したりできます。</block>
   <block id="6622311408de951c1b40e6b5bd9c1113" category="paragraph">管理ノード UI で実行できるタスクは次のとおりです。</block>
   <block id="b1d5b66eefd3844ee62adb1214c911d1" category="list-text"><block ref="b1d5b66eefd3844ee62adb1214c911d1" category="inline-link-macro-rx"></block></block>
   <block id="0f693a63463c62015ee0ce70923983df" category="inline-link-macro">管理ノードのネットワーク、クラスタ、およびシステムの設定を変更してテストする</block>
@@ -3120,7 +3115,6 @@
   <block id="1bdb537e97d4eae6936e30ec7d70cda5" category="cell">コンピューティング・ノード・ログを含めるには ' このパラメータを TRUE に設定します</block>
   <block id="0e8935e37815befe7eba623d813b2442" category="cell">「 computeIds 」</block>
   <block id="1668abecc62293f578558ce34d5b164a" category="cell">UUID の配列</block>
-  <block id="3e15b5dab46c9f299954a322db25d52f" category="cell">「 computeLogs 」が「 true 」に設定されている場合、このパラメータにコンピューティングノードの管理ノードアセット ID を入力して、ログ収集を特定のコンピューティングノードに制限します。使用可能なすべてのノード ID を表示するには 'get https://[management node ip]/logs/1/bundle/options エンドポイントを使用します</block>
   <block id="d177095de451f1afa18d56915d05172e" category="cell">「ムノドノグス」</block>
   <block id="301e462936c0bfb45495caf217030121" category="cell">管理ノードのログを含めるには、このパラメータを「 true 」に設定します。</block>
   <block id="b293c296cbd1e744af624acfe4940054" category="cell">「 torageCrashDumps 」を参照してください</block>
@@ -3128,7 +3122,6 @@
   <block id="794af0344571fb41831e3a17856afef5" category="cell">'torageLogs'</block>
   <block id="71dfd09f622fcfb3c4291a35e74b9cd0" category="cell">ストレージ・ノード・ログを含めるには、このパラメータを「 true 」に設定します。</block>
   <block id="5480143467091f8d2d6d0d5f891d8197" category="cell">「 torageNodeIds 」</block>
-  <block id="415bf63fe1e2d4eb6575389eff5e8566" category="cell">「 torageLogs 」が「 true 」に設定されている場合は、ログ収集を特定のストレージノードに制限するために、このパラメータにストレージクラスタのノード ID を入力します。使用可能なすべてのノード ID を表示するには 'get https://[management node ip]/logs/1/bundle/options エンドポイントを使用します</block>
   <block id="bbedbf7944a8e2c4955eeacf2eaa5002" category="list-text">[*Execute] をクリックして ' ログ収集を開始します次のような応答が返されます。</block>
   <block id="764a25f84de190ca17479002aa31687a" category="list-text">ログ収集タスクのステータスを確認します。</block>
   <block id="d4fe50e7a9ad625727788d5578e9e5a2" category="list-text">[*Get/Bundle*] をクリックします。</block>
@@ -3389,7 +3382,6 @@
   <block id="9197cc48c8ddd2d400f10cc220189fb2" category="list-text"><block ref="9197cc48c8ddd2d400f10cc220189fb2" category="inline-link-rx"></block></block>
   <block id="474c6800f0719d621f24fc2682a27460" category="summary">管理ノード（ mNode ） API を使用して、システムサービスのアップグレード、クラスタのアセットと設定の管理、システムのテストとユーティリティの実行、システム監視用の Active IQ の設定、トラブルシューティング用のネットアップサポートの SSH アクセスの有効化または無効化を行うことができます。</block>
   <block id="b2fc999fbccff4aaaffa26387ba2644f" category="doc">管理ノードの REST API UI の概要</block>
-  <block id="99023d452f9135abf85115869e8e281a" category="paragraph">組み込みの REST API UI （ https://&lt;managementNodeIP&gt;/mnode` ）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理などの管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
   <block id="79ed200d3fdf33f90ac7bacae1bcd0b9" category="paragraph">REST API で実行できるタスクは次のとおりです。</block>
   <block id="9cd8a2455b1839ff98ef70c05b9b5983" category="section-title">承認</block>
   <block id="e0e73a2c694effc8913d40fd32f76302" category="list-text"><block ref="e0e73a2c694effc8913d40fd32f76302" category="inline-link-macro-rx"></block></block>
@@ -4328,7 +4320,6 @@
   <block id="b43ec114888d8c5f4ee7160e52c260f2" category="section-title">H610S ノードでの BMC ファームウェアのアップグレード</block>
   <block id="43d961ce3f484b237d018721fc82a221" category="paragraph">H610S ノードの BMC ファームウェアのバージョンをアップグレードするには、次の手順を実行してください。この手順は、完了までに約 30 分かかることがあります。</block>
   <block id="24eb19ee18761c9704500019ad3d341b" category="list-text">NetApp Element ソフトウェアの Web UI で * Reporting * &gt; * Alerts * をクリックして、アラートを確認しています。</block>
-  <block id="b08a20053dd5434208cd9709bd4e4807" category="list-text">BMC の更新パッケージをダウンロードしておきます。</block>
   <block id="9924d43e43a0bf46bdf16c33955ae361" category="list-text">BMC と、更新を実行するために使用するコンピュータが同じネットワーク上にあることを確認しておきます。</block>
   <block id="f20d1f9c0b9aaeed91d1993b7684f3fe" category="list-text">BMC のアップグレードについて、ネットアップサポートに問い合わせておきます。</block>
   <block id="78023292fd540ec2c7e427733320a478" category="list-text">Web ブラウザ「 https://&lt;BMC_IP&gt;/#login` 」を使用して BMC コンソールにログインします。「 &lt;BMC_IP&gt; 」は BMC の IP アドレスです。</block>
@@ -5369,7 +5360,6 @@
   <block id="2ca07406c925d0427c2d8fdbf94c585e" category="list-title">プロファイルをインポートせずに続行します</block>
   <block id="41eef3d7aedaba490dc1dd48396f079c" category="list-text">インポート手順をスキップするには、 [* インストールプロファイル * ] ページで [* 続行 ] をクリックします。</block>
   <block id="f0a87811e8be55bf94672bdc19729182" category="inline-link-macro">カスタムの保護ドメイン</block>
-  <block id="7ca84b5398d7acc87509940d92183be1" category="paragraph">複数のノードシステム、および 2 ノードまたは 3 ノードクラスタに関連付けられた NetApp HCI 監視ノードのストレージ情報を表示できます。状況 <block ref="6751b312804e6cd07962df767727db4f" category="inline-link-macro-rx"></block> が割り当てられている場合、特定のノードに割り当てられている保護ドメインを確認できます。監視ノードはクラスタ内のクォーラムを管理します。監視ノードはストレージには使用されません。監視ノードは NetApp HCI のみに該当し、オールフラッシュストレージ環境には該当しません。</block>
   <block id="7457298de9d9970265bb007d30f6824a" category="paragraph">複数のストレージクラスタの管理を開始する前に、権限のあるクラスタで定義されているユーザが同じ権限を持つ他のすべてのストレージクラスタに定義されていることを確認してください。を参照してください <block ref="ac9b7f419ed27bd25986b25e8e50373a" category="inline-link-macro-rx"></block> 管理ノードのストレージクラスタアセットの使用の詳細については、を参照してください。</block>
   <block id="0eb91c90051a8280b5d03272245097b3" category="section-title">NetApp Bugs Online には、既知の問題と解決済みの問題があります</block>
   <block id="69893000f4da30e1e42922cbcf8dac0e" category="inline-link">NetApp Bugs Online では</block>
@@ -5472,7 +5462,6 @@
   <block id="8ab8fb23b7af5808d2ca7889c64dfed2" category="admonition">ヘルスチェック時に BMC クレデンシャルを設定した場合、変更が * Nodes * ページに反映されるまでに最大 2 分かかることがあります。</block>
   <block id="c4438eefe24f5cc3f9d1565520da3685" category="list-text"><block ref="c4438eefe24f5cc3f9d1565520da3685" category="inline-link-rx"></block></block>
   <block id="e66d08aa1d752c3a04c3937d5991507a" category="list-text">各ホストの管理 NIC ポートに設定されているサイズの MTU を使用できるように、管理ネットワークスイッチポートを設定する必要があります。たとえば、ホスト管理ネットワークポートの MTU サイズが 1750 バイトの場合は、少なくとも 1 、 750 バイトの MTU を使用できるように管理ネットワークスイッチポートを設定する必要があります（管理ネットワークの MTU は 9 、 000 バイトである必要はありません）。MTU 設定はエンドツーエンドで一貫した値にする必要があります</block>
-  <block id="e8e2c9108b1759c47e5fa31cd5041a45" category="admonition">NetApp Hybrid Cloud Control の UI でインベントリの更新に最大 2 分かかる場合があります。インベントリを手動で更新するには、 REST API UI インベントリサービスの「 https://[management node ip]/inventory/1/` にアクセスし、クラスタに対して「 get/installationsationsationsationsationsationsationsationsations/{ id} 」を実行します。</block>
   <block id="43551c29e9ac231743a69c265f5ef85c" category="inline-link-macro">管理ノード 12.3 についての注意</block>
   <block id="6927fa09b89de9365631c15a2e8a8758" category="list-text"><block ref="6927fa09b89de9365631c15a2e8a8758" category="inline-link-macro-rx"></block></block>
   <block id="a994c7955992607e240e906376c847ea" category="inline-link-macro">NetApp HCI 1.9 の注意事項</block>
@@ -5798,7 +5787,6 @@
   <block id="5736148b5375720933e71e45f51b20e5" category="section-title">管理ノードにはすでにコントローラアセットが存在します</block>
   <block id="fc19c6595bd8969ef30edf3d5a5b0180" category="paragraph">コントローラアセットが管理ノードにすでに存在する場合は、次の手順を実行して、「 PUT /assets/{asset_id }/controllers /{controller_id } 」を使用してコントローラを設定します。</block>
   <block id="ae4366a31230f9af19c469714f87f6ee" category="list-text">管理ノードの mNode サービス API UI にアクセスします。</block>
-  <block id="8cffe2ec13bf2ab433bf42f4e7f1e2f0" category="paragraph">「 https://[management node ip]/mnode 」</block>
   <block id="71427c2704c6de4d5876235c27517ca4" category="list-text">「 * Authorize * 」を選択し、 API 呼び出しにアクセスするためのクレデンシャルを入力します。</block>
   <block id="22d2ed076037305c1b4f2cbc0eff7128" category="list-text">[get/assets] を選択して、親 ID を取得します。</block>
   <block id="00599f37a415f2f93cf88aab44078222" category="list-text">'put/assets/{asset_id }/controllers /{controller_id }' を選択します</block>
@@ -6077,4 +6065,24 @@
   <block id="a14d86f6e1b539c968e4bd45fb67c0a1" category="admonition">2 ノードストレージクラスタでは、監視ノードに障害が発生した場合の冗長性を確保するために、最低 2 つの監視ノードが導入されます。NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
   <block id="8b2deb2ee0646b01bfac86564456e1c2" category="paragraph">NetApp HCI では、最小インストールサイズとして、 2 つのストレージノードと 2 つのコンピューティングノードがサポートされます。2 ノードまたは 3 ノードのストレージクラスタを使用して NetApp HCI をインストールする場合は、 NetApp HCI 監視ノードとその仮想マシン（ VM ）リソースの要件について理解しておく必要があります。</block>
   <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
+  <block id="0758c5ce5c5ec7a65fa6027b43ac146d" category="paragraph">https://&lt;ManagementNodeIP&gt;/mnode`</block>
+  <block id="9a452c7dc2442a21923d0c9fff059919" category="list-text">管理ノードで REST API UI を開きます https://&lt;ManagementNodeIP&gt;/mnode`</block>
+  <block id="5629a2ac1157dc8c4e04967fe01f5a1e" category="paragraph">複数のノードシステム、および 2 ノードまたは 3 ノードクラスタに関連付けられた NetApp HCI 監視ノードのストレージ情報を表示できます。状況 <block ref="6751b312804e6cd07962df767727db4f" category="inline-link-macro-rx"></block> が割り当てられている場合、特定のノードに割り当てられている保護ドメインを確認できます。</block>
+  <block id="3fa62ec6cab8d08330da755c1f9d0f5c" category="paragraph">監視ノードはクラスタ内のクォーラムを管理します。監視ノードはストレージには使用されません。監視ノードは NetApp HCI のみに該当し、オールフラッシュストレージ環境には該当しません。</block>
+  <block id="8e004d415389a718ee96992435ad3bba" category="inline-link">コンピューティングノードを vCenter ホストクラスタに追加します</block>
+  <block id="9096cab7bf5c75b918f02fc815db37c7" category="admonition">NetApp Hybrid Cloud Control でコンピューティングノードを管理するには、が必要です<block ref="3136f2ad2ea8a329ffb06570dc8b6de0" category="inline-link-rx"></block>。</block>
+  <block id="85da0aa194b3836a01e1fcc86737bb23" category="cell">https://&lt;ManagementNodeIP&gt;`</block>
+  <block id="571ebba046dfc62ef7155919bf315d2d" category="paragraph">vCenter やハードウェアのアセットなど、コンピューティングノードのアセットを管理ノードのアセットに認識しておく必要があります。インベントリサービス API を使用して、アセットを確認できます (`https://&lt;ManagementNodeIP&gt;/inventory/1/` ) 。</block>
+  <block id="8462fe6b8e0ecb22956412f8031fad77" category="paragraph">管理ノード UI （ https://&lt;mNodeIP&gt;:442` ）を使用すると、ネットワークおよびクラスタの設定を変更したり、システムテストを実行したり、システムユーティリティを使用したりできます。</block>
+  <block id="430da5bf67efa8919ce223e5f3869007" category="cell">「 computeLogs 」が「 true 」に設定されている場合、このパラメータにコンピューティングノードの管理ノードアセット ID を入力して、ログ収集を特定のコンピューティングノードに制限します。GET を使用します<block ref="9a8a56cfa19546ff3e55accb249b0618" category="inline-link-rx"></block> 使用可能なすべてのノード ID が表示されます。</block>
+  <block id="ae94fc9eff2c43695e92c82b97cd258a" category="cell">「 torageLogs 」が「 true 」に設定されている場合は、ログ収集を特定のストレージノードに制限するために、このパラメータにストレージクラスタのノード ID を入力します。GET を使用します<block ref="9a8a56cfa19546ff3e55accb249b0618" category="inline-link-rx"></block> 使用可能なすべてのノード ID が表示されます。</block>
+  <block id="09396bd4c9cec873ef8c52ff3a30f52e" category="admonition">NetApp Hybrid Cloud Control の UI でインベントリの更新に最大 2 分かかる場合があります。インベントリを手動で更新するには、 REST API UI インベントリサービス https://&lt;ManagementNodeIP&gt;/inventory/1/` にアクセスし、クラスタに対して「 get/installationses/{ id} 」を実行します。</block>
+  <block id="f092926fa32883d124eb34471b6d25b2" category="paragraph">組み込みの REST API UI （ https://&lt;managementNodeIP&gt;/mnode` ）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理などの管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
+  <block id="4bc8b4ce0c74999ac10508fff58bdeaa" category="cell">含まれません</block>
+  <block id="c70e22bcef830b342d692edaaeae94de" category="inline-link">KB ： SF シリーズノードで IDRAC / BIOS ファームウェアを更新する方法</block>
+  <block id="754b0b1819b15f42d067e9816ab6be32" category="list-text"><block ref="754b0b1819b15f42d067e9816ab6be32" category="inline-link-rx"></block></block>
+  <block id="6be429977d0c03d0877af437d396aa0c" category="list-text">BMC の更新パッケージをダウンロードしておきます。BMC 更新パッケージをダウンロードします<block ref="72792b1a2b7f12e055a846ecc5a8ee93" category="inline-link-rx"></block>。</block>
+  <block id="96ab6da7e8e7be64d17a753ee635a905" category="admonition">このアップデート・パッケージには 'ROM.IMA_enc' ファイルと ' ファームウェア・アップデートに必要なすべてのファイルが含まれています</block>
+  <block id="1162dd84e55b1e6c2517bf0323faf96b" category="admonition">iDRAC / BIOS ファームウェアを更新するには、ネットアップサポートにお問い合わせください。追加情報の場合は、を参照してください <block ref="ce98bbbd0598351d03b47f370ea3b773" category="inline-link-macro-rx"></block>。</block>
+  <block id="549d257a6f61f3935af556f51f5a19e8" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください<block ref="6cc0561cb437417f52ccd7c1b6fd3ccc" category="inline-link-rx"></block> （ログインが必要です）。</block>
 </blocks>

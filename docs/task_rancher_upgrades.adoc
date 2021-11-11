@@ -133,7 +133,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 +
 [listing]
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
@@ -202,7 +202,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 +
 [listing]
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
@@ -275,7 +275,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 +
 [listing]
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
