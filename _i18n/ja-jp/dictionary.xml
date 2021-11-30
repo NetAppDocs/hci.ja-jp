@@ -6085,4 +6085,9 @@
   <block id="96ab6da7e8e7be64d17a753ee635a905" category="admonition">このアップデート・パッケージには 'ROM.IMA_enc' ファイルと ' ファームウェア・アップデートに必要なすべてのファイルが含まれています</block>
   <block id="1162dd84e55b1e6c2517bf0323faf96b" category="admonition">iDRAC / BIOS ファームウェアを更新するには、ネットアップサポートにお問い合わせください。追加情報の場合は、を参照してください <block ref="ce98bbbd0598351d03b47f370ea3b773" category="inline-link-macro-rx"></block>。</block>
   <block id="549d257a6f61f3935af556f51f5a19e8" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください<block ref="6cc0561cb437417f52ccd7c1b6fd3ccc" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="763eb859ae372f33db810eafc97f8c46" category="paragraph">ネットワークでジャンボフレームがサポートされていないために NetApp Deployment Engine で障害が発生した場合は、次のいずれかの対処方法を実行します。</block>
+  <block id="a7f938a5ee66be6cd3956047c881cbae" category="list-text">静的 IP アドレスを使用して、 Bond10G ネットワークで 9000 バイトの最大伝送ユニット（ MTU ）を手動で設定してください。</block>
+  <block id="491ef57b4f097c3c194192a5b8b421ba" category="list-text">Bond10G ネットワークで 9000 バイトのインターフェイス MTU をアドバタイズするように動的ホスト構成プロトコルを設定します。</block>
+  <block id="2797d21d72c04e7d29225422f3460348" category="inline-link-macro">イニシエータとボリュームアクセスグループを管理します</block>
+  <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> をクリックします。</block>
 </blocks>

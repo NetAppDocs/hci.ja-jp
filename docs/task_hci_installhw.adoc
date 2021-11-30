@@ -39,7 +39,7 @@ TIP: を参照してください link:../media/hseries-isi.pdf["ポスター"^] 
 
 === H410C および H410S
 
-image::h410c_workflow.png[H410C および H410S の設置ワークフロー]
+image::workflow_h410c.PNG[H410C および H410S の設置ワークフロー]
 
 
 
@@ -48,7 +48,7 @@ image::h410c_workflow.png[H410C および H410S の設置ワークフロー]
 
 NOTE: H610C および H615C では、 2U / 4 ノードシャーシと違ってノードとシャーシが別々のコンポーネントではないため、「ノード」と「シャーシ」は同じ意味で使用されます。
 
-image::h610c_workflow.png[H610C および H615C の設置ワークフロー]
+image::workflow_h610c.png[H610C および H615C の設置ワークフロー]
 
 
 
@@ -57,7 +57,7 @@ image::h610c_workflow.png[H610C および H615C の設置ワークフロー]
 
 NOTE: H610C および H615C では、 2U / 4 ノードシャーシと違ってノードとシャーシが別々のコンポーネントではないため、「ノード」と「シャーシ」は同じ意味で使用されます。
 
-image::h610s_workflow.png[H610S の設置ワークフロー]
+image::workflow_h610s.png[H610S の設置ワークフロー]
 
 
 
