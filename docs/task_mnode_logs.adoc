@@ -53,6 +53,7 @@ TIP: 管理ノード上のサービスを一覧表示するには 'get/services'
 
 
 . [* Execute] を選択します。
+. 応答の本文から「 * Download * 」を選択して、ログ出力を保存します。
 
 
 [discrete]

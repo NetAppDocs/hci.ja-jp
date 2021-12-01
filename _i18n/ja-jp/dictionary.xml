@@ -6090,4 +6090,5 @@
   <block id="491ef57b4f097c3c194192a5b8b421ba" category="list-text">Bond10G ネットワークで 9000 バイトのインターフェイス MTU をアドバタイズするように動的ホスト構成プロトコルを設定します。</block>
   <block id="2797d21d72c04e7d29225422f3460348" category="inline-link-macro">イニシエータとボリュームアクセスグループを管理します</block>
   <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> をクリックします。</block>
+  <block id="cbda40c0ce8f395ef056b796d0e4c3c6" category="list-text">応答の本文から「 * Download * 」を選択して、ログ出力を保存します。</block>
 </blocks>
