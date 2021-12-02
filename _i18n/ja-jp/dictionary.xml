@@ -6091,4 +6091,5 @@
   <block id="2797d21d72c04e7d29225422f3460348" category="inline-link-macro">イニシエータとボリュームアクセスグループを管理します</block>
   <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> をクリックします。</block>
   <block id="cbda40c0ce8f395ef056b796d0e4c3c6" category="list-text">応答の本文から「 * Download * 」を選択して、ログ出力を保存します。</block>
+  <block id="710275b9559f3f346a4b9eaea4c23ed4" category="admonition">ケーブルを 6 本使用する構成では、 2 つのポートが VMware ESXi 用に予約されており、 NetApp Deployment Engine によってセットアップおよび管理されます。Element の TUI または Element Web GUI を使用して、これらの ESXi 専用ポートにアクセスしたり管理したりすることはできません。</block>
 </blocks>
