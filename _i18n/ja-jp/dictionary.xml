@@ -6092,4 +6092,14 @@
   <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> をクリックします。</block>
   <block id="cbda40c0ce8f395ef056b796d0e4c3c6" category="list-text">応答の本文から「 * Download * 」を選択して、ログ出力を保存します。</block>
   <block id="710275b9559f3f346a4b9eaea4c23ed4" category="admonition">ケーブルを 6 本使用する構成では、 2 つのポートが VMware ESXi 用に予約されており、 NetApp Deployment Engine によってセットアップおよび管理されます。Element の TUI または Element Web GUI を使用して、これらの ESXi 専用ポートにアクセスしたり管理したりすることはできません。</block>
+  <block id="b81c4cad1c00bb06119a7dec22c8ea33" category="section-title">データセンターにユーザ権限を割り当てます</block>
+  <block id="572c8096f094b2f31eedd25f068cff32" category="paragraph">vCenter のデータセンターにユーザ権限を割り当てるには、次の手順を実行します。</block>
+  <block id="81dc28658e950851a725c63d64fa38bb" category="list-text">左側のペインで、 * Datacenter * を選択します。</block>
+  <block id="60099c83b780eff3734ba89e70f43672" category="list-text">「 ReadOnly ロール」を選択します。</block>
+  <block id="f2fc3bdb47c2c0a00eb78727ce83b919" category="section-title">NetApp HCI データストアにユーザ権限を割り当てます</block>
+  <block id="feea5da4b4bab374bda05d7bde40c477" category="paragraph">vCenter で NetApp HCI データストアにユーザ権限を割り当てるには、次の手順を実行します。</block>
+  <block id="e0e3bb875141cd12e27297877e85adf7" category="list-text">新しいストレージフォルダを作成します。[*Datacenter] を右クリックし、 [*Create storage folder* ] を選択します。</block>
+  <block id="f3631eb61fca5f83081c3305746bec62" category="list-text">すべての NetApp HCI データストアをストレージクラスタからローカルにコンピューティングノードに転送し、新しいストレージフォルダに移動します。</block>
+  <block id="9caa1c9a8c45be2d5c61600cbaf343e9" category="list-text">新しいストレージフォルダを選択します。</block>
+  <block id="73d3eff9fc7bdce6cd7e98735c3b6327" category="list-text">「管理者ロール」を選択します。</block>
 </blocks>
