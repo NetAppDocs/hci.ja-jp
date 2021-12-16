@@ -5696,7 +5696,6 @@
   <block id="dca98c8002ae66dd3c8d9ff91fb6d0d1" category="paragraph"><block ref="dca98c8002ae66dd3c8d9ff91fb6d0d1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c36d4c54bb2d689723c264a2d2a063fa" category="list-text">「タグ」の値をコピーして保存します。</block>
   <block id="26b2b0df9cdd214cbe1123eff096fe46" category="inline-xref-macro">コンピューティングノードのハードウェアタグを確認する方法</block>
-  <block id="227077b9671db976934c253016dcf363" category="list-text">（コンピューティングノードの場合のみ） vSphere でコンピューティングノードのハードウェアタグを確認するには、に進みます <block ref="67168798c8bb9f0eabb30427bd3b7747" category="inline-xref-macro-rx"></block>。</block>
   <block id="183782ec8f70f632a4ebde5c4ad4f363" category="admonition">コンピューティングノードを手動で追加する場合は、 BMC アセットも追加するようにしてください。追加しないとエラーが返されます。</block>
   <block id="c1ecaea7fa6a6815242524f00425d6cc" category="list-text">カスタム保護ドメイン：カスタムの保護ドメインがクラスタで使用されている場合、クラスタ内の各ノードのカスタムの保護ドメインの割り当てを確認できます。カスタムの保護ドメインが有効になっていない場合は、この列は表示されません。</block>
   <block id="79df72a933d3593ef7d9131e8d7c509c" category="admonition">H610C および H615S コンピューティングノードのファームウェアをアップグレードする場合は、 BMC Web UI から Serial-Over-LAN （ SOL ）コンソールを開かないでください。これにより、アップグレードが失敗する場合があります。</block>
@@ -5799,9 +5798,7 @@
   <block id="8cfb9a9c7c3001a95af6d09549cdabaa" category="list-text">コントローラサブアセットを追加する場合は、「 * POST /assets/｛ asset_id ｝ /controllers * 」を選択します。</block>
   <block id="f9ff4ba30fde92cbf23c00302a8ac526" category="admonition">コントローラサブアセットを追加する場合は、 vCenter で新しい NetApp HCC ロールを作成することを推奨します。この新しい NetApp HCC ロールにより、管理ノードのサービス表示がネットアップ専用のアセットに制限されます。を参照してください <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="59cb038ca0d26b60e9eda25d59ec865b" category="list-text">コンピューティングノードアセットのクレデンシャルを使用してコンピューティングノードサブアセットを追加する場合は、「 * POST/assets/｛ asset_id ｝ /compute-nodes 」を選択します。</block>
-  <block id="d6cd623eb04058015d6055bb8f01a916" category="list-text">vCenter で新しい NetApp HCC ロールを作成して、管理ノードのサービス表示をネットアップ専用のアセットに制限します。を参照してください <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="9539656d09065df435b82b8301eb7619" category="list-text">REST API UI から、 * GET / Installations / ｛ id ｝ * を選択します。</block>
-  <block id="d7b971b45d73a3e160aa7065e904708f" category="list-text">コンピューティングノードと BMC アセット、またはコントローラサブアセットを既存のベースアセットに追加するには、次のいずれかを選択します。</block>
   <block id="97c58645694b4b37731fb27c7e0cf206" category="list-text">「 * POST /assets/｛ asset_id ｝ /controllers * 」を選択します。</block>
   <block id="6274b4439cba5b53460127164f5e20ec" category="list-text">「 * POST /assets/｛ asset_id ｝ /compute-nodes 」を選択します。</block>
   <block id="6f2c388bfbd8977b6fbfc3a23a18b5c1" category="list-text">健全性チェックを選択します <block ref="121ad3230a694a5231762b0ae438963f" category="inline-image-macro-rx" type="image"></block> アップグレードの準備状況を確認するクラスタ</block>
@@ -6102,4 +6099,14 @@
   <block id="f3631eb61fca5f83081c3305746bec62" category="list-text">すべての NetApp HCI データストアをストレージクラスタからローカルにコンピューティングノードに転送し、新しいストレージフォルダに移動します。</block>
   <block id="9caa1c9a8c45be2d5c61600cbaf343e9" category="list-text">新しいストレージフォルダを選択します。</block>
   <block id="73d3eff9fc7bdce6cd7e98735c3b6327" category="list-text">「管理者ロール」を選択します。</block>
+  <block id="9a4458f563e0cfb715b5315a7d298d15" category="inline-link-macro">vCenter で新しい NetApp HCC ロールを作成しました</block>
+  <block id="0079b2664bc7f7dd0d8765a4562049ed" category="list-text">これで完了です <block ref="6aaf2894037d718da471677b2a2ed96d" category="inline-link-macro-rx"></block> 管理ノードのサービス表示をネットアップ専用のアセットに制限します。</block>
+  <block id="0fe6bcc307c6d081e8e6c432c9ca00cf" category="list-text">vCenter の管理 IP アドレスとクレデンシャルが必要です。</block>
+  <block id="03b5f579803b8e6fc19f89d054bb22e3" category="list-text">コンピューティングノード（ ESXi ）の管理 IP アドレスとルートクレデンシャルが必要です。</block>
+  <block id="049ac9e135613047505199e74b2958a6" category="list-text">ハードウェア（ BMC ）の管理 IP アドレスと管理者のクレデンシャルが必要です。</block>
+  <block id="dfdae85c9cc5e9910b793fab82559e4c" category="inline-xref-macro">コンピューティングノードのハードウェアタグを確認します</block>
+  <block id="bb8bb6f07e4883d4a29dc515aab1bfd6" category="list-text">（コンピューティングノードのみ） <block ref="497b2a5a2ab987572f4f91c56083105b" category="inline-xref-macro-rx"></block> vSphere で実行されます。</block>
+  <block id="84fbd609c6d8004c48c651a386a6f162" category="list-text">コントローラアセット（ vCenter ）、コンピューティングノード（ ESXi ）、またはハードウェア（ BMC ）を既存のベースアセットに追加するには、次のいずれかを選択します。</block>
+  <block id="2d6450ab26114780e9a87cd5d798cb70" category="cell">POST / assets / ｛ asset_id ｝ / ハードウェアノード</block>
+  <block id="0ea174836be3fd8da5d4675011fc6b61" category="list-text">「 * POST /assets/｛ asset_id ｝ /hardware-nodes 」を選択します。</block>
 </blocks>
