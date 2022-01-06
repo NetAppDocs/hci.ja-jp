@@ -23,35 +23,36 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 == NetApp HCI
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2879274["NetApp HCI 1.9P1 リリースノート"] _ 新規 _
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876591["NetApp HCI 1.9 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873790["NetApp HCI 1.8P1 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865021["NetApp HCI 1.8 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861226["NetApp HCI 1.7P1 リリースノート"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2879274["NetApp HCI 1.9P1 リリースノート"^] _ 新規 _
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876591["NetApp HCI 1.9 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873790["NetApp HCI 1.8P1 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865021["NetApp HCI 1.8 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861226["NetApp HCI 1.7P1 リリースノート"^]
 
 
 
 
 == NetApp Element ソフトウェア
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2878089["NetApp Element ソフトウェア 12.3.1 リリースノート"] _ 新規 _
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876498["NetApp Element ソフトウェア 12.3 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["NetApp Element ソフトウェア 12.2.1 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["NetApp Element ソフトウェア 12.2 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["NetApp Element ソフトウェア 12.0.1 リリースノート"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["NetApp Element ソフトウェア 12.3.2 リリースノート"^] _ 新規 _
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2878089["NetApp Element ソフトウェア 12.3.1 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876498["NetApp Element ソフトウェア 12.3 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["NetApp Element ソフトウェア 12.2.1 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["NetApp Element ソフトウェア 12.2 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["NetApp Element ソフトウェア 12.0.1 リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["NetApp Element ソフトウェア 12.0 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["NetApp Element ソフトウェア 11.8.1 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["NetApp Element ソフトウェア 11.8 リリースノート"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["NetApp Element ソフトウェア 11.8.1 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["NetApp Element ソフトウェア 11.8 リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["NetApp Element ソフトウェア 11.7 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2863854["NetApp Element ソフトウェア 11.5.1 リリースノート"]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2859857["NetApp Element ソフトウェア 11.3P1 リリースノート"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2863854["NetApp Element ソフトウェア 11.5.1 リリースノート"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2859857["NetApp Element ソフトウェア 11.3P1 リリースノート"^]
 
 
 
 
 == 管理サービス
 
-* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理サービスリリースノート"]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理サービスリリースノート"^]
 
 
 

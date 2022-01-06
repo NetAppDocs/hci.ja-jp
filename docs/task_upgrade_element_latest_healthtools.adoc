@@ -11,7 +11,7 @@ keywords: netapp, HealthTools upgrade, sfupdate-healthtools, element
 Element ストレージのアップグレードを 11.1 以前から開始する前に、 HealthTools スイートをアップグレードする必要があります。HealthTools のアップグレードは、実行している管理ノードと Element ソフトウェアが 11.1 以前の場合にのみ必要です。には HealthTools は必要ありません link:task_hcc_upgrade_element_software.html["NetApp Hybrid Cloud Control を使用して Element をアップグレードする"]。
 
 
-IMPORTANT: Element ソフトウェア 12.3.1 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。
+IMPORTANT: Element ソフトウェア 12.3.2 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。
 
 .必要なもの
 * 実行されている管理ノードは 11.0 、 11.1 、またはそれ以降です。

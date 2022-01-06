@@ -791,26 +791,18 @@
   <block id="2b25aeb8c7f6b5acc086216f641291e8" category="admonition">ネットアップサポートサイトのクレデンシャルでログインするように求められます。</block>
   <block id="08edd2123939d5309dced149763a50ee" category="section-title">NetApp HCI</block>
   <block id="93c90752aba7edbf5a9fd2d0543c08d3" category="inline-link">NetApp HCI 1.8P1 リリースノート</block>
-  <block id="1b79d7735a8e7783a7a8bdda14c70b9e" category="list-text"><block ref="1b79d7735a8e7783a7a8bdda14c70b9e" category="inline-link-rx"></block></block>
   <block id="169529280d59fa19257685252a99970c" category="inline-link">NetApp HCI 1.8 リリースノート</block>
-  <block id="8eb51080ea9271551acec8b876bc441a" category="list-text"><block ref="8eb51080ea9271551acec8b876bc441a" category="inline-link-rx"></block></block>
   <block id="0e46845425c50e92223c731f7a7df661" category="inline-link">NetApp HCI 1.7P1 リリースノート</block>
-  <block id="d24b4ceb88f66cd2c46ab7e02e38b636" category="list-text"><block ref="d24b4ceb88f66cd2c46ab7e02e38b636" category="inline-link-rx"></block></block>
   <block id="3938cfdbe176bad61cedb25bdb572858" category="section-title">NetApp Element ソフトウェア</block>
   <block id="5702596023de56cf8731146604f8837f" category="inline-link">NetApp Element ソフトウェア 12.2 リリースノート</block>
-  <block id="1d9105fcc159d90483aaf59489f00494" category="list-text"><block ref="1d9105fcc159d90483aaf59489f00494" category="inline-link-rx"></block></block>
   <block id="1cace3c036a290ab8ee91dddebd361d0" category="inline-link">NetApp Element ソフトウェア 12.0 リリースノート</block>
   <block id="4530ac947ab244332016237ecd5be386" category="list-text"><block ref="4530ac947ab244332016237ecd5be386" category="inline-link-rx"></block></block>
   <block id="c238b8c4c43e1a2c0a7fa4b0128df200" category="inline-link">NetApp Element ソフトウェア 11.8 リリースノート</block>
-  <block id="8e17ada66f25ae507220722cbf209f1a" category="list-text"><block ref="8e17ada66f25ae507220722cbf209f1a" category="inline-link-rx"></block></block>
   <block id="de0f0c49b842adda3c5183c2ee2304e8" category="inline-link">NetApp Element ソフトウェア 11.7 リリースノート</block>
   <block id="c16491ff91ceba0f9e002a099673aaaa" category="list-text"><block ref="c16491ff91ceba0f9e002a099673aaaa" category="inline-link-rx"></block></block>
   <block id="a287e6799739729404ccb132fbbb1739" category="inline-link">NetApp Element ソフトウェア 11.5.1 リリースノート</block>
-  <block id="1a2d85d4d5e69f892a5e0afcf9449c05" category="list-text"><block ref="1a2d85d4d5e69f892a5e0afcf9449c05" category="inline-link-rx"></block></block>
   <block id="87043baf81d739284bd0146e19728ce7" category="inline-link">NetApp Element ソフトウェア 11.3P1 リリースノート</block>
-  <block id="7489b0d15edbdfa5b0e6ec6795aba52c" category="list-text"><block ref="7489b0d15edbdfa5b0e6ec6795aba52c" category="inline-link-rx"></block></block>
   <block id="3e6c92d2b92c58fc4bfb9dd99511b0d9" category="section-title">管理サービス</block>
-  <block id="c229f444eeb73b82bdd6f90d47b7addb" category="list-text"><block ref="c229f444eeb73b82bdd6f90d47b7addb" category="inline-link-rx"></block></block>
   <block id="433d4496073903d35ad99448cf921f95" category="inline-link">vCenter Plug-in 4.6 リリースノート</block>
   <block id="94b0602cd5f2851627f6bfecb97b96e6" category="inline-link">vCenter Plug-in 4.5 リリースノート</block>
   <block id="578c07c950972d7b078fc954eef38508" category="inline-link">『 vCenter Plug-in 4.4 Release Notes 』を参照してください</block>
@@ -5338,9 +5330,7 @@
   <block id="9496f5e851814299d82846f22feafc17" category="paragraph">管理ノードが外部に接続されていないダークサイトにある場合、アップグレードの準備状況を確認するには、ダウンロードした「 metadats.json 」ファイルが必要です <block ref="6108af9ca5aa4fda7c0167fbe5ccda18" category="inline-link-macro-rx"></block> を実行してください。</block>
   <block id="8b130e5cda5c613782f9b3fe6b6b0fbe" category="admonition">インターネットにアクセスできない環境では、現在のソフトウェアバージョンのみが表示されます。外部接続を使用していても、 NetApp HCI からネットアップのオンラインリポジトリにアクセスできない場合は、を確認してください <block ref="6ff9e66037288034fea8427eccd4ef4c" category="inline-link-macro-rx"></block>。</block>
   <block id="ad486ba7980ca0df1937d7f26f4ce12b" category="inline-link">NetApp HCI 1.9 リリースノート</block>
-  <block id="41dc824922cf81e25a9e8084a16c2e43" category="list-text"><block ref="41dc824922cf81e25a9e8084a16c2e43" category="inline-link-rx"></block></block>
   <block id="325c4db41bea4b4c5bc841d336b08e32" category="inline-link">NetApp Element ソフトウェア 12.3 リリースノート</block>
-  <block id="fddc57c7c9e5e8c37506eaee33bfccd7" category="list-text"><block ref="fddc57c7c9e5e8c37506eaee33bfccd7" category="inline-link-rx"></block></block>
   <block id="8cf0a7fd902364db0eaa5ec60ad654f3" category="inline-link">vCenter Plug-in 4.7 リリースノート</block>
   <block id="c9973d0a1ee56161c6330507362f4803" category="list-text"><block ref="c9973d0a1ee56161c6330507362f4803" category="inline-link-rx"></block></block>
   <block id="d088a1f4d001e2296c444d0510f58474" category="list-text"><block ref="d088a1f4d001e2296c444d0510f58474" category="inline-link-macro-rx"></block></block>
@@ -5361,8 +5351,6 @@
   <block id="41eef3d7aedaba490dc1dd48396f079c" category="list-text">インポート手順をスキップするには、 [* インストールプロファイル * ] ページで [* 続行 ] をクリックします。</block>
   <block id="f0a87811e8be55bf94672bdc19729182" category="inline-link-macro">カスタムの保護ドメイン</block>
   <block id="7457298de9d9970265bb007d30f6824a" category="paragraph">複数のストレージクラスタの管理を開始する前に、権限のあるクラスタで定義されているユーザが同じ権限を持つ他のすべてのストレージクラスタに定義されていることを確認してください。を参照してください <block ref="ac9b7f419ed27bd25986b25e8e50373a" category="inline-link-macro-rx"></block> 管理ノードのストレージクラスタアセットの使用の詳細については、を参照してください。</block>
-  <block id="0eb91c90051a8280b5d03272245097b3" category="section-title">NetApp Bugs Online には、既知の問題と解決済みの問題があります</block>
-  <block id="69893000f4da30e1e42922cbcf8dac0e" category="inline-link">NetApp Bugs Online では</block>
   <block id="1666514145f7e9412791dbac474af211" category="paragraph">NetApp HCI には、ネットワーク設定を簡素化するためのセクションがいくつかあるネットワーク設定ページが用意されています。各セクションの手順に従って、各ネットワークのホストおよびノードの情報を入力するか、 IP アドレスを割り当てます。</block>
   <block id="b93156f758e9e3387136b756d6eb5def" category="list-text">導入する VMware vCenter 環境のサブネットマスク、 IP アドレス、デフォルトゲートウェイ、および VLAN ID</block>
   <block id="ab7c2cc78406d1ae840f03061785f05e" category="paragraph">コンピューティングノードにケーブル 2 本のネットワークトポロジを使用する場合は、導入するすべてのコンピューティングノードおよびストレージノードの vMotion ネットワークとストレージネットワークに VLAN ID を使用する必要があります（管理ネットワークの VLAN ID は任意です）。これらの手順で入力した IP アドレスは NetApp HCI で検証されますが、 * ライブネットワーク検証は * ボタンで無効にできます。また、 NetApp HCI は、サブネットが重複しないようにする、複数のネットワークに VLAN ID が割り当てられていないこと、その他の基本的な検証など、この手順で入力したその他の情報についてもチェックを実行します。</block>
@@ -5641,11 +5629,8 @@
   <block id="c6972aeb3a2332cb320c9779d55b24a0" category="list-text">VMware vCenter の * VMware Update Manager * にアクセスします。</block>
   <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">作業を開始するには、に移動します<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
   <block id="c71ec2ef6ee8df4c8ce96c2b779dc917" category="inline-link">NetApp Element ソフトウェア 12.2.1 リリースノート</block>
-  <block id="7b6c2344660bf791251cb170d62d26dc" category="list-text"><block ref="7b6c2344660bf791251cb170d62d26dc" category="inline-link-rx"></block></block>
   <block id="3aa4b17575032362b7124d4aeb9c09f1" category="inline-link">NetApp Element ソフトウェア 12.0.1 リリースノート</block>
-  <block id="948802112ff01dd0135eb1b95727ae31" category="list-text"><block ref="948802112ff01dd0135eb1b95727ae31" category="inline-link-rx"></block></block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element ソフトウェア 11.8.1 リリースノート</block>
-  <block id="74af8720eb38c9567cf35e4e63e54dd8" category="list-text"><block ref="74af8720eb38c9567cf35e4e63e54dd8" category="inline-link-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
@@ -5835,20 +5820,11 @@
   <block id="dc060618420764cdfc7790fdeb1e33e8" category="paragraph">H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されていると、アップグレードプロセスは 2 つのフェーズで構成されます。</block>
   <block id="5e44a1903ec70087cd72eac7efa174b3" category="paragraph">最初に実行するフェーズ 1 では、 Element 12.3.x への標準アップグレードプロセスと同じ手順を実行します。Element ソフトウェアと 5 つすべてのファームウェアの更新を、クラスタ内で一度に 1 つのノードずつローリング形式でインストールします。ファームウェアのペイロードが原因で、 H610S ノードあたりの所要時間は約 1.5 ~ 2 時間と推定されます。これには、各ノードのアップグレード終了時のコールドブートサイクルが 1 回含まれます。</block>
   <block id="54866f3f5260905d8cc6b998d85fee46" category="inline-link">NetApp HCI 1.9P1 リリースノート</block>
-  <block id="1e5b09bd63f8b3c814f1bb43fe709a4a" category="list-text"><block ref="9125f871b8e753c4f4f29054458f3d3b" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="7199e7988a06a61dd6614783601855bd" category="inline-link">NetApp Element ソフトウェア 12.3.1 リリースノート</block>
-  <block id="0deb17845d7af8e76f90ce4145d2db72" category="list-text"><block ref="ca40bbd83e0af82b1f5180f506676e8f" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="63f92bd88e4c9e48d64e0177d271c583" category="doc">バージョン 1.9 または 1.9P1 の NetApp HCI システムをアップグレードします</block>
-  <block id="1dc57a2588fc44a8cd4ab44c51862f28" category="paragraph">ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.1 が含まれます。</block>
   <block id="d6d2b79e6ba2037bd02bb8dc96a0070a" category="list-text">。 <block ref="15276d500e7181fc56781568a7378926" category="inline-xref-macro-rx"></block> セクションでは、 NetApp HCI バージョン 1.9P1 の新機能とアップデートについて説明します。</block>
-  <block id="4da2fe7d3e0f9133b0c002f0fa95998e" category="list-text">。 <block ref="dcde07fb2feac52febb81d62ee21fa14" category="inline-xref-macro-rx"></block> ここでは、 NetApp Element 12..1 の新機能とアップデートについて説明します。</block>
   <block id="db4297e95de51344c8962b36e46e0558" category="section-title">NetApp HCI 1.9P1</block>
   <block id="b4f3f16bceaa5cf561ca23082b3b8f3f" category="paragraph">NetApp HCI 1.9P1 では、セキュリティと安定性が向上しています。</block>
-  <block id="5b7e7ff4cde603a8e9bda3b0790603ec" category="section-title">Element 12.3.1</block>
-  <block id="c85a39cc81df7e9b9f020969762cd36c" category="paragraph">NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.1 が含まれます。</block>
-  <block id="04aa68617927bbc2709638a86a15ad34" category="section-title">ストレージファームウェアバンドル 2.99.2</block>
-  <block id="81686da1b9f8be4c89479031f62bbb25" category="paragraph">Element 12.3.1 リリースには、ストレージファームウェアバンドルバージョン 2.99.2 が含まれています。ストレージクラスタがすでに Element 12.3 にある場合は、新しい 2.99.2 ファームウェアバンドルをインストールするだけで済みます。</block>
-  <block id="f9268c95e69622031443e185c7b63f42" category="paragraph">既知の問題と解決済みの問題の一覧については、 NetApp Bugs Online ツールを参照してください。これらの問題は Element およびその他の製品で参照できます から<block ref="8f6bf1d90cda7ac5d466a1caf35f182b" category="inline-link-rx"></block>。</block>
   <block id="0156654ae4dc6b09e871c56632755132" category="doc">Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします</block>
   <block id="9523d85265eca1518bf0cca93ece8c82" category="list-text">に移動します<block ref="9df2268aca17533da27c1640e57fe53d" category="inline-link-rx"></block>。</block>
   <block id="a0087b707bcfca0d10961d341e832986" category="list-text">[Refresh 概要（更新の設定） ] ドロップダウンリストから [* True] を選択します。</block>
@@ -5863,15 +5839,12 @@
   <block id="cf6217d0b70c3e9e193eb51bdc471aab" category="list-text"><block ref="cf6217d0b70c3e9e193eb51bdc471aab" category="inline-link-macro-rx"></block></block>
   <block id="8824580064fbf037016d45df0afe1c64" category="inline-link-macro">NetApp HCI 1.9P1 に関する通知です</block>
   <block id="c98c104489f4e60f30b087bb51b053ed" category="list-text"><block ref="c98c104489f4e60f30b087bb51b053ed" category="inline-link-macro-rx"></block></block>
-  <block id="58d12ba0097eb00a2bf776fb8069836d" category="admonition">Element ソフトウェア 12.3.1 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。</block>
   <block id="db22952983388da000ca496b7e53aea5" category="inline-link-macro">バージョン 1.9 または 1.9P1 の NetApp HCI インストールをアップグレードします</block>
   <block id="a8dfdbfd3c1b103b9f15a9913d867dad" category="list-text"><block ref="999381e3ff71075b4b45781237786d47" category="inline-link-macro-rx"></block>。</block>
   <block id="0cd7e8b16b69d0465d0cd555180471ad" category="list-text"><block ref="9ab4f30420c80d4c6870d42a969c945d" category="inline-link-macro-rx"></block>。</block>
-  <block id="cb268b6969d2723cec91ec064b52b62a" category="paragraph">管理ノードをバージョン 11.0 以降から管理ノードバージョン 12.3.1 または 12.3 にアップグレードできます。</block>
   <block id="c3215740fa940d9b86ab9435fcad9e83" category="paragraph">ストレージクラスタ上の Element ソフトウェアをアップグレードするために、管理ノードのオペレーティングシステムをアップグレードする必要がなくなりました。管理ノードがバージョン 11.3 以降である場合は、 NetApp Hybrid Cloud Control を使用して管理サービスを最新バージョンにアップグレードするだけで Element をアップグレードできます。管理ノードのオペレーティングシステムをアップグレードする理由がほかにもある場合は、セキュリティの修正など、管理ノードのアップグレード手順に従ってください。</block>
   <block id="2c191a2c0c7197808c880518728ba922" category="admonition">管理ノード 12..1 では、機能の変更やバグの修正は行われていません。管理ノード 12.3 をすでに実行している場合は、これを 12.3.1 にアップグレードする必要はありません。</block>
   <block id="507aad5e8d9a5b9cec1425ebbb057653" category="list-text">管理ノード 12.3 からアップグレードする場合：管理ノード 12..1 には、追加の機能変更やバグ修正はありません。管理ノード 12.3 をすでに実行している場合は、これを 12.3.1 にアップグレードする必要はありません。</block>
-  <block id="0db91ddcf782cf2ca8bad982f6c3fdcc" category="admonition">NDE を使用して導入した管理ノード 12.3 でアップグレードを続行するように選択すると、 12.3.1 へのアップグレードが完了します。ただし、アップグレードの再開時にエラーが発生する場合があります。この場合は、管理ノードをリブートして、 12.3.1 と表示されるようにします。</block>
   <block id="877752a02a9a723465e45e0699c0408a" category="list-text">管理ノード 12.2 からアップグレードする場合は、次の手順を実行します。<block ref="13ca98900fab2e9dc617ec4e80e5ef22" category="inline-xref-macro-rx"></block></block>
   <block id="c385c319a88b75509bcd9e965511f832" category="list-text">管理ノード 12.0 からアップグレードする場合は、次の手順を実行します。<block ref="837fd47411e60554dd964007e7b1f57c" category="inline-xref-macro-rx"></block></block>
   <block id="d9ce85fadb1d93ae48ece9ac5d9093f9" category="list-text">管理ノード 11.3 、 11.5 、 11.7 、または 11.8 からアップグレードする場合は、次の手順を実行します。<block ref="3a74f9f0175a11af5a47bdad606bbcd5" category="inline-xref-macro-rx"></block></block>
@@ -5912,14 +5885,6 @@
   <block id="642b052adeace73d067278054ca6196b" category="paragraph">NetApp Hybrid Cloud Control では、最大 500 個のネットアップコンピューティングノードを含む VMware vSphere 環境がサポートされます。NetApp Element ソフトウェアベースのストレージクラスタを 20 個までサポートし、クラスタあたり 40 個のストレージノードで構成されます。</block>
   <block id="4946e18fada664601bd87ab0e6b0c461" category="admonition">2 ノードのストレージクラスタ構成が複数ある場合は、それぞれ独自の vCenter 内で、監視ノードの健全性チェックで正確なレポートが行われないことがあります。そのため、 ESXi ホストをアップグレードする準備ができたら、アップグレードする ESXi ホスト上の監視ノードのみをシャットダウンする必要があります。別の方法で監視ノードの電源をオフにして、 NetApp HCI 環境で常に 1 つの監視ノードが実行されていることを確認する必要があります。</block>
   <block id="c7c5f161602908065ca8367c0fc4a392" category="admonition">新しい NetApp Hybrid Cloud Control セッションを初めて起動したときは、管理ノードで多数のクラスタを管理しているときに NetApp Hybrid Cloud Control Nodes ページのロードに時間がかかることがあります。ロードにかかる時間は、管理ノードでアクティブに管理されているクラスタの数によって異なります。その後の起動では、読み込み時間が短縮されます。</block>
-  <block id="6fdef1a96dd1317b8f4387931b94852d" category="list-text">に進みます<block ref="0c12cf8c0cec0405a310594288c146b6" category="inline-link-rx"></block>。</block>
-  <block id="90b1da96c9f1642d33e56738f52872df" category="list-text">[ キーワードで検索 * ] フィールドに、製品名（「要素」など）を入力します。</block>
-  <block id="768d18144454e6cec5a96d61cb09fd9c" category="inline-image-macro">プラスアイコン</block>
-  <block id="2c23efa1ce00f1576c76b24c5e9ab950" category="list-text">を選択します <block ref="a19d2ca9325d4575f0bb4ba21ee6bc40" category="inline-image-macro-rx" type="image"></block>をクリックし、 * バージョンで固定 * フィルタを選択し、 * OK * を選択します。</block>
-  <block id="7b87660a05f8e35621177030a7288671" category="inline-image-macro">BOL フィルタの位置合わせ = "center"</block>
-  <block id="10d3c7b3b3a4c71423e2bb44802dad07" category="paragraph"><block ref="10d3c7b3b3a4c71423e2bb44802dad07" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="072a78b04ab0c87f13756a379937b4c8" category="list-text">[ 新規検索（ New Search ） ] を選択します。</block>
-  <block id="9c418128eb1df0fd522c1f98859b8896" category="list-text">[ バージョン * で固定 ] フィールドにリリースバージョンを入力します。</block>
   <block id="4b6ed2ebeafa56e83c2e185efee5fe19" category="list-text">[* Clone Volumes] をクリックします。</block>
   <block id="aef7d325fb516fbdf2620ac830fdcaeb" category="admonition">クローニング処理が完了するまでの時間は、ボリュームサイズおよび現在のクラスタの負荷によって異なります。クローンボリュームがボリュームリストに表示されない場合は、ページを更新してください。</block>
   <block id="cea09bf20e9c8052a93318b4b5e4abb0" category="admonition">新しい NetApp Hybrid Cloud Control セッションを初めて起動したときに、管理ノードで複数のクラスタを管理しているときに NetApp Hybrid Cloud Control のダッシュボードビューのロードに時間がかかることがあります。ロードにかかる時間は、管理ノードでアクティブに管理されているクラスタの数によって異なります。その後の起動では、読み込み時間が短縮されます。</block>
@@ -6109,4 +6074,29 @@
   <block id="84fbd609c6d8004c48c651a386a6f162" category="list-text">コントローラアセット（ vCenter ）、コンピューティングノード（ ESXi ）、またはハードウェア（ BMC ）を既存のベースアセットに追加するには、次のいずれかを選択します。</block>
   <block id="2d6450ab26114780e9a87cd5d798cb70" category="cell">POST / assets / ｛ asset_id ｝ / ハードウェアノード</block>
   <block id="0ea174836be3fd8da5d4675011fc6b61" category="list-text">「 * POST /assets/｛ asset_id ｝ /hardware-nodes 」を選択します。</block>
+  <block id="8ad579f12befe29ce104da3b73ad5f9e" category="paragraph">ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.2 が含まれます。</block>
+  <block id="071ecc128a953b7cb24ca890062184c9" category="list-text">。 <block ref="170a7411c50609b648767f9b69e4306b" category="inline-xref-macro-rx"></block> ここでは、 NetApp Element 12.3.2 の新機能およびアップデートについて説明します。</block>
+  <block id="46b078af9bac91704627a9aca75db024" category="section-title">Element 12.3.2</block>
+  <block id="a0e08077e5a0fd5b8a4e6778d5172eae" category="paragraph">Element ソフトウェア 12.3.2 リリースには、 Apache log4j の脆弱性に対する Element ソフトウェアの影響を軽減する機能が含まれています。Virtual Volumes （ VVol ）機能が有効になっている NetApp SolidFire ストレージクラスタは、この脆弱性の影響を受けやすくなっています。</block>
+  <block id="5f123fb5072e8736326c928e2de971af" category="list-text"><block ref="9676fc811bea74225536cdd128daebc0" category="inline-link-rx"></block> _ 新規 _</block>
+  <block id="633cc64117e19d8cdd0def00cc27e8f5" category="list-text"><block ref="633cc64117e19d8cdd0def00cc27e8f5" category="inline-link-rx"></block></block>
+  <block id="ef9ea1f7d3549b4347917af62b843363" category="list-text"><block ref="ef9ea1f7d3549b4347917af62b843363" category="inline-link-rx"></block></block>
+  <block id="2deb8caf1f7f74cf7bef1145757f6735" category="list-text"><block ref="2deb8caf1f7f74cf7bef1145757f6735" category="inline-link-rx"></block></block>
+  <block id="4eed15839b8c708f78b2b696364ff0aa" category="list-text"><block ref="4eed15839b8c708f78b2b696364ff0aa" category="inline-link-rx"></block></block>
+  <block id="56570048e2475ec7b64ee91388743714" category="inline-link">NetApp Element ソフトウェア 12.3.2 リリースノート</block>
+  <block id="3903fc6a9f0bcbe1f49608f5110cf661" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block> _ 新規 _</block>
+  <block id="9add94ad0bafb6a0c0977e09efa22b79" category="list-text"><block ref="9add94ad0bafb6a0c0977e09efa22b79" category="inline-link-rx"></block></block>
+  <block id="39cb2d043406c59d7a9d49b752c05b48" category="list-text"><block ref="39cb2d043406c59d7a9d49b752c05b48" category="inline-link-rx"></block></block>
+  <block id="59f8389fa12f333264e9b9c7a943546d" category="list-text"><block ref="59f8389fa12f333264e9b9c7a943546d" category="inline-link-rx"></block></block>
+  <block id="640d55cb9494c33f8756387aef98e61d" category="list-text"><block ref="640d55cb9494c33f8756387aef98e61d" category="inline-link-rx"></block></block>
+  <block id="49cbef4a1c4e82dba59d5c67759bce8e" category="list-text"><block ref="49cbef4a1c4e82dba59d5c67759bce8e" category="inline-link-rx"></block></block>
+  <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
+  <block id="cd4b0abd6f1976f7d6b641eb6432cebc" category="list-text"><block ref="cd4b0abd6f1976f7d6b641eb6432cebc" category="inline-link-rx"></block></block>
+  <block id="84f9569ec486aa9adfb1b73d2a0e3c9f" category="list-text"><block ref="84f9569ec486aa9adfb1b73d2a0e3c9f" category="inline-link-rx"></block></block>
+  <block id="c666b8511317763c38467d5251589d5a" category="list-text"><block ref="c666b8511317763c38467d5251589d5a" category="inline-link-rx"></block></block>
+  <block id="3b79e75f8bb7342984eec3a3fd95ccf6" category="list-text"><block ref="3b79e75f8bb7342984eec3a3fd95ccf6" category="inline-link-rx"></block></block>
+  <block id="1d9f05f083ca394b7aa3fbee6b4ba1c9" category="paragraph">管理ノードをバージョン 11.0 以降からバージョン 12.3.x にアップグレードできます。</block>
+  <block id="728469310b9db013f8d3ad56547efdaa" category="list-text">管理ノード 12.3.2 には、 Virtual Volumes （ VVol ）機能が有効になっている場合に、ストレージクラスタのセキュリティを軽減する機能が含まれています。ストレージクラスタがすでに Element 12.3 にあり、 VVol 機能が有効になっている場合は、 12.3.2 にアップグレードすることを強く推奨します。</block>
+  <block id="dc99de080f9f92750fce3ddadf55c54c" category="admonition">NDE を使用して導入した管理ノード 12.3 でアップグレードを続行するように選択すると、 12.3.x へのアップグレードが完了します。ただし、アップグレードの再開時にエラーが発生する場合があります。この場合は、管理ノードをリブートして、 12.3.x が正しく表示されるようにします</block>
+  <block id="f8945dbfb9c59a4484f33852cc6f95c9" category="admonition">Element ソフトウェア 12.3.2 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。</block>
 </blocks>
