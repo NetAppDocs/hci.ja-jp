@@ -6099,4 +6099,24 @@
   <block id="728469310b9db013f8d3ad56547efdaa" category="list-text">管理ノード 12.3.2 には、 Virtual Volumes （ VVol ）機能が有効になっている場合に、ストレージクラスタのセキュリティを軽減する機能が含まれています。ストレージクラスタがすでに Element 12.3 にあり、 VVol 機能が有効になっている場合は、 12.3.2 にアップグレードすることを強く推奨します。</block>
   <block id="dc99de080f9f92750fce3ddadf55c54c" category="admonition">NDE を使用して導入した管理ノード 12.3 でアップグレードを続行するように選択すると、 12.3.x へのアップグレードが完了します。ただし、アップグレードの再開時にエラーが発生する場合があります。この場合は、管理ノードをリブートして、 12.3.x が正しく表示されるようにします</block>
   <block id="f8945dbfb9c59a4484f33852cc6f95c9" category="admonition">Element ソフトウェア 12.3.2 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。</block>
+  <block id="38d2bb23849f828628a170b7814a5b48" category="summary">NetApp HCI の導入後に、構成済みスイッチ上で「 lacp-individual 」コマンドをディセーブルにする方法について説明します。</block>
+  <block id="83886395b735279ef97f1568da416a42" category="doc">設定済みのスイッチで &lt;code&gt;lacp-individual &lt;/code&gt; コマンドをディセーブルにします</block>
+  <block id="8b8fcd904806ca441f07a09ee921db7c" category="paragraph">デフォルトでは、 Mellanox スイッチ 'lacp-individual' コマンドと Cisco スイッチ 'LACP suspend-individual' コマンドは導入後も設定されたままになりますこのコマンドはインストール後には必要ありません。設定を維持すると、スイッチのトラブルシューティングまたはリブート時に原因ボリュームにアクセスできなくなる可能性があります。導入後は ' 各 Mellanox スイッチと Cisco スイッチの構成を確認し 'lacp-individual' または LACP suspend-individual コマンドを削除する必要があります</block>
+  <block id="7230032f9e3f3d80f5d464534044fa7e" category="list-text">SSH を使用して、スイッチへのセッションを開きます。</block>
+  <block id="ea81d6b9aaa9ef63fd80d7044e4a7dae" category="list-text">実行コンフィギュレーションを表示します。</block>
+  <block id="2c4752308de3d9f3db61274d3c1d0e24" category="paragraph">'how running-config'</block>
+  <block id="bf3630346bc7f91cab5e064da6c80d19" category="list-text">「 lacp-individual 」コマンドまたは「 lacp suspend-individual 」コマンドのスイッチ設定出力を確認します。</block>
+  <block id="399e53da103d7d7e60d5fa5c8932aef1" category="admonition">「 xxx-xxx 」は、ユーザが指定したインターフェイス番号です。必要に応じて、 Multi-chassis Link Aggregation Group インターフェイス「 show MLAG interfaces 」を表示して、インターフェイス番号にアクセスできます</block>
+  <block id="4ea61ea8b00765a23d5295190a48fd89" category="list-text">Mellanox スイッチの場合は、出力に次の行が含まれているかを確認します。</block>
+  <block id="0c55d7d48b392df727675158ca062080" category="paragraph">'interface MLAG -port - channel xxx-xxx lacp-individual enable force</block>
+  <block id="0281351f977d534b33c791611e462575" category="list-text">Cisco スイッチの場合は、出力に次の行が含まれているかどうかを確認します。</block>
+  <block id="4c23c0315fd5ba793014e9d7a77cf824" category="paragraph">インターフェイス MLAG ポートチャネル xxx-xxx lacp suspend-individual enable force</block>
+  <block id="f90deaa0f0addcca3fc208bddcb006f0" category="list-text">コマンドが存在する場合は、そのコマンドをコンフィギュレーションから削除します。</block>
+  <block id="e9fa7fbe7bdcca58cbdb74495cfac93a" category="list-text">Mellanox スイッチの場合：</block>
+  <block id="c5552496ac05cc610f454bb5ab3d9643" category="paragraph">no interface MLAG-PORe-channel xxx-xxx lacp-individual enable force</block>
+  <block id="1c8e0a44ecf0c038c929b6c858eb6a5d" category="list-text">シスコ製スイッチの場合： no interface MLAG-PORe-channel xxx-xxx lacp suspend-individual enable force</block>
+  <block id="0ffe377cdbc683bdbb84b20bd1e720b7" category="list-text">構成内のスイッチごとに上記の手順を繰り返します。</block>
+  <block id="e8dd9f06c6fdcc54ddb428585b08d176" category="inline-link">トラブルシューティング中にストレージノードが停止する</block>
+  <block id="27a3b19565eb3f3907d669659cb41eb2" category="list-text"><block ref="27a3b19565eb3f3907d669659cb41eb2" category="inline-link-rx"></block></block>
+  <block id="09880488834e30caaafa31878dbd95b0" category="sidebar">設定済みのスイッチで「 lacp-individual 」コマンドを無効にします</block>
 </blocks>
