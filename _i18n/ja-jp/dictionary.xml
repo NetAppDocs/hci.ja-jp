@@ -3560,13 +3560,7 @@
   <block id="b5990d43163ed035a4b57530a83f5ff2" category="doc">導入後のタスク</block>
   <block id="0540323a85f7994dd50c2e5d79b65224" category="paragraph">導入プロセスで選択した内容によっては、 NetApp HCI システムを本番環境で使用する前に、最終的なタスクをいくつか実行する必要があります。たとえば、ファームウェアやドライバの更新、必要な最終的な設定変更などです。</block>
   <block id="2fe2193ce68255102ca3d3592602ae77" category="inline-link-macro">サポートされるネットワーク変更</block>
-  <block id="08a9b31da51126c3d648b45bcbbaa174" category="list-text"><block ref="08a9b31da51126c3d648b45bcbbaa174" category="inline-link-macro-rx"></block></block>
   <block id="c490ee41c18c9459c5edd157405bbed2" category="inline-link-macro">NetApp HCI コンピューティングノードで smartd サービスを無効にします</block>
-  <block id="2bebbacb9367b04b85847367015d0ae0" category="list-text"><block ref="2bebbacb9367b04b85847367015d0ae0" category="inline-link-macro-rx"></block></block>
-  <block id="6b9347b40a05704f95484a5f8b38d450" category="list-text"><block ref="6b9347b40a05704f95484a5f8b38d450" category="inline-link-macro-rx"></block></block>
-  <block id="413546f008b6fde0442b32c054077396" category="list-text"><block ref="413546f008b6fde0442b32c054077396" category="inline-link-macro-rx"></block></block>
-  <block id="756bcf8d0ef0d6f55eedeed86519169f" category="list-text"><block ref="756bcf8d0ef0d6f55eedeed86519169f" category="inline-link-macro-rx"></block></block>
-  <block id="7d7696eb0759c7511434b3df446d11b6" category="list-text"><block ref="7d7696eb0759c7511434b3df446d11b6" category="inline-link-macro-rx"></block></block>
   <block id="d40819e9e843e97335bf320aeb8d5ac1" category="summary">管理ノードを使用して、ネットアップサポートがトラブルシューティング用にアクセスできるようにします。</block>
   <block id="e606a329fd1c8e2f2543e5fd1dce6af5" category="doc">リモートのネットアップサポートセッションを開始します</block>
   <block id="0d37152cb4d274796e3ac32a73cf3b30" category="paragraph">NetApp HCI または SolidFire オールフラッシュストレージシステムに関するテクニカルサポートが必要な場合は、ネットアップサポートがお客様のシステムにリモートで接続できます。セッションを開始してリモートアクセスを確立するために、ネットアップサポートはお客様の環境へのリバース Secure Shell （ SSH ）接続を確立します。</block>
@@ -6119,4 +6113,13 @@
   <block id="e8dd9f06c6fdcc54ddb428585b08d176" category="inline-link">トラブルシューティング中にストレージノードが停止する</block>
   <block id="27a3b19565eb3f3907d669659cb41eb2" category="list-text"><block ref="27a3b19565eb3f3907d669659cb41eb2" category="inline-link-rx"></block></block>
   <block id="09880488834e30caaafa31878dbd95b0" category="sidebar">設定済みのスイッチで「 lacp-individual 」コマンドを無効にします</block>
+  <block id="559005fbc48a4b0b225ba1bc8b0a76d6" category="list-text"><block ref="559005fbc48a4b0b225ba1bc8b0a76d6" category="inline-link-macro-rx"></block></block>
+  <block id="83ac8b276726b56c4ded4b148417462c" category="list-text"><block ref="83ac8b276726b56c4ded4b148417462c" category="inline-link-macro-rx"></block></block>
+  <block id="390353d8919918006057430df75418af" category="list-text"><block ref="390353d8919918006057430df75418af" category="inline-link-macro-rx"></block></block>
+  <block id="8cc0bd0d2ccdc2a033ea51a2a0ac1459" category="list-text"><block ref="8cc0bd0d2ccdc2a033ea51a2a0ac1459" category="inline-link-macro-rx"></block></block>
+  <block id="bd40789635bff9e09ad9cbb54158f462" category="list-text"><block ref="bd40789635bff9e09ad9cbb54158f462" category="inline-link-macro-rx"></block></block>
+  <block id="ae16ae7ad4f3c416278bbf9d8e9b5ce5" category="list-text"><block ref="ae16ae7ad4f3c416278bbf9d8e9b5ce5" category="inline-link-macro-rx"></block></block>
+  <block id="ed6ff6608f963368df5f4466517a48bf" category="list-text"><block ref="ed6ff6608f963368df5f4466517a48bf" category="inline-link-macro-rx"></block></block>
+  <block id="4cb04e22051dcc88da6d140ef391aab8" category="list-text">ストレージアダプタのタイプが LSI Logic Parallel に設定されています</block>
+  <block id="1fde8564c11be0856ccf9a21a1d1430c" category="admonition">管理ノードのデフォルトは LSI Logic SAS になる場合があります。[ * 新しい仮想マシン * ] ウィンドウで、 [ * ハードウェアのカスタマイズ * &gt; * 仮想ハードウェア * ] を選択して、ストレージ・アダプターの構成を確認します。必要に応じて、 LSI Logic SAS を * LSI Logic Parallel * に変更します。</block>
 </blocks>
