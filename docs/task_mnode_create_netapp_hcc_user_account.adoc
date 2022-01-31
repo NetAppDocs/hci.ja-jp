@@ -13,6 +13,7 @@ vCenter で NetApp HCC ロールを作成して、インストール後に vCent
 この NetApp HCC ロールは、管理ノードのサービスビューをネットアップ専用のアセットに制限します。
 
 .このタスクについて
+* この手順では、 vSphere 6.7 の場合の手順を説明しています。インストールされている vSphere のバージョンによっては、 vSphere のユーザインターフェイスが多少異なる場合があります。詳細については、 VMware vCenter のドキュメントを参照してください。
 * 終了： link:task_mnode_create_netapp_hcc_role_vcenter.html#create-a-new-netapp-hcc-role["新しい NetApp HCC ロールを作成します"]では、最初に vCenter で新しいユーザアカウントを設定し、 NetApp HCC ロールを作成してからユーザ権限を割り当てます。
 * ネットアップ ESXi ホスト構成の場合は、 NDE で作成されたユーザアカウントを新しいネットアップ HCC ロールに更新する必要があります。
 +

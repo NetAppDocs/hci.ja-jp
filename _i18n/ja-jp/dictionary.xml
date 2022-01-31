@@ -816,7 +816,6 @@
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="inline-link-macro">H610S BMC 3.84.07 リリースノート</block>
   <block id="eead60ae6beeaad1ec995f62a611e1c3" category="list-text"><block ref="eead60ae6beeaad1ec995f62a611e1c3" category="inline-link-macro-rx"></block></block>
   <block id="38463ded7a48723c78fec9af1adbffb0" category="summary">NetApp HCI の導入後にコンピューティングノードの「 martd' 」サービスを無効にする方法について説明します。</block>
-  <block id="129f5152cd22af09d6a2ce4a7693a8f7" category="doc">NetApp HCI コンピュートノードで &lt;code&gt; smartd&lt;/code&gt; サービスを無効にします</block>
   <block id="a95e7da04cc092837862299338fbf5f9" category="paragraph">デフォルトでは 'martd' サービスは ' コンピューティング・ノード内のドライブを定期的にポーリングしますNetApp HCI を導入したあとに、すべてのコンピューティングノードでこのサービスを無効にする必要があります。</block>
   <block id="2cab9793aa9f4badad71fe76a2fa3afa" category="list-text">SSH またはローカルコンソールセッションを使用して、コンピューティングノード上の VMware ESXi に root クレデンシャルを使用してログインします。</block>
   <block id="300cb3cef97c504bc27c9d11816a9168" category="list-text">ランニングの「 martd 」サービスを停止します。</block>
@@ -1261,12 +1260,10 @@
   <block id="9dc20ec1b0ef3bcd3e7912ee4ada350c" category="list-text"><block ref="9dc20ec1b0ef3bcd3e7912ee4ada350c" category="inline-link-macro-rx"></block></block>
   <block id="03c7d4785e3fa93f72c7101bdd0dbdb6" category="summary">NetApp HCI とそのすべてのコンポーネントをアップグレードできます。</block>
   <block id="ecaabfdd234216b22da5d6313e48fd94" category="paragraph">導入後は、すべての NetApp HCI ソフトウェアコンポーネントを順番にアップグレードすることで、 NetApp HCI システムを最新の状態に保つことができます。</block>
-  <block id="834a6ee33249e20c2a6997a3d3f4f670" category="paragraph">これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control （ HCC ）、 Element ソフトウェア、管理ノード、コンピューティングファームウェア、コンピューティングドライバ、 Element Plug-in for vCenter Server が含まれます。</block>
   <block id="05384005cf99c46ea432f9d7696f56e1" category="list-text">管理ノード 11.3 以降が実行されていることを確認します。新しいバージョンの管理ノードには、個々のサービスを提供するモジュラアーキテクチャが採用されています。</block>
   <block id="ffa0fe3bc6da6c9b920ff8ce89a0609f" category="inline-link-macro">管理ノードをアップグレードします</block>
   <block id="ee04baa2ee228c73a80bcb76420c3f83" category="admonition">バージョンを確認するには、管理ノードにログインし、ログインバナーに表示される Element のバージョン番号を確認します。11.3 を使用していない場合は、を参照してください <block ref="298642ffea6db0968793883313b436ff" category="inline-link-macro-rx"></block>。</block>
   <block id="dc80874f9d06173050949a80fc641cfc" category="list-text">管理サービスをバージョン 2.1.326 以上にアップグレードしておきます。</block>
-  <block id="dbfccf960551b08a68ecfc6a6b7d7b65" category="paragraph">HCC を使用したアップグレードは、以前のバージョンのサービスバンドルでは使用できません。</block>
   <block id="ced99676ffdce11db0cf7ce2a4a812b8" category="list-text">すべてのノードのシステム時間が同期され、 NTP がストレージクラスタとノードに対して正しく設定されていることを確認しておきます。各ノードには、ノード Web UI （「 https://[IP address 」： 442 ）に DNS ネームサーバを設定する必要があります。時刻のずれに関連する未解決のクラスタ障害はありません。</block>
   <block id="524813e84d210a04a3c005022becca08" category="inline-link-macro">Hybrid Cloud Control から管理サービスを更新します</block>
   <block id="c43409e402c491faff614694ff49b45b" category="list-text"><block ref="d96c5e393dc7f7cfcba5644a67a6ff8a" category="inline-link-macro-rx"></block>。</block>
@@ -1345,7 +1342,6 @@
   <block id="1886c33029d6a5f67a53baeb16356d18" category="inline-link">NetApp HCI 2 ノードストレージクラスタ | TR-4823</block>
   <block id="3748ba4180e5e67341e21b26cd051850" category="list-text"><block ref="3748ba4180e5e67341e21b26cd051850" category="inline-link-rx"></block></block>
   <block id="0a5712c2113fc4db522b6907519135e6" category="summary">このバージョンの NetApp HCI の新機能について説明します。</block>
-  <block id="ff2ce25d2c78e6ac0d8ccb0e1f475b59" category="doc">NetApp HCI の新機能</block>
   <block id="4336bdc5b50c875535491122c69b4f8c" category="section-title">NetApp HCI 1.8P1</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">こちらをご覧ください</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細はこちら。</block>
@@ -1710,23 +1706,16 @@
   <block id="da649d90a2781af38427fd3f6d53a0d1" category="doc">構成を確認し、導入します</block>
   <block id="1084f6bced68e48581e0a2fbef889f8c" category="paragraph">導入を開始する前に、指定した情報を確認できます。続行する前に、誤った情報や不完全な情報を修正することもできます。</block>
   <block id="7e80af0eaef6e80168a22b1fb971ec35" category="admonition">導入時、管理ノードのインストールプロセスでは、 Element ストレージクラスタに「 NetApp-HCI - 」で始まる名前のボリュームが作成されます。また、「 tenant_ 」で始まる名前の SolidFire アカウントも作成されます。これらのボリュームやアカウントは削除しないでください。削除すると、管理機能が失われます。</block>
-  <block id="3af45e1d9dec1c8ad9ca23afc39a3c1b" category="list-text">各セクションを展開し、情報を確認します。すべてのセクションを一度に展開するには、 * すべて展開 * をクリックします。</block>
   <block id="0db51f02fdc5af462fcccc1c15159ed5" category="list-text">オプション：表示されているセクションの情報を変更するには、次の手順を実行します。</block>
-  <block id="ee6e5423dcc518210afb342340f2523a" category="list-text">対応するセクションの * 編集 * をクリックします。</block>
   <block id="0cc99e2b81b313ef751e68b68eeb15b1" category="list-text">必要な変更を行います。</block>
-  <block id="97d7f7144930182b2b4f475ba1ffabe9" category="list-text">[* Review （レビュー） ] ページが表示されるまで [* Continue （続行） ] をクリックします。以前の設定は各ページに保存されます。</block>
   <block id="abde08255e65635bd4cb8c704d9452b3" category="list-text">手順 2 と 3 を繰り返して、必要なその他の変更を行います。</block>
   <block id="f5c51e256cf80c95efbb3f7591eee9a1" category="list-text">ネットアップがホストしている SolidFire Active IQ サーバにクラスタの統計情報とサポート情報を送信しないようにする場合は、最後のチェックボックスをオフにします。</block>
   <block id="f39f16fc39d55d5795c31bfb6414670b" category="paragraph">これにより、 NetApp HCI のリアルタイムの健常性診断の監視機能が無効になります。この機能を無効にすると、ネットアップによる NetApp HCI のプロアクティブなサポートと監視が行われなくなるため、本番環境が影響を受ける前に問題を検出して解決できなくなります。</block>
-  <block id="a69f56e6e272e99fe5c6caa300e78ef3" category="list-text">すべての情報が正しい場合は、 * 導入の開始 * をクリックします。</block>
   <block id="04e13b7fb9212fb1971723ba55bb7886" category="paragraph">ダイアログボックスが表示されます。最終セットアッププロセスでネットワーク接続に問題が発生したり、電源が切断されたりした場合、またはブラウザセッションが切断された場合は、ダイアログに表示された URL をコピーして、最後のセットアップの進捗ページを参照できます。</block>
-  <block id="228e35d3760e5c49f9288be831b1742c" category="list-text">ダイアログ内の情報を確認し、 ［ * クリップボードにコピー * ］ をクリックして URL をクリップボードにコピーします。</block>
   <block id="14e70fb44610f46ad04af18f090ad00b" category="list-text">URL をコンピュータ上のテキストファイルに保存します。</block>
-  <block id="080cf6b7eb73731503ad25985e25b187" category="list-text">展開を続行する準備ができたら、 * OK * をクリックします。</block>
   <block id="498eef150273c2fb1e13ca5d12ad1e37" category="paragraph">導入が開始され、進捗状況ページが表示されます。導入が完了するまでは、ブラウザウィンドウを閉じたり進捗状況ページから移動したりしないでください。何らかの理由でブラウザセッションが切断された場合は、前の手順でコピーした URL を参照して（および表示されるセキュリティ警告を受け入れて）、最後のセットアップの進捗状況ページへのアクセスを再確立できます。</block>
   <block id="8e5a1fcd38c6e7163f2ac36e98ba15b3" category="admonition">導入に失敗した場合は、エラーメッセージのテキストを保存してネットアップサポートにお問い合わせください。</block>
   <block id="7150ac194355236735f19487905fcdff" category="paragraph">導入が完了すると、コンピューティングノードが複数回リブートしてからサービスを開始できるようになることがあります。</block>
-  <block id="28117747c5d7c6d0abd07b29e75020d5" category="paragraph">[vSphere の起動 *] をクリックして、 NetApp HCI の使用を開始します。</block>
   <block id="7032b7e788cc02e52558dcba551bafcb" category="admonition">vSphere 6.7 を使用する NetApp HCI 環境では、このリンクをクリックすると、 HTML5 vSphere Web インターフェイスが起動します。vSphere 6.5 を使用する環境では、このリンクをクリックすると Adobe Flash vSphere Web インターフェイスが起動します。</block>
   <block id="3677ff922c132263938bc37715711068" category="summary">NetApp HCI の使用を開始する前に、ストレージノードとコンピューティングノードを正しくインストールする必要があります。</block>
   <block id="05a546b42c652c34c65eb2f93996bd14" category="doc">H シリーズハードウェアを設置</block>
@@ -1945,9 +1934,6 @@
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="cell">ディスクサイズ</block>
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67 GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">NetApp HCI では、 2 ノードまたは 3 ノードのストレージクラスタでサポートされるストレージノードのモデルには制限があります。詳細については、ご使用の NetApp HCI バージョンの『リリースノート』を参照してください。</block>
-  <block id="c9ce4a5a8a9d1a8092a6ff7b76b8bc89" category="summary">SolidFire ストレージシステムの VMware コンポーネントをアップグレードして、 vCenter Plug-in を再インストールする手順を追加で実行できます。</block>
-  <block id="ae39d371b28f32c0d2467b06b77ffdc4" category="doc">NetApp SolidFire ストレージシステムの vSphere コンポーネントをアップグレードします を使用： Element Plug-in for vCenter Server</block>
-  <block id="9960455891f61a3653ec820987bcbc47" category="paragraph">SolidFire Element ストレージインストールの VMware vSphere コンポーネントをアップグレードするときは、 Element Plug-in for vCenter Server を使用するシステムで行う必要がある手順がいくつか追加されています。</block>
   <block id="953c1e5a90efd6e40a9371bfa70b1fc0" category="summary">NetApp HCI システムのアップグレードの一環として、コンピューティングノードのファームウェアをアップグレードします。</block>
   <block id="0552c46c25583eac0e4ad4b188334cc0" category="doc">コンピューティングノードのファームウェアをアップグレードします</block>
   <block id="e8770976ddcabf53cb331e56c9a3655a" category="paragraph">H シリーズコンピューティングノードの場合は、 BMC 、 BIOS 、 NIC などのハードウェアコンポーネントのファームウェアをアップグレードできます。コンピューティングノードのファームウェアをアップグレードするには、 NetApp Hybrid Cloud Control の UI 、 REST API 、最新のファームウェアイメージを含む USB ドライブ、または BMC UI を使用します。</block>
@@ -3134,8 +3120,6 @@
   <block id="fbc1657b07cdc1061b57d16fd9941dca" category="paragraph">6 本のケーブルを使用してコンピューティングノードを導入し、 4 本のケーブルを使用してストレージノードを導入する場合は、ノードが使用しているすべてのスイッチポート上に必要なネットワークセグメントを構成することを推奨します。例：</block>
   <block id="b49de61f2af4ae82e277a22494091544" category="paragraph">次の図は、ケーブル 6 本のコンピューティングノードとケーブル 4 本のストレージノードの推奨されるケーブル構成を示したものです。この例のスイッチポートはすべて同じ構成です。</block>
   <block id="bb7a8f922951ad19af2115a33e52dc4f" category="image-alt">HCI ネットワーク構成オプション B の画像</block>
-  <block id="ce90f7229835d74f781e9e0252243716" category="paragraph">導入後も SolidFire Element ストレージシステムを最新の状態に保つには、すべてのネットアップストレージコンポーネントを順番にアップグレードします。</block>
-  <block id="0faf4f6bf1f4423ea9871139e1ce2c70" category="paragraph">これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control （ HCC ）、 Element ソフトウェア、管理ノード、および（インストール環境に応じて） Element Plug-in for vCenter Server が含まれます。</block>
   <block id="8eb6b37075837187e3cf3f0539ba2d68" category="summary">NetApp HCI ストレージボリュームを操作するための新しいボリュームアクセスグループの追加、システムからのボリュームアクセスグループの削除、既存のボリュームアクセスグループの編集、ボリュームアクセスグループの詳細の表示を行う方法について説明します。</block>
   <block id="43c95975fceac67e14abe3895f6650b5" category="doc">ボリュームアクセスグループを作成および管理します</block>
   <block id="aa1879f62910b82f0a9cf5d153809311" category="paragraph">NetApp Hybrid Cloud Control を使用して、新しいボリュームアクセスグループを作成したり、名前、関連付けられているイニシエータ、またはアクセスグループの関連付けられているボリュームを変更したり、既存のボリュームアクセスグループを削除したりできます。</block>
@@ -4220,16 +4204,6 @@
   <block id="bd0df89cc01b0bc06367fd768c1694a1" category="cell">ダウンロード可能なファームウェアパッケージを使用して H410C ノードのファームウェアを更新すると、コンピューティングノードのファームウェアの更新プロセスが BIOS 更新エラーで失敗します。</block>
   <block id="9856647ed02ca9c9fd8a30b4472196ee" category="inline-link">NetApp HCI のダウンロードページ</block>
   <block id="4d2352199ed83f9c4e375e964be766eb" category="cell">BIOS を H410C ノードのバージョン NA3.7 に手動で更新します。 1.を参照します<block ref="012c28af9aeadbd43f80372415d73a47" category="inline-link-rx"></block>。2. ドロップダウンリストのテキストフィールドに「 H410C _ BIOS_3.7 」と入力します。3. 「 * Go 」をクリックします。更新手順は、ダウンロードページに PDF 形式で記載されています。BIOS および BMC を更新したら、コンピューティングファームウェア 12.2.109 パッケージを使用して H410C ノードのファームウェアを更新します。</block>
-  <block id="56909efc8fbc9871df2fe5c80d24a56a" category="summary">ここでは、 NetApp HCI または SolidFire Element ストレージシステムのアップグレードを実行する方法の概要を示します。</block>
-  <block id="73937695a7909fb754787fd36d659ac1" category="doc">アップグレードの概要</block>
-  <block id="c6c080167dbb1d3bdd0d339af0d1b816" category="paragraph">このセクションでは、 NetApp HCI システムまたは SolidFire オールフラッシュストレージシステムのコンポーネントに推奨されるアップグレードシーケンスを紹介します。とは</block>
-  <block id="a674a15098d3c8dce62f97553eb71c43" category="paragraph">* システム・アップグレード・シーケンス * コンテンツでは、 NetApp HCI システムまたは SolidFire オールフラッシュ・ストレージ・システムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大きなアップグレード手順の一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。</block>
-  <block id="984ff0843474b2f88e8b9db4f4ff19bb" category="paragraph">* Element Plug-in for vCenter Server * コンテンツを含む vSphere のアップグレードシーケンスでは、 Element Plug-in for vCenter Server を再インストールするために必要な追加のアップグレード前とアップグレード後の手順について説明します。</block>
-  <block id="197aa063bb8cc56b043885ad394296b8" category="section-title">システムのアップグレードシーケンス</block>
-  <block id="9b84eaf1e3f4106498071541d7d7c8f1" category="paragraph">システムに応じて、次のいずれかのシーケンスを選択します。</block>
-  <block id="f6b7d5a3680f865638c8f81c70a785b7" category="section-title">Element Plug-in for vCenter Server を含む vSphere のアップグレードシーケンス</block>
-  <block id="18aebfc2c580b0109185fcf3ab4cea5f" category="list-text"><block ref="aeb4909a84fd9dc5ad1e7f45e99a0d9b" category="inline-link-macro-rx"></block>。</block>
-  <block id="3e382c500eb4957fbcfd912b8b3b3f10" category="list-text"><block ref="cfac6e060c52f472293e00df8517db42" category="inline-link-macro-rx"></block>。</block>
   <block id="5ffbddc6871ea17252ba04957698f0fd" category="summary">QoS ポリシーを設定および変更して、ストレージクラスタ内のボリュームに適用することができます。</block>
   <block id="aa59f10f28f46853d1287bf8c57a1896" category="paragraph">標準的なサービス品質設定を QoS ポリシーとして作成および保存して、複数のボリュームに適用することができます。QoS ポリシーを使用するには、 Element 10.0 以降のクラスタを選択する必要があります。 10.0 より前のクラスタでは QoS ポリシーを使用できません。</block>
   <block id="8f2db90dd4a6fbd95ba8f0bc54fd6b27" category="inline-link-macro">QoS</block>
@@ -5247,11 +5221,8 @@
   <block id="2417aad223df4b0722eff2a33cc20e2c" category="sidebar">NetApp Hybrid Cloud Control を使用して BMC の接続情報を編集します</block>
   <block id="767682e703a28fefdc1067e1fcf04243" category="sidebar">ネットアップハイブリッドクラウドでストレージクラスタのボリュームを監視します 制御</block>
   <block id="9e6d5cb31997e61cfefc1ff5a039bc47" category="sidebar">NetApp Hybrid Cloud Control から Active IQ への接続を使用して、パフォーマンス、容量、クラスタの健全性を監視します</block>
-  <block id="b1cb862b3f78de3ac1f959e6e709872f" category="sidebar">NetApp HCI または SolidFire システムをアップグレードします</block>
-  <block id="b20f300d06493462c154695506ab6477" category="sidebar">アップグレードシーケンス</block>
   <block id="b837bae0f441ebacd86887d737939282" category="sidebar">システムのアップグレード手順</block>
   <block id="3623b8057931ba9642b12ea90d31b438" category="sidebar">NetApp Element Plug-in for vCenter Server をアップグレードします</block>
-  <block id="0b3f247fdc4fb226fbd1c849ed63a21e" category="sidebar">vCenter Plug-in を使用した vSphere のアップグレードシーケンス</block>
   <block id="d971e713c76154ca542300913469fe2d" category="sidebar">NetApp HCI システムを拡張します</block>
   <block id="d3185a38b712d1d4ca3dad90064bfb57" category="sidebar">概要を展開します</block>
   <block id="9a273d2d550df11ef961cf667f623547" category="sidebar">ネットアップストレージとコンピューティングのリソースを拡張</block>
@@ -5427,8 +5398,6 @@
   <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">[ ボリュームの追加 ] をクリックします。</block>
   <block id="16057c4ceb0f30da9a222d3e01a68116" category="list-text">ボリュームテーブルの上部にある * Actions * （アクション）ドロップダウンリストをクリックし、 * Delete * （削除）を選択します。</block>
   <block id="e2540846c9af9642d237b423271f37c9" category="list-text">表示されたウィンドウで、 * はい * をクリックして操作を確認します。</block>
-  <block id="3728defd573c275d4f87b9427746e1e9" category="list-text">オプション：「 * Download * 」アイコンをクリックして、インストール情報を CSV 形式でダウンロードします。このファイルを保存し、あとで設定情報として参照できます。</block>
-  <block id="24ad529a0526b0b4462ab4428165e1f8" category="admonition">将来のインストールで必要になった場合は、 NetApp Deployment Engine の * インストールプロファイル * ページで、 CSV ファイルをインストールプロファイルとしてインポートできます。</block>
   <block id="89363695961f98be6b89a6302cd4ef63" category="summary">最新バージョンを実行していない場合は、以前のリリースの NetApp HCI に関するドキュメントを参照できます。</block>
   <block id="ef8931a2533213c6835fb82c00d4530f" category="doc">以前のバージョンの NetApp HCI ドキュメント</block>
   <block id="65102c5055fadf434d3ac16f330e2b45" category="list-text"><block ref="65102c5055fadf434d3ac16f330e2b45" category="inline-link-rx"></block></block>
@@ -5815,11 +5784,9 @@
   <block id="5e44a1903ec70087cd72eac7efa174b3" category="paragraph">最初に実行するフェーズ 1 では、 Element 12.3.x への標準アップグレードプロセスと同じ手順を実行します。Element ソフトウェアと 5 つすべてのファームウェアの更新を、クラスタ内で一度に 1 つのノードずつローリング形式でインストールします。ファームウェアのペイロードが原因で、 H610S ノードあたりの所要時間は約 1.5 ~ 2 時間と推定されます。これには、各ノードのアップグレード終了時のコールドブートサイクルが 1 回含まれます。</block>
   <block id="54866f3f5260905d8cc6b998d85fee46" category="inline-link">NetApp HCI 1.9P1 リリースノート</block>
   <block id="7199e7988a06a61dd6614783601855bd" category="inline-link">NetApp Element ソフトウェア 12.3.1 リリースノート</block>
-  <block id="63f92bd88e4c9e48d64e0177d271c583" category="doc">バージョン 1.9 または 1.9P1 の NetApp HCI システムをアップグレードします</block>
   <block id="d6d2b79e6ba2037bd02bb8dc96a0070a" category="list-text">。 <block ref="15276d500e7181fc56781568a7378926" category="inline-xref-macro-rx"></block> セクションでは、 NetApp HCI バージョン 1.9P1 の新機能とアップデートについて説明します。</block>
   <block id="db4297e95de51344c8962b36e46e0558" category="section-title">NetApp HCI 1.9P1</block>
   <block id="b4f3f16bceaa5cf561ca23082b3b8f3f" category="paragraph">NetApp HCI 1.9P1 では、セキュリティと安定性が向上しています。</block>
-  <block id="0156654ae4dc6b09e871c56632755132" category="doc">Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします</block>
   <block id="9523d85265eca1518bf0cca93ece8c82" category="list-text">に移動します<block ref="9df2268aca17533da27c1640e57fe53d" category="inline-link-rx"></block>。</block>
   <block id="a0087b707bcfca0d10961d341e832986" category="list-text">[Refresh 概要（更新の設定） ] ドロップダウンリストから [* True] を選択します。</block>
   <block id="029f285370f34ef0be0106f7a6ef80e3" category="list-text">応答が HTTP 200 であることを確認します。</block>
@@ -5833,9 +5800,6 @@
   <block id="cf6217d0b70c3e9e193eb51bdc471aab" category="list-text"><block ref="cf6217d0b70c3e9e193eb51bdc471aab" category="inline-link-macro-rx"></block></block>
   <block id="8824580064fbf037016d45df0afe1c64" category="inline-link-macro">NetApp HCI 1.9P1 に関する通知です</block>
   <block id="c98c104489f4e60f30b087bb51b053ed" category="list-text"><block ref="c98c104489f4e60f30b087bb51b053ed" category="inline-link-macro-rx"></block></block>
-  <block id="db22952983388da000ca496b7e53aea5" category="inline-link-macro">バージョン 1.9 または 1.9P1 の NetApp HCI インストールをアップグレードします</block>
-  <block id="a8dfdbfd3c1b103b9f15a9913d867dad" category="list-text"><block ref="999381e3ff71075b4b45781237786d47" category="inline-link-macro-rx"></block>。</block>
-  <block id="0cd7e8b16b69d0465d0cd555180471ad" category="list-text"><block ref="9ab4f30420c80d4c6870d42a969c945d" category="inline-link-macro-rx"></block>。</block>
   <block id="c3215740fa940d9b86ab9435fcad9e83" category="paragraph">ストレージクラスタ上の Element ソフトウェアをアップグレードするために、管理ノードのオペレーティングシステムをアップグレードする必要がなくなりました。管理ノードがバージョン 11.3 以降である場合は、 NetApp Hybrid Cloud Control を使用して管理サービスを最新バージョンにアップグレードするだけで Element をアップグレードできます。管理ノードのオペレーティングシステムをアップグレードする理由がほかにもある場合は、セキュリティの修正など、管理ノードのアップグレード手順に従ってください。</block>
   <block id="2c191a2c0c7197808c880518728ba922" category="admonition">管理ノード 12..1 では、機能の変更やバグの修正は行われていません。管理ノード 12.3 をすでに実行している場合は、これを 12.3.1 にアップグレードする必要はありません。</block>
   <block id="507aad5e8d9a5b9cec1425ebbb057653" category="list-text">管理ノード 12.3 からアップグレードする場合：管理ノード 12..1 には、追加の機能変更やバグ修正はありません。管理ノード 12.3 をすでに実行している場合は、これを 12.3.1 にアップグレードする必要はありません。</block>
@@ -6094,7 +6058,6 @@
   <block id="dc99de080f9f92750fce3ddadf55c54c" category="admonition">NDE を使用して導入した管理ノード 12.3 でアップグレードを続行するように選択すると、 12.3.x へのアップグレードが完了します。ただし、アップグレードの再開時にエラーが発生する場合があります。この場合は、管理ノードをリブートして、 12.3.x が正しく表示されるようにします</block>
   <block id="f8945dbfb9c59a4484f33852cc6f95c9" category="admonition">Element ソフトウェア 12.3.2 は、 NetApp HealthTools を使用してにアップグレードできる最終バージョンです。Element ソフトウェア 11.3 以降を実行している場合は、 NetApp Hybrid Cloud Control を使用して Element ソフトウェアをアップグレードする必要があります。Element バージョン 11.1 以前は、 NetApp HealthTools を使用してアップグレードできます。</block>
   <block id="38d2bb23849f828628a170b7814a5b48" category="summary">NetApp HCI の導入後に、構成済みスイッチ上で「 lacp-individual 」コマンドをディセーブルにする方法について説明します。</block>
-  <block id="83886395b735279ef97f1568da416a42" category="doc">設定済みのスイッチで &lt;code&gt;lacp-individual &lt;/code&gt; コマンドをディセーブルにします</block>
   <block id="8b8fcd904806ca441f07a09ee921db7c" category="paragraph">デフォルトでは、 Mellanox スイッチ 'lacp-individual' コマンドと Cisco スイッチ 'LACP suspend-individual' コマンドは導入後も設定されたままになりますこのコマンドはインストール後には必要ありません。設定を維持すると、スイッチのトラブルシューティングまたはリブート時に原因ボリュームにアクセスできなくなる可能性があります。導入後は ' 各 Mellanox スイッチと Cisco スイッチの構成を確認し 'lacp-individual' または LACP suspend-individual コマンドを削除する必要があります</block>
   <block id="7230032f9e3f3d80f5d464534044fa7e" category="list-text">SSH を使用して、スイッチへのセッションを開きます。</block>
   <block id="ea81d6b9aaa9ef63fd80d7044e4a7dae" category="list-text">実行コンフィギュレーションを表示します。</block>
@@ -6122,4 +6085,29 @@
   <block id="ed6ff6608f963368df5f4466517a48bf" category="list-text"><block ref="ed6ff6608f963368df5f4466517a48bf" category="inline-link-macro-rx"></block></block>
   <block id="4cb04e22051dcc88da6d140ef391aab8" category="list-text">ストレージアダプタのタイプが LSI Logic Parallel に設定されています</block>
   <block id="1fde8564c11be0856ccf9a21a1d1430c" category="admonition">管理ノードのデフォルトは LSI Logic SAS になる場合があります。[ * 新しい仮想マシン * ] ウィンドウで、 [ * ハードウェアのカスタマイズ * &gt; * 仮想ハードウェア * ] を選択して、ストレージ・アダプターの構成を確認します。必要に応じて、 LSI Logic SAS を * LSI Logic Parallel * に変更します。</block>
+  <block id="9cea15d48c9b5a9632827b358396e207" category="doc">NetApp HCI の新機能</block>
+  <block id="59a003ce49b82fe00de09fe03510553f" category="doc">アップグレード手順の概要</block>
+  <block id="a4b75050ff69b0483ec3d9e8727ee92e" category="paragraph">これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control 、 Element ソフトウェア、管理ノード、コンピューティングファームウェア、コンピューティングドライバ、 and the Element Plug-in for vCenter Server.関係 グループ</block>
+  <block id="d38f48e8e196e92a833076faf76e21bc" category="inline-xref">システムのアップグレード順序</block>
+  <block id="ad56c46e8e9f8e0bb939f50f5e76805b" category="paragraph">。 <block ref="73cba4e8b2341cec7edfdf3782fd4351" category="inline-xref-macro-rx"></block> コンテンツでは、 NetApp HCI システムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大規模なアップグレードシーケンスの一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。</block>
+  <block id="7ce03284a3322764084b916532f7b97d" category="inline-xref-macro">vSphere のアップグレード順序</block>
+  <block id="03d9736b99e2da5cd9960094356e494f" category="paragraph">。 <block ref="9f008f1bb66c711bf62156989885280f" category="inline-xref-macro-rx"></block> Element Plug-in for vCenter Server のコンテンツでは、 Element Plug-in for vCenter Server を再インストールするために必要な、アップグレード前とアップグレード後の追加の手順について説明します。</block>
+  <block id="df3748edc080e7a8ed49863460584cdd" category="paragraph">NetApp Hybrid Cloud Control を使用したアップグレードは、それよりも前のバージョンのサービスバンドルでは利用できません。</block>
+  <block id="6ea7f8d4483b20144d2c82f1ed99c07a" category="section-title">システムのアップグレード順序</block>
+  <block id="47f1925137d1bc975fa326ab8c3fdaba" category="paragraph">NetApp HCI システムをアップグレードするには、次の順序で操作します。</block>
+  <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">NetApp SolidFire オールフラッシュストレージシステムをアップグレード</block>
+  <block id="0a9bb27e26601025f1f2f83ed531e6f2" category="list-text"><block ref="0a9bb27e26601025f1f2f83ed531e6f2" category="inline-link-rx"></block></block>
+  <block id="f51859c5296df69766701d38fc7c8859" category="doc">設定済みのスイッチで lacp-individual コマンドをディセーブルにします</block>
+  <block id="f317e6fdbb481b540d40add73d7dfc62" category="list-text">オプション：インストール情報を CSV 形式でダウンロードするには、「 * Download * 」アイコンを選択します。このファイルを保存し、あとで設定情報として参照できます。</block>
+  <block id="2784feaad05eb9593b11e263f8430004" category="admonition">CSV ファイルをインストールプロファイルとして NetApp Deployment Engine （ NDE ）の「 * Installation Profile * 」ページにインポートできます。これは、将来のインストールで必要になった場合にのみ可能です。</block>
+  <block id="8082ea9b4195f17276bd25a523e94446" category="list-text">各セクションを展開し、情報を確認します。すべてのセクションを一度に展開するには、 * すべて展開 * を選択します。</block>
+  <block id="07d2a8f43c35aa02e82307cd2249894f" category="list-text">対応するセクションで * Edit * を選択します。</block>
+  <block id="9b3a9a6782d8330e40cb159f9abc54fd" category="list-text">[* Review * （レビュー） ] ページが表示されるまで、 [* Continue （続行） ] を選択します。以前の設定は各ページに保存されます。</block>
+  <block id="345bd8c28d9fff619dcc16070c36a51a" category="list-text">すべての情報が正しい場合は、「 * 導入の開始 * 」を選択します。</block>
+  <block id="2bf12d674e705194f3c7f9cb8f783d4f" category="list-text">ダイアログ内の情報を確認し、 ［ * クリップボードにコピー * ］ を選択して URL をクリップボードにコピーします。</block>
+  <block id="04b8c4763337a5d74623f1a69bb11885" category="list-text">展開を続行する準備ができたら、 * OK * を選択します。</block>
+  <block id="24f117be35e0ca10b59e4d0db320a4f9" category="paragraph">「 vSphere の起動」を選択して、 NetApp HCI の使用を開始します。</block>
+  <block id="292182cb4e9d829383f0987a0f5b5db1" category="list-text">ストレージノードを 2 つ構成または 3 つ構成する場合、コンピューティングノード上のローカルデータストアを使用するように監視ノードが設定されます。その結果、 vSphere Client に「 Datastore usage on disk * 」という警告が 2 つ表示されます。続行するには、警告ごとに [ 緑にリセット ] リンクを選択します。</block>
+  <block id="084f667a768181d2c907c53fa5eba8aa" category="list-text">この手順では、 vSphere 6.7 の場合の手順を説明しています。インストールされている vSphere のバージョンによっては、 vSphere のユーザインターフェイスが多少異なる場合があります。詳細については、 VMware vCenter のドキュメントを参照してください。</block>
+  <block id="9bba670b644f8f3341309eb7f392ac44" category="sidebar">NetApp HCI システムのバージョン 1.9 または 1.9P1 をアップグレードします</block>
 </blocks>

@@ -6,8 +6,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-    langs: ja-jp,us-en
-  langs: ja-jp,us-en
+  langs: ja-jp,us-en,zh-cn,ko-kr
 sidebar:
   entries:
   - title: NetApp HCI のドキュメント
@@ -262,16 +261,10 @@ sidebar:
       url: "/docs/task_hcc_activeiq.html"
     - title: トラブルシューティング用にログを収集する
       url: "/docs/task_hcc_collectlogs.html"
-  - title: NetApp HCI または SolidFire システムをアップグレードします
+  - title: NetApp HCI システムのバージョン 1.9 または 1.9P1 をアップグレードします
     entries:
-    - title: アップグレードの概要
+    - title: アップグレード手順の概要
       url: "/docs/concept_hci_upgrade_overview.html"
-    - title: アップグレードシーケンス
-      entries:
-      - title: バージョン 1.9 または 1.9P1 の NetApp HCI システムをアップグレードします
-        url: "/docs/task_hcc_upgrade_all.html"
-      - title: Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします
-        url: "/docs/task_sf_upgrade_all.html"
     - title: システムのアップグレード手順
       entries:
       - title: 管理サービスを更新
@@ -296,14 +289,9 @@ sidebar:
         url: "/docs/task_hcc_upgrade_compute_node_firmware.html"
       - title: Ansible によるコンピューティングノードのファームウェアアップグレードの自動化
         url: "/docs/task_hcc_upgrade_compute_firmware_ansible.html"
-    - title: vCenter Plug-in を使用した vSphere のアップグレードシーケンス
-      entries:
-      - title: を使用して、 NetApp HCI システムの vSphere コンポーネントをアップグレードします vCenter Server 向け
-          Element プラグイン
-        url: "/docs/task_hci_upgrade_all_vsphere.html"
-      - title: NetApp SolidFire ストレージシステムの vSphere コンポーネントをアップグレードします を使用： Element
-          Plug-in for vCenter Server
-        url: "/docs/task_sf_upgrade_all_vsphere.html"
+    - title: を使用して、 NetApp HCI システムの vSphere コンポーネントをアップグレードします vCenter Server 向け
+        Element プラグイン
+      url: "/docs/task_hci_upgrade_all_vsphere.html"
   - title: NetApp HCI システムを拡張します
     entries:
     - title: 概要を展開します

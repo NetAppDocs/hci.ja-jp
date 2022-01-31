@@ -4,7 +4,7 @@ permalink: docs/task_nde_disable_smartd.html
 summary: NetApp HCI の導入後にコンピューティングノードの「 martd' 」サービスを無効にする方法について説明します。 
 keywords: netapp, hci, netapp deployment engine, deployment, vsphere, ESXi, compute, smartd, polling 
 ---
-= NetApp HCI コンピュートノードで <code> smartd</code> サービスを無効にします
+= NetApp HCI コンピューティングノードで smartd サービスを無効にします
 :hardbreaks:
 :nofooter: 
 :icons: font
