@@ -1322,7 +1322,6 @@
   <block id="bcb6f7f6d78dbf85a54538e9072015cf" category="section-title">2 ノードストレージクラスタ</block>
   <block id="a25577f98a416c68537ba5d36173b3cd" category="paragraph">NetApp HCI 1.8 以降では、 2 つのストレージノードでストレージクラスタをセットアップできます。</block>
   <block id="b85bb4664dc2035fb8f04e60d3206424" category="list-text">特定のタイプのノードを使用して、 2 ノードストレージクラスタを形成できます。を参照してください<block ref="6fe76529472a52e5056e058b90349b40" category="inline-link-rx"></block>。</block>
-  <block id="0072d89e723f74b716de02a6ad74dc61" category="admonition">2 ノードクラスタのストレージノードのモデルタイプは同じである必要があります。</block>
   <block id="99e3fe6b1b0d4b6123b3de5cb0f80ae6" category="list-text">2 ノードストレージクラスタは、大容量とハイパフォーマンスの要件に左右されないワークロードを使用する小規模な環境に最適です。</block>
   <block id="23b7b2dd0ee19144ebd9f156459bbb9f" category="list-text">2 つのストレージノードに加えて、 2 ノードのストレージクラスタには、 NetApp HCI 監視ノード * が 2 つ含まれています。</block>
   <block id="5e44c9f9fb6609015e92611ca9985429" category="inline-link-macro">監視ノード：</block>
@@ -2625,20 +2624,11 @@
   <block id="c358b5521e8437392d0fa4c159039303" category="paragraph">NetApp HCI ハードウェアが届く前に、ネットアッププロフェッショナルサービスが提供する導入前ワークブックのチェック項目を必ず実施しておいてください。本ドキュメントには、 NetApp HCI の導入を成功させるためにネットワークと環境を準備するために必要な作業の包括的なリストが記載されています。</block>
   <block id="9eb3c7aec83c8289ef1d3a85d1fd7b05" category="paragraph">要件と導入前タスクへのリンクを次に示します。</block>
   <block id="7375651611f00991b648b4a9ae04736e" category="inline-link-macro">ネットワークポートの要件</block>
-  <block id="5f70af06b964fe55348da040bbd6f654" category="list-text"><block ref="5f70af06b964fe55348da040bbd6f654" category="inline-link-macro-rx"></block></block>
   <block id="06d1ccbf55777bbc9268c7c72a9d02b2" category="inline-link-macro">ネットワークとスイッチの要件</block>
-  <block id="cda2f05a3dfb7eb063d3fa2c3508ceaa" category="list-text"><block ref="cda2f05a3dfb7eb063d3fa2c3508ceaa" category="inline-link-macro-rx"></block></block>
   <block id="17c9373309d774de1364173b0ca500f4" category="inline-link-macro">ネットワークケーブルの要件</block>
-  <block id="bf7fcc947879006874ef7754e2c1729b" category="list-text"><block ref="bf7fcc947879006874ef7754e2c1729b" category="inline-link-macro-rx"></block></block>
-  <block id="9f306e2eb34d03d729f093e37b26b1e6" category="list-text"><block ref="9f306e2eb34d03d729f093e37b26b1e6" category="inline-link-macro-rx"></block></block>
   <block id="5dd57c2a315d3af44c2eb40eefc47111" category="inline-link-macro">ネットワーク構成：</block>
-  <block id="6a693ac9011489051dbc274cb853be6a" category="list-text"><block ref="6a693ac9011489051dbc274cb853be6a" category="inline-link-macro-rx"></block></block>
   <block id="910bc6aecf05f95f12c1b61bfdeb180d" category="inline-link-macro">DNS とタイムキーパー機能の要件</block>
-  <block id="1beb346f289cc339ec8c06713d72ffa7" category="list-text"><block ref="1beb346f289cc339ec8c06713d72ffa7" category="inline-link-macro-rx"></block></block>
   <block id="6b2019a31feeec476725deff1e79ed78" category="inline-link-macro">環境要件</block>
-  <block id="ed9c5ff9f6090055d1eb04b07fc0d82e" category="list-text"><block ref="ed9c5ff9f6090055d1eb04b07fc0d82e" category="inline-link-macro-rx"></block></block>
-  <block id="9c0ed03da62dab26bda1caef12d05030" category="list-text"><block ref="9c0ed03da62dab26bda1caef12d05030" category="inline-link-macro-rx"></block></block>
-  <block id="fe6a9612bed54055a31776927ecf79fc" category="list-text"><block ref="fe6a9612bed54055a31776927ecf79fc" category="inline-link-macro-rx"></block></block>
   <block id="2b5d58c91a4b50243155aae14553fb0d" category="summary">NetApp Hybrid Cloud Control にログインできます。</block>
   <block id="57d8e6fe9e071c8c0f01c53443204d96" category="doc">NetApp HCI Hybrid Cloud Control にアクセスします</block>
   <block id="a9b6b84fe88dcede0d1dfac73d68f620" category="paragraph">NetApp Hybrid Cloud Control では NetApp HCI を管理できます。</block>
@@ -6110,4 +6100,17 @@
   <block id="292182cb4e9d829383f0987a0f5b5db1" category="list-text">ストレージノードを 2 つ構成または 3 つ構成する場合、コンピューティングノード上のローカルデータストアを使用するように監視ノードが設定されます。その結果、 vSphere Client に「 Datastore usage on disk * 」という警告が 2 つ表示されます。続行するには、警告ごとに [ 緑にリセット ] リンクを選択します。</block>
   <block id="084f667a768181d2c907c53fa5eba8aa" category="list-text">この手順では、 vSphere 6.7 の場合の手順を説明しています。インストールされている vSphere のバージョンによっては、 vSphere のユーザインターフェイスが多少異なる場合があります。詳細については、 VMware vCenter のドキュメントを参照してください。</block>
   <block id="9bba670b644f8f3341309eb7f392ac44" category="sidebar">NetApp HCI システムのバージョン 1.9 または 1.9P1 をアップグレードします</block>
+  <block id="6f4f02cb0bd29a3049ddeee395d21373" category="list-text"><block ref="6f4f02cb0bd29a3049ddeee395d21373" category="inline-link-macro-rx"></block></block>
+  <block id="d05f0358394ea81c12e954fa285913b7" category="list-text"><block ref="d05f0358394ea81c12e954fa285913b7" category="inline-link-macro-rx"></block></block>
+  <block id="8a522fe0bbb068785db1d7e6a6f8472e" category="list-text"><block ref="8a522fe0bbb068785db1d7e6a6f8472e" category="inline-link-macro-rx"></block></block>
+  <block id="e8bf7f625ad636980aeec45657ed5a6e" category="list-text"><block ref="e8bf7f625ad636980aeec45657ed5a6e" category="inline-link-macro-rx"></block></block>
+  <block id="56ce1be606d2b59357622e9e0ce1a50a" category="list-text"><block ref="56ce1be606d2b59357622e9e0ce1a50a" category="inline-link-macro-rx"></block></block>
+  <block id="bba585390add115b473af2e7549e0a5f" category="list-text"><block ref="bba585390add115b473af2e7549e0a5f" category="inline-link-macro-rx"></block></block>
+  <block id="e6fe46816496c4c9ce609ed474f0b900" category="list-text"><block ref="e6fe46816496c4c9ce609ed474f0b900" category="inline-link-macro-rx"></block></block>
+  <block id="62b04af8c4282f934d228f5334940b4f" category="list-text"><block ref="62b04af8c4282f934d228f5334940b4f" category="inline-link-macro-rx"></block></block>
+  <block id="f6a8ca908309208ad5959a4430ffc844" category="list-text"><block ref="f6a8ca908309208ad5959a4430ffc844" category="inline-link-macro-rx"></block></block>
+  <block id="c6c8ddff59bb9e0ae4d31df7879ae4db" category="admonition">2 ノードクラスタの場合、ストレージノードのモデルは 480GB と 960GB のドライブで構成されるノードに制限され、ノードのモデルタイプは同じである必要があります。</block>
+  <block id="cf79b57edb2dfa983d325f942bfbd38f" category="inline-link-macro">2 ノードストレージクラスタ</block>
+  <block id="a52e4bad07801720393fbbf29b7b6106" category="paragraph">NetApp HCI では、 2 ノードストレージクラスタでサポートされるストレージノードのモデルには制限があります。詳細については、を参照してください <block ref="80bd6fa8d6a6ded3ab311d7c2cccd46d" category="inline-link-macro-rx"></block> または NetApp HCI バージョンの『リリースノート』を参照してください。</block>
+  <block id="a4660721cf97657e05d3cb886c11d311" category="admonition">2 ノードのストレージクラスタ環境では、ストレージノードのタイプは 480GB と 960GB のドライブを搭載したノードに制限されます。</block>
 </blocks>
