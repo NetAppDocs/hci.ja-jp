@@ -36,12 +36,7 @@ keywords: netapp, hci, compute firmware
 
 | NIC / Mellanox | 14.21.1000 | 14.21.1000 | 14.22.1002 | 14.23.1020 
 |===
-コンピューティングノードのファームウェアパッケージをダウンロードするには、次の手順を実行し
-
-. に進みます https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI のダウンロードページです"^]。
-. ドロップダウンリストから * Compute_Firmware_Bundle* を選択します。
-. [Go*] をクリックします。
-
+Compute Firmware Bundle をダウンロードするには、にアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["NetApp HCI コンピューティングファームウェアバンドル"^] ページ
 
 にアクセスします link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["コンピューティングノードのファームウェアを更新します"^] コンピューティングノードのファームウェアを更新する手順については、を参照してください。
 

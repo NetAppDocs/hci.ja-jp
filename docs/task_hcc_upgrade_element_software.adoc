@@ -43,14 +43,7 @@ IMPORTANT: H610S シリーズノードを Element 12.3.x にアップグレー�
 
 NetApp Hybrid Cloud Control の UI を使用して、ストレージクラスタをアップグレードできます。
 
-.必要なもの
-* 管理ノードがインターネットに接続されていない場合は、該当する場所からパッケージをダウンロードしておきます。
-+
-** https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ"^]
-** https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz"^]
-
-
-
+管理ノードがインターネットに接続されていない場合は、をダウンロードしておきます https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ"^]。
 
 
 CAUTION: NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["こちらの技術情報アーティクル"^]。
@@ -202,9 +195,7 @@ https://<ManagementNodeIP>/package-repository/1/
 | 外部に接続されていないダークサイトに管理ノードが配置されている。  a| 
 .. 管理ノードからアクセス可能なデバイスにストレージアップグレードパッケージをダウンロードします。
 +
-*** NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"] して最新のストレージノードのイメージをダウンロードしてください。
-*** SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["ページをダウンロードします"] して最新のストレージノードのイメージをダウンロードしてください。
-
+NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"^] して最新のストレージノードのイメージをダウンロードしてください。
 
 .. ストレージアップグレードパッケージを管理ノードにアップロードします。
 +
@@ -457,15 +448,10 @@ CAUTION: ノードの更新中にクラスタのアップグレードを中止�
 == HealthTools を使用して接続されているサイトで Element ソフトウェアをアップグレードします
 
 .手順
-. ストレージアップグレードパッケージをダウンロードします。
+. ストレージアップグレードパッケージをダウンロードします。NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"^] をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。
 +
 
 NOTE: Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。
-
-+
-** NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"] をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。
-** SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["ページをダウンロードします"] をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。
-
 
 . ISO ファイルを、 /tmp などのアクセス可能な場所にある管理ノードにコピーします。
 +
@@ -636,13 +622,13 @@ IMPORTANT: H610S シリーズノードを Element 12.3.x にアップグレー�
 HealthTools ツールスイートを使用して、外部接続がないダークサイトで NetApp Element ソフトウェアを更新できます。
 
 .必要なもの
-. NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"]。SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します。
+. NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"^]。
 . 適切なソフトウェアリリースを選択し、管理ノードではないコンピュータに最新のストレージノードイメージをダウンロードします。
 +
 
 NOTE: Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。
 
-. こちらをダウンロードしてください https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"]  管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
+. こちらをダウンロードしてください https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"^]  管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
 . ISO ファイルを '/tmp のようなアクセス可能な場所にある管理ノードにコピーします
 +
 

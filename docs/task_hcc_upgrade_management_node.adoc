@@ -73,7 +73,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 .手順
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] ネットアップサポートサイトから管理ノード仮想マシン。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -172,7 +172,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -271,7 +271,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -370,7 +370,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] または ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。
+. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています

@@ -52,10 +52,7 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 
 == ISO または OVA をダウンロードし、 VM を導入します
 
-. ネットアップサポートサイトから、インストール環境に対応した OVA または ISO をダウンロードします。
-+
-Element ソフトウェア https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[]NetApp HCI
-
+. から、インストール環境に対応した OVA または ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] ネットアップサポートサイトのページ：
 +
 .. [Download Latest Release] をクリックして、 EULA に同意します。
 .. ダウンロードする管理ノードのイメージを選択します。

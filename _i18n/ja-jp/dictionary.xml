@@ -83,7 +83,6 @@
   <block id="5cd97fe4faf6302b47e426dc527001bd" category="inline-xref">フェーズ 2.</block>
   <block id="1a1c6d70aec56ed56fdc5c3ac8162a8b" category="section-title">NetApp Hybrid Cloud Control UI を使用して Element ストレージをアップグレードします</block>
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">NetApp Hybrid Cloud Control の UI を使用して、ストレージクラスタをアップグレードできます。</block>
-  <block id="f3a2134df5c7151ff064042a424a4b6f" category="list-text">管理ノードがインターネットに接続されていない場合は、該当する場所からパッケージをダウンロードしておきます。</block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">こちらの技術情報アーティクル</block>
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>。</block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">H610S 以外のプラットフォームでは、ノードあたりのアップグレードプロセスに約 30 分かかります。</block>
@@ -148,8 +147,6 @@
   <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">応答から、あとの手順で使用するためにパッケージ ID をコピーして保存します。</block>
   <block id="4276657b06044ce75b41dc80b78f9b3c" category="list-text">管理ノードからアクセス可能なデバイスにストレージアップグレードパッケージをダウンロードします。</block>
   <block id="4876c936414c8b50876cdff810c036bd" category="inline-link">ページをダウンロードします</block>
-  <block id="415cb4bf7c588f5a1b0f9a06d2d7b2ea" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
-  <block id="607c1bd0deb119c7e67b4b2a5d245512" category="list-text">SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">ストレージアップグレードパッケージを管理ノードにアップロードします。</block>
   <block id="830365f182a61ee2daba9b06b6d1a11a" category="list-text">REST API UI で、 * POST/packages * をクリックします。</block>
   <block id="c9cfa08b31f744b7b9dd1bd038f411f2" category="list-text">[* Browse] をクリックして、アップグレード・パッケージを選択します。</block>
@@ -200,10 +197,7 @@
   <block id="59176eee36815639c56b916d1ee6d2b9" category="list-text">3 時間以内に対処するために、アップグレードを一時的に中止する必要があることがネットアップサポートによって確認されました。サポートは API を使用してアップグレードを中止します。</block>
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">ノードの更新中にクラスタのアップグレードを中止すると、そのノードからドライブが強制的に削除されることがあります。ドライブが強制的に削除された場合、ネットアップサポートに依頼して手動でドライブを元に戻す処理がアップグレード時に必要になります。ノードでファームウェアの更新や更新後の同期処理に時間がかかる可能性があります。アップグレードが停止していると思われる場合は、ネットアップサポートにお問い合わせください。</block>
   <block id="f7cb949e38e4d529492a7a05aae8a9db" category="section-title">HealthTools を使用して接続されているサイトで Element ソフトウェアをアップグレードします</block>
-  <block id="8d65b7b2ed44a2a1faf7d2e3d5c800fb" category="list-text">ストレージアップグレードパッケージをダウンロードします。</block>
   <block id="2d95a5cefb4bb26e6c4f585e36b7dd0a" category="admonition">Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。</block>
-  <block id="be6c10c148aba95e72e65d9fb2f1a8b1" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。</block>
-  <block id="51d3a80c5861fe71e2445bfa6ba794ce" category="list-text">SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。</block>
   <block id="0ec4573ec12f9825d509316cd1dca61c" category="list-text">ISO ファイルを、 /tmp などのアクセス可能な場所にある管理ノードにコピーします。</block>
   <block id="f2c453451cde52ee9d2593c6e63274eb" category="paragraph">ISO ファイルをアップロードする際には、ファイル名が変更されないようにしてください。変更されていると以降の手順が失敗します。</block>
   <block id="897472b951e965022b0064dfc63a0f4a" category="list-text">* オプション * ：アップグレードの前に、管理ノードからクラスタノードに ISO をダウンロードします。</block>
@@ -222,10 +216,8 @@
   <block id="b429e8489b3eec4ac94daad30d905906" category="paragraph">入力コマンドの例を次に示します。</block>
   <block id="d91b070c7f8d6b290722e056d7aff9ce" category="paragraph">以下は、アップグレードに成功した場合の出力例です。アップグレードイベントを使用して、アップグレードの進捗状況を監視できます。</block>
   <block id="503d85929978f593abfff70c30d833a9" category="section-title">HealthTools を使用してダークサイトで Element ソフトウェアをアップグレードします</block>
-  <block id="2b5e85b8ce0299e9e27f21c8824f30ae" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block>。SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block>。</block>
   <block id="33ff5a5d635fbe38905932dd4b045967" category="list-text">適切なソフトウェアリリースを選択し、管理ノードではないコンピュータに最新のストレージノードイメージをダウンロードします。</block>
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="inline-link">JSON ファイル</block>
-  <block id="78499c447f897d64f28fd17af8d321bd" category="list-text">こちらをダウンロードしてください<block ref="d176f80cb3ec646dbc2753dff6840737" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。</block>
   <block id="d862ce84c0cf2ec154f546bffc1c8204" category="list-text">ISO ファイルを '/tmp のようなアクセス可能な場所にある管理ノードにコピーします</block>
   <block id="22e106a3b8f9362d811fda2079e6b8db" category="admonition">これは SCP などを使用して実行できます。ISO ファイルをアップロードする際には、ファイル名が変更されないようにしてください。変更されていると以降の手順が失敗します。</block>
   <block id="1ef2f7a3b01bf7110273e9236fe54c5f" category="list-text">次のコマンドを実行します。</block>
@@ -1396,11 +1388,6 @@
   <block id="40b6b042e91d765e0955c9bd57051567" category="admonition">バージョン 2.76 にアップグレードする前に、 ESXi ドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン 2.76 にアップグレードします。にアクセスします <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
   <block id="e335575a2edc0f1a0a3fb7b76918fa94" category="paragraph">NetApp Deployment Engine 1.8P1 では ESXi バージョン 7.0 は導入されませんが、 ESXi 7.0 はセルフインストールオプションまたは手動アップグレードオプションとしてサポートされます。ホスト OS を手動でインストールまたはアップグレードする場合、ネットアップはこれらの OS のドライバとファームウェアを制御できません。</block>
   <block id="2d694ffc8438215748ab404c27b90c4a" category="section-title">Compute Firmware Bundle 2.76 をダウンロードします</block>
-  <block id="6dd74001120be10211b1aa60f90e3a86" category="paragraph">Compute Firmware Bundle をダウンロードするには：</block>
-  <block id="ad39e5da85569c96dc672b1696606668" category="inline-link">NetApp HCI のダウンロードページです</block>
-  <block id="72a4e8a8d8dd6c15c91456b347cdaecd" category="list-text">に進みます<block ref="be72cb0bd16989c2b15b94fd94435862" category="inline-link-rx"></block>。</block>
-  <block id="7ee3f483a8b1581c03314542ded657ce" category="list-text">ドロップダウンリストから * Compute_Firmware_Bundle* を選択します。</block>
-  <block id="05ff9017ade4661d59fe98b0a98d68de" category="list-text">[Go*] をクリックします。</block>
   <block id="88402acd6adc8f35fd75e79c7e3689a6" category="paragraph">にアクセスします <block ref="152b2065cdaf1a8e1f54648b1920938d" category="inline-link-macro-rx"></block> コンピューティングノードのファームウェアを更新する手順については、を参照してください。</block>
   <block id="456cabcab381a22aa98d68712ce2fe5c" category="list-text">CVE2020-0548 、 CVE20-0549 を参照してください</block>
   <block id="4c41ce56f49a36862f7b2f5607ed019b" category="list-text">CVE2019-11157 、 CVE2019-14607</block>
@@ -2542,8 +2529,6 @@
   <block id="cd7b2f0814db99464baac1222444932f" category="list-text"><block ref="cbfedbfc47267d0d76c848bfa4f73e5d" category="inline-xref-macro-rx"></block></block>
   <block id="e670d2fb8156448df75370f7ae287641" category="list-text"><block ref="71021130b09fed32ac7e7ab601988045" category="inline-xref-macro-rx"></block></block>
   <block id="5bf2236fb0d245894b988f96a0ff32f6" category="section-title">ISO または OVA をダウンロードし、 VM を導入します</block>
-  <block id="9ef29b07a9471b76befac230a9b4cb4d" category="list-text">ネットアップサポートサイトから、インストール環境に対応した OVA または ISO をダウンロードします。</block>
-  <block id="92028a00ef6a1b5ea32043c430086fe5" category="paragraph">Element ソフトウェア<block ref="b69a88c11707735c9407be5e45510286" category="inline-link-rx"></block>NetApp HCI<block ref="03b5dbe7faa112201cf462a361fed457" category="inline-link-rx"></block></block>
   <block id="752442a884ebb7f25f7dd8d65f6a5431" category="list-text">[Download Latest Release] をクリックして、 EULA に同意します。</block>
   <block id="9fd5f1f79bb7ead4a7bdb1a4e6b94825" category="list-text">ダウンロードする管理ノードのイメージを選択します。</block>
   <block id="b8ccf40afa6e3a195a8f4d93c8daa17d" category="list-text">OVA をダウンロードした場合は、次の手順を実行します。</block>
@@ -4174,7 +4159,6 @@
   <block id="d4be170f87bc9401bba5a07b9dd9805b" category="cell">* 3.96.07 *</block>
   <block id="14be6d273e32a2283d6e17da8c060734" category="cell">* 4.64.07 *</block>
   <block id="c101d269b2f79196170287cd58ab9856" category="cell">14.23.1020</block>
-  <block id="58f4d6ea25d126e4e42a5bb544c8b41d" category="paragraph">コンピューティングノードのファームウェアパッケージをダウンロードするには、次の手順を実行し</block>
   <block id="f176ca71eb5adda90aa0cacc8ffedf81" category="paragraph">ここでは、このリリースで解決された問題を示します。</block>
   <block id="f70279c42ea9516972bdb4dcc00c94e4" category="cell">PE-10306</block>
   <block id="e8d14920b6b17f407e2a0e08e071e88c" category="cell">Element 11.8 ストレージノード上の BMC ソフトウェアをアップグレードすると、 BMC ユーザクレデンシャルが失われます。</block>
@@ -4896,8 +4880,6 @@
   <block id="2759cbca8a5572fe6fdc10d347df91c2" category="list-text">ストレージノードで Element 11.3 以降が実行されていることを確認します。</block>
   <block id="f9412ec565dbf89e3de8549cd6a8b45f" category="list-text">管理ノードの VM RAM を設定します。</block>
   <block id="1a6ffd97834fd7495156f52f3058e50b" category="list-text">SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。</block>
-  <block id="231afe47f3f37d3808096b36c28b4ded" category="inline-link">要素（ Element ）</block>
-  <block id="b64b1e098957e1ed710f09dc7aa6b162" category="list-text">の管理ノード ISO をダウンロードします<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> または<block ref="f1879511a555e2a34b95f4c0f58472cf" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシンにソフトウェアをダウンロードします。</block>
   <block id="e097e26564fa470c938b5aa9cb375497" category="admonition">ISO の名前は 'olidfire-fdva-&lt;Element release&gt;-patchX-XXX.X.XXXX.iso' と似ています</block>
   <block id="f077979ddc9a2f599964924e1fd96e46" category="list-text">ダウンロードしたファイルに対して md5sum を実行し、その出力を、ネットアップサポートサイトにある NetApp HCI または Element ソフトウェア用の md5sum と比較することで、ダウンロードの整合性を確認します。</block>
   <block id="4e82f8cfbdbaab82d0c8c7e65d59b756" category="paragraph">「 sudo md5sum -b 」 &lt;path to ISO&gt;/solidfire-fdva-&lt;Element release &gt; -patchX-XXX.X.XXXX.iso 」を参照してください</block>
@@ -5163,9 +5145,6 @@
   <block id="5d1b774bcdd716279a4e1f6c45c21ae4" category="cell">オンラインのソフトウェアリポジトリにアクセスするための外部接続がない場合、 NetApp Hybrid Cloud Control では、バージョンを利用可能 * ではなくこのステータスが表示されます。このステータスは、アップグレードステータスのリストにないアップグレードステータスがストレージサービス API から返された場合にも表示されます。</block>
   <block id="3aff5fc3a8e8d7210a56cf227b42a6e8" category="section-title">NetApp Hybrid Cloud Control API を使用してストレージファームウェアをアップグレードします</block>
   <block id="fa296e9495ac8602647feef1c1f92880" category="list-text">応答から、以降の手順で使用するためにファームウェアパッケージ ID をコピーして保存します。</block>
-  <block id="80fe4da3626b6e144a938323af2aed96" category="list-text">管理ノードからアクセス可能なデバイスにストレージファームウェアのアップグレードパッケージをダウンロードします。</block>
-  <block id="901441bb27b73eb2ff8f44c00bbe83c3" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> 最新のストレージファームウェアイメージをダウンロードできます。</block>
-  <block id="b16473cb7fe43704f1ae3446e90ce31a" category="list-text">SolidFire ストレージシステムの場合は、 Element ソフトウェアに移動します<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> 最新のストレージファームウェアイメージをダウンロードできます。</block>
   <block id="3d849e77fb6435c594cb34aff5254c7a" category="list-text">ストレージファームウェアのアップグレードパッケージを管理ノードにアップロードします。</block>
   <block id="cbba2755a405305c04008eba28b81066" category="list-text">前の手順でコピーしたファームウェアパッケージ ID を * id * で入力します。</block>
   <block id="3982b15a7d8608c803ba0fea915a806a" category="list-text">インストールアセット ID を確認します。</block>
@@ -5751,9 +5730,6 @@
   <block id="387d5419d340e95ff756a4806e220b45" category="list-text">https://repo.netapp.com/downloads`</block>
   <block id="983c91027e090f85708d6c62fd362220" category="list-text">https://netappdownloads.jfrog.io:443`</block>
   <block id="358a3ff6d008d52e4a816f3c9f4d8d5f" category="inline-link">NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ</block>
-  <block id="579fd310dd6393c99694f665c7c50306" category="list-text"><block ref="579fd310dd6393c99694f665c7c50306" category="inline-link-rx"></block></block>
-  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz</block>
-  <block id="49e349363aad0972c82ddaf25dd30f70" category="list-text"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
   <block id="0c5c43c7900a58a998c872f937ae33ad" category="inline-link-macro">許可します</block>
   <block id="f5f61ce15f6fc00904ccb602ea18ba4f" category="admonition">API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます <block ref="13f13ef2cfa191d3bfde7dc1932402de" category="inline-link-macro-rx"></block>。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。</block>
   <block id="085a0793a542f0eebf46d23f033ee424" category="paragraph">管理サービス 2.18 以降の場合：</block>
@@ -6106,8 +6082,6 @@
   <block id="cf79b57edb2dfa983d325f942bfbd38f" category="inline-link-macro">2 ノードストレージクラスタ</block>
   <block id="a52e4bad07801720393fbbf29b7b6106" category="paragraph">NetApp HCI では、 2 ノードストレージクラスタでサポートされるストレージノードのモデルには制限があります。詳細については、を参照してください <block ref="80bd6fa8d6a6ded3ab311d7c2cccd46d" category="inline-link-macro-rx"></block> または NetApp HCI バージョンの『リリースノート』を参照してください。</block>
   <block id="a4660721cf97657e05d3cb886c11d311" category="admonition">2 ノードのストレージクラスタ環境では、ストレージノードのタイプは 480GB と 960GB のドライブを搭載したノードに制限されます。</block>
-  <block id="0b012f0f130a45a29cb100381b8d8a18" category="inline-link">ストレージファームウェアのバンドルをダウンロードします</block>
-  <block id="2860f82003378d24e87a2b07d470efff" category="list-text">管理ノードがインターネットに接続されていない場合は、を使用します<block ref="91eecee6b4dd8708a7b3c9904156a5c7" category="inline-link-rx"></block>。</block>
   <block id="9c47e71a015bd93b8e8980c012bb680d" category="admonition">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。Element 12.0 以降を実行しているクラスタでは、これらのクラスタの現在のファームウェアバンドルバージョンが表示されます。1 つのクラスタ内のノードでファームウェアバージョンが異なる場合やアップグレードが進むにつれて、「 * Current Firmware Bundle Version * 」列に「 * Multiple * 」と表示されます。「 * multiple * 」を選択すると、「 * Nodes * 」ページに移動してファームウェアバージョンを比較できます。すべてのクラスタで 12.0 よりも前のバージョンの Element を実行している場合、ファームウェアバンドルのバージョン番号に関する情報は表示されません。この情報は、 * Nodes * ページでも確認できます。を参照してください <block ref="4d8bfbcb84a29a1601595359b67752e6" category="inline-link-macro-rx"></block>。クラスタが最新の状態であり、アップグレードパッケージがない場合は、「 * Element * 」タブと「 * Firmware only * 」タブは表示されません。これらのタブは、アップグレードの実行中は表示されません。[ * 要素 * ] タブが表示されているが、 [ * ファームウェアのみ * ] タブが表示されていない場合は、ファームウェアパッケージは利用できません。</block>
   <block id="c2478fbc134086873c832f9086152247" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択します。</block>
   <block id="e0d814d8ce005e1e08731f39dc4cff27" category="list-text">「 * ファームウェアのみ * 」を選択し、利用可能なアップグレードバージョンから選択します。</block>
@@ -6131,4 +6105,21 @@
   <block id="6e64c79081c3ef151e7d323b1b9a51e4" category="list-text">Get Sebring/upgrades/｛ upgradeId ｝ * を選択します。</block>
   <block id="a8d9449a5d657b5f3b81cbcb493fc001" category="list-text">クラスタの問題を解決したら、必要に応じて再認証し、 * PUT 処理の際に必要な数 / アップグレード / ｛ upgradeId ｝ * を選択します。</block>
   <block id="86eda75a7f9a428040647949a600637f" category="list-text">必要に応じて再認証し、 * PUT に成功 / アップグレード / ｛ upgradeId ｝ * を選択します。</block>
+  <block id="2caa79e72de1ebc3a96da19b6a92c451" category="list-text">から、インストール環境に対応した OVA または ISO をダウンロードします<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> ネットアップサポートサイトのページ：</block>
+  <block id="28891145b6c39ff95afbdf5c47061837" category="inline-link">NetApp HCI Compute Firmware Bundle の略</block>
+  <block id="ad20855a10bcb28bd96d1134e8e2d09e" category="paragraph">Compute Firmware Bundle をダウンロードするには、にアクセスします<block ref="9e726c85d19808fe7c4afbfe8514b543" category="inline-link-rx"></block> ページ</block>
+  <block id="68baec1bded108851f5cb6cb9332b5fb" category="paragraph">管理ノードがインターネットに接続されていない場合は、をダウンロードしておきます<block ref="f0f7b836568f7e533a3947b76da1a20e" category="inline-link-rx"></block>。</block>
+  <block id="1551e888ab5308b8b3157b61a9afa28c" category="paragraph">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
+  <block id="4f05ad42d37ba064812b10f3a7a7c448" category="list-text">ストレージアップグレードパッケージをダウンロードします。NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。</block>
+  <block id="5e16870e97cd7494312cfcaccde66101" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block>。</block>
+  <block id="cabc168d31fc4c314cb500b86813e131" category="list-text">こちらをダウンロードしてください<block ref="747556e0149f6188670059abaeb4fd3e" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。</block>
+  <block id="83e648796d8c15021f306aae3dd3d686" category="list-text">の管理ノード ISO をダウンロードします<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシン。</block>
+  <block id="2e6c3e131d0b66465caec32d003e1958" category="list-text">の管理ノード ISO をダウンロードします<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシン。</block>
+  <block id="6f0fdd346038a9e820296de3d9746c93" category="inline-link">NetApp HCI ストレージクラスタのストレージファームウェアパッケージをダウンロードします</block>
+  <block id="68591212ccf64f918a02a9a99d9b17cb" category="paragraph">管理ノードがインターネットに接続されていない場合は、を使用します<block ref="aafe992914552d0a3aa0655fa1abc52d" category="inline-link-rx"></block>。</block>
+  <block id="34c8eaed7bf9fcb94a9fec8fc99e01f5" category="inline-link">Element ソフトウェアストレージファームウェアのバンドルページ</block>
+  <block id="4c22618bec261776093bb20f43db4da2" category="list-text">管理ノードからアクセス可能なデバイスに最新のストレージファームウェアアップグレードパッケージをダウンロードします。にアクセスします<block ref="6c480cd9e53c4fa50830a2dbc4709412" category="inline-link-rx"></block> 最新のストレージファームウェアイメージをダウンロードできます。</block>
+  <block id="cb0ff683af4927c8b141ca4fdd047e6f" category="list-text">から、インストール環境に対応した OVA または ISO をダウンロードします<block ref="b6552e9fe421f9ef58cbc1fac1e87c10" category="inline-link-rx"></block> ネットアップサポートサイトのページを参照してください。</block>
+  <block id="fb9dbde245c31e55deba5a52e39161b7" category="inline-link">NetApp HCI コンピューティングファームウェアバンドル</block>
+  <block id="5867a9249c217b0fd396efc0b056c46a" category="paragraph">Compute Firmware Bundle をダウンロードするには、にアクセスします<block ref="47afcbf58f4f7c048fb68385f91a8522" category="inline-link-rx"></block> ページ</block>
 </blocks>

@@ -61,10 +61,7 @@ Element 12.2 管理ノードはオプションのアップグレードです。�
 
 == ISO または OVA をダウンロードし、 VM を導入します
 
-. ネットアップサポートサイトから、インストール環境に対応した OVA または ISO をダウンロードします。
-+
-Element ソフトウェア https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[]NetApp HCI
-
+. から、インストール環境に対応した OVA または ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tabNetApp["NetApp HCI"^] ネットアップサポートサイトのページを参照してください。
 +
 .. Download Latest Release * を選択し、 EULA に同意します。
 .. ダウンロードする管理ノードのイメージを選択します。
