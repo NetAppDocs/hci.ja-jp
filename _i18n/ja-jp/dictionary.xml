@@ -59,7 +59,6 @@
   <block id="f9d55129538f50700280c66af4954a65" category="list-text">* ネットワークの再起動 * ：管理ノード上のすべてのネットワークサービスを再起動します。</block>
   <block id="6d8cb4a54a58f9923479d4340b28d71c" category="floating-title">詳細はこちら</block>
   <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">NetApp HCI のリソースページ</block>
-  <block id="a80ea9fd147150be225676ffc95c2334" category="summary">NetApp HCI または SolidFire システムのアップグレードの一環として、 NetApp Element ソフトウェアをアップグレードします。</block>
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">Element ソフトウェアをアップグレードします</block>
   <block id="b62290ff53a518e59ca66a10ffbbe80f" category="paragraph">NetApp Element ソフトウェアをアップグレードするには、 NetApp Hybrid Cloud Control UI 、 REST API 、または HealthTools ツールスイートを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。</block>
   <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">必要なもの</block>
@@ -88,25 +87,19 @@
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">H610S 以外のプラットフォームでは、ノードあたりのアップグレードプロセスに約 30 分かかります。</block>
   <block id="76dc87fa8de1da44ac9cde3fec3cb965" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。</block>
-  <block id="c05fe698f8669174e3b992a2e903801f" category="list-text">インターフェイスの右上にある * Upgrade * をクリックします。</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">[* Upgrades] ページで、 [* Storage] を選択します。</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。</block>
   <block id="f1bd2e17b5412e4b45851ad42541f684" category="list-text">次のオプションを選択し、クラスタに該当する一連の手順を実行します。</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">オプション</block>
   <block id="042b4c254a65c4222ecfd8eda19de8fb" category="cell">管理ノードに外部接続が必要です。</block>
-  <block id="ea81e0987d30e98ecdb1930382fb8b88" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印をクリックし、 * Element * タブで利用可能なアップグレードバージョンから選択します。</block>
-  <block id="b0d7c43db7977807029a542ec00848b5" category="list-text">[* アップグレードの開始 *] をクリックします。</block>
   <block id="b9088c022e9648ce7ddea6e6d4a7d2a2" category="admonition">アップグレード中は、アップグレードステータス * が変更され、プロセスのステータスが反映されます。また、アップグレードの一時停止など、実行する操作に応じて変更が加えられたか、またはアップグレードでエラーが返された場合も変更されます。を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c1f68c70e4604204e19388cd8dedfa2" category="admonition">アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。クラスタの行が折りたたまれている場合、ページではステータスと現在のバージョンは動的に更新されません。表を更新するには、クラスタの行を展開する必要があります。また、ページを更新することもできます。</block>
   <block id="f7c462da794bbac0b6cb931507af8070" category="paragraph">アップグレードの完了後にログをダウンロードできます。</block>
   <block id="8fce94dc58f1bdc7de438659f9a9a00b" category="cell">外部に接続されていないダークサイトに管理ノードが配置されている。</block>
-  <block id="64af008841326ef1992e7dfa61e6838e" category="list-text">[* Browse] をクリックして、ダウンロードしたアップグレード・パッケージをアップロードします。</block>
   <block id="9f3e44fdaf4628028bd071e9fdf42636" category="list-text">アップロードが完了するまで待ちます。進捗バーにアップロードのステータスが表示されます。</block>
   <block id="4109e9de1e5e5e6a88e7ab1943736894" category="admonition">ブラウザウィンドウから別の場所に移動すると、ファイルのアップロードが失われます。</block>
   <block id="effc57e6ad213336e96f00439b792658" category="paragraph">ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。この段階でブラウザウィンドウから移動しても、ファイルのアップロードは維持されます。</block>
   <block id="2b96c3916188bec9de822541d9cf623f" category="cell">Element 11.8 より前のバージョンを実行している H610S クラスタをアップグレードしています。</block>
-  <block id="77dc0583e73681935b1b313654009c0a" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印をクリックし、アップグレード可能なバージョンから選択します。</block>
-  <block id="2319902fb47ba4de53acdd271735eea6" category="list-text">[* アップグレードの開始 *] をクリックします。アップグレードが完了すると、プロセスのフェーズ 2 を実行するよう求める画面が表示されます。</block>
   <block id="2351c1e27093e71da7b231f5059cc476" category="list-text">で必要な追加手順（フェーズ 2 ）を実行します<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>をクリックし、フェーズ 2 が完了したことを UI で確認します。</block>
   <block id="d215420632f75acd5be40e1f61fad92e" category="paragraph">アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="d3e7182b84a940e7db18b7fb84516b9d" category="section-title">アップグレードステータスが変わります</block>
@@ -120,11 +113,8 @@
   <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="cell">実行中です</block>
   <block id="b28a77ac58f4aaa651a37dfc7eaa6a5b" category="cell">アップグレードを実行中です。進行状況バーにアップグレードステータスが表示されます。画面にはノードレベルの障害も表示され、アップグレードの進行に伴いクラスタ内の各ノードのノード ID も表示されます。各ノードのステータスは、 Element UI または NetApp Element Plug-in for vCenter Server UI を使用して監視できます。</block>
   <block id="1c0bfd3d5057a65664221d4c93d2b215" category="cell">Pausing をアップグレードします</block>
-  <block id="5e30bdb4b7ba3fe0d8457b62eda44845" category="cell">アップグレードを一時停止することもできます。アップグレードプロセスの状態によっては、一時停止処理が成功するか失敗するかが決まります。一時停止処理の確認を求める UI プロンプトが表示されます。アップグレードを一時停止する前にクラスタが安全な場所にあることを確認するには、アップグレード処理が完全に一時停止されるまでに最大 2 時間かかることがあります。アップグレードを再開するには、 * Resume * （続行）をクリックします。</block>
   <block id="e99180abf47a8b3a856e0bcb2656990a" category="cell">一時停止中</block>
-  <block id="a5b32657c9bfe9ac9575ad737ca080f2" category="cell">アップグレードを一時停止した。[* 再開 *] をクリックして、プロセスを再開します。</block>
   <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="cell">エラー</block>
-  <block id="ecb776e2fa7dc6d1ecf3a51baff6f86b" category="cell">アップグレード中にエラーが発生しました。エラーログをダウンロードして、ネットアップサポートに送信できます。エラーを解決したら、ページに戻って * Resume * （続行）をクリックします。アップグレードを再開すると、システムが健全性チェックを実行してアップグレードの現在の状態を確認している間、進捗状況バーが数分間後方に移動します。</block>
   <block id="6fc59d6889d5ac60b02946bb6b8b8898" category="cell">検出できません</block>
   <block id="c25db468e3487f49a3fe8a8fd3ee6fca" category="cell">フォローアップを完了します</block>
   <block id="35be88b3f15b8f03a1b80ac136a5039d" category="cell">H610S ノードを 11.8 より前のバージョンからアップグレードした場合のみアップグレードプロセスのフェーズ 1 が完了すると、アップグレードのフェーズ 2 を実行するように求められます（を参照）<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>）。フェーズ 2 を完了し、完了したことを確認すると、ステータスが「 * 最新 * 」に変わります。</block>
@@ -138,24 +128,16 @@
   <block id="498dbe1fd0d4770ec7a8825a95fb73f3" category="list-text">クライアント ID を「 m node-client 」として入力します。</block>
   <block id="88384680f102c195fd61a19c847e2963" category="list-text">セッションを開始するには、 * Authorize * をクリックします。</block>
   <block id="85bb06226f2384b478691f49e53204fc" category="list-text">承認ウィンドウを閉じます。</block>
-  <block id="b9526e0922b97e2493776d81c53a182a" category="list-text">REST API UI から、 * Get 気中 / パッケージ間のキー / リモートリポジトリ間のキー / 接続 * をクリックします。</block>
   <block id="e5d5a0fe38912f251435216ddb5b085f" category="list-text">[* 試してみてください * ] をクリックします。</block>
   <block id="e8cacdb00cecb30c68c03ce67cc8a999" category="list-text">[* Execute] をクリックします。</block>
   <block id="7ac2eb4e7073a0bed37085ee1d0656de" category="list-text">コード 200 が返された場合は、次の手順に進みます。リモートリポジトリへの接続がない場合は、接続を確立するか、ダークサイトのオプションを使用します。</block>
   <block id="ecd4792b2445292557fc3b37de2cda15" category="list-text">アップグレードパッケージ ID を探します。</block>
-  <block id="5cfd0f3085aaff01ae90ec4baedc6280" category="list-text">REST API UI で、 * get/packages* をクリックします。</block>
   <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">応答から、あとの手順で使用するためにパッケージ ID をコピーして保存します。</block>
-  <block id="4276657b06044ce75b41dc80b78f9b3c" category="list-text">管理ノードからアクセス可能なデバイスにストレージアップグレードパッケージをダウンロードします。</block>
   <block id="4876c936414c8b50876cdff810c036bd" category="inline-link">ページをダウンロードします</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">ストレージアップグレードパッケージを管理ノードにアップロードします。</block>
-  <block id="830365f182a61ee2daba9b06b6d1a11a" category="list-text">REST API UI で、 * POST/packages * をクリックします。</block>
-  <block id="c9cfa08b31f744b7b9dd1bd038f411f2" category="list-text">[* Browse] をクリックして、アップグレード・パッケージを選択します。</block>
-  <block id="3481b4b80b9e3a443b7cba659809071d" category="list-text">* Execute * をクリックしてアップロードを開始します。</block>
   <block id="e81c071d4e9f69ab45651ea4cb8be73c" category="list-text">応答から ' 後の手順で使用するためにパッケージ ID (`id"') をコピーして保存します</block>
   <block id="bda887a56a8d04dcb170e9898f3843b3" category="list-text">アップロードのステータスを確認します。</block>
-  <block id="fa2f8a7fb1af644c64d7622fd47ca86a" category="list-text">REST API UI で、 * GET気 ナツェ / パッケージキーナ / ｛ id ｝ キー / ステータス * をクリックします。</block>
   <block id="ec1ddc98a355dba89ef5b1ccc291885d" category="list-text">前の手順でコピーしたパッケージ ID を * id * で入力します。</block>
-  <block id="8bf5993955b0b8622b93b837c91d81fe" category="list-text">ステータス要求を開始するには、 [*Execute] をクリックします。</block>
   <block id="b0b65da42828ba058318330a013c3e29" category="paragraph">応答が完了すると、「アクセス」として表示されます。</block>
   <block id="65e3827c3b16db30418ea863dfbb70b2" category="list-text">ストレージクラスタ ID を確認します。</block>
   <block id="d8a529bb2e8cb17b42fbbd746b707f68" category="list-text">REST API UI で、 * GET / Installations * をクリックします。</block>
@@ -165,24 +147,19 @@
   <block id="b3e42cab03f3258e266289a5cb473b26" category="list-text">応答から ' 後の手順で使用できるようにアップグレードするクラスタのストレージ・クラスタ ID （ ID ）をコピーして保存します</block>
   <block id="57d1363358ed907b2a8b4e6fd33958af" category="list-text">ストレージのアップグレードを実行します。</block>
   <block id="22987ed21eb820a9aeef354b7bb062c3" category="list-text">管理ノードでストレージ REST API UI を開きます。</block>
-  <block id="e98adf76044f14eaf17a9c91a89cd1e2" category="list-text">[* POST/upgrades （ POST / アップグレード） ] をクリック</block>
   <block id="3d73d8aacfb24ab8d9ebf63f85cc923a" category="list-text">パラメータフィールドにアップグレードパッケージ ID を入力します。</block>
   <block id="a80a2e215168c9bb8d1d7b0e32021251" category="list-text">パラメータフィールドにストレージクラスタ ID を入力します。</block>
   <block id="488b3707934837436e2251dfc1801c6c" category="paragraph">ペイロードは次の例のようになります。</block>
-  <block id="789918b07758ce5d60fb98a099904d59" category="list-text">[*Execute] をクリックして ' アップグレードを開始します</block>
   <block id="e06c90593ff7801dfefdc10b4aa3b913" category="paragraph">応答は状態を「 initializing 」と示します。</block>
   <block id="64d520399f18fcab905348b4fd8838b4" category="list-text">応答の一部であるアップグレード ID （「 upgradeId 」）をコピーします。</block>
   <block id="74937fca75155543e64fe89fc070f1d1" category="list-text">アップグレードの進捗状況と結果を確認します。</block>
-  <block id="90232ddd36429406a75d02f72c5d2508" category="list-text">Get Sebring/upgrades/{ upgradeId}* をクリックします。</block>
   <block id="3209d89b1ac6561bdc8db3c1f4f25799" category="list-text">アップグレード ID は、前の手順のアップグレード ID として * upgradeId * と入力します。</block>
   <block id="c338903f3a062adc25e2d4c1eb2c35c8" category="list-text">アップグレード中に問題または特別な要件が発生した場合は、次のいずれかを実行します。</block>
   <block id="9439376d1f9eb896483283efdb64281b" category="cell">応答の本文に「 failedHealthCheckks 」というメッセージが表示されているため、クラスタのヘルスの問題を修正する必要があります。</block>
   <block id="51ea75317980f6158432ce49ef5cceec" category="list-text">各問題について記載されている特定の技術情報アーティクルに移動するか、指定された対処方法を実行します。</block>
   <block id="b4a0479be3c9adaef04f603fcfc17102" category="list-text">KB を指定した場合は、関連する技術情報アーティクルに記載されているプロセスを完了します。</block>
-  <block id="e0a974ed061ce7c5412604f9ffd0d7f1" category="list-text">クラスタの問題を解決したら、必要に応じて再認証し、 * PUT 処理の際に必要な数 / アップグレード / ｛ upgradeId ｝ * をクリックします。</block>
   <block id="c3b2d48205919d9b80e19bd9010720cc" category="list-text">リクエスト本文に「 action 」 : 「 resume 」と入力します。</block>
   <block id="15e4b27c3ddbd4f6284b6fb714f764c3" category="cell">メンテナンス時間が終了しているか別の理由で、アップグレードを一時停止する必要があります。</block>
-  <block id="0e135e088b43aa91704312a156edb200" category="list-text">必要に応じて再認証し、 * PUT に成功 / アップグレード / ｛ upgradeId ｝ * をクリックします。</block>
   <block id="0f449201481f814f1674b02766850303" category="list-text">リクエスト本文に「 action 」 : 「 pause 」と入力します。</block>
   <block id="ecfc48ecc069bce7a3654faa3d90f6ba" category="cell">11.8 より前のバージョンの Element を実行している H610S クラスタをアップグレードする場合は、応答の本文に状態「 finishedNeedsAck 」が表示されます。H610S ストレージノードごとに、追加のアップグレード手順（フェーズ 2 ）を実行する必要があります。</block>
   <block id="81175df6f619617903d93fd97b35f2a3" category="list-text">リクエスト本文に「 action 」：「 acknowledge 」と入力します。</block>
@@ -190,10 +167,8 @@
   <block id="05e1370c6bc841bbf10001b3bec41c0e" category="paragraph">アップグレード中、エラーが発生しなかった場合、「ステータス」は「実行中」を示します。各ノードがアップグレードされると 'tep' の値が NodeFinished に変わります</block>
   <block id="78cd54a4d18290c804697177cdb2c7d2" category="paragraph">アップグレードが正常に終了したのは 'percent` の値が '100' で 'tate' が 'finished' である場合です</block>
   <block id="4aa7e58f0a7559374030bc4b4edc1666" category="section-title">NetApp Hybrid Cloud を使用してアップグレードに失敗した場合の動作 制御</block>
-  <block id="040af7d9887fb746157cd389ac859b84" category="paragraph">アップグレード中にドライブまたはノードで障害が発生した場合は、 Element UI にクラスタエラーが表示されます。アップグレードプロセスは次のノードに進まず、クラスタの障害が解決するまで待機します。UI の進捗状況バーには、アップグレードがクラスタの障害の解決を待機していることが表示されます。アップグレードはクラスタが正常に完了するまで待機するため、この段階で UI の * Pause * をクリックすることはできません。障害の調査に役立てるには、ネットアップサポートに問い合わせる必要があります。</block>
   <block id="1cf53d88c6420f1bec01b7ed2be5647b" category="paragraph">NetApp Hybrid Cloud Control には 3 時間の待機時間があらかじめ設定されています。この時間内に、次のいずれかの状況が発生する可能性があります。</block>
   <block id="dc10d6ac703c7987da8e206f17bfba19" category="list-text">クラスタの障害は 3 時間以内に解決され、アップグレードが再開されます。このシナリオでは対処は必要ありません。</block>
-  <block id="3cd1832a1bc7290b328be55ee5bd9b15" category="list-text">問題は 3 時間後も解消されず、アップグレードのステータスが「 Error 」（エラー）と赤のバナーを表示します。問題が解決したら、 [* Resume （続行） ] をクリックしてアップグレードを再開できます。</block>
   <block id="59176eee36815639c56b916d1ee6d2b9" category="list-text">3 時間以内に対処するために、アップグレードを一時的に中止する必要があることがネットアップサポートによって確認されました。サポートは API を使用してアップグレードを中止します。</block>
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">ノードの更新中にクラスタのアップグレードを中止すると、そのノードからドライブが強制的に削除されることがあります。ドライブが強制的に削除された場合、ネットアップサポートに依頼して手動でドライブを元に戻す処理がアップグレード時に必要になります。ノードでファームウェアの更新や更新後の同期処理に時間がかかる可能性があります。アップグレードが停止していると思われる場合は、ネットアップサポートにお問い合わせください。</block>
   <block id="f7cb949e38e4d529492a7a05aae8a9db" category="section-title">HealthTools を使用して接続されているサイトで Element ソフトウェアをアップグレードします</block>
@@ -639,7 +614,6 @@
   <block id="681c057ad74a5006f3d81597fe9a6e21" category="list-text">CVE-2016-4706 、 CVE-2011-5320 、 CVE-2015-8984 、 CVE-2015-8983 、 CVE-2015-8982 、 CVE-2006-7254 、 CVE-2005-3590</block>
   <block id="853944a94c69869d0cf8951deaff9399" category="inline-link">NetApp HCI ドキュメントセンター</block>
   <block id="b87c5597f41e35e96aea2961ec409f99" category="list-text"><block ref="b87c5597f41e35e96aea2961ec409f99" category="inline-link-rx"></block></block>
-  <block id="de7cc64e04028e029cdcba5bb94d3a0a" category="summary">NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、 NetApp Element ソフトウェアの健全性チェックを実行する必要があります。</block>
   <block id="f5734d4e8acdeb186a1c22c351c4a0bf" category="paragraph">Element ストレージをアップグレードする前に健全性チェックを実行して、クラスタ内のすべてのストレージノードで次回の Element ストレージアップグレードの準備ができていることを確認する必要があります。</block>
   <block id="a9665a647615566ad8a19d93fbf94aa9" category="list-text">最新の管理サービスバンドル（ 2.10.27 以降）に更新しておきます。</block>
   <block id="1b4d7862ca62ac0691b197c1c4e48017" category="admonition">Element ソフトウェアをアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。</block>
@@ -655,9 +629,7 @@
   <block id="f5c8d254cb62d36b2cfba42c5866a02a" category="paragraph">NetApp Hybrid Cloud Control （ HCC ）を使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。</block>
   <block id="1f7790ed35a0ab861da3622b15bd9e8a" category="list-text">[ アップグレード * （ Upgrades * ） ] ページで、 [ * ストレージ * （ Storage * ） ] タブを選択します。</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">をクリックします。</block>
-  <block id="1d7f9233eaf459ab8773ffdc120f9299" category="list-text">健全性チェックをクリックします <block ref="121ad3230a694a5231762b0ae438963f" category="inline-image-macro-rx" type="image"></block> アップグレードの準備状況を確認するクラスタ</block>
   <block id="632000ef95a99f26126652cc6173582d" category="list-text">問題がある場合は、次の手順を実行します。</block>
-  <block id="51e0b5f7cd91462d8704ed2fbefc7c23" category="list-text">クラスタの問題を解決したら、 * 健全性チェックの再実行 * をクリックします。</block>
   <block id="ae63f08b8df1b31ff7d5bceda29c396a" category="paragraph">健全性チェックの完了後、エラーは発生しません。ストレージクラスタをアップグレードする準備は完了しています。ストレージノードのアップグレードを参照してください <block ref="193d61eccd9a78513080c941407efd8c" category="inline-link-macro-rx"></block> 続行してください。</block>
   <block id="77f8ee6733d725918aa1db978c6a5e76" category="section-title">API を使用して、実行前に Element ストレージの健全性チェックを実行 ストレージをアップグレードする</block>
   <block id="593af18822a2c5658285cf2d1936edd9" category="paragraph">REST API を使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。健全性チェックでは、保留中のノード、ディスクスペースの問題、クラスタ障害など、アップグレードが必要な障害がないことを確認します。</block>
@@ -694,7 +666,6 @@
   <block id="7dffbd2f21931076fdb29acaf8ae26f0" category="list-text">応答に記載されている手順に従います。</block>
   <block id="5415d26aa4e82d38e1a9e3b034df122a" category="section-title">管理ノードがダークサイトにあります</block>
   <block id="58bbc3933c0ddb7478a26f7552520e97" category="list-text">アップグレードチェックが失敗したことをメッセージで確認します。</block>
-  <block id="52ad9cf7578fff9e46bc67a65b3a38a5" category="list-text">をダウンロードします <block ref="6a2e5ca01ea61ee7e7ab842e0ceb651a" category="inline-link-rx"></block> 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。</block>
   <block id="337d79852891a37d41285c9101c3fff4" category="list-text">次のコマンドを実行します。</block>
   <block id="fcc491914f2a9b039c0cf0193fff10b3" category="list-text">詳細については、「追加」を参照してください <block ref="6108af9ca5aa4fda7c0167fbe5ccda18" category="inline-link-macro-rx"></block> ダークサイトの情報。</block>
   <block id="611547aaaf1aef29fd97e330f0d053dc" category="list-text">次のコマンドを実行して、 HealthTools スイートが最新バージョンであることを確認します。</block>
@@ -720,19 +691,14 @@
   <block id="11c19256a823dbe30f2c4d797db9e60d" category="cell">/var/log の空き領域が、空きしきい値のパーセンテージを満たしていることを確認します。サポートされていない場合は、しきい値を下回るために、古いログがローテーションされてパージされます。十分な空きスペースの作成に失敗した場合、チェックは失敗します。</block>
   <block id="07eca6a24ab16b00e6321c01370da80b" category="cell">check_pending_nodes</block>
   <block id="030ad8adc15b38e3dbe32fa700ac2d65" category="cell">クラスタに保留状態のノードがないことを確認します。</block>
-  <block id="ac7407b9cbe3d3eb544a2425bee6370f" category="summary">NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、管理サービスを更新する必要があります。</block>
   <block id="2fdf7cb371995103b459c97e897b87ee" category="doc">管理サービスを更新</block>
   <block id="79775a85ecd792fca2ed73286c1313cf" category="paragraph">管理ノード 11.3 以降をインストールしたら、管理サービスを最新のバンドルバージョンに更新できます。</block>
-  <block id="e01636036452239b025ed3c18d3a540f" category="paragraph">Element 11.3 以降の管理ノードリリースでは、個々のサービスを提供する新しいモジュラアーキテクチャに基づいて管理ノードの設計が変更されました。このモジュラサービスは、 NetApp HCI および SolidFire オールフラッシュストレージシステムに幅広い管理機能を一元的に提供します。管理サービスには、システム計測、ロギング、更新のサービス、 Element Plug-in for vCenter Server の QoSSIOC サービス、 NetApp Hybrid Cloud Control （ HCC ）などがあります。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">このタスクについて</block>
   <block id="a443497b41405480f6755e35166556e7" category="inline-link">管理サービスのリリースノート</block>
-  <block id="55d1ba0cfc919d4b1d9560241a53e655" category="admonition">各サービスバンドルの主要なサービス、新機能、バグ修正、および対処方法について説明した最新の管理サービスリリースノートについては、を参照してください<block ref="86aba836d25bf027674d7682756c7cf3" category="inline-link-rx"></block></block>
-  <block id="884a5edae007e6d3e774a912317f61ca" category="paragraph">管理サービスは、 NetApp Hybrid Cloud Control （ HCC ） UI または管理ノードの REST API を使用して更新できます。</block>
   <block id="7d6cae0c176b060b3eb918e8fc3a8a88" category="list-text"><block ref="8b810af37d36ecef3e8ce0cfd28cc60b" category="inline-xref-macro-rx"></block> （推奨方法）</block>
   <block id="45d5739efe933eabe3dda4a4ba6b61b1" category="list-text"><block ref="b795f7048c0a3127327e392f4c115728" category="inline-xref-macro-rx"></block></block>
   <block id="610172e2b0e7d4051f0d0b230bd8c722" category="list-text"><block ref="79f95b99cf6c6dc511dd13bb08f1454f" category="inline-xref-macro-rx"></block></block>
   <block id="2325934efda1befa076510008b0f7646" category="section-title">Hybrid Cloud Control を使用して管理サービスを更新します</block>
-  <block id="6812fbe299c3076c40d64e3555fb0f6e" category="paragraph">NetApp Hybrid Cloud Control （ HCC ）を使用してネットアップ管理サービスを更新できます。</block>
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">管理サービスバンドルは、メジャーリリースに含まれていない機能の強化とインストールに対する修正を提供します。</block>
   <block id="d0d4d24acea2b29c2079bdc9f046795d" category="list-text">管理サービスをバージョン 2.16 以降に更新する場合、管理ノード 11.3 から 11.8 を実行しているときは、管理サービスを更新する前に管理ノード VM の RAM を増やす必要があります。</block>
   <block id="eb6e06188d05a494c7bef0f5114cda80" category="list-text">管理ノード VM の電源をオフにします。</block>
@@ -740,14 +706,11 @@
   <block id="8f6d7a4937d5ef994024ec37d0af96db" category="list-text">管理ノード VM の電源をオンにします。</block>
   <block id="291b81212712dc828fee9037f0662499" category="list-text">管理サービスをバージョン 2.1.326 以上にアップグレードしておきます。NetApp Hybrid Cloud Control のアップグレードは、それよりも前のサービスバンドルでは利用できません。</block>
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">管理サービスリリースノート</block>
-  <block id="23e2afe72bb4982d49bafc030ee36b2e" category="admonition">各サービスバンドルバージョンで使用可能なサービスのリストについては、を参照してください<block ref="2c3c1c9ce7397fdd444812632621a9e1" category="inline-link-rx"></block>。</block>
   <block id="55d2ac8cdb689c1c5a8537d8871bd39e" category="list-text">Web ブラウザを開き ' 管理ノードの IP アドレス https://&lt;ManagementNodeIP&gt;` を参照します</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">アップグレードページで、 * 管理サービス * タブを選択します。</block>
   <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">Management Services タブには、管理サービスソフトウェアの現在および使用可能なバージョンが表示されます。</block>
-  <block id="e967fc111a48b936b8d4f31bd802510d" category="list-text">インターネットにアクセスできる環境で、管理サービスのアップグレードが可能な場合は、 * アップグレードの開始 * をクリックします。</block>
   <block id="88cc6eac67699034974d69a75c774238" category="list-text">インターネットにアクセスできない場合は、次の手順を実行します。</block>
   <block id="3a91ea590517ccc87ccaf6cbda3ac55c" category="list-text">ページの指示に従って、管理サービスのアップグレードパッケージをダウンロードし、コンピュータに保存します。</block>
-  <block id="82c97bf4e39a1910f6a3d41a6beba3a8" category="list-text">[ * 参照 * ] をクリックして、保存したパッケージを検索し、アップロードします。</block>
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">アップグレードの開始後は、このページにアップグレードのステータスが表示されます。アップグレードの実行中に NetApp Hybrid Cloud Control との接続が失われ、ログインし直さないとアップグレードの結果が表示されないことがあります。</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">管理ノード API を使用して管理サービスを更新する</block>
   <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">管理サービスの更新は、 NetApp Hybrid Cloud Control から実行することを推奨します。ただし、管理ノードから REST API UI を使用して管理サービスを手動で更新することはできます。</block>
@@ -764,7 +727,6 @@
   <block id="c202282c44af53d5ea8a677636541731" category="paragraph">管理サービスの更新は、 NetApp Hybrid Cloud Control から実行することを推奨します。ただし、 REST API を使用して、管理サービスのサービスバンドルの更新を管理ノードに手動でアップロード、展開、および導入することができます。管理ノード用の REST API UI から各コマンドを実行できます。</block>
   <block id="3601cad086244ec56eee653db5e2b0a3" category="list-text">NetApp Element ソフトウェア管理ノード 11.3 以降を導入しておきます。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">ネットアップサポートサイト</block>
-  <block id="55f3fe3380783b5b8504008e208fde3e" category="list-text">からサービスバンドルの更新をダウンロードしておきます<block ref="2b5762a08c48e59925e98fb05c9f6fc6" category="inline-link-rx"></block> ダークサイトで使用可能なデバイスへ。</block>
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">管理ノードにサービスバンドルをアップロードして展開するには 'put/services/upload' コマンドを使用します</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">管理ノードに管理サービスを配備します :PUT /services/deploy</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">更新のステータスを監視します。「 get/services/update/status 」</block>
@@ -892,7 +854,6 @@
   <block id="fd94b110b8a1a6cc261ec5fe42195e7c" category="section-title">NetApp Hybrid Cloud Control を使用して、コンピューティングノードの健全性を実行します ファームウェアをアップグレードする前にチェックします</block>
   <block id="041efd20e822dd686841db95e66d4ee0" category="paragraph">NetApp Hybrid Cloud Control （ HCC ）を使用して、コンピューティングノードでファームウェアをアップグレードする準備ができているかどうかを確認できます。</block>
   <block id="807a82eaa952baafdd118220e7bd9abc" category="list-text">[* Upgrades] ページで、 [* Compute firmware*] タブを選択します。</block>
-  <block id="07dde9ecde11ddff0e6d3adeb5912040" category="list-text">[ * コンピュートヘルスチェック * ] ページで、 [ * ヘルスチェックの実行 * ] をクリックします。</block>
   <block id="9dd06da7bba13199d2ce351ef71c8f81" category="list-text">問題がある場合は、ページにレポートが表示されます。次の手順を実行します。</block>
   <block id="eaca9680a0a2978b1ede83548674ce9a" category="inline-link-macro">コンピューティングノードのファームウェアを更新します</block>
   <block id="8406008ec259132ca12aa6e40ba20fdc" category="paragraph">健全性チェックがエラーなく完了すると、クラスタ内のコンピューティングノードをアップグレードする準備が整います。を参照してください <block ref="b3955269ff6e22f4641a814b8bc4ad1a" category="inline-link-macro-rx"></block> 続行してください。</block>
@@ -902,22 +863,18 @@
   <block id="2be2a7ca72e09c58cfb47c549453cdd1" category="list-text">管理ノードでインベントリサービス REST API UI を開きます。</block>
   <block id="092f6d73fb496611eabb3ef3d72d6956" category="list-text">REST API UI で、 * 一部のユーザに適用 / インストール * をクリックします。</block>
   <block id="c5465f7c051351da994753292e14797a" category="list-text">コード 200 の応答本文から ' ヘルス・チェックに使用するインストールの "id" をコピーします</block>
-  <block id="5b821a129372830acc2e53cbb3e1c7ef" category="list-text">REST API UI で、 * Get 操作用に一時リソース / ｛ id ｝ * をクリックします。</block>
   <block id="4b043557ff89a62c08b09b8f16a23974" category="list-text">インストール ID を入力します。</block>
   <block id="8c886ce84885c8a2721f65882f2d383b" category="list-text">コード 200 の応答本文から、次のそれぞれの ID をコピーします。</block>
   <block id="632a4698933b6d6b19cf1a1a388ad19d" category="list-text">クラスタ ID （「 ClusterId 」）</block>
   <block id="85d9602053913aad1469d6bdd1eb5122" category="list-text">コントローラ ID （「 ControllerID 」）</block>
   <block id="9341fa848dbf3c45d93ddb4bcd4f87b7" category="list-text">クラスタ内のコンピューティングノードで健常性チェックを実行します。</block>
   <block id="6b8f6e18b231bf99c6146439693599fc" category="list-text">管理ノードでコンピューティングサービス REST API UI を開きます。</block>
-  <block id="1c8392f6269dece4f5a812199952157c" category="list-text">[* POST/compute/Patlein/｛ controller_ID ｝ （ * POST / コンピュータ間の一致 / 動作確認） ] をクリックします。</block>
   <block id="383612ece420590514a7a698fb1a98a9" category="list-text">前の手順からコピーした「 ControllerID 」を「 * Controller_ID * 」パラメータフィールドに入力します。</block>
   <block id="745c554f364dd4daa431fff381f3de05" category="list-text">ペイロードで、前の手順から「 cluster 」の値としてコピーした「 clusterId 」を入力し、「 nodes 」パラメータを削除します。</block>
-  <block id="7560f9460b060c4ffb044041d8e94a93" category="list-text">クラスタの健全性チェックを実行するには、 * Execute * をクリックします。</block>
   <block id="cfea934fc932560f7afc3e2599922d3c" category="paragraph">コード 200 の応答では ' 状態チェックの結果を確認するために必要なタスク ID が追加された 'resourceLink' URL が提供されます</block>
   <block id="931943b9535da59244da338b2185e037" category="list-text">「 resourceLink 」 URL のタスク ID 部分をコピーして、タスクの結果を確認します。</block>
   <block id="878561216ecd51efeb5cc678630b708d" category="list-text">健全性チェックの結果を確認します。</block>
   <block id="b06d10a1c40d3224aea27fb57e7da834" category="list-text">管理ノードのコンピューティングサービス REST API UI に戻ります。</block>
-  <block id="f5c3fe94ef9bde0f45d3db6cb92cd149" category="list-text">[*Get/computeTole/tasks/{tasks_id}*] をクリックします。</block>
   <block id="e3fd98fa7fa0ff1565dca452688be47f" category="list-text">「 task_id 」パラメータフィールドに、「 resourceLink 」 URL のタスク ID 部分を *POST/computeTouled/{controller_ID} の一時的なチェック / 正常性チェック *code 200 応答から入力します。</block>
   <block id="a833be2f413e0a1f40ebf4693762cf04" category="list-text">[ ステータス ] が表示され、コンピューティングノードの正常性に問題があることが示された場合は、次の手順を実行します。</block>
   <block id="e62ae23ebffcac16bd140d14408fc2ad" category="list-text">各問題について記載されている特定の KB 記事 (`KbLink') に移動するか、指定された対処方法を実行します。</block>
@@ -932,16 +889,12 @@
   <block id="8763546c1b8ab651496c008f7dd274ab" category="cell">DRS は有効で、完全に自動化されているか。</block>
   <block id="1cbc59a2e915aeee2a8b6232b7cbc105" category="cell">DRS をオンにして、完全に自動化されていることを確認します。</block>
   <block id="a6b1609eef7bf18b35a56455ba310c97" category="inline-link">こちらの技術情報をご覧ください</block>
-  <block id="0b106011e1401491ec50127e30824f65" category="cell"><block ref="201fe794fdd50313a29a863d464c6f9d" category="inline-link-rx"></block>。注：標準ライセンスを使用している場合は、 ESXi ホストをメンテナンスモードにし、ヘルスチェックのエラーに関する警告を無視してください。</block>
   <block id="d191d2b41df83d7ad4c364b26e4cccf9" category="cell">DPM は vSphere で無効になっていますか。</block>
   <block id="f1995ca709ae217fb7b4f19e32019b5e" category="cell">Distributed Power Management をオフにします。</block>
-  <block id="08a23929aaacf7e0d9e33e75e2ce551e" category="cell"><block ref="1c3f7b674ad95e260e4a9227b78eaca2" category="inline-link-rx"></block>。</block>
   <block id="30b17a95ef007789fd1a7823bbbab11f" category="cell">vSphere で HA アドミッション制御が無効になっているか。</block>
   <block id="fe7225ba05a4d8e53f2c5a206e3b3da0" category="cell">HA アドミッション制御をオフにします。</block>
-  <block id="991e2a38721c060dac31f1c6dc53b10c" category="cell"><block ref="49d99fd8ae721a33e2a0bd623d036691" category="inline-link-rx"></block>。</block>
   <block id="83cafbf274b5abe9d9fd4e1e35f8f52a" category="cell">クラスタ内のホストで VM の FT が有効になっているかどうか</block>
   <block id="31958364c116ad548060d5d6ba632424" category="cell">影響を受けるすべての仮想マシンでフォールトトレランスを一時停止します。</block>
-  <block id="a5100508bd83e8e2af0136102d318f40" category="cell"><block ref="0c751f0aced803fc27338a967c0b48da" category="inline-link-rx"></block>。</block>
   <block id="1019c395da73abf37e118c51b26fe8c5" category="cell">クラスタの重要なアラームは vCenter にありますか。</block>
   <block id="c7462ff7a8e00312bceaaafa2d1605c7" category="cell">vSphere を起動し、アラートを解決または承認してから処理を進めてください。</block>
   <block id="1d0f735f7201abbac6d3ce3db73c7322" category="cell">問題を解決するために KB は必要ありません。</block>
@@ -972,7 +925,6 @@
   <block id="795c4d81c36fe966d72f9df190515945" category="cell">問題を解決するために KB は必要ありません。を参照してください <block ref="2a07d7c13714741ba4b52577b79b7461" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="efa35e2a26c4b1293ce5278173656110" category="cell">クラスタ内の監視ノードのステータスは何ですか。特定された監視ノードが実行されていません。</block>
   <block id="661efa3329c18b8c1bf89a7159543aac" category="cell">監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにし、健全性チェックを再実行します。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 *</block>
-  <block id="7c8994da921faa4e84244cc696f272ce" category="cell"><block ref="7c8994da921faa4e84244cc696f272ce" category="inline-link-rx"></block></block>
   <block id="079adfadc2c43b45434eb8d256d2b33b" category="cell">クラスタ内の監視ノードのステータスは何ですか。この ESXi ホストで監視ノードが起動して実行されており、代替監視ノードが起動されて実行されていません。</block>
   <block id="b21d5da6d770d534028a937df9e701e0" category="cell">監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにします。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストで実行されている監視ノードをシャットダウンし、健全性チェックを再実行してください。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 *</block>
   <block id="84ed944f530bec821e980ba07fa756b9" category="cell">クラスタ内の監視ノードのステータスは何ですか。監視ノードはこの ESXi ホストで実行されており、代替ノードは稼働しているが、同じ ESXi ホストで実行されている。</block>
@@ -1922,7 +1874,6 @@
   <block id="8fc04a8e11ea6436ee0a878e99ffaaff" category="paragraph">アップグレード後、コンピューティングノードは ESXi でブートされ、以前と同様に動作します。設定は保持されます。</block>
   <block id="c9dd6bad4c7d561872f2e2d498a990bf" category="inline-link">Interoperability Matrix Tool （ IMT ）</block>
   <block id="67c28390ec59a86cf6eef633a3248a0e" category="inline-link-macro">コンピューティングノードのファームウェアリリースノート</block>
-  <block id="3195f97b6cdf919c06b94918169aaaf6" category="list-text">* コンピューティングドライバ * ：コンピューティングノードのドライバをアップグレードしておきます。コンピューティングノードのドライバが新しいファームウェアと互換性がない場合、アップグレードは開始されません。を参照してください<block ref="3028580b30f2b1d483aad9f9a7a65c7a" category="inline-link-rx"></block> ドライバとファームウェアの互換性情報については、最新のを参照してください <block ref="8e52b55ffa3dd99e7231384e5c6e0fa1" category="inline-link-macro-rx"></block> 最新のファームウェアやドライバに関する重要な詳細情報を確認できます。</block>
   <block id="3b91723b8891cf7744d215242975ffa1" category="list-text">* admin 権限 * ：アップグレードを実行するには、クラスタ管理者権限と BMC 管理者権限が必要です。</block>
   <block id="0f7fc058ffe4e473e69ea8b600e3ea58" category="list-text">* BMC および BIOS の最小バージョン * ： NetApp Hybrid Cloud Control を使用してアップグレードするノードが、次の最小要件を満たしていることを確認します。</block>
   <block id="a559b87068921eec05086ce5485e9784" category="cell">モデル</block>
@@ -1940,9 +1891,7 @@
   <block id="590f0f5145e5d58d73d507c6a67aa0b2" category="admonition">H615C コンピューティングノードでは、 BMC ファームウェアをバージョン 4.68 に更新する必要があります を使用する <block ref="c58be2f499a493f0490ff81a29aa7beb" category="inline-link-macro-rx"></block> NetApp Hybrid Cloud Control で今後のファームウェアアップグレードを実行できるようにするため。</block>
   <block id="ae6346ffcf8868be71ccf7393c359eb7" category="admonition">H300E 、 H500E 、 H700E の各コンピューティングノードでは、 NetApp Hybrid Cloud Control を有効にして今後のファームウェアアップグレードを実行するには、 Redfish ライセンスが必要です。新しいコンピューティングファームウェアバンドルによって後続のリリースでこのプロセスが自動化されるまで、ネットアップサポートに連絡してライセンスを手動でインストールしてください。</block>
   <block id="7389b01d5fe0e17f5523a7fb85295f91" category="inline-link">こちらの技術情報アーティクル</block>
-  <block id="1713d181b21d6c0fe093728a7e13a24e" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください<block ref="fc24ec3d1e44bf8a2f61224d71bc24a8" category="inline-link-rx"></block> （ログインが必要です）。</block>
   <block id="92a2b5cb9c6906035c2864fa225e1940" category="inline-link">記事</block>
-  <block id="321b344486a7f135fdd502e95923f7cd" category="list-text">*BIOS 起動順序 *: 各ノードの BIOS セットアップで起動順序を手動で変更して、起動リストに「 USB CD/DVD」 が表示されるようにします。を参照してください <block ref="bf0d685451f26fbf320f656cde8e05a9" category="inline-link-rx"></block> を参照してください。</block>
   <block id="71ff71526d15db86eb50fcac245d183b" category="inline-link-macro">UI</block>
   <block id="db974238714ca8de634a7ce1d083a14f" category="inline-link-macro">API</block>
   <block id="a0eadab1ec17be36511ca995d844ebaa" category="list-text">* BMC クレデンシャル * ： NetApp Hybrid Cloud Control がコンピューティングノードの BMC への接続に使用するクレデンシャルを更新します。これは、ネットアップのハイブリッドクラウドを使用して実行できます 制御 <block ref="68c20b51b9ac5e7df85517007b658e2f" category="inline-link-macro-rx"></block> または <block ref="3c5e4db962920c879b083f5ee44c9cb7" category="inline-link-macro-rx"></block>。アップグレード前に BMC 情報を更新すると、インベントリが更新され、アップグレードの完了に必要なすべてのハードウェアパラメータが管理ノードサービスで認識されるようになります。</block>
@@ -1969,15 +1918,11 @@
   <block id="fa7063e93d956bc8344f5540bf669b09" category="list-text">アップグレードするクラスタを選択します。</block>
   <block id="1051fa9779041ad6e9ee3beab1a5804e" category="paragraph">クラスタ内のノードは、現在のファームウェアバージョンと新しいバージョン（アップグレード可能な場合）に加えてリストに表示されます。</block>
   <block id="1ec7d94e055dd1b38fea54a8c52a7107" category="list-text">アップグレードパッケージを選択します。</block>
-  <block id="f5a8a4afc9bf10ecf273f4a23cfb65e2" category="paragraph">[*Begin Upgrade*]( アップグレードの開始 ) をクリックすると、ウィンドウに失敗したヘルスチェックが表示されます ( 存在する場合 ) 。</block>
   <block id="a3341b6eded1e35dfa9b561f8a07b57d" category="admonition">アップグレードは開始後に一時停止できません。ファームウェアは、 NIC 、 BIOS 、および BMC の順序で順番に更新されます。アップグレード中は BMC UI にログインしないでください。BMC にログインすると、アップグレードプロセスを監視する Hybrid Cloud Control Serial-Over-LAN （ SOL ）セッションが終了します。</block>
-  <block id="45ad41240a82d6ed24a2dabee37f2a5a" category="list-text">クラスタレベルまたはノードレベルでヘルスチェックに警告が渡され、重大な障害がなければ、「 * アップグレードの準備が完了しています * 」と表示されます。[ ノードのアップグレード ] をクリックします。</block>
   <block id="576792eafbabeb08a721725d8cd7f8c5" category="admonition">アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。アップグレードの実行中、アップグレードのステータスに関するさまざまなメッセージが UI に表示されます。</block>
   <block id="f018c25e2ba6e7d9e59d6f27fbefc1d1" category="paragraph">アップグレードの完了後に、 UI にメッセージが表示されます。アップグレードの完了後にログをダウンロードできます。</block>
-  <block id="c0b4c391ffe1e98755b4499ece43961c" category="list-text">[* Browse] をクリックして、ダウンロードしたアップグレード・パッケージをアップロードします から<block ref="132031089c33792b234781a9d8501a93" category="inline-link-rx"></block>。</block>
   <block id="67986ad534a347b7de1afe60bc4bad42" category="admonition">ブラウザウィンドウから別の場所に移動すると、ファイルのアップロードがバックグラウンドで実行されます。</block>
   <block id="21ab535a80a78a0fb75c944c402b4134" category="paragraph">ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
-  <block id="46edf9490e1c2c1a395b8706b759f2af" category="admonition">アップグレード中に障害が発生した場合は、 NetApp Hybrid Cloud Control がノードをリブートし、ノードをメンテナンスモードから除外して、エラーステータスとエラーログへのリンクを表示します。エラーログをダウンロードして、特定の手順や KB 記事へのリンクを参照し、問題を診断して修正できます。NetApp Hybrid Cloud Control を使用したコンピューティングノードのファームウェアアップグレードの問題の詳細については、こちらを参照してください <block ref="6f5a5b0da22050fc7aaf44daa977b489" category="inline-link-rx"></block> 記事。</block>
   <block id="eebe4635b143ec06c3d82067486e5631" category="paragraph">アップグレードプロセスの実行前、実行中、実行後に表示されるさまざまな状態を次に示します。</block>
   <block id="cfe0f5606d79e2e4c6bbb68f7ed24315" category="cell">ノードで 1 つ以上の健全性チェックに失敗しました。を展開して詳細を表示します。</block>
   <block id="7fbb279da47cc6249b548441f8eeef5a" category="cell">1 つ以上の健全性チェックに失敗しました。</block>
@@ -1986,45 +1931,36 @@
   <block id="f978a6c0248c217a81017210bb0a3fb6" category="cell">アップグレードの準備が完了しました。</block>
   <block id="ccfdf7f17010a61d70b1bbebffca8da7" category="cell">すべての健全性チェックにパスし、ノードをアップグレードする準備が完了しました。</block>
   <block id="41a328f03550f94c63742812c6e33bab" category="cell">アップグレード中にエラーが発生しました。</block>
-  <block id="23849adf280d8705a61ef2dd0492aba0" category="cell">重大なエラーが発生すると、アップグレードは失敗し、この通知が表示されます。エラーの解決に役立つ [ ログのダウンロード ] リンクをクリックしてログをダウンロードします。エラーを解決してから、もう一度アップグレードを実行してください。</block>
   <block id="358c081d3609c99cc65d904871da499d" category="cell">ノードのアップグレードを実行中です。</block>
   <block id="54011adfa7bb72ee88b88d3ba0d26d4e" category="cell">アップグレードを実行中です。進行状況バーにアップグレードステータスが表示されます。</block>
   <block id="819180dac1edd7f3ad94afb1cd39ecc4" category="section-title">NetApp Hybrid Cloud Control API を使用してコンピューティングをアップグレードします ノード</block>
   <block id="28e250dd03d1d6c42bd639d46927b2f8" category="paragraph">API を使用して、クラスタ内の各コンピューティングノードを最新のファームウェアバージョンにアップグレードできます。API の実行には、任意の自動化ツールを使用できます。ここで説明する API ワークフローでは、例として管理ノードで使用可能な REST API UI を使用します。</block>
   <block id="689c642c94aa6268a48bbbc19bb529c5" category="list-text">管理ノードでパッケージサービス REST API UI を開きます。</block>
   <block id="325b3df765685b8bf7d0a291e60ff0d7" category="list-text">応答から、後の手順で使用するために、アップグレードパッケージ名（「 packageName 」）とパッケージバージョン（「 packageVersion 」）をコピーして保存します。</block>
-  <block id="6d766ad7112c950eb04002ef1c7fc39c" category="list-text">NetApp HCI ソフトウェアにアクセスします<block ref="3dffc4c3eb8dd9089d721ea160bd23f1" category="inline-link-rx"></block> をクリックし、管理ノードからアクセス可能なデバイスに最新のコンピューティングノードファームウェアイメージをダウンロードします。</block>
   <block id="6020d7988dfd2e648ba586d737e1f210" category="list-text">コンピューティングファームウェアのアップグレードパッケージを管理ノードにアップロードします。</block>
   <block id="62924c929d970628e011c457f2df9215" category="list-text">応答から ' 後の手順で使用するために ' アップグレード・パッケージ名 (`name"') とパッケージ・バージョン (`version"') をコピーして保存します</block>
   <block id="a73185557316cb4d3140159601de085c" category="list-text">アップグレードするノードのコンピューティングコントローラ ID とノードハードウェア ID を確認します。</block>
   <block id="c1b6479fd9c7db0471ff4d500bfa314c" category="list-text">応答から、後の手順で使用するために、クラスタコントローラ ID （「 ControllerID 」）とノードハードウェア ID （「 hardwareId 」）をコピーして保存します。</block>
   <block id="41bae0332cd621d5a87b2f4d2ae66dbd" category="list-text">コンピューティングノードのファームウェアアップグレードを実行します。</block>
   <block id="9e739a9f663d3e22f8794fc9d7e1cad8" category="list-text">管理ノードでハードウェアサービス REST API UI を開きます。</block>
-  <block id="8ef0a6dd93d520c0c6fe91d91ff2a0a0" category="list-text">POST /nodes/ ｛ hardware_id ｝ /upgrades * をクリックします。</block>
   <block id="9a1357e1e71579f662d24d17aed1a23a" category="list-text">前の手順で保存したハードウェア・ホストの資産 ID （「 hardwareId 」）をパラメータ・フィールドに入力します。</block>
   <block id="7271267de19060ea8c43031aa1e16351" category="list-text">ペイロード値については、次の手順を実行します。</block>
   <block id="951849308163feee05b1b4f669f83c91" category="list-text">ノードでヘルスチェックが実行され、 ESXi ホストがメンテナンスモードに設定されるように、値「 force 」： false 」および「 maintenanceMode 」： true 」を保持します。</block>
   <block id="8e9b8402fc729e5b8cf2e9a5e6d1f4a7" category="list-text">クラスタコントローラ ID （前の手順で保存した「 ControllerID 」）を入力します。</block>
   <block id="898aa9fbdeaf861f6b63c3aee3dcac0a" category="list-text">前の手順で保存したパッケージ名とパッケージバージョンを入力します。</block>
   <block id="c658aaae7b770a779963c2f0814f7b97" category="list-text">応答内のリソースリンク ("resourceLink") URL の一部であるアップグレードタスク ID をコピーします</block>
-  <block id="727f7564461107301e77c148e46ff7ec" category="list-text">[*get/task/{task_id}/logs] をクリックします。</block>
   <block id="41ae3303c96aa0617f8cdc8eaf5eacba" category="list-text">前の手順のタスク ID を * TASK_ID * に入力します。</block>
-  <block id="4cf61591dd43b980bc04125e0b5ea270" category="list-text">クラスタの問題を解決したら、必要に応じて再認証し、 * POST /nodes/ ｛ hardware_id ｝ /upgrades * をクリックします。</block>
   <block id="6fc04e69abf4e1a97cbcb23fdcde3485" category="list-text">アップグレード手順で前述した手順を繰り返します。</block>
   <block id="c4b11491ff82324ef6528926fdb97efb" category="cell">アップグレードに失敗し、移行後の手順はアップグレードログに記載されていません。</block>
-  <block id="ee5fbad85baa7771ef1a6095bdff51ac" category="inline-link">技術情報アーティクル（ログインが必要です</block>
-  <block id="cfed35538c68f486e81d90b69c20d751" category="list-text">を参照してください<block ref="38a16d57c78bb3b918105079b6305af4" category="inline-link-rx"></block>）。</block>
   <block id="76ebc3a73437f302f36ef1432523633d" category="list-text">必要に応じて、処理が完了するまで * Get Th量 / タスク / ｛ task_id ｝ / ログ * API を複数回実行します。</block>
   <block id="8db93f67ae0c4a59be8d38cb28cd9964" category="paragraph">アップグレード中、エラーが発生しなかった場合、「ステータス」は「実行中」を示します。各ステップが完了すると、「ステータス」の値が「完了」に変わります。</block>
   <block id="42b05f11767800e8781ed3667e5bc181" category="paragraph">各ステップのステータスが「 Completed 」で「 percentageCompleted 」の値が「 100 」の場合、アップグレードは正常に終了しました。</block>
   <block id="7f42ec43a3a2d2efea9a00b87242c0cb" category="list-text">（オプション）各コンポーネントのアップグレードされたファームウェアバージョンを確認します。</block>
-  <block id="9601fe12fef1f9fad33378b6a920c4ed" category="list-text">REST API UI で、 * Get sites/nodesses/｛ hardware_id ｝ /upgrades * をクリックします。</block>
   <block id="4b441364b36bb6f4c7b059dcc366682f" category="list-text">（オプション）日付とステータスのパラメータを入力して、結果をフィルタリングします。</block>
   <block id="cc0bc3ddeb0e718be7e738b95d572af9" category="list-text">すべてのコンポーネントのファームウェアが以前のバージョンから最新のファームウェアに正常にアップグレードされたことを示す応答を確認します。</block>
   <block id="c4c5c223d03335842a4306d18b9fe4c8" category="section-title">最新のコンピューティングノードでイメージ化された USB ドライブを使用します ファームウェアバンドル ISO</block>
   <block id="f67b6a10eef3ca58e647dda805d94d0f" category="paragraph">コンピューティングノードの USB ポートに、最新のコンピューティングノードファームウェアの ISO をダウンロードした USB ドライブを挿入できます。この手順で説明している USB メモリを使用する代わりに、ベースボード管理コントローラ（ BMC ）インターフェイスの仮想コンソールで * Virtual CD/DVD* オプションを使用して、コンピューティングノードに ISO をマウントできます。BMC を使用する方法は、 USB メモリを使用する方法よりもかなり時間がかかります。ワークステーションまたはサーバに必要なネットワーク帯域幅があること、および BMC とのブラウザセッションがタイムアウトしないことを確認してください。</block>
   <block id="66049ae453415635891440129594baf4" category="inline-link">ネットアップのソフトウェアダウンロード</block>
-  <block id="9ac20456749c4139e1523f9c809e62f9" category="list-text">を参照します<block ref="0330f2661c7496a0691699dabbb8c3be" category="inline-link-rx"></block> ページで、 * NetApp HCI * をクリックし、正しいバージョンの NetApp HCI のダウンロードリンクをクリックします。</block>
   <block id="fdb5d17e28db94dde362ad7ba5b0d662" category="list-text">エンドユーザライセンス契約に同意します。</block>
   <block id="b36befe8937b455a62256bcdbd1761e1" category="list-text">コンピューティングノードとストレージノード * のセクションで、コンピューティングノードのイメージをダウンロードします。</block>
   <block id="6b42b239fce8e2fd9ba87948604faced" category="list-text">Etcher ユーティリティを使用して、コンピューティングノードのファームウェア ISO を USB ドライブにフラッシュします。</block>
@@ -2050,27 +1986,18 @@
   <block id="9348cc4ca180e752af9a30b1d8edd48a" category="list-text">ノードがクラスタに参加している場合は、次のように保守モードにします。ない場合は、手順 2 に進みます。</block>
   <block id="8561216c60b15334923d6df7a3a507ea" category="list-text">VMware vCenter Web Client にログインします。</block>
   <block id="0006dbea26c0768b7eb409a4548b0d78" category="list-text">ホスト（コンピューティングノード）名を右クリックし、 * メンテナンスモード &gt; メンテナンスモードへの切り替え * を選択します。</block>
-  <block id="b564a6ce3dee2108fea4fb751c62e7e7" category="list-text">[OK] をクリックします。ホスト上の VM は、使用可能な別のホストに移行されます。移行する VM の数によっては、 VM の移行に時間がかかることがあります。</block>
   <block id="56f11fa64f88708e12f86525e1f10c60" category="admonition">続行する前に、ホスト上のすべての VM が移行されていることを確認してください。</block>
   <block id="7766a6f95761106ad6d741a6947ad460" category="list-text">BMC UI （ https://BMCIP/#login` ）に移動します。 BMCIP は BMC の IP アドレスです。</block>
   <block id="7f9391befb5b4ab3aa0261d24fee724f" category="list-text">クレデンシャルを使用してログインします。</block>
   <block id="f60400fe89867cd8c8b3e1095fa53a2b" category="list-text">[ * リモートコントロール ]&gt;[ コンソールリダイレクト * ] を選択します。</block>
-  <block id="5ff6ac28d71a37b48ebf68885d910712" category="list-text">[ コンソールの起動 *] をクリックします。</block>
   <block id="593b9eacda7134868a2d80ea3c474ec6" category="admonition">Java のインストールまたは更新が必要になる場合があります。</block>
-  <block id="ff29c984a76445cda8cc1b46df7124f4" category="list-text">コンソールが開いたら、 * バーチャル・メディア &gt; バーチャル・ストレージ * をクリックします。</block>
-  <block id="52445d4eb11fcdc510107a453f1dc72b" category="list-text">Virtual Storage * （仮想ストレージ）画面で、 * Logical Drive Type （論理ドライブタイプ） * をクリックし、 * ISO File （ ISO ファイル） * を選択します。</block>
   <block id="46da4b73e077041d82cbd4b49b3a2a45" category="inline-image-macro">ISO ファイルを選択するためのナビゲーションパスを表示します。</block>
   <block id="88bfc9e47329ab3d571f1872dc37c1fb" category="paragraph"><block ref="88bfc9e47329ab3d571f1872dc37c1fb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f769a704ec825d9662c82099fa7809df" category="list-text">[ * 画像を開く * ] をクリックして ISO ファイルをダウンロードしたフォルダーを参照し、 ISO ファイルを選択します。</block>
-  <block id="b0a233c15d1b5b7d8464d9c89b5ea838" category="list-text">[ * プラグイン * ] をクリックします。</block>
-  <block id="02f900a59043e0983b47748ad26aa402" category="list-text">接続ステータスに「デバイス番号 : VM プラグイン OK ！」と表示されたら、「 * OK 」をクリックします。</block>
-  <block id="99a5f3ec864d680e99b59d4d83f73238" category="list-text">ノードを再起動するには、 * F12 * を押して * Restart * をクリックするか、 * Power Control &gt; Set Power Reset * をクリックします。</block>
   <block id="b96987f61d66ba1db77d5b4f1783876a" category="list-text">再起動中に *F11* を押して起動オプションを選択し 'ISO をロードしますブートメニューが表示されるまでに F11 キーを何度か押しなければならない場合があります。</block>
   <block id="a69d47f968d2fc21fb9cdec24acfbe9a" category="paragraph">次の画面が表示されます。</block>
   <block id="d0ed128bd3c8c20ecdc5eb6ff37f7d5a" category="inline-image-macro">に、仮想 ISO の起動先画面を示します。</block>
   <block id="64db04a065fe8c5683677bfa2a4efcff" category="paragraph"><block ref="64db04a065fe8c5683677bfa2a4efcff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="04b5db58b14ac00557c12b22488da4a9" category="list-text">上記の画面で、 *Enter* キーを押します。ネットワークによっては、アップグレードを開始するために * Enter キーを押してから数分かかることがあります。</block>
-  <block id="c8b495fc4ec38fe576323036df4f4062" category="list-text">BMC UI に再度ログインし、 * System * をクリックして、 OS の起動後に BIOS のバージョンとビルド時間を確認します。アップグレードが正常に完了すると、新しい BIOS と BMC のバージョンが表示されます。</block>
   <block id="c0d2845b5e57dd0d6b0732369c810c73" category="admonition">BIOS のバージョンは、ノードのブートが完了するまでアップグレード後のバージョンを表示しません。</block>
   <block id="4b700a11c4dc15bc2c44032b82a6221f" category="list-text">ノードがクラスタに含まれている場合は、次の手順を実行します。スタンドアロンノードの場合、これ以上の操作は必要ありません。</block>
   <block id="6559f407fcadf1c3e1b80127774db925" category="list-text">ホストのメンテナンスモードを解除します。赤色のフラグが外れている可能性があります。すべてのステータスが解消されるまで待ちます。</block>
@@ -2078,18 +2005,11 @@
   <block id="d9007dd2676748983c400ce8ca221bb7" category="section-title">H610C / H615C ノードのファームウェアをアップグレードします</block>
   <block id="e2cec94acacbfde7b552c83c32e84744" category="paragraph">手順は、ノードがスタンドアロンであるかクラスタの一部であるかによって異なります。この手順には約 25 分かかり、ノードの電源オフ、 ISO のアップロード、デバイスのフラッシュ、アップグレード後のノードの電源のオンとオフが含まれます。</block>
   <block id="ae2e167448f73cc45a857eeed2a38a45" category="list-text">BMC UI 「 https://BMCIP/#login` 」に移動します。ここで、 BMC IP は BMC の IP アドレスです。</block>
-  <block id="80877029ef9b9693657b05001c6465aa" category="list-text">「 * リモートコントロール」 &gt; 「 KVM （ Java ）の起動」 * をクリックします。</block>
-  <block id="b95b1397016fbe0ae54b9e1391e3b295" category="list-text">コンソールウィンドウで、 * Media &gt; Virtual Media Wizard* をクリックします。</block>
   <block id="1d622834b8e28acedd0c470eff5709f7" category="image-alt">BMC UI から仮想メディアウィザードを起動します。</block>
-  <block id="8a44ecefdd60a05cf41c9c1fbc04efbe" category="list-text">[*Browse*]( 参照 ) をクリックし ' コンピュート・ファームウェアの .iso ファイルを選択します</block>
-  <block id="478d61e686778ff42217703865c18cb8" category="list-text">[ 接続 ] をクリックします。成功したことを示すポップアップが表示され、パスとデバイスが下部に表示されます。[ 仮想メディア *] ウィンドウを閉じることができます。</block>
   <block id="e3e72bb291b26812bea6d962e4866dab" category="image-alt">ISO アップロードが成功したことを示すポップアップウィンドウ。</block>
   <block id="7edcc1835a80e09463c4bf3b46c42cc0" category="list-text">再起動中に *F11* を押して起動オプションを選択し 'ISO をロードします</block>
-  <block id="2c5dad6825fb78e8a81becbffdc64362" category="list-text">表示されたリストから *AMI Virtual CDROM * を選択し、 *Enter* をクリックします。リストに AMI Virtual CDROM が表示されない場合は、 BIOS にアクセスして起動リストで有効にします。保存するとノードがリブートします。再起動中に * F11 * を押します。</block>
   <block id="b6c3b9c6bed53710f2cbf2c4dad9c6ef" category="image-alt">に、ブートデバイスを選択できるウィンドウを示します。</block>
-  <block id="549c7be30acce7ebed2ee3ae3dc6de07" category="list-text">表示された画面で、 *Enter* をクリックします。</block>
   <block id="38b1366a8da5dc836d161c511ddcb3a8" category="admonition">ファームウェアのアップグレードによっては、コンソールが切断されたり、 BMC のセッションが切断されたりする場合があります。BMC に再度ログインできますが、ファームウェアのアップグレードが原因で、コンソールなどの一部のサービスを使用できない場合があります。アップグレードが完了すると、ノードのコールドリブートが実行されます。これには約 5 分かかることがあります。</block>
-  <block id="276df6f2cf89a24bf42cdb497efac803" category="list-text">コンソールから切断された場合は、 * Remote Control * を選択し、 * Launch KVM * または * Launch KVM （ Java ） * をクリックして再接続し、ノードのブートが完了したことを確認します。ノードが正常にブートしたことを確認するために、複数の再接続が必要になる場合があります。</block>
   <block id="2558425336b0f6c46dd76c2ddacfe150" category="admonition">電源投入プロセス中、約 5 分間、 KVM コンソールに「 * No Signal * （信号なし）」と表示されます。</block>
   <block id="983386544e3658c647474bfcbcb7bb36" category="list-text">ノードの電源をオンにした後、 * ダッシュボード &gt; デバイス情報 &gt; 詳細情報 * を選択して、 BIOS と BMC のバージョンを確認します。アップグレード後の BIOS と BMC のバージョンが表示されます。アップグレード後のバージョンの BIOS は、ノードが完全にブートするまで表示されません。</block>
   <block id="ed615718612dbf4adcce1e9d4941ba75" category="list-text">ノードをメンテナンスモードにした場合は、ノードが ESXi をブートした後、ホスト（コンピューティングノード）名を右クリックし、 * Maintenance Mode &gt; Exit Maintenance Mode * を選択して VM をホストに戻します。</block>
@@ -3538,7 +3458,6 @@
   <block id="497e1101c9e2f864d2e2dda128ecb452" category="list-text">実行されている管理ノードは 11.0 、 11.1 、またはそれ以降です。</block>
   <block id="dad7cfe229aa9e4b9f9b9cf0e87704cc" category="paragraph">NetApp Hybrid Cloud Control のアップグレードは、それよりも前のバージョンのサービスバンドルでは利用できません。</block>
   <block id="9def504d64ab69879cb0311556fe8cc3" category="inline-link">HealthTools</block>
-  <block id="e7da0cdbfdb339591463b52922b2d3ba" category="list-text">最新バージョンのをダウンロードしておきます<block ref="1055054f9873b0bd497cc7f564cc86d3" category="inline-link-rx"></block> インストールファイルを管理ノードにコピーしておきます。</block>
   <block id="903d0f97d11dd5ed20516ec36dd2abc7" category="admonition">ローカルにインストールされている HealthTools のバージョンを確認するには 'sfcupdate-healthtools -v コマンドを実行します</block>
   <block id="10fbc8fd3ac1a011e7631cdf01332562" category="list-text">ダークサイトで HealthTools を使用するには、次の追加手順を実行する必要があります。</block>
   <block id="f86ddd2fb45950e1479e5ffde319cb8f" category="list-text">管理ノードをダークサイトで起動して実行します。</block>
@@ -3771,12 +3690,10 @@
   <block id="2d627b2788c609fd6539b2b8370f4c40" category="list-text">コード 200 の応答本文から 'id' をコピーして保存し ' 後の手順で使用できるようにします</block>
   <block id="6698e2d341b99df0c4d635145fd726d9" category="list-text">（ NetApp HCI のみ） vSphere でコンピューティングノードのハードウェアタグを確認します。</block>
   <block id="7c6477f25c22d13e15a77d85b6584b69" category="list-text">vSphere Web Client ナビゲータでホストを選択します。</block>
-  <block id="ab7c1c96fc4fe2d55e0932c9885caeaa" category="list-text">[*Monitor*] タブをクリックし、 [*Hardware Health*] をクリックします。</block>
   <block id="20de52053c3a1a30b1244f7ee45bc34f" category="list-text">ノードの BIOS のメーカーとモデル番号が表示されます。後の手順で使用するために 'tag' の値をコピーして保存します</block>
   <block id="42249c3350dc9e116531e8786238075a" category="list-text">管理ノードの既知のアセットに、 NetApp HCI 監視用の vCenter コントローラアセット（ NetApp HCI 環境のみ）と Hybrid Cloud Control （すべての環境）を追加します。</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">必要なペイロード値を「 vcenter 」タイプと「 vcenter 」クレデンシャルタイプで入力します。</block>
   <block id="421226b233bd18f9c1f8d179419a2f39" category="list-text">（ NetApp HCI のみ）管理ノードの既知のアセットにコンピューティングノードのアセットを追加します。</block>
-  <block id="8d0a0f5de3a566c316d21f114ab1503d" category="list-text">コンピューティングノードアセットのクレデンシャルを使用してコンピューティングノードサブアセットを追加する場合は、 * POST /assets/｛ asset_id ｝ /compute-nodes * をクリックします。</block>
   <block id="ea32544c4914661e6b948f2891dd6a83" category="list-text">ペイロードで、 Model タブで定義されているとおりに必要なペイロード値を入力します。「タイプ」として「 ESXi ホスト」と入力し、「 hardware_tag 」の前の手順で保存したハードウェアタグを入力します。</block>
   <block id="891d7cb5314c1395a5f98467dc959053" category="inline-link-macro">ストレージ NIC を設定します</block>
   <block id="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="list-text"><block ref="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="inline-link-macro-rx"></block></block>
@@ -3808,7 +3725,6 @@
   <block id="497d518d6e399c2f91b16e0dec717424" category="summary">システムのインベントリは Hybrid Cloud Control で確認できます。</block>
   <block id="acdaf51e84092f9ece736cf38c23250f" category="doc">Hybrid Cloud Control で NetApp HCI のインベントリを表示します</block>
   <block id="bc7eee2e46f7815a5e4e0a3de181052f" category="paragraph">NetApp HCI システムのインベントリは、 Hybrid Cloud Control で確認できます。</block>
-  <block id="f6abd23df184583be904e6f9220ba600" category="summary">NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。</block>
   <block id="9e31323b5cbbe61c6c8c43ad2755958b" category="doc">Element Plug-in for vCenter Server をアップグレードします</block>
   <block id="03efd38b0802e06b31537f557cd0421f" category="paragraph">既存の vSphere 環境に NetApp Element Plug-in for vCenter Server （ VCP ）が登録されている場合は、プラグインサービスを含む管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">登録ユーティリティを使用して、 vCenter Server Virtual Appliance （ vCSA ）または Windows でプラグインの登録を更新できます。vCenter Plug-in の登録変更は、プラグインを使用するすべての vCenter Server で行う必要があります。</block>
@@ -3817,15 +3733,12 @@
   <block id="26f2f1d140c70238a07a5f09e846fd82" category="inline-link">プラグインのバージョン</block>
   <block id="d7be3f2367f28daeaac07c2967977074" category="list-text">* 管理者権限 * ：プラグインをインストールするための vCenter Administrator ロールの権限があります。</block>
   <block id="7df6c84beb4c7f9c0109ea10accef1ed" category="list-text">* vSphere のアップグレード * ： NetApp Element Plug-in for vCenter Server をアップグレードする前に、必要な vCenter のアップグレードを実行しておきます。以下の手順は、 vCenter のアップグレードが完了していることを前提としています。</block>
-  <block id="36aa454d124fba9c0e6922eafdf89396" category="list-text">* vCenter Server * ： vCenter Plug-in バージョン 4.x が vCenter Server に登録されている。登録ユーティリティ（「 https://[management node ip:9443 」）で、 [*Registration Status*] をクリックし、必要なフィールドに入力して [*Check Status*] をクリックし、 vCenter Plug-in がすでに登録されていること、および現在のインストールのバージョン番号を確認します。</block>
   <block id="72b0efdaad5d469b43f79c332bb57be4" category="inline-link">管理サービスのバンドル</block>
-  <block id="77d899df336762a18bba18ea64c8c2c5" category="list-text">* 管理サービスの更新 * ：を更新しました<block ref="fa63a529ec625e6607508bcea6b40451" category="inline-link-rx"></block> を最新バージョンに更新します。vCenter プラグインの更新は、 NetApp HCI および SolidFire オールフラッシュストレージの主要製品リリース以外でリリースされた管理サービスの更新を使用して配布されます。</block>
   <block id="4c02ebe342ea429a0d2a2a23be2ddd19" category="inline-link-macro">アップグレード済み</block>
   <block id="27c25a67c147529824177fc694e7fd19" category="list-text">* 管理ノードのアップグレード * ：以前に実行されていた管理ノードを実行します <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> バージョン 11.3 以降。vCenter Plug-in 4.4 以降では、個別のサービスを提供するモジュラアーキテクチャを備えた 11.3 以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。</block>
   <block id="7d3b6b8e2540bf5435b3b6984ad1f702" category="list-text">* Element ストレージのアップグレード * ： NetApp Element ソフトウェア 11.3 以降を実行しているクラスタが必要です。</block>
   <block id="c13fa68b55894aaf612067aa7455ac53" category="list-text">ブラウザに管理ノードの IP アドレスを入力します。登録用の TCP ポート「 https://[management node ip 」： 9443 でこのプラグインの登録ユーティリティ UI が開き、「 Manage QoSSIOC Service Credentials * 」ページが表示されます。</block>
   <block id="26fc450c5cd9b7f28b10cff7659b479d" category="image-alt">は、プラグインの登録ユーティリティの UI です</block>
-  <block id="fdc3277c2c62fa2903e727dca976e450" category="list-text">[* vCenter Plug-in Registration * （ vCenter Plug-in の登録 * ） ] をクリックします。</block>
   <block id="5c8b8f78ed09c86ecda3569ee8c3a3f0" category="list-text">Manage vCenter Plug-in * で、 * Update Plug-in * を選択します。</block>
   <block id="8d8ce4b808495ff41a197ebd82fa0d15" category="list-text">次の情報を確認し、必要に応じて更新します。</block>
   <block id="07cdef615c44d9173ab998dea612cb1c" category="list-text">プラグインを登録する vCenter サービスの IPv4 アドレスまたは FQDN 。</block>
@@ -3833,8 +3746,6 @@
   <block id="b1e24f0b2fb8f66a9c2444bf0e385f97" category="admonition">vCenter Administrator ロールの権限を持つユーザのユーザ名とパスワードを入力する必要があります。</block>
   <block id="c2611280cf76890b83743a67ac6478e2" category="list-text">vCenter Administrator のパスワード。</block>
   <block id="92d3ac74b6d30f321507464dbfb9220d" category="list-text">（社内サーバ / ダークサイトの場合）プラグインの ZIP のカスタム URL 。</block>
-  <block id="d4b9a4e220c815cc1436ff29491de974" category="admonition">HTTP または HTTPS サーバ（ダークサイト）を使用している場合、または ZIP ファイル名やネットワーク設定を変更した場合は、「 * Custom URL * 」をクリックして URL をカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。</block>
-  <block id="04252e4e5460971d7f33943bd841f366" category="list-text">[ 更新（ Update ） ] をクリックします。</block>
   <block id="14b68e07a69ae90b19c2bd823797ff21" category="paragraph">登録が完了すると、登録ユーティリティの UI にバナーが表示されます。</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">この操作により、新しいデータベースが作成され、 vSphere Web Client でのインストールが完了します。</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">vSphere Web Client で、タスクモニタで次のタスクが完了していることを確認します。「ダウンロードプラグイン」および「デプロイプラグイン」。</block>
@@ -4865,7 +4776,6 @@
   <block id="b6a7327b70a9633bec4727271b65590e" category="cell">負荷が高い状況では、 H610C ノード上の Mellanox NIC で送信エラーが発生する場合があります。</block>
   <block id="6967b2d61d6874d2e75a84cd8fefa2b9" category="cell">PE-10954</block>
   <block id="673176178a006e5d531923e8ca4489b6" category="cell">Element ソフトウェアのターミナルユーザインターフェイス（ TUI ）を使用して MTU を設定したあとで、 H610C ノードの MTU 設定が正しくない場合があります。</block>
-  <block id="6b62a6e067bcba1d45a20dcf25bd7baf" category="summary">NetApp HCI または SolidFire ストレージシステムをアップグレードする際に、管理ノードをアップグレードします。</block>
   <block id="1761ea607c3f8d002099290408801187" category="doc">管理ノードをアップグレードします</block>
   <block id="5b6ab4d3c53ec5567002938471c9c120" category="list-text">vCenter Plug-in 4.4 以降では、モジュラアーキテクチャで作成された管理ノード 11.3 以降が必要であり、個々のサービスを提供します。</block>
   <block id="7876c958d2731a283bba894ce3294f21" category="paragraph">次のいずれかの管理ノードアップグレードオプションを選択します。</block>
@@ -4904,8 +4814,6 @@
   <block id="1d0dd1d7212314cbec4589ef288c9451" category="list-text">既存の管理ノード 11.0 または 11.1 で複数のストレージクラスタを管理しており、永続ボリュームがある場合：</block>
   <block id="49fe4cc83f5673ee4313707be652fb5a" category="list-text">管理ノード API を使用して、インストール環境のアセット ID を確認します。</block>
   <block id="c1d91df00a0c3fac54e32076a41126ac" category="list-text">ストレージの MVIP にアクセスしてログインします。次の手順で証明書が承認されます。</block>
-  <block id="b8724110e3db04169214a0e77620c7c8" category="list-text">NetApp HCI がインストールされている場合は、 vSphere でコンピューティングノードのハードウェアタグを確認します。</block>
-  <block id="31213b2a0736c2e0d9485f08f3ce0ce0" category="list-text">管理ノードの既知のアセットに、 HCI 監視用の vCenter コントローラアセット（ NetApp HCI 環境のみ）と Hybrid Cloud Control （すべての環境）を追加します。</block>
   <block id="05d6c35ef525375d16c0c0ed228b8280" category="list-text">ペイロードで、 Model タブで定義されているとおりに必要なペイロード値を入力します。「タイプ」として「 ESXi ホスト」と入力し、「 hardware_tag 」の前の手順で保存したハードウェアタグを貼り付けます。</block>
   <block id="1128aaca3a95604af9f4e6f46e755aa7" category="section-title">管理ノードバージョン 10.x から 11.x への移行</block>
   <block id="5ddc21147ef02867c28649242e850a5d" category="list-text">VMware vSphere インターフェイスで、管理ノード 11.1 OVA を導入し、電源をオンにします。</block>
@@ -4914,18 +4822,13 @@
   <block id="de8fb9a417e5ff3f4cf6f4376300aedb" category="list-text">管理ノードの TUI で、新しい ID とパスワードを使用して管理ノードにログインし、動作を確認します。</block>
   <block id="f91d0a737a08806ffd3053b00e324760" category="list-text">vCenter または管理ノードの TUI で、管理ノード 11.1 の IP アドレスを取得し、ポート 9443 でこの IP アドレスにアクセスして管理ノード UI を開きます。</block>
   <block id="9f9e2eada94a2b513e7ea2fd2070a26f" category="list-text">vSphere で、 * NetApp Element Configuration * &gt; * mNode Settings * の順に選択します。（旧バージョンでは、最上位のメニューは * NetApp SolidFire 構成 * です）。</block>
-  <block id="1286aad41d2555692570d9712015408b" category="list-text">[ * アクション * &gt; * クリア * （ Actions * &gt; * Clear * ） ] をクリック</block>
-  <block id="86078283f9813c09ca3bd3eefc0e0502" category="list-text">確認するには、 * はい * をクリックします。mNode Status フィールドに Not Configured と表示されるはずです。</block>
   <block id="56a32dd49a6dbb0e0348a840882069b1" category="admonition">最初に「 * mNode Settings * 」タブに移動すると、 mNode の Status フィールドに、想定される「 Up * 」ではなく「 * Not Configured * 」と表示されることがあります。 * Actions * &gt; * Clear * を選択できない場合があります。ブラウザの表示を更新します。mNode の Status フィールドには、最終的に *up* と表示されます。</block>
   <block id="bcc7cd82367090bebeb1a81f71b20707" category="list-text">vSphere からログアウトします。</block>
   <block id="6bc08ff2c798923f83399b466e83828c" category="list-text">Web ブラウザで、管理ノード登録ユーティリティを開き、 * QoSSIOC サービス管理 * を選択します。</block>
   <block id="b142f691f9ca32840a06262706751854" category="list-text">QoSSIOC の新しいパスワードを設定します。</block>
   <block id="7d175f707658ab8d8d7209eef36c531b" category="admonition">デフォルトのパスワードは SolidFire ですこのパスワードは、新しいパスワードを設定するために必要です。</block>
-  <block id="fc0551f8816f4bf952b2401f3e2773ff" category="list-text">[* vCenter Plug-in Registration * ] タブをクリックします。</block>
   <block id="d620125983dc5f2427e48ef8cf64e05d" category="list-text">[ プラグインの更新 ] を選択します。</block>
-  <block id="c41d4bc0a478053250e25458ba302995" category="list-text">必要な値を入力します。完了したら、 * アップデート * をクリックします。</block>
   <block id="d2ba2536a729c91022a8866cb76aa0d0" category="list-text">vSphere にログインし、 * NetApp Element 構成 * &gt; * mNode 設定 * を選択します。</block>
-  <block id="de826356b70121aa8fa90986bc78720b" category="list-text">[ * アクション * &gt; * 構成 * （ * Actions * &gt; * Configure * ） ] を</block>
   <block id="39bcb493b71e1252cc79ed60aca98b72" category="list-text">管理ノードの IP アドレス、管理ノードのユーザ ID （ユーザ名は「 admin 」）、登録ユーティリティの「 QoSSIOC サービス管理 * 」タブで設定したパスワード、および vCenter のユーザ ID とパスワードを入力します。</block>
   <block id="394f33ee158efaf5b14e0d18c2f943ed" category="paragraph">vSphere で、 mNode 設定 * タブに mNode ステータスが * up * と表示されます。これは、管理ノード 11.1 が vCenter に登録されていることを示します。</block>
   <block id="df3dc388ad6c26081374f74d856f9abd" category="list-text">管理ノード登録ユーティリティ（「 https://&lt;mNode 11.1 IP アドレス &gt; ： 9443 」）から SIOC サービスを再起動します。</block>
@@ -4950,7 +4853,6 @@
   <block id="7d77f30dd6c3619cac922b1bf9fc7a7c" category="list-text">ストレージクラスタで Element 12.0 以降が実行されている。</block>
   <block id="69bfe4b77f2e59784e9a7c91881f1161" category="list-text">管理ノードは 11.3 以降です。</block>
   <block id="69f5442caf6936145cd4f73e7c83f2a4" category="list-text">管理サービスを順番に更新し、 Element ストレージをアップグレードしておきます。この手順を使用して認証を再設定するには、説明されている順序でアップグレードを完了する必要があります。</block>
-  <block id="8b185b6ee956bb55fd53ce53dfeefbd6" category="list-text">REST API UI で、 * POST /services/reconfigure -auth* をクリックします。</block>
   <block id="d4d6be65d679aa54296e16328ec041bf" category="list-text">*LOAD_images * パラメータでは 'TRUE' を選択します</block>
   <block id="2a1519db00ab50aa3a0e4964f93a27f8" category="paragraph">応答の本文は、再設定が正常に完了したことを示します。</block>
   <block id="1ed1378560f3434340b1ab5dbf1db633" category="paragraph">アセットの追加は、環境を拡張したあとに、新しいアセットが構成に自動的に追加されなかった場合などに必要になります。これらの API を使用して、最近追加されたアセットを環境に追加します。</block>
@@ -5116,21 +5018,16 @@
   <block id="495a77927689f5e0cb0a71d7b73ee6b7" category="list-text">/tasksanges/{taskID}* 応答から、アップグレードが適用されたことを確認します。</block>
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">NetApp HCI システムのアップグレードの一環として、コンピューティングノードのドライバをアップグレードします。</block>
   <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">ネットアップの技術情報アーティクル</block>
-  <block id="f6f57ef583a2a8f65eca6d1dd3ad430c" category="paragraph">のハードウェアのファームウェアとドライバのマトリックスを参照してください<block ref="281f8980032ebb79864d728ec2225e48" category="inline-link-rx"></block> （ログインが必要です）。</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">以下の更新処理は一度に 1 つずつ実行します。</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">NetApp HCI ソフトウェアのダウンロード</block>
-  <block id="ee2173a85bb67a0d4771cd4c2fd0a819" category="list-text">を参照します<block ref="586f94736261e3cc826ee8e69c814c18" category="inline-link-rx"></block> ページをクリックし、ダウンロードリンクをクリックして正しいバージョンの NetApp HCI を入手します。</block>
   <block id="583b2202b6101e8fb6a6243369ac0f58" category="list-text">ダウンロードしたドライババンドルをローカルコンピュータに展開します。</block>
   <block id="8ac52d731af552b5cc23f653ec478d24" category="admonition">ネットアップのドライババンドルには、 VMware オフラインバンドルの ZIP ファイルが 1 つ以上含まれています。これらの ZIP ファイルは展開しないでください。</block>
   <block id="c7bbe9e0cbf5a288fc641b66af382299" category="list-text">コンピューティングノードのドライバオフラインバンドルファイルを * パッチリポジトリ * にインポートします。</block>
   <block id="151c76834ad80bda72b790ed956b343b" category="list-text">コンピューティングノードの新しいホストベースラインを作成します。</block>
   <block id="a103a95f7d753b061f47218b727a92a9" category="list-text">名前とタイプに * Host Extension * を選択し、インポートされたすべてのドライバパッケージを新しいベースラインに含めるように選択します。</block>
   <block id="a496a18e70096c13771244c2dde8267d" category="list-text">vCenter の * Host and Clusters * メニューで、更新するコンピュートノードを含むクラスタを選択し、 * Update Manager * タブに移動します。</block>
-  <block id="152375a13a7ff77d78d7e7e5ed2cb1b2" category="list-text">[* 修正 ] をクリックし、新しく作成したホストベースラインを選択します。ベースラインに含まれるドライバが選択されていることを確認します。</block>
   <block id="6d44c32d6b840dfaa324161a0e3d3f72" category="list-text">ウィザードの指示に従って、 * Host Remediation Options * に進み、ドライバの更新中に仮想マシンをオンラインの状態に保つために、 * Do Not Change VM Power State * オプションが選択されていることを確認します。</block>
-  <block id="ad2566c6ba088dd09a41bd19ab095be5" category="list-text">ウィザードの [*Ready to Complete] ページに進み、 [*Finish] をクリックします。</block>
   <block id="7b21b071d697849e963c58b4acc1d064" category="paragraph">クラスタ内のすべてのコンピューティングノードのドライバが、仮想マシンはオンラインのまま、一度に 1 ノードずつ更新されます。</block>
-  <block id="ec420e81b4295bf240fe77c1e8dbd427" category="summary">NetApp HCI または SolidFire システムのアップグレードの一環として、ストレージノードに関連付けられているファームウェアをアップグレードします。</block>
   <block id="28d43e5e13ecfc96dece6248ba9a0e4f" category="admonition">Element ソフトウェアバージョン 12.0 を実行している H610S ストレージノードについては、ストレージファームウェアバンドル 2.27 にアップグレードする前に「 D パッチ」「 St-909 」を適用する必要があります。アップグレード前に、ネットアップサポートに問い合わせて D パッチを入手します。を参照してください <block ref="f5af28c84f405696357f61b6dbcf298d" category="inline-link-rx"></block>。</block>
   <block id="736c409b380383ee8843715d26079c63" category="list-text">* クラスタの健全性 * ：健全性チェックを実行しました。を参照してください <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>。</block>
   <block id="ebf60ae83a327f8be16b2010df1010c2" category="list-text">* H610S ノードの BMC を更新 * ： H610S ノードの BMC バージョンをアップグレードしました。を参照してください <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>。</block>
@@ -5780,7 +5677,6 @@
   <block id="93ed26ee1117aa5cedb29715f0312265" category="paragraph">新しい管理ノード仮想マシンをプロビジョニングすることなく、管理ノード 11.0 または 11.1 からバージョン 12.3.x へのインプレースアップグレードを実行できます。</block>
   <block id="81044b834120f4f6ae976694410c56b7" category="list-text">アップグレードする管理ノードのバージョンが 11.0 または 11.1 で、 IPv4 ネットワークを使用していることを確認します。管理ノードバージョン 12.3.x は IPv6 をサポートしていません。</block>
   <block id="c9440d3431e64f8d1456fbd256043dc5" category="list-text">12.3.x 管理ノードで、「 upgrade-mnode 」スクリプトを実行して、以前の設定を保持します。</block>
-  <block id="17102379fc0bc7ea881f95eab28fb8d1" category="list-text">（ NetApp Element Plug-in for vCenter Server を使用したすべての NetApp HCI インストールおよび SolidFire オールフラッシュストレージインストールの場合）で、の手順に従って、 12.3.x 管理ノードの vCenter Plug-in を更新します <block ref="61768f3798a436486dacb908355263cd" category="inline-link-macro-rx"></block> トピック：</block>
   <block id="4ff9fc7c23fbbdf410e784b18625c201" category="inline-xref">サブステップ (f)</block>
   <block id="ebb10f305c99ec7bfab143a8e38bdcc7" category="admonition">Element 12..1 以降では、手順（ a ） ～ （ e ）が自動的に実行されます。管理ノード 12..1 の場合は、に進みます <block ref="e7aead760c231b389589c93842d555c1" category="inline-xref-macro-rx"></block> 時刻同期の設定を完了します。</block>
   <block id="51aa09599efde7b5f904971077e61890" category="list-text">[[[[suf_recover_config_time_sync]] ハイパーバイザーを使用したホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
@@ -5868,7 +5764,6 @@
   <block id="4c671b547a1a811f45797247ec5747c3" category="list-text">VCP 4.8 、 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。</block>
   <block id="10d52a77bc99042d3e815ba24e48132b" category="admonition">このプラグインは、 VMware vCenter Server 6.5 for VCP 4.7 以降と互換性がありません。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">6.7 Flash vSphere Web Client にアップグレードする。</block>
-  <block id="7320d4f9ce78688fd8066aecc8c81be4" category="admonition">このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 ビルド 13007421 および更新 2a より前にリリースされたその他の 6.7 U2 ビルド（ビルド 13643870 ）とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください<block ref="a81344cf9e0a62906c34e4f24b52644e" category="inline-link-rx"></block>。</block>
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client * ：プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしました。Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。vSphere Web Client にすでにログインしている場合は、ログアウトし、 2~3 分待ってから再度ログインする必要があります。</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server 向け Element プラグイン</block>
@@ -5928,7 +5823,6 @@
   <block id="89c74c79879a589cacabae248be85499" category="list-text"><block ref="89c74c79879a589cacabae248be85499" category="inline-link-macro-rx"></block></block>
   <block id="344e78ec2ad025d33ea36041579f298c" category="inline-link-macro">ESXi ホストでロックダウンモードを無効にする方法</block>
   <block id="51e2f064fae02b78d50335320fa64dee" category="inline-link-macro">VMware ロックダウンモードの動作</block>
-  <block id="edd8b3282549ec1d6dc78d1eb7e1c40e" category="admonition">ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください <block ref="fb19a39b93a06583d5a94b26b178d3e3" category="inline-link-macro-rx"></block> および <block ref="53ad52678690a80a10338f589ef87ae4" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="c61e49078f881925dbdfe8eb0ca8d922" category="admonition">ファームウェアのアップグレードによっては、コンソールが切断されたり、 BMC のセッションが切断されたりする場合があります。BMC に再度ログインできますが、ファームウェアのアップグレードにより、コンソールなどの一部のサービスを使用できない場合があります。アップグレードが完了すると、ノードのコールドリブートが実行されます。これには約 5 分かかることがあります。</block>
   <block id="fb78892e3578cfd18a036951c1c4971f" category="admonition">Warning のしきい値はデフォルトで Error のしきい値の 3% 下に設定できます。エラーしきい値とクリティカルしきい値は事前に設定されており、設計上の設定はできません。Error しきい値は、クラスタに容量が残っているノードが 1 つもないことを示します。しきい値の設定手順については、を参照してください<block ref="2ce41e26226fd62d356a7c6ed5af0e35" category="inline-link-rx"></block>。</block>
   <block id="bb8e9580bc946448407e8e1eed6c5970" category="admonition">関連するクラスタのしきい値 Element API の詳細については、を参照してください<block ref="84fc0ed2d196ef8bccc3b67e17fc160b" category="inline-link-rx"></block> を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください<block ref="c30e41b20522ef308202e2e023ffe13e" category="inline-link-rx"></block> を参照してください。</block>
@@ -5963,7 +5857,6 @@
   <block id="6be429977d0c03d0877af437d396aa0c" category="list-text">BMC の更新パッケージをダウンロードしておきます。BMC 更新パッケージをダウンロードします<block ref="72792b1a2b7f12e055a846ecc5a8ee93" category="inline-link-rx"></block>。</block>
   <block id="96ab6da7e8e7be64d17a753ee635a905" category="admonition">このアップデート・パッケージには 'ROM.IMA_enc' ファイルと ' ファームウェア・アップデートに必要なすべてのファイルが含まれています</block>
   <block id="1162dd84e55b1e6c2517bf0323faf96b" category="admonition">iDRAC / BIOS ファームウェアを更新するには、ネットアップサポートにお問い合わせください。追加情報の場合は、を参照してください <block ref="ce98bbbd0598351d03b47f370ea3b773" category="inline-link-macro-rx"></block>。</block>
-  <block id="549d257a6f61f3935af556f51f5a19e8" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください<block ref="6cc0561cb437417f52ccd7c1b6fd3ccc" category="inline-link-rx"></block> （ログインが必要です）。</block>
   <block id="763eb859ae372f33db810eafc97f8c46" category="paragraph">ネットワークでジャンボフレームがサポートされていないために NetApp Deployment Engine で障害が発生した場合は、次のいずれかの対処方法を実行します。</block>
   <block id="a7f938a5ee66be6cd3956047c881cbae" category="list-text">静的 IP アドレスを使用して、 Bond10G ネットワークで 9000 バイトの最大伝送ユニット（ MTU ）を手動で設定してください。</block>
   <block id="491ef57b4f097c3c194192a5b8b421ba" category="list-text">Bond10G ネットワークで 9000 バイトのインターフェイス MTU をアドバタイズするように動的ホスト構成プロトコルを設定します。</block>
@@ -6109,17 +6002,97 @@
   <block id="28891145b6c39ff95afbdf5c47061837" category="inline-link">NetApp HCI Compute Firmware Bundle の略</block>
   <block id="ad20855a10bcb28bd96d1134e8e2d09e" category="paragraph">Compute Firmware Bundle をダウンロードするには、にアクセスします<block ref="9e726c85d19808fe7c4afbfe8514b543" category="inline-link-rx"></block> ページ</block>
   <block id="68baec1bded108851f5cb6cb9332b5fb" category="paragraph">管理ノードがインターネットに接続されていない場合は、をダウンロードしておきます<block ref="f0f7b836568f7e533a3947b76da1a20e" category="inline-link-rx"></block>。</block>
-  <block id="1551e888ab5308b8b3157b61a9afa28c" category="paragraph">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
-  <block id="4f05ad42d37ba064812b10f3a7a7c448" category="list-text">ストレージアップグレードパッケージをダウンロードします。NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。</block>
-  <block id="5e16870e97cd7494312cfcaccde66101" category="list-text">NetApp HCI システムの場合は、 NetApp HCI ソフトウェアにアクセスします<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block>。</block>
   <block id="cabc168d31fc4c314cb500b86813e131" category="list-text">こちらをダウンロードしてください<block ref="747556e0149f6188670059abaeb4fd3e" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。</block>
-  <block id="83e648796d8c15021f306aae3dd3d686" category="list-text">の管理ノード ISO をダウンロードします<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシン。</block>
-  <block id="2e6c3e131d0b66465caec32d003e1958" category="list-text">の管理ノード ISO をダウンロードします<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシン。</block>
   <block id="6f0fdd346038a9e820296de3d9746c93" category="inline-link">NetApp HCI ストレージクラスタのストレージファームウェアパッケージをダウンロードします</block>
   <block id="68591212ccf64f918a02a9a99d9b17cb" category="paragraph">管理ノードがインターネットに接続されていない場合は、を使用します<block ref="aafe992914552d0a3aa0655fa1abc52d" category="inline-link-rx"></block>。</block>
   <block id="34c8eaed7bf9fcb94a9fec8fc99e01f5" category="inline-link">Element ソフトウェアストレージファームウェアのバンドルページ</block>
   <block id="4c22618bec261776093bb20f43db4da2" category="list-text">管理ノードからアクセス可能なデバイスに最新のストレージファームウェアアップグレードパッケージをダウンロードします。にアクセスします<block ref="6c480cd9e53c4fa50830a2dbc4709412" category="inline-link-rx"></block> 最新のストレージファームウェアイメージをダウンロードできます。</block>
-  <block id="cb0ff683af4927c8b141ca4fdd047e6f" category="list-text">から、インストール環境に対応した OVA または ISO をダウンロードします<block ref="b6552e9fe421f9ef58cbc1fac1e87c10" category="inline-link-rx"></block> ネットアップサポートサイトのページを参照してください。</block>
-  <block id="fb9dbde245c31e55deba5a52e39161b7" category="inline-link">NetApp HCI コンピューティングファームウェアバンドル</block>
-  <block id="5867a9249c217b0fd396efc0b056c46a" category="paragraph">Compute Firmware Bundle をダウンロードするには、にアクセスします<block ref="47afcbf58f4f7c048fb68385f91a8522" category="inline-link-rx"></block> ページ</block>
+  <block id="084b0131bd480b2202263e1d2feee26f" category="summary">NetApp HCI システムのアップグレードの一環として、 NetApp Element ソフトウェアをアップグレードします。</block>
+  <block id="28915945fea0308bbd2cdf191b79dd68" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択し、 * Element * タブで利用可能なアップグレードバージョンから選択します。</block>
+  <block id="b6d17024c4c99e0348e4d802e2508b6b" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択し、アップグレード可能なバージョンから選択します。</block>
+  <block id="6c0526aed8944efbe6192f67a288210b" category="list-text">[* アップグレードの開始 * ] を選択します。アップグレードが完了すると、プロセスのフェーズ 2 を実行するよう求める画面が表示されます。</block>
+  <block id="814733d416c95bcc389df46e42881e26" category="inline-link">ページをダウンロードします</block>
+  <block id="f512f8e6b128b8f7bff6fcc1ef0cae59" category="list-text">管理ノードからアクセス可能なデバイスにストレージアップグレードパッケージをダウンロードします。 NetApp HCI ソフトウェアにアクセスします<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
+  <block id="72d6d922116ab2c5c4e00582da6636fe" category="list-text">ストレージアップグレードパッケージをダウンロードします。 NetApp HCI ソフトウェアにアクセスします<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block> をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。</block>
+  <block id="33877e64a4f252eccfc0cd9a26c42e8e" category="list-text">NetApp HCI ソフトウェアにアクセスします<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block>。</block>
+  <block id="e9e291beb54413fecd8975237eb4bb64" category="list-text">[ * コンピュートヘルスチェック * ] ページで、 [ * ヘルスチェックの実行 * ] を選択します。</block>
+  <block id="b63360b381f2f4d20abc8c6e41ad03e9" category="list-text">REST API UI から、 * Get 操作対象の一時リソース / ｛ id ｝ * を選択します。</block>
+  <block id="0244d8caf66b9412467f25ad4401d48f" category="list-text">[* POST/compute/Patlein/{controller_ID} 一致 / 正常性チェック * ] を選択します。</block>
+  <block id="9235b927ec0e8cc731efecee81ca42bc" category="list-text">クラスタの健全性チェックを実行するには、 * Execute * を選択します。</block>
+  <block id="746798a24b035d442003701c9b2ff2cf" category="list-text">[*Get/computeTole/tasks/{tasks_id}*] を選択します。</block>
+  <block id="934ce6052c9c54838baf7b56970a8ea1" category="cell"><block ref="dafd9e53b0e107319fd7c98e26521f9c" category="inline-link-macro-rx"></block>。注：標準ライセンスを使用している場合は、 ESXi ホストをメンテナンスモードにし、ヘルスチェックのエラーに関する警告を無視してください。</block>
+  <block id="bd856841d50b1115c0be80b2b4c03f96" category="cell"><block ref="9cae80730f58713cd253305bd8a17f51" category="inline-link-macro-rx"></block>。</block>
+  <block id="901e3d3daf031f6d5818264fe95950fb" category="cell"><block ref="af342b67e8cb1017f4d3851a95ecec2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="3c9edce8deb164b2bcb5a4c0edb19031" category="cell"><block ref="438a0bd6ae60534499b49dc869c9923c" category="inline-link-macro-rx"></block>。</block>
+  <block id="493dbf808140d6e440e6d71d077c313b" category="cell"><block ref="493dbf808140d6e440e6d71d077c313b" category="inline-link-rx"></block></block>
+  <block id="a5b37844a6e9e768f0ce85640b2581b5" category="summary">NetApp HCI システムのアップグレードの一環として、 NetApp Element ソフトウェアの健全性チェックを実行する必要があります。</block>
+  <block id="6a2367272d7df1e3bc820ae7cd85cca3" category="list-text">をダウンロードします <block ref="a8a51581fa7186019dceaf790825b165" category="inline-link-macro-rx"></block> 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。</block>
+  <block id="735339172aeec7b940204188ab8289fb" category="list-text">* コンピューティングドライバ * ：コンピューティングノードのドライバをアップグレードしておきます。コンピューティングノードのドライバが新しいファームウェアと互換性がない場合、アップグレードは開始されません。を参照してください<block ref="2b761b14db6e131ceb5a9ee87e5e085a" category="inline-link-rx"></block> ドライバとファームウェアの互換性情報については、最新のを参照してください <block ref="8e52b55ffa3dd99e7231384e5c6e0fa1" category="inline-link-macro-rx"></block> 最新のファームウェアやドライバに関する重要な詳細情報を確認できます。</block>
+  <block id="b24f3db75077a578765967e0b8ffa295" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください<block ref="54a79ab153742147d13ffd4ac16bf6ba" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="a6c551bfacbff9bc6d510d240a1f729e" category="list-text">*BIOS 起動順序 *: 各ノードの BIOS セットアップで起動順序を手動で変更して、起動リストに「 USB CD/DVD」 が表示されるようにします。を参照してください <block ref="40fb6836e33e97dd94fb747393132791" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="8cbab0daf89fd647357f115f87cafa08" category="admonition">ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください <block ref="413633461dfba42d2895a891a0754971" category="inline-link-macro-rx"></block> および <block ref="3763c4992ac43c28a18a921e7668037d" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="ad658e59cd09feeecf6b238e019458b8" category="paragraph">[*Begin Upgrade*] を選択すると、ウィンドウに失敗したヘルスチェックがある場合は表示されます。</block>
+  <block id="466e65481ab5efa6812230aeb4b69f80" category="list-text">クラスタレベルまたはノードレベルでヘルスチェックに警告が渡され、重大な障害がなければ、「 * アップグレードの準備が完了しています * 」と表示されます。[ ノードのアップグレード ] を選択します。</block>
+  <block id="c39906efe5a223585b255a41266ea9c8" category="list-text">からダウンロードしたアップグレードパッケージをアップロードするには、 * Browse * を選択します<block ref="132031089c33792b234781a9d8501a93" category="inline-link-rx"></block>。</block>
+  <block id="a4566f571e6e969e6131fb2ffde2867a" category="admonition">アップグレード中に障害が発生した場合は、 NetApp Hybrid Cloud Control がノードをリブートし、ノードをメンテナンスモードから除外して、エラーステータスとエラーログへのリンクを表示します。エラーログをダウンロードして、特定の手順や KB 記事へのリンクを参照し、問題を診断して修正できます。NetApp Hybrid Cloud Control を使用したコンピューティングノードのファームウェアアップグレードの問題の詳細については、こちらを参照してください <block ref="4842a5749652a9b76b4c5d2cd1cc749c" category="inline-link-macro-rx"></block> 記事。</block>
+  <block id="f3656040c81e459770d6f808f555e44b" category="cell">重大なエラーが発生すると、アップグレードは失敗し、この通知が表示されます。エラーの解決に役立つ [ ログのダウンロード ] リンクを選択して、ログをダウンロードします。エラーを解決してから、もう一度アップグレードを実行してください。</block>
+  <block id="aa9d5bf83f31cb6b0178cd6fca1bf339" category="list-text">NetApp HCI ソフトウェアにアクセスします<block ref="5edcf9a6caebd1bfc3b9c296487defc8" category="inline-link-rx"></block> をクリックし、管理ノードからアクセス可能なデバイスに最新のコンピューティングノードファームウェアイメージをダウンロードします。</block>
+  <block id="afa7546eaf1454c94bb86a84962765ef" category="list-text">「 * POST/nodes / ｛ hardware_id ｝ /upgrades * 」を選択します。</block>
+  <block id="2af0540e1b6b59e46ab66bb3122952c5" category="list-text">「 * get/task/｛ task_id ｝ /logs * 」を選択します。</block>
+  <block id="39752c4375b51cda523113de3c91a69a" category="list-text">クラスタの問題を解決したら、必要に応じて再認証し、 * POST /nodes/ ｛ hardware_id ｝ /upgrades * を選択します。</block>
+  <block id="626dccb9f3533429f8ff6726b7bc468c" category="list-text">を参照してください<block ref="ab9b4acb1029e814de59e725ff477757" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="8cbe2759efcdf76c5f107e0ecb7b4592" category="list-text">REST API UI から、 * GET 処理対象の新規 / ノード間の処理 / ｛ hardware_id ｝ の一時的な処理 / アップグレード * を選択します。</block>
+  <block id="9db3b1bbf31a34f016b6751560d022ca" category="list-text">を参照します<block ref="faddc0b2b4da1eceb58811a395f38dc6" category="inline-link-rx"></block> ページで、 * NetApp HCI * を選択し、ダウンロードリンクを選択して正しいバージョンの NetApp HCI を入手します。</block>
+  <block id="7b2ebadeeacacfd175f5f97176710a3a" category="list-text">「 * OK 」を選択します。ホスト上の VM は、使用可能な別のホストに移行されます。移行する VM の数によっては、 VM の移行に時間がかかることがあります。</block>
+  <block id="d4978a595335fff63b260fc4b8cdbca0" category="list-text">[ コンソールの起動 *] を選択します。</block>
+  <block id="086e11190936943bd47b89359cc316ab" category="list-text">コンソールが開いたら、 * バーチャル・メディア &gt; バーチャル・ストレージ * を選択します。</block>
+  <block id="0d86b24c482b6af94686b61cab281a55" category="list-text">Virtual Storage （仮想ストレージ）画面で、 * Logical Drive Type （論理ドライブタイプ） * を選択し、 * ISO File （ ISO ファイル） * を選択します。</block>
+  <block id="1034338dbc0cc8fb2f0061d492d27045" category="list-text">[* Open Image* （画像を開く） ] を選択して、 ISO ファイルをダウンロードしたフォルダーを参照し、 ISO ファイルを選択します。</block>
+  <block id="9e02313ddd26aee118ee23b52ccb621f" category="list-text">[ * プラグイン * ] を選択します。</block>
+  <block id="1ae7c00d24ffdca7598b194b2dc27dbf" category="list-text">接続ステータスに「 Device#:VM Plug-in OK!! 」と表示されたら、「 *OK* 」を選択します。</block>
+  <block id="da7914315fd2c0a46bc91f4a9b89ba7a" category="list-text">ノードを再起動するには、 * F12 * を押して * Restart * を選択するか、 * Power Control &gt; Set Power Reset * を選択します。</block>
+  <block id="970cbfd1c58267733c44d0cd2358be33" category="list-text">BMC UI に再度ログインし、 * System * を選択して、 OS の起動後に BIOS のバージョンとビルド時間を確認します。アップグレードが正常に完了すると、新しい BIOS と BMC のバージョンが表示されます。</block>
+  <block id="d2fcf7c7acbf0658169aa81fda53c0ff" category="list-text">リモート・コントロール &gt; Launch KVM (Java)* を選択します</block>
+  <block id="7d853bfef08c6d2c19333026c6a5f295" category="list-text">コンソールウィンドウで、 * Media &gt; Virtual Media Wizard* を選択します。</block>
+  <block id="ff568983eaa948e1c45ea44fd20c3515" category="list-text">[*Browse*] を選択し ' コンピュート・ファームウェアの [.iso （ .iso ） ] ファイルを選択します</block>
+  <block id="6988680d8d9db783d89d962e3a07b128" category="list-text">「 * 接続」を選択します。成功したことを示すポップアップが表示され、パスとデバイスが下部に表示されます。[ 仮想メディア *] ウィンドウを閉じることができます。</block>
+  <block id="e57c91d23315863d32587c65e08c874a" category="list-text">表示されたリストから *AMI Virtual CDROM * を選択し、 *Enter* を選択します。リストに AMI Virtual CDROM が表示されない場合は、 BIOS にアクセスして起動リストで有効にします。保存するとノードがリブートします。再起動中に * F11 * を押します。</block>
+  <block id="f168f35f98997ef1f6a33afa3e3be93e" category="list-text">表示された画面で、 *Enter* を選択します。</block>
+  <block id="81fa3392dafdab901ebeed86d16e4abe" category="list-text">コンソールから切断された場合は、 * Remote Control * を選択して * Launch KVM * または * Launch KVM （ Java ） * を選択し、再接続してノードのブートが完了したことを確認します。ノードが正常にブートしたことを確認するために、複数の再接続が必要になる場合があります。</block>
+  <block id="f7658c00205041bd6da6d27dbaa7fe7b" category="summary">NetApp HCI システムのアップグレードの一環として、管理ノードをアップグレードします。</block>
+  <block id="303c7d52b5c18e714947ecd4996594a2" category="inline-link">管理ノード ISO</block>
+  <block id="5454c55e4483c81c83dc88e7d51b7235" category="list-text">をダウンロードします<block ref="81f96ab5ebaacae5f09640e77583a876" category="inline-link-rx"></block> NetApp HCI の場合は、ネットアップサポートサイトから管理ノード仮想マシンへ。</block>
+  <block id="d142097cec7b7123937c2ec16e09998c" category="list-text">（ NetApp Element Plug-in for vCenter Server を使用するすべての NetApp HCI インストールの場合）で、の手順に従って、 12.3.x 管理ノードの vCenter Plug-in を更新します <block ref="61768f3798a436486dacb908355263cd" category="inline-link-macro-rx"></block> トピック：</block>
+  <block id="3af4bea014b0f1b76a3603ae6f5957ff" category="list-text">vSphere でコンピューティングノードのハードウェアタグを確認します。</block>
+  <block id="a8e5aea5105effb7b748821e3735f2bb" category="list-text">HCI の監視と Hybrid Cloud Control 用の vCenter コントローラアセットを管理ノードの既知のアセットに追加します。</block>
+  <block id="cbda5d4a711e27c7bcc1c2cc1d2b18ac" category="list-text">コンピューティングノードアセットを管理ノードの既知のアセットに追加します。</block>
+  <block id="94ab457d92269ad56ccbd284e4f2d66e" category="list-text">* アクション * &gt; * クリア * を選択します。</block>
+  <block id="d12a393c1ac6d6c4feb3dcc671803e35" category="list-text">確認するには、 * はい * を選択します。mNode Status フィールドに Not Configured と表示されるはずです。</block>
+  <block id="7b837430d09749101caac8ac6929be11" category="list-text">[* vCenter Plug-in Registration * （ vCenter Plug-in の登録 * ） ] タブを選択します。</block>
+  <block id="6387feb1f0b906aebdb1cafedac7cc98" category="list-text">必要な値を入力します。完了したら、 * アップデート * を選択します。</block>
+  <block id="f4c7104fec7161266ebc2750f99bf53e" category="list-text">* アクション * &gt; * 設定 * を選択します。</block>
+  <block id="b8e3af673664eb79ebe128d1f309bdd6" category="list-text">REST API UI から、 * POST /services/reconfigure -auth* を選択します。</block>
+  <block id="de3741b094be24deccfc553754ce0a3a" category="paragraph">のハードウェアのファームウェアとドライバのマトリックスを参照してください<block ref="69b1d186a6529d94f61dae13551aa3aa" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="477a3e44a347d971185a2c3a5140588e" category="list-text">を参照します<block ref="d4caed46ff739416e1ca7149df2744c7" category="inline-link-rx"></block> ページに移動し、正しいバージョンの NetApp HCI のダウンロードリンクを選択します。</block>
+  <block id="1288b4af7d9b295a0901b8b5e9b2de64" category="list-text">[* 修正（ Remediate* ） ] を選択し、新しく作成したホストベースラインを選択します。ベースラインに含まれるドライバが選択されていることを確認します。</block>
+  <block id="ecd715524a148d3d6e20b711f37ce2c3" category="list-text">ウィザードの [*Ready to Complete] ページに進み、 [*Finish] を選択します。</block>
+  <block id="0f1940d8b9e51abf4381f9e406fda543" category="summary">NetApp HCI システムのアップグレードの一環として、ストレージノードに関連付けられているファームウェアをアップグレードします。</block>
+  <block id="13c2b42759130af4400c46b2b928dc26" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> （ログインが必要です）。</block>
+  <block id="fc6261a1be6f27091e994d8c8b075b29" category="summary">NetApp HCI システムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。</block>
+  <block id="1e1e7dd8551842ca8c6e4ac3c35cb249" category="admonition">このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 ビルド 13007421 および更新 2a より前にリリースされたその他の 6.7 U2 ビルド（ビルド 13643870 ）とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>。</block>
+  <block id="c60238cb58d95b456566853e62db1d18" category="list-text">* vCenter Server * ： vCenter Plug-in バージョン 4.x が vCenter Server に登録されている。登録ユーティリティ（「 https://[management node ip: 9443 」）から「 * Registration Status * 」を選択し、必要なフィールドに入力して「 * Check Status * 」を選択し、 vCenter Plug-in がすでに登録されていること、および現在のインストールのバージョン番号を確認します。</block>
+  <block id="73bb2b0d39f901d3bcdddd6b19d7170a" category="list-text">* 管理サービスの更新 * ：を更新しました<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> を最新バージョンに更新します。vCenter プラグインの更新は、 NetApp HCI のメジャー製品リリース以外でリリースされた管理サービスの更新を使用して配布されます。</block>
+  <block id="0bd0c7dc69df55cee394b64eebcd27ab" category="list-text">vCenter Plug-in Registration * を選択します。</block>
+  <block id="daa4768416116e6634bf75e379507244" category="admonition">HTTP または HTTPS サーバ（ダークサイト）を使用している場合、または ZIP ファイル名やネットワーク設定を変更した場合は、「 * Custom URL * 」を選択して URL をカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。</block>
+  <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">「 * Update * 」を選択します。</block>
+  <block id="de136c431770d40aaaa67d78445252dd" category="summary">NetApp HCI システムのアップグレードの一環として、管理サービスを更新する必要があります。</block>
+  <block id="4a7821cd3898fc74659163d0e111cd38" category="paragraph">Element 11.3 以降の管理ノードリリースでは、個々のサービスを提供する新しいモジュラアーキテクチャに基づいて管理ノードの設計が変更されました。これらのモジュラ型サービスは、 NetApp HCI システムの一元管理機能と拡張管理機能を提供します。管理サービスには、システム計測、ロギング、更新のサービス、 Element Plug-in for vCenter Server の QoSSIOC サービス、 NetApp Hybrid Cloud Control などがあります。</block>
+  <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">各サービスバンドルの主要なサービス、新機能、バグ修正、および対処方法について説明した最新の管理サービスリリースノートについては、を参照してください<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
+  <block id="a5237c2b3436db5dc67ab53b053d3ec9" category="paragraph">管理サービスは、 NetApp Hybrid Cloud Control の UI または管理ノードの REST API を使用して更新できます。</block>
+  <block id="6dd42a6a80b9ea41a3c15d5cbf5c3528" category="paragraph">NetApp Hybrid Cloud Control を使用してネットアップの管理サービスを更新できます。</block>
+  <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">各サービスバンドルバージョンで使用可能なサービスのリストについては、を参照してください<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>。</block>
+  <block id="b48c8e3e654392e94eba7ff80f2a9810" category="list-text">インターネットにアクセスできる環境で、管理サービスのアップグレードが可能な場合は、 * アップグレードの開始 * を選択します。</block>
+  <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">「 * 参照 * 」を選択して、保存したパッケージを検索し、アップロードします。</block>
+  <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">からサービスバンドルの更新をダウンロードしておきます<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> ダークサイトで使用可能なデバイスへ。</block>
+  <block id="36d419edc3b1ab2e45efc2685e55bd65" category="list-text">最新バージョンのをダウンロードしておきます<block ref="ca5118192781a2e9e031eb3a76fde869" category="inline-link-rx"></block> インストールファイルを管理ノードにコピーしておきます。</block>
 </blocks>

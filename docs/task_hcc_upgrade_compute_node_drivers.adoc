@@ -10,14 +10,14 @@ keywords: netapp, hci, on premise, cluster, element, compute node
 [role="lead"]
 H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。
 
-のハードウェアのファームウェアとドライバのマトリックスを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["ネットアップの技術情報アーティクル"] （ログインが必要です）。
+のハードウェアのファームウェアとドライバのマトリックスを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["ネットアップの技術情報アーティクル"^] （ログインが必要です）。
 
 以下の更新処理は一度に 1 つずつ実行します。
 
 ファームウェアのアップグレードを実行する前に、 ESXi ドライバの現在のバージョンを確認する必要があります。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。
 
 .手順
-. を参照します https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ソフトウェアのダウンロード"] ページをクリックし、ダウンロードリンクをクリックして正しいバージョンの NetApp HCI を入手します。
+. を参照します https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ソフトウェアのダウンロード"^] ページに移動し、正しいバージョンの NetApp HCI のダウンロードリンクを選択します。
 . ドロップダウンリストから * esxi_drivers * を選択します。
 . エンドユーザライセンス契約に同意します。
 . 使用しているノードタイプと ESXi バージョンに対応したドライバパッケージをダウンロードします。
@@ -31,13 +31,13 @@ NOTE: ネットアップのドライババンドルには、 VMware オフライ
 . コンピューティングノードの新しいホストベースラインを作成します。
 . 名前とタイプに * Host Extension * を選択し、インポートされたすべてのドライバパッケージを新しいベースラインに含めるように選択します。
 . vCenter の * Host and Clusters * メニューで、更新するコンピュートノードを含むクラスタを選択し、 * Update Manager * タブに移動します。
-. [* 修正 ] をクリックし、新しく作成したホストベースラインを選択します。ベースラインに含まれるドライバが選択されていることを確認します。
+. [* 修正（ Remediate* ） ] を選択し、新しく作成したホストベースラインを選択します。ベースラインに含まれるドライバが選択されていることを確認します。
 . ウィザードの指示に従って、 * Host Remediation Options * に進み、ドライバの更新中に仮想マシンをオンラインの状態に保つために、 * Do Not Change VM Power State * オプションが選択されていることを確認します。
 +
 
 NOTE: クラスタで VMware DRS （ Distributed Resource Scheduler ）が有効になっている場合（ NetApp HCI 環境のデフォルト）、仮想マシンはクラスタ内の他のノードに自動的に移行されます。
 
-. ウィザードの [*Ready to Complete] ページに進み、 [*Finish] をクリックします。
+. ウィザードの [*Ready to Complete] ページに進み、 [*Finish] を選択します。
 +
 クラスタ内のすべてのコンピューティングノードのドライバが、仮想マシンはオンラインのまま、一度に 1 ノードずつ更新されます。
 

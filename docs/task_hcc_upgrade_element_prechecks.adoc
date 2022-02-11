@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_element_prechecks.html 
-summary: NetApp HCI または SolidFire ストレージシステムのアップグレードの一環として、 NetApp Element ソフトウェアの健全性チェックを実行する必要があります。 
+summary: NetApp HCI システムのアップグレードの一環として、 NetApp Element ソフトウェアの健全性チェックを実行する必要があります。 
 keywords: netapp, storage prechecks, element upgrade, healthtools, sfupgradecheck 
 ---
 = ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します
@@ -345,7 +345,7 @@ Or rerun with the -n option
 ----
 sfupgradecheck failed: Unable to verify latest available version of healthtools.
 ----
-. をダウンロードします link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
+. をダウンロードします link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"^] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
 . 次のコマンドを実行します。
 +
 [listing]

@@ -44,15 +44,15 @@ NOTE: 2 ノードのストレージクラスタ構成が複数ある場合は、
 https://<ManagementNodeIP>/hcc
 ----
 . ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
-. インターフェイスの右上にある * Upgrade * をクリックします。
+. インターフェイスの右上にある [* Upgrade] を選択します。
 . [* Upgrades] ページで、 [* Compute firmware*] タブを選択します。
-. 健全性チェックをクリックします image:hcc_healthcheck_icon.png["をクリックします。"] アップグレードの準備状況を確認するクラスタ
-. [ * コンピュートヘルスチェック * ] ページで、 [ * ヘルスチェックの実行 * ] をクリックします。
+. 健全性チェックを選択します image:hcc_healthcheck_icon.png["をクリックします。"] アップグレードの準備状況を確認するクラスタ
+. [ * コンピュートヘルスチェック * ] ページで、 [ * ヘルスチェックの実行 * ] を選択します。
 . 問題がある場合は、ページにレポートが表示されます。次の手順を実行します。
 +
 .. 各問題について記載されている特定の技術情報アーティクルに移動するか、指定された対処方法を実行します。
 .. KB を指定した場合は、関連する技術情報アーティクルに記載されているプロセスを完了します。
-.. クラスタの問題を解決したら、 * 健全性チェックの再実行 * をクリックします。
+.. クラスタの問題を解決したら、「 * Re-Run Health Check * 」を選択します。
 
 
 
@@ -74,21 +74,21 @@ REST API を使用して、クラスタ内のコンピューティングノー�
 ----
 https://<ManagementNodeIP>/inventory/1/
 ----
-.. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+.. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 ... クラスタのユーザ名とパスワードを入力します。
 ... 値がまだ入力されていない場合は、クライアント ID を「 m node-client 」として入力します。
-... セッションを開始するには、 * Authorize * をクリックします。
+... セッションを開始するには、 * Authorize * を選択します。
 
 
-.. REST API UI で、 * 一部のユーザに適用 / インストール * をクリックします。
-.. [* 試してみてください * ] をクリックします。
-.. [* Execute] をクリックします。
+.. REST API UI で、 * 一部のユーザに一時的な処理を開始 / インストール * を選択します。
+.. [* 試してみてください * ] を選択します。
+.. [* Execute] を選択します。
 .. コード 200 の応答本文から ' ヘルス・チェックに使用するインストールの "id" をコピーします
-.. REST API UI で、 * Get 操作用に一時リソース / ｛ id ｝ * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. REST API UI から、 * Get 操作対象の一時リソース / ｛ id ｝ * を選択します。
+.. [* 試してみてください * ] を選択します。
 .. インストール ID を入力します。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 .. コード 200 の応答本文から、次のそれぞれの ID をコピーします。
 +
 ... クラスタ ID （「 ClusterId 」）
@@ -132,15 +132,15 @@ https://<ManagementNodeIP>/inventory/1/
 ----
 https://<ManagementNodeIP>/vcenter/1/
 ----
-.. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+.. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 ... クラスタのユーザ名とパスワードを入力します。
 ... 値がまだ入力されていない場合は、クライアント ID を「 m node-client 」として入力します。
-... セッションを開始するには、 * Authorize * をクリックします。
+... セッションを開始するには、 * Authorize * を選択します。
 
 
-.. [* POST/compute/Patlein/｛ controller_ID ｝ （ * POST / コンピュータ間の一致 / 動作確認） ] をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. [* POST/compute/Patlein/{controller_ID} 一致 / 正常性チェック * ] を選択します。
+.. [* 試してみてください * ] を選択します。
 .. 前の手順からコピーした「 ControllerID 」を「 * Controller_ID * 」パラメータフィールドに入力します。
 .. ペイロードで、前の手順から「 cluster 」の値としてコピーした「 clusterId 」を入力し、「 nodes 」パラメータを削除します。
 +
@@ -150,7 +150,7 @@ https://<ManagementNodeIP>/vcenter/1/
   "cluster": "domain-1"
 }
 ----
-.. クラスタの健全性チェックを実行するには、 * Execute * をクリックします。
+.. クラスタの健全性チェックを実行するには、 * Execute * を選択します。
 +
 コード 200 の応答では ' 状態チェックの結果を確認するために必要なタスク ID が追加された 'resourceLink' URL が提供されます
 
@@ -175,10 +175,10 @@ https://<ManagementNodeIP>/vcenter/1/
 ----
 https://<ManagementNodeIP>/vcenter/1/
 ----
-.. [*Get/computeTole/tasks/{tasks_id}*] をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. [*Get/computeTole/tasks/{tasks_id}*] を選択します。
+.. [* 試してみてください * ] を選択します。
 .. 「 task_id 」パラメータフィールドに、「 resourceLink 」 URL のタスク ID 部分を *POST/computeTouled/{controller_ID} の一時的なチェック / 正常性チェック *code 200 応答から入力します。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 .. [ ステータス ] が表示され、コンピューティングノードの正常性に問題があることが示された場合は、次の手順を実行します。
 +
 ... 各問題について記載されている特定の KB 記事 (`KbLink') に移動するか、指定された対処方法を実行します。
@@ -202,16 +202,16 @@ HCC メソッドと API メソッドのどちらを使用して実行するか�
 | 説明を確認します | ノード / クラスタ | 解決に必要なアクション | 手順が記載された技術情報アーティクル 
 
 
-| DRS は有効で、完全に自動化されているか。 | クラスタ | DRS をオンにして、完全に自動化されていることを確認します。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Virtual_Storage_Console_for_VMware_vSphere/How_to_enable_DRS_in_vSphere["こちらの技術情報をご覧ください"]。注：標準ライセンスを使用している場合は、 ESXi ホストをメンテナンスモードにし、ヘルスチェックのエラーに関する警告を無視してください。 
+| DRS は有効で、完全に自動化されているか。 | クラスタ | DRS をオンにして、完全に自動化されていることを確認します。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Virtual_Storage_Console_for_VMware_vSphere/How_to_enable_DRS_in_vSphere["こちらの技術情報をご覧ください"^]。注：標準ライセンスを使用している場合は、 ESXi ホストをメンテナンスモードにし、ヘルスチェックのエラーに関する警告を無視してください。 
 
 
-| DPM は vSphere で無効になっていますか。 | クラスタ | Distributed Power Management をオフにします。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Plug-in_for_vCenter_server/How_to_disable_DPM_in_VMware_vCenter["こちらの技術情報をご覧ください"]。 
+| DPM は vSphere で無効になっていますか。 | クラスタ | Distributed Power Management をオフにします。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Plug-in_for_vCenter_server/How_to_disable_DPM_in_VMware_vCenter["こちらの技術情報をご覧ください"^]。 
 
 
-| vSphere で HA アドミッション制御が無効になっているか。 | クラスタ | HA アドミッション制御をオフにします。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_control_enable_HA_admission_in_vSphere["こちらの技術情報をご覧ください"]。 
+| vSphere で HA アドミッション制御が無効になっているか。 | クラスタ | HA アドミッション制御をオフにします。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_control_enable_HA_admission_in_vSphere["こちらの技術情報をご覧ください"^]。 
 
 
-| クラスタ内のホストで VM の FT が有効になっているかどうか | ノード | 影響を受けるすべての仮想マシンでフォールトトレランスを一時停止します。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_suspend_fault_tolerance_on_virtual_machines_in_a_vSphere_cluster["こちらの技術情報をご覧ください"]。 
+| クラスタ内のホストで VM の FT が有効になっているかどうか | ノード | 影響を受けるすべての仮想マシンでフォールトトレランスを一時停止します。 | link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_suspend_fault_tolerance_on_virtual_machines_in_a_vSphere_cluster["こちらの技術情報をご覧ください"^]。 
 
 
 | クラスタの重要なアラームは vCenter にありますか。 | クラスタ | vSphere を起動し、アラートを解決または承認してから処理を進めてください。 | 問題を解決するために KB は必要ありません。 
@@ -250,16 +250,16 @@ HCC メソッドと API メソッドのどちらを使用して実行するか�
 | ESXi ホストがハードウェアホスト（ BMC ）に正しくマッピングされているか。 | ノード | ESXi ホストがベースボード管理コントローラ（ BMC ）に正しくマッピングされていません。ESXi ホストとハードウェアホストの間のマッピングを修正します。 | 問題を解決するために KB は必要ありません。を参照してください link:task_hcc_edit_bmc_info.html["この記事では"] を参照してください。 
 
 
-| クラスタ内の監視ノードのステータスは何ですか。特定された監視ノードが実行されていません。 | ノード | 監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにし、健全性チェックを再実行します。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"] 
+| クラスタ内の監視ノードのステータスは何ですか。特定された監視ノードが実行されていません。 | ノード | 監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにし、健全性チェックを再実行します。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"^] 
 
 
-| クラスタ内の監視ノードのステータスは何ですか。この ESXi ホストで監視ノードが起動して実行されており、代替監視ノードが起動されて実行されていません。 | ノード | 監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにします。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストで実行されている監視ノードをシャットダウンし、健全性チェックを再実行してください。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"] 
+| クラスタ内の監視ノードのステータスは何ですか。この ESXi ホストで監視ノードが起動して実行されており、代替監視ノードが起動されて実行されていません。 | ノード | 監視ノードは、代替 ESXi ホストでは実行されません。代替 ESXi ホストで監視ノードの電源をオンにします。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストで実行されている監視ノードをシャットダウンし、健全性チェックを再実行してください。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"^] 
 
 
-| クラスタ内の監視ノードのステータスは何ですか。監視ノードはこの ESXi ホストで実行されており、代替ノードは稼働しているが、同じ ESXi ホストで実行されている。 | ノード | この ESXi ホストで両方の監視ノードが実行されています。1 つの監視ノードを代替 ESXi ホストに再配置します。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストに残っている監視ノードをシャットダウンして健常性チェックを再実行します。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"] 
+| クラスタ内の監視ノードのステータスは何ですか。監視ノードはこの ESXi ホストで実行されており、代替ノードは稼働しているが、同じ ESXi ホストで実行されている。 | ノード | この ESXi ホストで両方の監視ノードが実行されています。1 つの監視ノードを代替 ESXi ホストに再配置します。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストに残っている監視ノードをシャットダウンして健常性チェックを再実行します。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"^] 
 
 
-| クラスタ内の監視ノードのステータスは何ですか。監視ノードがこの ESXi ホストで実行されており、別の監視ノードが別の ESXi ホストで実行されています。 | ノード | 監視ノードは、この ESXi ホスト上でローカルに実行されています。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストでのみ監視ノードをシャットダウンして健常性チェックを再実行してください。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"] 
+| クラスタ内の監視ノードのステータスは何ですか。監視ノードがこの ESXi ホストで実行されており、別の監視ノードが別の ESXi ホストで実行されています。 | ノード | 監視ノードは、この ESXi ホスト上でローカルに実行されています。この ESXi ホストをアップグレードする準備ができたら、この ESXi ホストでのみ監視ノードをシャットダウンして健常性チェックを再実行してください。* HCI 環境では、監視ノードが常に 1 つ実行されている必要があります。 * | https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_resolve_witness_node_issues_prior_to_upgrading_compute_nodes["こちらの技術情報をご覧ください"^] 
 |===
 [discrete]
 == 詳細については、こちらをご覧ください

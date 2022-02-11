@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
-summary: NetApp HCI または SolidFire ストレージシステムをアップグレードする際に、管理ノードをアップグレードします。 
+summary: NetApp HCI システムのアップグレードの一環として、管理ノードをアップグレードします。 
 keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x 
 ---
 = 管理ノードをアップグレードします
@@ -73,7 +73,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 .手順
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] ネットアップサポートサイトから管理ノード仮想マシン。
+. をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["管理ノード ISO"^] NetApp HCI の場合は、ネットアップサポートサイトから管理ノード仮想マシンへ。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -172,7 +172,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
+. をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["管理ノード ISO"^] NetApp HCI の場合は、ネットアップサポートサイトから管理ノード仮想マシンへ。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -271,7 +271,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
+. をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["管理ノード ISO"^] NetApp HCI の場合は、ネットアップサポートサイトから管理ノード仮想マシンへ。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -370,7 +370,7 @@ NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュ
 
 
 . SSH またはコンソールアクセスを使用して管理ノード仮想マシンにログインします。
-. の管理ノード ISO をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] ネットアップサポートサイトから管理ノード仮想マシン。
+. をダウンロードします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["管理ノード ISO"^] NetApp HCI の場合は、ネットアップサポートサイトから管理ノード仮想マシンへ。
 +
 
 NOTE: ISO の名前は 'olidfire-fdva-<Element release>-patchX-XXX.X.XXXX.iso' と似ています
@@ -470,7 +470,7 @@ sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pvm <mvip for persistent
 ----
 
 
-. （ NetApp Element Plug-in for vCenter Server を使用したすべての NetApp HCI インストールおよび SolidFire オールフラッシュストレージインストールの場合）で、の手順に従って、 12.3.x 管理ノードの vCenter Plug-in を更新します link:task_vcp_upgrade_plugin.html["Element Plug-in for vCenter Server をアップグレードします"] トピック：
+. （ NetApp Element Plug-in for vCenter Server を使用するすべての NetApp HCI インストールの場合）で、の手順に従って、 12.3.x 管理ノードの vCenter Plug-in を更新します link:task_vcp_upgrade_plugin.html["Element Plug-in for vCenter Server をアップグレードします"] トピック：
 . 管理ノード API を使用して、インストール環境のアセット ID を確認します。
 +
 .. ブラウザから、管理ノードの REST API UI にログインします。
@@ -484,46 +484,46 @@ sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pvm <mvip for persistent
 ----
 https://<ManagementNodeIP>/inventory/1/
 ----
-.. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+.. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 ... クラスタのユーザ名とパスワードを入力します。
 ... クライアント ID を「 m node-client 」として入力します。
-... セッションを開始するには、 * Authorize * をクリックします。
+... セッションを開始するには、 * Authorize * を選択します。
 ... ウィンドウを閉じます。
 
 
-.. REST API UI で、 * 一部のユーザに適用 / インストール * をクリックします。
-.. [* 試してみてください * ] をクリックします。
-.. [* Execute] をクリックします。
+.. REST API UI で、 * 一部のユーザに一時的な処理を開始 / インストール * を選択します。
+.. [* 試してみてください * ] を選択します。
+.. [* Execute] を選択します。
 .. コード 200 の応答本文から ' インストールの ID をコピーします
 +
 インストール環境には、インストールまたはアップグレード時に作成されたベースアセットの構成が含まれています。
 
 
 
-. NetApp HCI がインストールされている場合は、 vSphere でコンピューティングノードのハードウェアタグを確認します。
+. vSphere でコンピューティングノードのハードウェアタグを確認します。
 +
 .. vSphere Web Client ナビゲータでホストを選択します。
-.. [*Monitor*] タブをクリックし、 [*Hardware Health*] をクリックします。
+.. [*Monitor*] タブを選択し、 [*Hardware Health*] を選択します。
 .. ノードの BIOS のメーカーとモデル番号が表示されます。後の手順で使用するために 'tag' の値をコピーして保存します
 
 
-. 管理ノードの既知のアセットに、 HCI 監視用の vCenter コントローラアセット（ NetApp HCI 環境のみ）と Hybrid Cloud Control （すべての環境）を追加します。
+. HCI の監視と Hybrid Cloud Control 用の vCenter コントローラアセットを管理ノードの既知のアセットに追加します。
 +
-.. コントローラサブアセットを追加する場合は、 * POST /assets/｛ asset_id ｝ /controllers * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. コントローラサブアセットを追加する場合は、「 * POST /assets/｛ asset_id ｝ /controllers * 」を選択します。
+.. [* 試してみてください * ] を選択します。
 .. クリップボードにコピーした親ベースアセットの ID を * asset_id * フィールドに入力します。
 .. 必要なペイロード値を「 vcenter 」タイプと「 vcenter 」クレデンシャルタイプで入力します。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 
 
-. （ NetApp HCI のみ）管理ノードの既知のアセットにコンピューティングノードのアセットを追加します。
+. コンピューティングノードアセットを管理ノードの既知のアセットに追加します。
 +
-.. コンピューティングノードアセットのクレデンシャルを使用してコンピューティングノードサブアセットを追加する場合は、 * POST /assets/｛ asset_id ｝ /compute-nodes * をクリックします。
-.. [* 試してみてください * ] をクリックします。
+.. コンピューティングノードアセットのクレデンシャルを使用してコンピューティングノードサブアセットを追加する場合は、「 * POST/assets/｛ asset_id ｝ /compute-nodes 」を選択します。
+.. [* 試してみてください * ] を選択します。
 .. クリップボードにコピーした親ベースアセットの ID を * asset_id * フィールドに入力します。
 .. ペイロードで、 Model タブで定義されているとおりに必要なペイロード値を入力します。「タイプ」として「 ESXi ホスト」と入力し、「 hardware_tag 」の前の手順で保存したハードウェアタグを貼り付けます。
-.. [* Execute] をクリックします。
+.. [* Execute] を選択します。
 
 
 
@@ -546,8 +546,8 @@ https://<ManagementNodeIP>/inventory/1/
 https://<mNode 11.1 IP address>:9443
 ----
 . vSphere で、 * NetApp Element Configuration * > * mNode Settings * の順に選択します。（旧バージョンでは、最上位のメニューは * NetApp SolidFire 構成 * です）。
-. [ * アクション * > * クリア * （ Actions * > * Clear * ） ] をクリック
-. 確認するには、 * はい * をクリックします。mNode Status フィールドに Not Configured と表示されるはずです。
+. * アクション * > * クリア * を選択します。
+. 確認するには、 * はい * を選択します。mNode Status フィールドに Not Configured と表示されるはずです。
 +
 
 NOTE: 最初に「 * mNode Settings * 」タブに移動すると、 mNode の Status フィールドに、想定される「 Up * 」ではなく「 * Not Configured * 」と表示されることがあります。 * Actions * > * Clear * を選択できない場合があります。ブラウザの表示を更新します。mNode の Status フィールドには、最終的に *up* と表示されます。
@@ -564,11 +564,11 @@ https://<mNode 11.1 IP address>:9443
 
 NOTE: デフォルトのパスワードは SolidFire ですこのパスワードは、新しいパスワードを設定するために必要です。
 
-. [* vCenter Plug-in Registration * ] タブをクリックします。
+. [* vCenter Plug-in Registration * （ vCenter Plug-in の登録 * ） ] タブを選択します。
 . [ プラグインの更新 ] を選択します。
-. 必要な値を入力します。完了したら、 * アップデート * をクリックします。
+. 必要な値を入力します。完了したら、 * アップデート * を選択します。
 . vSphere にログインし、 * NetApp Element 構成 * > * mNode 設定 * を選択します。
-. [ * アクション * > * 構成 * （ * Actions * > * Configure * ） ] を
+. * アクション * > * 設定 * を選択します。
 . 管理ノードの IP アドレス、管理ノードのユーザ ID （ユーザ名は「 admin 」）、登録ユーティリティの「 QoSSIOC サービス管理 * 」タブで設定したパスワード、および vCenter のユーザ ID とパスワードを入力します。
 +
 vSphere で、 mNode 設定 * タブに mNode ステータスが * up * と表示されます。これは、管理ノード 11.1 が vCenter に登録されていることを示します。
@@ -657,17 +657,17 @@ sudo systemctl restart sfcollector
 ----
 https://<ManagementNodeIP>/mnode
 ----
-. 「 * Authorize * 」（認証）をクリックして、次の手順を実行
+. 「 * Authorize * 」（認証）を選択して、次の手順を実行
 +
 .. クラスタのユーザ名とパスワードを入力します。
 .. 値がまだ入力されていない場合は、クライアント ID を「 m node-client 」として入力します。
-.. セッションを開始するには、 * Authorize * をクリックします。
+.. セッションを開始するには、 * Authorize * を選択します。
 
 
-. REST API UI で、 * POST /services/reconfigure -auth* をクリックします。
-. [* 試してみてください * ] をクリックします。
+. REST API UI から、 * POST /services/reconfigure -auth* を選択します。
+. [* 試してみてください * ] を選択します。
 . *LOAD_images * パラメータでは 'TRUE' を選択します
-. [* Execute] をクリックします。
+. [* Execute] を選択します。
 +
 応答の本文は、再設定が正常に完了したことを示します。
 

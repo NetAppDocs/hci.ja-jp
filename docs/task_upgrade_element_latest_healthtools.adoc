@@ -19,14 +19,14 @@ IMPORTANT: Element ソフトウェア 12.3.2 は、 NetApp HealthTools を使用
 +
 NetApp Hybrid Cloud Control のアップグレードは、それよりも前のバージョンのサービスバンドルでは利用できません。
 
-* 最新バージョンのをダウンロードしておきます https://mysupport.netapp.com/site/products/all/details/element-healthtools/downloads-tab["HealthTools"] インストールファイルを管理ノードにコピーしておきます。
+* 最新バージョンのをダウンロードしておきます https://mysupport.netapp.com/site/products/all/details/element-healthtools/downloads-tab["HealthTools"^] インストールファイルを管理ノードにコピーしておきます。
 +
 
 TIP: ローカルにインストールされている HealthTools のバージョンを確認するには 'sfcupdate-healthtools -v コマンドを実行します
 
 * ダークサイトで HealthTools を使用するには、次の追加手順を実行する必要があります。
 +
-** をダウンロードします link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
+** をダウンロードします link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"^] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
 ** 管理ノードをダークサイトで起動して実行します。
 
 
