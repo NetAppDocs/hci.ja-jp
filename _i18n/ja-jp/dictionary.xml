@@ -5416,8 +5416,6 @@
   <block id="7bb9848301f8ece6cf7cd1a03218b8ff" category="paragraph">Element 12.0 以降および管理サービスバージョン 2.14 以降では、 NetApp Hybrid Cloud Control の UI と REST API を使用して、ストレージノードでファームウェアのみのアップグレードを実行できます。この手順では、 Element ソフトウェアはアップグレードされず、 Element のメジャーリリース以外のバージョンのストレージファームウェアもアップグレードできます。</block>
   <block id="bcf4a46adde5d2f973d259f255d1e80a" category="list-text">管理ノード UI (`https://[mNode ip:442') を使用すると ' ネットワークとクラスタの設定を変更したり ' システムテストを実行したり ' システムユーティリティを使用したりできます</block>
   <block id="c6c6f0000a926fbfe7df6b316e0a9fc9" category="list-text">組み込みの REST API UI （「 https://[mNode ip ｝ /mnode 」）を使用すると、プロキシサーバの設定、サービスレベルの更新、アセット管理など、管理ノードサービスに関連する API を実行したり、理解したりできます。</block>
-  <block id="b8a3e041719b8e9752b150f5cd409639" category="inline-link-macro">Compute Firmware Bundle 2.76.10 リリースノート ( 最新 )</block>
-  <block id="d4ca81d1f96be06a7eb408daa677f195" category="list-text"><block ref="d4ca81d1f96be06a7eb408daa677f195" category="inline-link-macro-rx"></block></block>
   <block id="e408d2698eab83bad6a25c0414c9fccd" category="list-text"><block ref="e408d2698eab83bad6a25c0414c9fccd" category="inline-link-macro-rx"></block></block>
   <block id="5fdb538f00d44b4e663cc26d707fee0d" category="doc">Compute Firmware Bundle 2.76.10 リリースノート</block>
   <block id="6d87ab8a4146897fc42c7206f9a8e527" category="paragraph">バージョン 2.76.10 には一般的なバグ修正が含まれています。</block>
@@ -5452,7 +5450,6 @@
   <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">作業を開始するには、に移動します<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> および 'NAR_compute_nodes _firmware_upgrades ロールとドキュメントをダウンロードします</block>
   <block id="c71ec2ef6ee8df4c8ce96c2b779dc917" category="inline-link">NetApp Element ソフトウェア 12.2.1 リリースノート</block>
   <block id="3aa4b17575032362b7124d4aeb9c09f1" category="inline-link">NetApp Element ソフトウェア 12.0.1 リリースノート</block>
-  <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element ソフトウェア 11.8.1 リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
@@ -5510,8 +5507,6 @@
   <block id="9fd3000ea9282cd063c289df7fdec474" category="admonition">ここで HTTP を使用していることを確認してください。</block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
   <block id="b699ffaa70a5cdf708fca1e6ce6761c0" category="list-text"><block ref="b699ffaa70a5cdf708fca1e6ce6761c0" category="inline-link-macro-rx"></block></block>
-  <block id="e2b165ab46734aee4acaaada05a4c247" category="inline-link-macro">ストレージファームウェアバンドル 2.99.2 リリースノート（最新）</block>
-  <block id="8b5c8a6773f97ff3494ca9591056d8e5" category="list-text"><block ref="8b5c8a6773f97ff3494ca9591056d8e5" category="inline-link-macro-rx"></block></block>
   <block id="c8c0126253556981205e840452e290ad" category="list-text"><block ref="c8c0126253556981205e840452e290ad" category="inline-link-macro-rx"></block></block>
   <block id="2e5993f9d970daebf225967bb1e45acc" category="inline-link-macro">ストレージファームウェアバンドル 2.99.2 に関する注意事項</block>
   <block id="9b66050651411f30ce4e4e60cd49154f" category="list-text"><block ref="9b66050651411f30ce4e4e60cd49154f" category="inline-link-macro-rx"></block></block>
@@ -5900,7 +5895,6 @@
   <block id="59f8389fa12f333264e9b9c7a943546d" category="list-text"><block ref="59f8389fa12f333264e9b9c7a943546d" category="inline-link-rx"></block></block>
   <block id="640d55cb9494c33f8756387aef98e61d" category="list-text"><block ref="640d55cb9494c33f8756387aef98e61d" category="inline-link-rx"></block></block>
   <block id="49cbef4a1c4e82dba59d5c67759bce8e" category="list-text"><block ref="49cbef4a1c4e82dba59d5c67759bce8e" category="inline-link-rx"></block></block>
-  <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="cd4b0abd6f1976f7d6b641eb6432cebc" category="list-text"><block ref="cd4b0abd6f1976f7d6b641eb6432cebc" category="inline-link-rx"></block></block>
   <block id="84f9569ec486aa9adfb1b73d2a0e3c9f" category="list-text"><block ref="84f9569ec486aa9adfb1b73d2a0e3c9f" category="inline-link-rx"></block></block>
   <block id="c666b8511317763c38467d5251589d5a" category="list-text"><block ref="c666b8511317763c38467d5251589d5a" category="inline-link-rx"></block></block>
@@ -6095,4 +6089,102 @@
   <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">「 * 参照 * 」を選択して、保存したパッケージを検索し、アップロードします。</block>
   <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">からサービスバンドルの更新をダウンロードしておきます<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> ダークサイトで使用可能なデバイスへ。</block>
   <block id="36d419edc3b1ab2e45efc2685e55bd65" category="list-text">最新バージョンのをダウンロードしておきます<block ref="ca5118192781a2e9e031eb3a76fde869" category="inline-link-rx"></block> インストールファイルを管理ノードにコピーしておきます。</block>
+  <block id="a4f0b4cd8ed43da899bf23d0cc006ec8" category="inline-link-macro">ストレージファームウェアバンドル 2.146 に関する注意事項</block>
+  <block id="976f425b451919895bc3cde2d81dd6c3" category="list-text"><block ref="976f425b451919895bc3cde2d81dd6c3" category="inline-link-macro-rx"></block></block>
+  <block id="7ca92aa55af86adcb8e4f02055e5d1f3" category="inline-link-macro">Compute Firmware Bundle 2.146 の注意</block>
+  <block id="070e6ce33f7ff2e60a2783c8ebb93cce" category="list-text"><block ref="070e6ce33f7ff2e60a2783c8ebb93cce" category="inline-link-macro-rx"></block></block>
+  <block id="278e17511dfc12c355dd5120b3cdcf38" category="doc">Compute Firmware Bundle 2.146 リリースノート</block>
+  <block id="1cf4d427bff1f4dba9f87b3f1680ed98" category="paragraph">バージョン 2.146 には一般的なバグ修正が含まれています。</block>
+  <block id="b0be1bfed1e2b702e50adeb66ea16496" category="cell">* NAT3.4 *</block>
+  <block id="c5f071a4694866c60342243298c3c00f" category="cell">* NATP3.10 *</block>
+  <block id="34f75d682a9b0c834eb7a09afb2267bf" category="cell">* 3B07 *</block>
+  <block id="8d6f21e0ce2261bffbf390846cae9838" category="cell">* 3B12.CO *</block>
+  <block id="efc8929a60ffb05f4f374a167467c3e0" category="cell">* 6.98.00 *</block>
+  <block id="23bdb96810cba9bd1ee4562c21e75027" category="cell">6.71.20</block>
+  <block id="6ce8b4a221c3afb2390e4679885ee6f9" category="cell">* 4.04.07 *</block>
+  <block id="5474dc1e782d46b6a837ce1e50f0e7bc" category="cell">* 4.72.07 *</block>
+  <block id="3bc65734d5f7c23b6ca7b70690b8af88" category="cell">14.25.10.20</block>
+  <block id="752f484d27022c0d7d8cfdd56647b4e9" category="cell">* H300E / H500E / H700E NA3.4 *</block>
+  <block id="6fc4fcda4d18fdce3d89fe2c67576df9" category="list-text">パケット後修復（ PPR ）を有効にする</block>
+  <block id="e450b74b217372ad8a003edf0f2cbc5c" category="list-text">IPU 2020.2 マイクロコード</block>
+  <block id="887d82226fa72132a2040ef84fbab0af" category="cell">* H410C NATP3.10 *</block>
+  <block id="f46b6e8e0dd6e1a6d8ba16d50aa91fc0" category="cell">* H610C 3B07 *</block>
+  <block id="c06fed33e71df3d878d2dfe759da3a8c" category="list-text">SEL での PPR イベントのロギングを強化</block>
+  <block id="3be0cf547c9599645e60849ebf7b8366" category="cell">* H615C 3B12.CO *</block>
+  <block id="74ab3dbd0abe54768ceff2d53b78b0d6" category="cell">* H300E / H500E / H700E 6.98.00 *</block>
+  <block id="403510a4f6b5c77b737aa6a511d52768" category="list-text">LDAP バインド ID フィールドの長さは 128 文字です</block>
+  <block id="39c1169d9631ffb2eda636568d05efec" category="list-text">TLS 1.0 および TLS 1.1 を無効にします</block>
+  <block id="6293c0920fc3c5799e7fba41310b98d8" category="cell">* H610C 4.04.07 *</block>
+  <block id="98a5a52eeae3e1b12e0b7cc7519df270" category="list-text">BMC SEL の BIOS PPR イベントログ解析</block>
+  <block id="04a00bae7381f155d65745275af6737a" category="list-text">LDAP のグループドメインを 128 文字にします</block>
+  <block id="f5e6b92cb761618778441a16c6e75e83" category="cell">* H615C 4.72.07 *</block>
+  <block id="66b804729a3dd941a5370a08dd10616b" category="admonition">バージョン 2.146 にアップグレードする前に、 ESXi ドライバの現在のバージョンを確認します。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン 2.146 にアップグレードします。にアクセスします <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
+  <block id="0fe29fcc1c128c574f5b599b936ca7b1" category="section-title">Compute Firmware Bundle 2.146 をダウンロードします</block>
+  <block id="6dd74001120be10211b1aa60f90e3a86" category="paragraph">Compute Firmware Bundle をダウンロードするには：</block>
+  <block id="ad39e5da85569c96dc672b1696606668" category="inline-link">NetApp HCI のダウンロードページです</block>
+  <block id="72a4e8a8d8dd6c15c91456b347cdaecd" category="list-text">に進みます<block ref="be72cb0bd16989c2b15b94fd94435862" category="inline-link-rx"></block>。</block>
+  <block id="7ee3f483a8b1581c03314542ded657ce" category="list-text">ドロップダウンリストから * Compute_Firmware_Bundle* を選択します。</block>
+  <block id="05ff9017ade4661d59fe98b0a98d68de" category="list-text">[Go*] をクリックします。</block>
+  <block id="cc6ebf70daf6f58ba683712b5871cf8f" category="list-text">CVE-2015-0151 、 CVE-2015-0123 、 CVE-20119-0117</block>
+  <block id="63c2dd2694f4edebd94d250f59b1df1f" category="list-text">CVE-20120-20811 、 CVE-20120-20812</block>
+  <block id="1b93bf261c22316f2c0ec5a5897c9079" category="list-text">CVE-20-25641</block>
+  <block id="26c4d818469d233a656763a6fff437b8" category="list-text">CVE-20120-14386 、 CVE-20120-14314 、 CVE-20120-25641 、 CVE-20120-1438 、 CVE-20120-14314 、 CVE-20-25641</block>
+  <block id="98d81cc220d6035573741583a682c9d7" category="list-text">CVE-2018-8738 、 CVE-2018-8764 、 CVE-20120-059 、 CVE-20-8705</block>
+  <block id="c2f21689edfc9aacc7e851d52e373bd7" category="list-text">CVE-2020-0587 、 CVE-20-0591 、 CVE-20-0592 、 CVE-20-8740</block>
+  <block id="17335b09a0f86f513c1f80c9ce86c9d1" category="list-text">CVE-2020-0592 、 CVE-20-0588 、 CVE-20-8696</block>
+  <block id="ad6795e432521efb065caaec447cfa77" category="doc">ストレージファームウェアバンドル 2.146 リリースノート</block>
+  <block id="ad188310dcbcaab94528170fab7ef744" category="paragraph">ストレージファームウェアバンドルバージョン 2.146 には、セキュリティの脆弱性に対する修正など、さまざまなバグ修正と新機能が含まれています。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
+  <block id="2152d5b6e6ee90a253fa9a8e2730364e" category="cell">* 3B11 *</block>
+  <block id="38b4ecf6cbe3d8fb2aa1ef44b55fb820" category="cell">* 3.94.07 *</block>
+  <block id="528a52a69082ba45de8f1989ad0c54e3" category="cell">NVDIMM 、 Smart Gen1</block>
+  <block id="54bf05bae26206f2e1f0d5c262706d18" category="cell">NVDIDIMM 、 Smart Gen2</block>
+  <block id="eb10bc6ea03f3d4879bf3b5e02640d4a" category="cell">* 3.3 *</block>
+  <block id="bb067f9d67258f7f6fb6f8fefa527d8c" category="cell">BPM 、 Smart Gen1</block>
+  <block id="329dbd99300b3b47413f4cf43c04b474" category="cell">bpm 、 SMART Gen2</block>
+  <block id="5f4ed12621ab47b98846bd9a6fd5176a" category="cell">NVDIMM 、 Micron Gen1</block>
+  <block id="d7f53ab8a8bab081803410f3106aacfb" category="cell">NVDIMM 、 Micron Gen2</block>
+  <block id="8933f10ce6cd0787186e004395a2257d" category="cell">PM963 、 N-SED</block>
+  <block id="ce246816eab3ec4f5ccd0fc44e90a0fb" category="cell">* EDA5602Q *</block>
+  <block id="d1214387bdd6046f95394d253718d666" category="cell">PM983 、 N-SED</block>
+  <block id="edf380a6bcc5001e9f64c24a2c839cf5" category="cell">* EDA5900Q *</block>
+  <block id="e783dee1b9b654af7ecb97412f344025" category="cell">* PM9A3 、 SED *</block>
+  <block id="0cfd46af8dc673b12834569235ec4f9e" category="cell">* GDC5502Q *</block>
+  <block id="7eda9e3ed880b3be8894bdff184f4ca4" category="cell">CD5 、 N-SED</block>
+  <block id="983a294e1e47f240b0b42cce48b10207" category="cell">* PE8010 、 SED *</block>
+  <block id="c1c7fa987d0726be84cf42eacb132c9d" category="cell">* 11092A10 *</block>
+  <block id="010b4a36df436d8948f46f55342042e3" category="cell">* PE8010 、 N-SED *</block>
+  <block id="f36b6d464f0f86fb8e1280c404cd8762" category="cell">* 110B2A10 *</block>
+  <block id="36a4458d1106597cc96127a156ba0edc" category="cell">PM863 、 N-SED</block>
+  <block id="3d1612b8ac1af8d43d48cf16e7342dba" category="cell">* HXT7A04Q *</block>
+  <block id="4a2fa2e489cdb360c7f56a06be6a1d8d" category="cell">Hawk-4 、 N-SED</block>
+  <block id="bc9f2c24569f285e17356558cd135316" category="section-title">SF38410 、 SF19210 、 SF9605 、および SF4805</block>
+  <block id="21a30502545b596e5f479ad8dc98b851" category="cell">Broadcom NIC</block>
+  <block id="6b8732d293e72084852e8abd688dcba3" category="cell">7.10.18</block>
+  <block id="7e3d56f00b28659a0d0994695f826871" category="cell">SAS アダプタ</block>
+  <block id="391402f13c3f13576a108f923d1d1f22" category="cell">16.00.01.00</block>
+  <block id="ef0f3533938ac97307f7ffcc31f58499" category="admonition">次の表に、この Storage Firmware Bundle リリースでサポートされる SF38410 、 SFG19210 、 SF9605 、および SF4805 のコンポーネントファームウェアのバージョンを示します。ただし、これらのコンポーネントファームウェアをストレージファームウェアバンドル経由で更新することはできません。</block>
+  <block id="05770f32b71ce740fb5c6d371172f6df" category="cell">2.8.0</block>
+  <block id="40978c6da4749326de499d77aab89cba" category="cell">iDRAC</block>
+  <block id="c50e0e4992f1a66152b47f21395dffba" category="cell">2.75.75.75</block>
+  <block id="c345fd5aa75998947a37f7a0e61265f8" category="section-title">ストレージファームウェアコンポーネントの変更点</block>
+  <block id="ffc02c256a96ec6776efbba3511f476b" category="cell">* H610S 3B11 *</block>
+  <block id="3d757709333bb03d8d3c6f0b22503c34" category="list-text">SEL での PPR イベントのロギングの強化</block>
+  <block id="818f6b968ac96047cc6163ff01a17978" category="list-text">NVDIMM を解除し、 UECC が NVDIMM で発生したときに ADR を無効にします</block>
+  <block id="e8ba4ef904e7b226bde61f3edc0a041d" category="list-text">SEL ログで NVDIMM ARM のステータスを報告します</block>
+  <block id="684b50564207fd1903ccb1a6d742e44d" category="cell">* H610S 3.94.07 *</block>
+  <block id="c12c7453f8e18bb603b3c54b1894bbe3" category="list-text">NVDIMM ログのサポートが Web UI で追加されました</block>
+  <block id="e903ab31569b9bfe98b09acca18c30d8" category="cell">* H410S NA3.4 *</block>
+  <block id="75bca43b0b0270de7a5aedd21f04dabe" category="cell">* H410S 6.98.00 *</block>
+  <block id="e65e98905f9a3c55d690acf667633be8" category="list-text">CVE-2012-2840 、 CVE-2011-23841</block>
+  <block id="b4e1d23051853dd8516dedae4c745c63" category="list-text">CVE-2021-20265</block>
+  <block id="4e13d1916284d4956a82dbb9c3355966" category="list-text">CVE-2011-2650</block>
+  <block id="eea9d5b8c7a33cff492d09b530662924" category="list-text">CVE-20120-14386 、 CVE-20120-14314 、 CVE-20120-25641</block>
+  <block id="ea024efd7263c6d9ce03100f21009e74" category="list-text">CVE-20120-3508 、 CVE-20-36312</block>
+  <block id="e795a437c10bf5f507140024b096bd0e" category="list-text">CVE-20-15436</block>
+  <block id="bfbc343f663cd48849da8b3b6240a9c0" category="list-text">CVE-20-29372</block>
+  <block id="7d00d7b09c7fcde97c11f675daf7ae62" category="inline-link-macro">Compute Firmware Bundle 2.146 リリースノート（最新）</block>
+  <block id="e45bcf0f15e92deae2cfb38777071218" category="list-text"><block ref="e45bcf0f15e92deae2cfb38777071218" category="inline-link-macro-rx"></block></block>
+  <block id="78f6798eb036b3dd12c871ca38087892" category="inline-link-macro">ストレージファームウェアバンドル 2.146 リリースノート（最新）</block>
+  <block id="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="list-text"><block ref="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="inline-link-macro-rx"></block></block>
+  <block id="c7faa307a21de68e6b2b579eb4dd6238" category="list-text"><block ref="c7faa307a21de68e6b2b579eb4dd6238" category="inline-link-macro-rx"></block></block>
 </blocks>
