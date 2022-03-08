@@ -6187,4 +6187,9 @@
   <block id="78f6798eb036b3dd12c871ca38087892" category="inline-link-macro">ストレージファームウェアバンドル 2.146 リリースノート（最新）</block>
   <block id="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="list-text"><block ref="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="inline-link-macro-rx"></block></block>
   <block id="c7faa307a21de68e6b2b579eb4dd6238" category="list-text"><block ref="c7faa307a21de68e6b2b579eb4dd6238" category="inline-link-macro-rx"></block></block>
+  <block id="17a3f3fcb25f60a1e4c1a40f1e7eace3" category="list-text">VMware ESXi 7.0 では、 NetApp H610C 、 H615C 、 H410C 、および Hx00E コンピューティングノードとそのビルドインシステムコンポーネントに必要なすべてのドライバが、 VMware ESXi 7.0 の標準のインストール ISO イメージに含まれています。VMware ESXi 7.0 （および更新）を実行する NetApp HCI コンピューティングノードのドライバを追加または更新する必要はありません。</block>
+  <block id="3df9942375d4c2463d762d41ec77a6e1" category="list-text">VMware ESXi 6.x の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。</block>
+  <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">[* アップデート * （ Updates * ） ] タブを選択します。</block>
+  <block id="633d466e4a34f3db8d313150633fe669" category="list-text">「 * ファイルからアップロード」を選択します。</block>
+  <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。</block>
 </blocks>
