@@ -6192,4 +6192,5 @@
   <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">[* アップデート * （ Updates * ） ] タブを選択します。</block>
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">「 * ファイルからアップロード」を選択します。</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。</block>
+  <block id="38be14292d8d278a5d7b04a84bab839d" category="admonition">VMware vCenter Server 7.0 U3 にアップグレードすると、すべてのバージョンの NetApp Element Plug-in for vCenter Server を導入できません。この問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
 </blocks>
