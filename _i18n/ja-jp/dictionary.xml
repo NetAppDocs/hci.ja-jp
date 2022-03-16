@@ -1879,7 +1879,6 @@
   <block id="a559b87068921eec05086ce5485e9784" category="cell">モデル</block>
   <block id="28a5d597dff6432b588d89f6acfdf343" category="cell">BMC の最小バージョン</block>
   <block id="8f8d91fc37539c7dc54fe9ca413f6673" category="cell">BIOS の最小バージョン</block>
-  <block id="4bbe694d59e403ad0ad7d03479971908" category="cell">H300E 、 H500E 、 H700Eesx のいずれかです</block>
   <block id="81267fed636b653e3d782db366f1c339" category="cell">H410Cでし た</block>
   <block id="fa79295b13ba6136cf2fb5e4e4164155" category="cell">サポートされているすべてのバージョン（アップグレードは不要）に一致しました</block>
   <block id="4fc5318bd9b3c68006da2413f414a4ca" category="cell">H610C&lt;/Z1&gt; グループ</block>
@@ -1889,7 +1888,6 @@
   <block id="7574455cfeef101402ffde3ea33bd53a" category="cell">3B08 。 CO の一酸化</block>
   <block id="f6c9b6a55fa82505a20a84fc29dd1409" category="inline-link-macro">ファームウェアバンドル 2.27 を計算します</block>
   <block id="590f0f5145e5d58d73d507c6a67aa0b2" category="admonition">H615C コンピューティングノードでは、 BMC ファームウェアをバージョン 4.68 に更新する必要があります を使用する <block ref="c58be2f499a493f0490ff81a29aa7beb" category="inline-link-macro-rx"></block> NetApp Hybrid Cloud Control で今後のファームウェアアップグレードを実行できるようにするため。</block>
-  <block id="ae6346ffcf8868be71ccf7393c359eb7" category="admonition">H300E 、 H500E 、 H700E の各コンピューティングノードでは、 NetApp Hybrid Cloud Control を有効にして今後のファームウェアアップグレードを実行するには、 Redfish ライセンスが必要です。新しいコンピューティングファームウェアバンドルによって後続のリリースでこのプロセスが自動化されるまで、ネットアップサポートに連絡してライセンスを手動でインストールしてください。</block>
   <block id="7389b01d5fe0e17f5523a7fb85295f91" category="inline-link">こちらの技術情報アーティクル</block>
   <block id="92a2b5cb9c6906035c2864fa225e1940" category="inline-link">記事</block>
   <block id="71ff71526d15db86eb50fcac245d183b" category="inline-link-macro">UI</block>
@@ -6193,4 +6191,7 @@
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">「 * ファイルからアップロード」を選択します。</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。</block>
   <block id="38be14292d8d278a5d7b04a84bab839d" category="admonition">VMware vCenter Server 7.0 U3 にアップグレードすると、すべてのバージョンの NetApp Element Plug-in for vCenter Server を導入できません。この問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
+  <block id="abca9e82408ff65627f936784141931b" category="inline-xref">USB ドライブ</block>
+  <block id="e06e1c211afdb87bf0364232088b0c36" category="inline-xref">BMC UI</block>
+  <block id="ee32ec3c00387e48d64d3e91709654f2" category="admonition">NetApp Hybrid Cloud Control UI を使用して、 H300E 、 H500E 、 H700E の各コンピューティングノードのコンピューティングファームウェアをアップグレードできなくなりました。をアップグレードする場合は、を使用することを推奨します <block ref="4d9d1e5487766b88d4d71ed7b5cbc3b9" category="inline-xref-macro-rx"></block> または <block ref="1f3fb96b93183df027058d51b91b7971" category="inline-xref-macro-rx"></block> コンピューティングファームウェアの ISO をマウントします。</block>
 </blocks>
