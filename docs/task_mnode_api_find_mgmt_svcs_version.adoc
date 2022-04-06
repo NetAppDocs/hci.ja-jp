@@ -5,6 +5,7 @@ summary: 管理ノードの OS および管理サービスのバージョンは�
 keywords: netapp, hci, management node, management services, version, bundle version, what is 
 ---
 = 管理ノードの OS とサービスのバージョンを確認
+:allow-uri-read: 
 
 
 [role="lead"]

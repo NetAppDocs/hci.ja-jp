@@ -5,6 +5,7 @@ summary: NetApp HCI システムのアップグレードの一環として、ス
 keywords: netapp, element, hcc, firmware, storage firmware 
 ---
 = ストレージファームウェアをアップグレードします
+:allow-uri-read: 
 
 
 [role="lead"]

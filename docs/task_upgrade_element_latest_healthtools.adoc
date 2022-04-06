@@ -5,6 +5,7 @@ summary: システムのアップグレードの一環として、最新の Heal
 keywords: netapp, HealthTools upgrade, sfupdate-healthtools, element 
 ---
 = 最新の HealthTools にアップグレードします
+:allow-uri-read: 
 
 
 [role="lead"]

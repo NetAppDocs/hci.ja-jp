@@ -6,6 +6,7 @@ keywords: netapp, hci, H610C, H615C, chassis replacement, node replacement
 ---
 = 2 ノードクラスタのストレージノードを交換
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

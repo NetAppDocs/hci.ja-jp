@@ -6,6 +6,7 @@ keywords: netapp, hci, license
 ---
 = NetApp HCI ライセンス
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: H シリーズのコンピューティングノードには Ansible の
 keywords: netapp, hci, on premise, cluster, element, compute node, ansible upgrade, upgrade role 
 ---
 = Ansible によるコンピューティングノードのファームウェアアップグレードの自動化
+:allow-uri-read: 
 
 
 [role="lead"]

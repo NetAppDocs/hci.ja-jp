@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, review, deploy
 ---
 = サポートされるネットワーク変更
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

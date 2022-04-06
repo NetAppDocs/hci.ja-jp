@@ -6,6 +6,7 @@ keywords: netapp, hci, element, configuration, validation
 ---
 = Active IQ Config Advisor で環境を検証
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

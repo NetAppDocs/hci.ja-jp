@@ -5,6 +5,7 @@ summary: NetApp HCI システムのアップグレードの一環として、 Ne
 keywords: netapp, hci, HealthTools, cluster, element, H610S upgrade, hcc 
 ---
 = Element ソフトウェアをアップグレードします
+:allow-uri-read: 
 
 
 [role="lead"]

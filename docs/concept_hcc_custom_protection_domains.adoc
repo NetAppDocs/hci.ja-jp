@@ -5,6 +5,7 @@ keywords: protection domain layout,user-defined,custom layout
 summary: カスタムの保護ドメインレイアウトを定義できます。このレイアウトでは、各ノードが 1 つだけのカスタム保護ドメインに関連付けられます。デフォルトでは、各ノードは同じデフォルトのカスタム保護ドメインに割り当てられます。 
 ---
 = カスタムの保護ドメイン
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

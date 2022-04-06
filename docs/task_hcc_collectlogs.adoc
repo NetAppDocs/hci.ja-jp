@@ -5,6 +5,7 @@ summary: NetApp Hybrid Cloud Control を使用して、 NetApp HCI または Ele
 keywords: netapp, hci, logs, collection, troubleshooting, monitor 
 ---
 = トラブルシューティング用にログを収集する
+:allow-uri-read: 
 
 
 [role="lead"]

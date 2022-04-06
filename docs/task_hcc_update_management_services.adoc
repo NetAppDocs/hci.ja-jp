@@ -5,6 +5,7 @@ summary: NetApp HCI システムのアップグレードの一環として、管
 keywords: netapp, hci, on premise, cluster, management services 
 ---
 = 管理サービスを更新
+:allow-uri-read: 
 
 
 [role="lead"]

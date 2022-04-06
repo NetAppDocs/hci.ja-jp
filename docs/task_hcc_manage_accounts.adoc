@@ -5,6 +5,7 @@ summary: ユーザアカウントを作成してボリュームに関連付け�
 keywords: netapp, hci, on premise, cluster, element, account, user, volume, hybrid cloud control, hcc 
 ---
 = ネットアップハイブリッドクラウドを使用してユーザアカウントを作成、管理します 制御
+:allow-uri-read: 
 
 
 [role="lead"]

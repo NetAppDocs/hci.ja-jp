@@ -5,6 +5,7 @@ summary: ボリュームを作成して特定のアカウントに関連付け�
 keywords: netapp, hci, cluster, element, volume 
 ---
 = NetApp Hybrid Cloud Control を使用してボリュームを作成および管理する
+:allow-uri-read: 
 
 
 [role="lead"]

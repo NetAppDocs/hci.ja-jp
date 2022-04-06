@@ -5,6 +5,7 @@ summary: NetApp HCI ストレージボリュームを操作するための新し
 keywords: netapp, hci, on premise, cluster, element 
 ---
 = ボリュームアクセスグループを作成および管理します
+:allow-uri-read: 
 
 
 [role="lead"]

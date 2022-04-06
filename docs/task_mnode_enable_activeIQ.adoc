@@ -5,6 +5,7 @@ summary: 管理ノード（ mNode ）を使用して、 NetApp Active IQ と Net
 keywords: netapp, hci, api, enable, active iq, activeiq, hci monitoring 
 ---
 = Active IQ と NetApp HCI の監視を有効にします
+:allow-uri-read: 
 
 
 [role="lead"]

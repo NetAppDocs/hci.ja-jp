@@ -5,6 +5,7 @@ summary: NetApp HCI とそのすべてのコンポーネントをアップグレ
 keywords: netapp, hci, on premise, cluster, upgrade, element 
 ---
 = アップグレード手順の概要
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: SolidFire Active IQ を使用してクラスタの健常性を監視で
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance 
 ---
 = SolidFire Active IQ を使用して、パフォーマンス、容量、クラスタの健全性を監視できます
+:allow-uri-read: 
 
 
 [role="lead"]

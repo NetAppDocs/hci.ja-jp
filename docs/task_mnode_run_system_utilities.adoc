@@ -5,6 +5,7 @@ summary: クラスタサポートバンドルを作成または削除したり�
 keywords: netapp, element, management node ui, mnode ui, system utilities 
 ---
 = 管理ノードからシステムユーティリティを実行します
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: FQDM を設定し、 NetApp HCI 、ユーザーアカウント、スト
 keywords: netapp, hci, install, deploy, get started, configure, fqdn, fully qualified domain name 
 ---
 = NetApp HCI の管理の概要
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -6,6 +6,7 @@ keywords: netapp, hci, chassis replacement,2U chassis replacement, h-series
 ---
 = 2U H シリーズシャーシを交換
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: NetApp HCI の導入が完了したら、ネットアップハイブリ
 keywords: netapp, hci, on premise, expand, storage, compute, cluster 
 ---
 = NetApp HCI のストレージリソースとコンピューティングリソースも同時に拡張します 時間
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: ノードの交換、ストレージノードのドライブの交換�
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, rails, h-series, nodes 
 ---
 = H シリーズハードウェアのメンテナンスの概要
+:allow-uri-read: 
 
 
 [role="lead"]

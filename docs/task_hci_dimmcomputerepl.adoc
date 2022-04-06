@@ -6,6 +6,7 @@ keywords: netapp, hci, dimm, compute nodes
 ---
 = コンピューティングノードの DIMM を交換します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

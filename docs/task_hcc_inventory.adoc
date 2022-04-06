@@ -6,6 +6,7 @@ keywords: netapp, hci, hcc, on premise, inventory, hybrid cloud control
 ---
 = Hybrid Cloud Control で NetApp HCI のインベントリを表示します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

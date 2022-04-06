@@ -5,6 +5,7 @@ summary: ストレージリソースとコンピューティングリソース�
 keywords: netapp, hci, on premise, hcc, hybrid cloud control, storage, compute, storage performance, utilization, capacity 
 ---
 = Hybrid Cloud Control でストレージリソースとコンピューティングリソースを監視します ダッシュボード
+:allow-uri-read: 
 
 
 [role="lead"]

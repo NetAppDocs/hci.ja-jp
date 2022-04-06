@@ -5,6 +5,7 @@ summary: NetApp HCI の使用を開始する前に、ストレージノードと
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, rails, h-series, nodes 
 ---
 = H シリーズハードウェアを設置
+:allow-uri-read: 
 
 
 [role="lead"]

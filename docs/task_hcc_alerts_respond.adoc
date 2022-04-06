@@ -6,6 +6,7 @@ keywords: netapp, hci, hcc, on premise, alerts, warnings
 ---
 = Hybrid Cloud Control Dashboard のアラートに応答します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

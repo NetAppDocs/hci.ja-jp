@@ -5,6 +5,7 @@ summary: 再導入できるように、 NetApp HCI 展開でランチツール�
 keywords: netapp, hci, api, REST, remove, Rancher, redeploy 
 ---
 = NetApp HCI でランチツールをインストールした場合は、取り外します
+:allow-uri-read: 
 
 
 [role="lead"]

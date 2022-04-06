@@ -6,6 +6,7 @@ keywords: netapp, hci, element, Witness Node
 ---
 = 2 ノードストレージクラスタの場合は、監視ノードのリソース要件が必要です
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ keywords: netapp, hci, initiator, storage volume, solidfire volume, element volu
 ---
 = イニシエータ
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

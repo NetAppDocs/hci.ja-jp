@@ -5,6 +5,7 @@ summary: 以下の手順を使用して、 NetApp HCI をインストールお�
 keywords: netapp, hci, install, deploy, get started 
 ---
 = NetApp HCI のインストールと導入の概要
+:allow-uri-read: 
 
 
 [role="lead"]

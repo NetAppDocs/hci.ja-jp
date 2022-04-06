@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, install, resiliency, vm, affinity
 ---
 = 耐障害性を設定
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

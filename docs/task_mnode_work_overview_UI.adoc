@@ -5,6 +5,7 @@ summary: '管理ノード UI を使用 (https://<mNodeIP>:442)[]を使用して�
 keywords: 'netapp, management node ui, mnode ui, :442, element' 
 ---
 = 管理ノード UI の概要
+:allow-uri-read: 
 
 
 [role="lead"]

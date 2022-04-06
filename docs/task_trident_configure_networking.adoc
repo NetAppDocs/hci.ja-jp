@@ -6,6 +6,7 @@ keywords: netapp, hci, netapp, networking, clusters, user, trident, rancher
 ---
 = ユーザクラスタで Trident のサポートを有効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

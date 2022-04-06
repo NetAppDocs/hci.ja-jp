@@ -5,6 +5,7 @@ summary: NetApp HCI システムのアップグレードの一環として、コ
 keywords: netapp, hci, on premise, cluster, element, compute node, vmware, upgrade firmware 
 ---
 = コンピューティングノードのファームウェアをアップグレードします
+:allow-uri-read: 
 
 
 [role="lead"]

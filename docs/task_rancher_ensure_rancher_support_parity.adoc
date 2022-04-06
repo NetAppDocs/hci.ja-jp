@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, licensing
 ---
 = Rancher サポートパリティを確認します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

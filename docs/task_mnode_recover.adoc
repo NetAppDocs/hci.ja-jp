@@ -5,6 +5,7 @@ summary: NetApp Element ソフトウェアを実行しているクラスタの�
 keywords: netapp, element, management node, mnode, disaster recovery, redeploy, VM 
 ---
 = 管理ノードをリカバリ
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: NetApp HCI システムのアップグレードの一環として、 El
 keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
 ---
 = Element Plug-in for vCenter Server をアップグレードします
+:allow-uri-read: 
 
 
 [role="lead"]

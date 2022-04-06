@@ -6,6 +6,7 @@ keywords: netapp, hci, storage firmware
 ---
 = ストレージファームウェアバンドル 2.146 リリースノート
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

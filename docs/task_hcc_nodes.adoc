@@ -5,6 +5,7 @@ summary: Hybrid Cloud Control Nodes ページを使用すると、システム�
 keywords: netapp, hci, on premise, cluster, inventory, nodes, storage, compute 
 ---
 = ノードページでインベントリを表示します
+:allow-uri-read: 
 
 
 [role="lead"]

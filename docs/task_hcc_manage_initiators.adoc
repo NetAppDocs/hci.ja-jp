@@ -5,6 +5,7 @@ summary: 外部クライアントと Element ストレージボリューム間�
 keywords: netapp, hci, initiator, storage, element, access group 
 ---
 = イニシエータを作成および管理する
+:allow-uri-read: 
 
 
 [role="lead"]
