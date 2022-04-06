@@ -3649,7 +3649,6 @@
   <block id="39d054f16665efd662cb5551e7cdab2f" category="paragraph">この手動プロセスは、管理ノードのインストールに NetApp Deployment Engine を使用していない SolidFire オールフラッシュストレージ管理者および NetApp HCI 管理者を対象としています。</block>
   <block id="7e6093e52119f18464fc862a969c9f6a" category="admonition">IPv6 のサポートが必要な場合は、管理ノード 11.1 を使用してください。</block>
   <block id="0406c3e25004e3d1dddbc367d2c4010f" category="paragraph">Element 12.2 管理ノードはオプションのアップグレードです。既存の環境では必要ありません。</block>
-  <block id="4c1c75837506a09df0b018e8ae0bf93e" category="paragraph">この手順を実行する前に、を理解しておく必要があります <block ref="6f73bacaba2e470844b654fcbffb809f" category="inline-link-macro-rx"></block> 使用するかどうかを指定します。永続ボリュームはオプションですが、 VM が失われた場合の管理ノードの設定データのリカバリには推奨されます。</block>
   <block id="d65a2ab43bcac7efebde7effc9d142f8" category="list-text"><block ref="4e8e62755aa10b5d2420c05d87c0085a" category="inline-xref-macro-rx"></block></block>
   <block id="c92609be7302c756d6d918553df475c1" category="list-text"><block ref="d9e86326331a25418b718094ae602c19" category="inline-xref-macro-rx"></block></block>
   <block id="0267f7e06220d0fa6fb42578b5746da3" category="list-text"><block ref="b41cb2f7bd156a4035cdf9347b89cebe" category="inline-xref-macro-rx"></block></block>
@@ -6194,4 +6193,15 @@
   <block id="abca9e82408ff65627f936784141931b" category="inline-xref">USB ドライブ</block>
   <block id="e06e1c211afdb87bf0364232088b0c36" category="inline-xref">BMC UI</block>
   <block id="ee32ec3c00387e48d64d3e91709654f2" category="admonition">NetApp Hybrid Cloud Control UI を使用して、 H300E 、 H500E 、 H700E の各コンピューティングノードのコンピューティングファームウェアをアップグレードできなくなりました。をアップグレードする場合は、を使用することを推奨します <block ref="4d9d1e5487766b88d4d71ed7b5cbc3b9" category="inline-xref-macro-rx"></block> または <block ref="1f3fb96b93183df027058d51b91b7971" category="inline-xref-macro-rx"></block> コンピューティングファームウェアの ISO をマウントします。</block>
+  <block id="7f10e6e99f08f394e823f7104513126a" category="paragraph">この手順を実行する前に、を理解しておく必要があります <block ref="6f73bacaba2e470844b654fcbffb809f" category="inline-link-macro-rx"></block> 使用するかどうかを指定します。永続ボリュームはオプションですが、仮想マシン（ VM ）が失われた場合の管理ノードの設定データのリカバリには推奨されます。</block>
+  <block id="bb79fe0e6bf117510635c505cc16e74d" category="list-text">次の構成でハイパーバイザーから新しい 64 ビットの VM を作成します。</block>
+  <block id="4aec8fb7a6a9c5631ebb25a7b86d9ac5" category="admonition">この手順 の以降の手順で指示があるまでは、 VM の電源をオンにしないでください。</block>
+  <block id="1632315c8463eb1e9d1b980297d68c37" category="list-text">ISO を VM に接続し、 .iso インストールイメージでブートします。</block>
+  <block id="faa024991ac61fa39b20d61ed2e88ada" category="list-text">インストールが完了したら、管理ノードの VM の電源をオンにします。</block>
+  <block id="c19f63a05ffe39159954c2b2fd892582" category="list-text">ネットワーク上に、最大伝送ユニット（ MTU ）が 1500 バイト未満の IP を割り当てる Dynamic Host Configuration Protocol （ DHCP ；動的ホスト構成プロトコル）サーバがある場合は、次の手順を実行する必要があります。</block>
+  <block id="b44234e2a29812de715ddf5ea19c15fc" category="list-text">iSCSI などの DHCP を使用しないで、一時的に管理ノードを vSphere ネットワークに配置します。</block>
+  <block id="f35b648abbd5fe5949ea297ee6cef3b9" category="list-text">VM をリブートするか、 VM ネットワークを再起動します。</block>
+  <block id="5e790f023d6f269f25709b2372d8cef2" category="list-text">TUI を使用して、管理ネットワークの正しい IP を 1500 バイト以上の MTU で設定します。</block>
+  <block id="8c79dbfa1dd86948b37af21a8d7639d5" category="list-text">VM に正しい VM ネットワークを再割り当てします。</block>
+  <block id="85708c896a2da121ac4eee4307002bd9" category="admonition">MTU が 1 、 500 バイト未満の DHCP を割り当てると、管理ノードネットワークの設定や管理ノード UI の使用ができなくなる可能性があります。</block>
 </blocks>

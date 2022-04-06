@@ -136,7 +136,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能  管理ノードではデフォルトで有効になっています。
+IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。
 
 
 
@@ -235,7 +235,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります  をクリックします。
+IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります link:task_mnode_ssh_management.html["SSH を再度無効にします"] をクリックします。
 
 
 
@@ -334,7 +334,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります  をクリックします。
+IMPORTANT: 提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。以前に管理ノードで SSH 機能を有効にしていた場合は、が必要になることがあります link:task_mnode_ssh_management.html["SSH を再度無効にします"] をクリックします。
 
 
 

@@ -97,7 +97,7 @@ NOTE: Warning のしきい値はデフォルトで Error のしきい値の 3% �
 
 +
 
-TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください https://docs.netapp.com/us-en/element-software/api/reference_element_api_getclusterfullthreshold.html["「 getClusterFullThreshold 」"^] を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください を参照してください。
+TIP: 関連するクラスタのしきい値 Element API の詳細については、を参照してください https://docs.netapp.com/us-en/element-software/api/reference_element_api_getclusterfullthreshold.html["「 getClusterFullThreshold 」"^] を Element ソフトウェア API ドキュメントで参照してください。ブロック容量とメタデータ容量の詳細については、を参照してください https://docs.netapp.com/us-en/element-software/storage/concept_monitor_understand_cluster_fullness_levels.html["クラスタフルレベルの概要"^] を参照してください。
 
 . 接続されているホストにプロビジョニングされている合計ストレージの情報を表示し、効率性の評価を表示するには、 * Effective * タブを選択します。
 +

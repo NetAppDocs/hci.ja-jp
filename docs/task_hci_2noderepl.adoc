@@ -26,7 +26,7 @@ keywords: netapp, hci, H610C, H615C, chassis replacement, node replacement
 VMware vSphere Web Client のアラームでは、ホストで障害が発生するとアラートが通知されます。VMware vSphere Web Client で障害が発生したホストのシリアル番号を、ノード背面のステッカーに記載されているシリアル番号と一致させる必要があります。
 
 .手順
-. 障害が発生したノードをラックから物理的に取り外します。実行する手順は、使用するストレージノードのタイプによって異なります。を参照してください link:task_hci_h410srepl.html["H410S ノードを交換します"^] および 。
+. 障害が発生したノードをラックから物理的に取り外します。実行する手順は、使用するストレージノードのタイプによって異なります。を参照してください link:task_hci_h410srepl.html["H410S ノードを交換します"^] および link:task_hci_h610srepl.html["H610S ノードを交換してください"^]。
 +
 
 NOTE: この時点では、クラスタからノードを削除しないでください。

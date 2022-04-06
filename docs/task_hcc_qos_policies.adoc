@@ -16,7 +16,7 @@ keywords: netapp, qos policy, quality of service, qos policies, volumes, element
 標準的なサービス品質設定を QoS ポリシーとして作成および保存して、複数のボリュームに適用することができます。QoS ポリシーを使用するには、 Element 10.0 以降のクラスタを選択する必要があります。 10.0 より前のクラスタでは QoS ポリシーを使用できません。
 
 
-NOTE: の使用方法の詳細については、 NetApp HCI の概念に関するコンテンツを参照してください link:concept_hci_performance.html#qos-policies["QoS ポリシー"] 個々のボリュームではなく 。
+NOTE: の使用方法の詳細については、 NetApp HCI の概念に関するコンテンツを参照してください link:concept_hci_performance.html#qos-policies["QoS ポリシー"] 個々のボリュームではなく link:concept_hci_performance.html["QoS"]。
 
 NetApp Hybrid Cloud Control を使用すると、次のタスクを実行して QoS ポリシーを作成および管理できます。
 

@@ -40,7 +40,7 @@ NOTE: H615C コンピューティングノードでは、 BMC ファームウェ
 NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"^] （ログインが必要です）。
 
 * *BIOS 起動順序 *: 各ノードの BIOS セットアップで起動順序を手動で変更して、起動リストに「 USB CD/DVD」 が表示されるようにします。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades#BootOrder["記事"^] を参照してください。
-* * BMC クレデンシャル * ： NetApp Hybrid Cloud Control がコンピューティングノードの BMC への接続に使用するクレデンシャルを更新します。これは、ネットアップのハイブリッドクラウドを使用して実行できます 制御 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] または 。アップグレード前に BMC 情報を更新すると、インベントリが更新され、アップグレードの完了に必要なすべてのハードウェアパラメータが管理ノードサービスで認識されるようになります。
+* * BMC クレデンシャル * ： NetApp Hybrid Cloud Control がコンピューティングノードの BMC への接続に使用するクレデンシャルを更新します。これは、ネットアップのハイブリッドクラウドを使用して実行できます 制御 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] または link:task_hcc_edit_bmc_info.html#use-the-rest-api-to-edit-bmc-information["API"]。アップグレード前に BMC 情報を更新すると、インベントリが更新され、アップグレードの完了に必要なすべてのハードウェアパラメータが管理ノードサービスで認識されるようになります。
 * * 接続されているメディア * ：コンピューティングノードのアップグレードを開始する前に、物理 USB または ISO の接続をすべて解除してください。
 * * KVM ESXi コンソール * ：コンピューティングノードのアップグレードを開始する前に、 BMC UI で開いているすべての Serial-Over-LAN （ SOL ）セッションとアクティブな KVM セッションを閉じます。
 * * 監視ノードの要件 * ： 2 ノードおよび 3 ノードのストレージクラスタでは、 1 つ link:concept_hci_nodes.html["監視ノード"] 常に NetApp HCI インストール環境で実行しておく必要があります。
@@ -50,7 +50,7 @@ NOTE: ご使用のハードウェアのファームウェアとドライバの�
 本番環境では、一度に 1 つのコンピューティングノードのファームウェアをアップグレードします。
 
 
-NOTE: ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi ホストでロックダウンモードを無効にする方法"^] および  を参照してください。
+NOTE: ヘルスチェックを実行してファームウェアのアップグレードを開始する前に、 ESXi ホストのロックダウンモードを解除する必要があります。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi ホストでロックダウンモードを無効にする方法"^] および link:https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-F8F105F7-CF93-46DF-9319-F8991839D265.html["VMware ロックダウンモードの動作"^] を参照してください。
 
 NetApp Hybrid Cloud Control の UI または API のアップグレードでは、 DRS 機能と必要なライセンスがある場合、アップグレードプロセス中に ESXi ホストが自動的にメンテナンスモードになります。ノードがリブートされ、アップグレードプロセスが完了すると、 ESXi ホストがメンテナンスモードから除外されます。USB および BMC UI オプションでは、各手順の説明に従って、 ESXi ホストを手動でメンテナンスモードにする必要があります。
 

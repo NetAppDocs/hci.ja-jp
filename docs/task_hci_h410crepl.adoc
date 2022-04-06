@@ -23,7 +23,7 @@ NOTE: 交換用ノードには、 NetApp HCI 環境の他のコンピューテ�
 * 交換用コンピューティングノードを用意します。交換用ノードを注文する場合は、ネットアップサポートにお問い合わせください。コンピューティングノードには、 Bootstrap OS がインストールされた状態で出荷されます。ノードは、最新バージョンの Bootstrap OS を搭載した工場出荷状態です。次のシナリオでは、ノードで Return to Factory Image （ RTFI ）プロセスを実行する必要があります。
 +
 ** 現在の NetApp HCI インストールで、最新バージョンよりも前のバージョンの Bootstrap OS を実行しています。この場合、 RTFI プロセスによって、新しいノードが NetApp HCI のインストールを実行している OS バージョンにダウングレードされます。
-** 出荷された交換用ノードでは、最新バージョンよりも前のブートストラップ OS バージョンが実行されており、ノードを交換する NetApp HCI インストールではすでに最新バージョンが実行されています。この場合、 RTFI プロセスによって、新しいノードの OS バージョンが最新バージョンにアップグレードされます。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/HCI_-_How_to_RTFI_using_a_USB_key["USB キーを使用して RTFI を実行する方法（ログインが必要）"^] および 。
+** 出荷された交換用ノードでは、最新バージョンよりも前のブートストラップ OS バージョンが実行されており、ノードを交換する NetApp HCI インストールではすでに最新バージョンが実行されています。この場合、 RTFI プロセスによって、新しいノードの OS バージョンが最新バージョンにアップグレードされます。を参照してください link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/HCI_-_How_to_RTFI_using_a_USB_key["USB キーを使用して RTFI を実行する方法（ログインが必要）"^] および link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_RTFI_an_HCI_Compute_Node_via_BMC["BMC を使用して RTFI を実行する方法（ログインが必要）"^]。
 
 
 * 静電放電（ ESD ）リストバンドを装着するか、静電気防止処置を施しておきます。
