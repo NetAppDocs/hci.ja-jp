@@ -5757,8 +5757,6 @@
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client * ：プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしました。Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。vSphere Web Client にすでにログインしている場合は、ログアウトし、 2~3 分待ってから再度ログインする必要があります。</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server 向け Element プラグイン</block>
-  <block id="3cc243a697de25c61818bc316cea4e98" category="paragraph">vCenter Plug-in のアイコンが表示されない場合は、を参照してください <block ref="f9851c8aa620f0cd00ac6d51cd4290b1" category="inline-link-macro-rx"></block> プラグインのトラブルシューティングに関するドキュメント。</block>
-  <block id="65dc103da0aa4a7822d43218290b7b8d" category="paragraph">VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードしたあとに、ストレージクラスタが表示されないか、 NetApp Element 構成の「クラスタ * 」および「 QoSSIOC 設定 * 」のセクションにサーバエラーが表示されます。を参照してください <block ref="107c2c097bec52fadb44d9536d1a3a46" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
   <block id="be03f79fc587170366cede6d4134dfb1" category="summary">システム FQDN Web UI アクセスを設定、削除、およびトラブルシューティングする方法について説明します。</block>
   <block id="94db4abd5a2fea199024f9d7355490bd" category="paragraph">Element ソフトウェア 12.2 以降を搭載した NetApp HCI では、 Fully Qualified Domain Name （ FQDN ；完全修飾ドメイン名）を使用してストレージクラスタの Web インターフェイスにアクセスできます。FQDN を使用して、 Element Web UI 、ノード UI 、管理ノード UI などの Web ユーザインターフェイスにアクセスする場合は、クラスタで使用される FQDN を特定するストレージクラスタ設定を最初に追加する必要があります。</block>
   <block id="e93b12b8c33d9327e4e273fb49ae1eea" category="paragraph">Fully Qualified Domain Name （ FQDN ；完全修飾ドメイン名）を使用してストレージクラスタの Web インターフェイスにアクセスできるようになりました。FQDN を使用して、 Element Web UI 、ノード UI 、管理ノード UI などの Web ユーザインターフェイスにアクセスする場合は、クラスタで使用される FQDN を特定するストレージクラスタ設定を最初に追加する必要があります。これにより、クラスタはログインセッションを適切にリダイレクトできるようになり、キー管理ツールやアイデンティティプロバイダなどの外部サービスとの統合が強化されて、多要素認証に対応できるようになります。</block>
@@ -6214,4 +6212,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
+  <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter Plug-in のアイコンが表示されない場合は、を参照してください <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> プラグインのトラブルシューティングに関するドキュメント。</block>
+  <block id="3d06b6c0430a7ea489938883e0eb617e" category="paragraph">VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードしたあとに、ストレージクラスタが表示されないか、 NetApp Element 構成の「クラスタ * 」および「 QoSSIOC 設定 * 」のセクションにサーバエラーが表示されます。を参照してください <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
 </blocks>
