@@ -2,14 +2,17 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_element_software.html 
 summary: NetApp HCI システムのアップグレードの一環として、 NetApp Element ソフトウェアをアップグレードします。 
-keywords: netapp, hci, HealthTools, cluster, element, H610S upgrade, hcc 
+keywords: netapp, hci, cluster, element, H610S upgrade, hcc 
 ---
 = Element ソフトウェアをアップグレードします
 :allow-uri-read: 
 
 
 [role="lead"]
-NetApp Element ソフトウェアをアップグレードするには、 NetApp Hybrid Cloud Control UI 、 REST API 、または HealthTools ツールスイートを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。
+NetApp Element ソフトウェアをアップグレードするには、NetApp Hybrid Cloud ControlのUIまたはREST APIを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。
+
+
+NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:link:https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。
 
 .必要なもの
 * * admin 権限 * ：アップグレードを実行する権限がストレージクラスタ管理者に付与されています。
@@ -21,10 +24,31 @@ NetApp Element ソフトウェアをアップグレードするには、 NetApp 
 
 
 
-IMPORTANT: Element ソフトウェアをバージョン 12.3.x にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要がありますElement ソフトウェアをバージョン 12.3.x に更新する場合は、管理サービス 2.14.60 以降が必要です。
+IMPORTANT: Elementソフトウェアをバージョン12.5にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。Elementソフトウェアをバージョン12.5に更新する場合は、管理サービス2.20.69以降が必要です。
 
 * * クラスタの健全性 * ：クラスタをアップグレードする準備が完了していることを確認しました。を参照してください link:task_hcc_upgrade_element_prechecks.html["ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します"]。
-* * H610S ノードの BMC を更新 * ： H610S ノードの BMC バージョンをアップグレードしました。を参照してください link:rn_H610S_BMC_3.84.07.html["リリースノートおよびアップグレード手順"^]。
+* * H610Sノードのベースボード管理コントローラ（BMC）を更新*：H610SノードのBMCバージョンをアップグレードしました。を参照してください link:rn_H610S_BMC_3.84.07.html["リリースノートおよびアップグレード手順"^]。
+* *アップグレード処理時間*:アップグレードを実行するための十分な時間を確保しています。Elementソフトウェア12.5にアップグレードする場合、アップグレードプロセスの時間は、Elementソフトウェアの現在のバージョンとファームウェアの更新によって異なります。
++
+[cols="20,20,20,20,20"]
+|===
+| ストレージノード | Elementソフトウェアの現在のバージョン | ノードあたりのソフトウェアとファームウェアのインストール時間の概算。^1 ^ | ノードあたりのおおよそのデータ同期時間^2^ | ノードあたりのアップグレード時間の概算 
+
+
+| 最新のファームウェアを搭載したSolidFire およびNetApp Hシリーズのすべてのノード | 12.x | 15 分 | 10～15分 | 20～30分 
+
+
+| H610SとH410S | 12.xおよび11.8 | 60分 | 30～60分 | 90～120分 
+
+
+| H610S | 11.7以前 | 90分 | 40～70分 | 130～160分も必要です https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["ノードの完全なシャットダウンと電源切断を実行します"^] H610Sノードごとに、 
+|===
++
+^1ご使用のハードウェアのファームウェアおよびドライバファームウェアの完全なマトリックスについては、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"^] （ログインが必要です）。
+
++
+^2^クラスタに高い書き込みIOPSの負荷があり、ファームウェアの更新時間が長い場合、データの同期時間が長くなります。
+
 * *エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementソフトウェアをアップグレードする前に、EULAに同意して保存する必要があります。
 +
 .. Webブラウザで管理ノードのIPアドレスを開きます。
@@ -48,12 +72,10 @@ NOTE: EULAに同意すると、以後のすべての更新についてそのEULA
 
 * <<Use NetApp Hybrid Cloud Control UI to upgrade Element storage>>
 * <<Use NetApp Hybrid Cloud Control API to upgrade Element storage>>
-* <<Upgrade Element software at connected sites using HealthTools>>
-* <<Upgrade Element software at dark sites using HealthTools>>
 
 
 
-IMPORTANT: H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されているときは、追加のアップグレード手順（）を実行する必要があります<<Upgrading H610S storage nodes to Element 12.3.x (phase 2),フェーズ 2.>>）をクリックします。Element 11.8 以降を実行している場合は、追加のアップグレード手順（フェーズ 2 ）は必要ありません。
+IMPORTANT: H610SシリーズノードをElement 12.5にアップグレードする場合、ノードで11.8よりも前のバージョンのElementソフトウェアが実行されているときは、こので追加のアップグレード手順を実行する必要があります https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^] ストレージノードごとに割り当てます。Element 11.8以降を実行している場合は、追加のアップグレード手順は必要ありません。
 
 
 
@@ -64,10 +86,7 @@ NetApp Hybrid Cloud Control の UI を使用して、ストレージクラスタ
 管理ノードがインターネットに接続されていない場合は、をダウンロードしておきます https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ"^]。
 
 
-CAUTION: NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["こちらの技術情報アーティクル"^]。
-
-
-TIP: H610S 以外のプラットフォームでは、ノードあたりのアップグレードプロセスに約 30 分かかります。
+CAUTION: NetApp Hybrid Cloud Controlを使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、このドキュメントを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["こちらの技術情報アーティクル"^]。
 
 .手順
 . Webブラウザで管理ノードのIPアドレスを開きます。
@@ -118,8 +137,8 @@ CAUTION: ブラウザウィンドウから別の場所に移動すると、フ�
 
 | Element 11.8 より前のバージョンを実行している H610S クラスタをアップグレードしています。  a| 
 .. アップグレードするクラスタの横にあるドロップダウン矢印を選択し、アップグレード可能なバージョンから選択します。
-.. [* アップグレードの開始 * ] を選択します。アップグレードが完了すると、プロセスのフェーズ 2 を実行するよう求める画面が表示されます。
-.. で必要な追加手順（フェーズ 2 ）を実行します https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^]をクリックし、フェーズ 2 が完了したことを UI で確認します。
+.. [* アップグレードの開始 * ] を選択します。アップグレードが完了すると、追加のアップグレード手順を実行するように求められます。
+.. に必要な追加の手順を実行します https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^]をクリックし、完了したことをUIで確認します。
 
 
 アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <<Upgrade status changes>>。
@@ -159,7 +178,7 @@ CAUTION: ブラウザウィンドウから別の場所に移動すると、フ�
 | 検出できません | オンラインのソフトウェアリポジトリにアクセスするための外部接続がない場合、 NetApp Hybrid Cloud Control では、バージョンを利用可能 * ではなくこのステータスが表示されます。外部接続を確立してもこのメッセージが表示される場合は、を確認してください link:task_mnode_configure_proxy_server.html["プロキシ設定："^]。 
 
 
-| フォローアップを完了します | H610S ノードを 11.8 より前のバージョンからアップグレードした場合のみアップグレードプロセスのフェーズ 1 が完了すると、アップグレードのフェーズ 2 を実行するように求められます（を参照） https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^]）。フェーズ 2 を完了し、完了したことを確認すると、ステータスが「 * 最新 * 」に変わります。 
+| フォローアップを完了します | H610S ノードを 11.8 より前のバージョンからアップグレードした場合のみアップグレードプロセスのフェーズ1が完了すると、追加のアップグレード手順を実行するように求められます（を参照） https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^]）。これらの追加手順を完了し、完了したことを確認すると、ステータスが*最新*に変わります。 
 |===
 
 
@@ -414,8 +433,8 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
-| 11.8 より前のバージョンの Element を実行している H610S クラスタをアップグレードする場合は、応答の本文に状態「 finishedNeedsAck 」が表示されます。H610S ストレージノードごとに、追加のアップグレード手順（フェーズ 2 ）を実行する必要があります。  a| 
-... を参照してください <<Upgrading H610S storage nodes to Element 12.3.x or later (phase 2)>> をクリックし、各ノードでプロセスを完了します。
+| 11.8 より前のバージョンの Element を実行している H610S クラスタをアップグレードする場合は、応答の本文に状態「 finishedNeedsAck 」が表示されます。H610Sストレージノードごとに、追加のアップグレード手順を実行する必要があります。  a| 
+... このに記載されている追加のアップグレード手順を実行します https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["こちらの技術情報アーティクル"^] をクリックします。
 ... 必要に応じて再認証し、 * PUT に成功 / アップグレード / ｛ upgradeId ｝ * を選択します。
 ... [* 試してみてください * ] を選択します。
 ... アップグレード ID は、前の手順のアップグレード ID として * upgradeId * と入力します。
@@ -457,305 +476,6 @@ NetApp Hybrid Cloud Control には 3 時間の待機時間があらかじめ設�
 
 
 CAUTION: ノードの更新中にクラスタのアップグレードを中止すると、そのノードからドライブが強制的に削除されることがあります。ドライブが強制的に削除された場合、ネットアップサポートに依頼して手動でドライブを元に戻す処理がアップグレード時に必要になります。ノードでファームウェアの更新や更新後の同期処理に時間がかかる可能性があります。アップグレードが停止していると思われる場合は、ネットアップサポートにお問い合わせください。
-
-
-
-== HealthTools を使用して接続されているサイトで Element ソフトウェアをアップグレードします
-
-.手順
-. ストレージアップグレードパッケージをダウンロードします。 NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"^] をクリックし、管理ノードではないデバイスに最新のストレージノードイメージをダウンロードします。
-+
-
-NOTE: Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。
-
-. ISO ファイルを、 /tmp などのアクセス可能な場所にある管理ノードにコピーします。
-+
-ISO ファイルをアップロードする際には、ファイル名が変更されないようにしてください。変更されていると以降の手順が失敗します。
-
-. * オプション * ：アップグレードの前に、管理ノードからクラスタノードに ISO をダウンロードします。
-+
-この手順は、ストレージノードに ISO を事前にステージングし、内部チェックを実行してクラスタがアップグレードに適した状態であることを確認することで、アップグレード時間を短縮します。この処理を実行しても、クラスタが「アップグレード」モードになることも、クラスタ処理が制限されることもありません。
-
-+
-[listing]
-----
-sfinstall <MVIP> -u <cluster_username> <path-toinstall-file-ISO> --stage
-----
-+
-
-NOTE: コマンドラインからパスワードを省略して 'fsinstall' が情報を入力するようにしますパスワードに特殊文字が含まれる場合は、各特殊文字の前にバックスラッシュ（「 \ 」）を追加します。たとえば、「 mypass ！ @1 」は「 'm ypass\ ！ \@1 」と入力する必要があります。
-
-+
-* 例 * 次のサンプル入力を参照してください。
-
-+
-[listing]
-----
-sfinstall 10.117.0.244 -u admin /tmp/solidfire-rtfisodium-11.0.0.345.iso --stage
-----
-+
-サンプルの出力は 'fsinstall が 'fsinstall' の新しいバージョンが利用可能かどうかを確認しようとすることを示しています
-
-+
-[listing]
-----
-sfinstall 10.117.0.244 -u admin
-/tmp/solidfire-rtfisodium-11.0.0.345.iso 2018-10-01 16:52:15:
-Newer version of sfinstall available.
-This version: 2018.09.01.130, latest version: 2018.06.05.901.
-The latest version of the HealthTools can be downloaded from:
-https:// mysupport.netapp.com/NOW/cgi-bin/software/
-or rerun with --skip-version-check
-----
-+
-以下は、事前ステージング処理に成功した場合の出力例です。
-
-+
-
-NOTE: ステージングが完了すると、アップグレードイベントの後に「 Storage Node Upgrade Staging Successful 」というメッセージが表示されます。
-
-+
-[listing]
-----
-flabv0004 ~ # sfinstall -u admin
-10.117.0.87 solidfire-rtfi-sodium-patch3-11.3.0.14171.iso --stage
-2019-04-03 13:19:58: sfinstall Release Version: 2019.01.01.49 Management Node Platform:
-Ember Revision: 26b042c3e15a Build date: 2019-03-12 18:45
-2019-04-03 13:19:58: Checking connectivity to MVIP 10.117.0.87
-2019-04-03 13:19:58: Checking connectivity to node 10.117.0.86
-2019-04-03 13:19:58: Checking connectivity to node 10.117.0.87
-...
-2019-04-03 13:19:58: Successfully connected to cluster and all nodes
-...
-2019-04-03 13:20:00: Do you want to continue? ['Yes', 'No']: Yes
-...
-2019-04-03 13:20:55: Staging install pack on cluster nodes
-2019-04-03 13:20:55: newVersion: 11.3.0.14171
-2019-04-03 13:21:01: nodeToStage: nlabp2814, nlabp2815, nlabp2816, nlabp2813
-2019-04-03 13:21:02: Staging Node nlabp2815 mip=[10.117.0.87] nodeID=[2] (1 of 4 nodes)
-2019-04-03 13:21:02: Node Upgrade serving image at
-http://10.117.0.204/rtfi/solidfire-rtfisodium-
-patch3-11.3.0.14171/filesystem.squashfs
-...
-2019-04-03 13:25:40: Staging finished. Repeat the upgrade command without the --stage option to start the upgrade.
-----
-+
-ステージングされた ISO は、アップグレードの完了後に自動的に削除されます。ただし、アップグレードが開始されておらず、再スケジュールが必要な場合は、次のコマンドを使用して ISO のステージングを手動で解除できます。
-
-+
-`finstall <MVIP> -u <cluster_username> -- destage `
-
-+
-アップグレードの開始後は、デステージオプションは使用できなくなります。
-
-. 'fsinstall' コマンドと ISO ファイルへのパスを使用して ' アップグレードを開始します
-+
-`finstall <MVIP> -u <cluster_username><path-to-install-file-ISO>`
-
-+
-* 例 *
-
-+
-入力コマンドの例を次に示します。
-
-+
-[listing]
-----
-sfinstall 10.117.0.244 -u admin /tmp/solidfire-rtfi-sodium-11.0.0.345.iso
-----
-+
-サンプルの出力は 'fsinstall が 'fsinstall' の新しいバージョンが利用可能かどうかを確認しようとすることを示しています
-
-+
-[listing]
-----
-sfinstall 10.117.0.244 -u admin /tmp/solidfire-rtfi-sodium-11.0.0.345.iso
-2018-10-01 16:52:15: Newer version of sfinstall available.
-This version: 2018.09.01.130, latest version: 2018.06.05.901.
-The latest version of the HealthTools can be downloaded from:
-https://mysupport.netapp.com/NOW/cgi-bin/software/ or rerun with --skip-version-check
-----
-+
-以下は、アップグレードに成功した場合の出力例です。アップグレードイベントを使用して、アップグレードの進捗状況を監視できます。
-
-+
-[listing]
-----
-# sfinstall 10.117.0.161 -u admin solidfire-rtfi-sodium-11.0.0.761.iso
-2018-10-11 18:28
-Checking connectivity to MVIP 10.117.0.161
-Checking connectivity to node 10.117.0.23
-Checking connectivity to node 10.117.0.24
-...
-Successfully connected to cluster and all nodes
-###################################################################
-You are about to start a new upgrade
-10.117.0.161
-10.3.0.161
-solidfire-rtfi-sodium-11.0.0.761.iso
-Nodes:
-10.117.0.23 nlabp1023 SF3010 10.3.0.161
-10.117.0.24 nlabp1025 SF3010 10.3.0.161
-10.117.0.26 nlabp1027 SF3010 10.3.0.161
-10.117.0.28 nlabp1028 SF3010 10.3.0.161
-###################################################################
-Do you want to continue? ['Yes', 'No']: yes
-...
-Watching for new network faults. Existing fault IDs are set([]).
-Checking for legacy network interface names that need renaming
-Upgrading from 10.3.0.161 to 11.0.0.761 upgrade method=rtfi
-Waiting 300 seconds for cluster faults to clear
-Waiting for caches to fall below threshold
-...
-Installing mip=[10.117.0.23] nodeID=[1] (1 of 4 nodes)
-Starting to move primaries.
-Loading volume list
-Moving primary slice=[7] away from mip[10.117.0.23] nodeID[1] ssid[11] to new ssid[15]
-Moving primary slice=[12] away from mip[10.117.0.23] nodeID[1] ssid[11] to new ssid[15]
-...
-Installing mip=[10.117.114.24] nodeID=[2] (2 of 4 nodes)
-Starting to move primaries.
-Loading volume list
-Moving primary slice=[5] away from mip[10.117.114.24] nodeID[2] ssid[7] to new ssid[11]
-...
-Install of solidfire-rtfi-sodium-11.0.0.761 complete.
-Removing old software
-No staged builds present on nodeID=[1]
-No staged builds present on nodeID=[2]
-...
-Starting light cluster block service check
-----
-
-
-
-IMPORTANT: H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されているときは、追加のアップグレード手順（）を実行する必要があります<<Upgrading H610S storage nodes to Element 12.3.x (phase 2),フェーズ 2.>>）をクリックします。Element 11.8 以降を実行している場合は、追加のアップグレード手順（フェーズ 2 ）は必要ありません。
-
-
-
-== HealthTools を使用してダークサイトで Element ソフトウェアをアップグレードします
-
-HealthTools ツールスイートを使用して、外部接続がないダークサイトで NetApp Element ソフトウェアを更新できます。
-
-.必要なもの
-. NetApp HCI ソフトウェアにアクセスします https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["ページをダウンロードします"^]。
-. 適切なソフトウェアリリースを選択し、管理ノードではないコンピュータに最新のストレージノードイメージをダウンロードします。
-+
-
-NOTE: Element ストレージソフトウェアをアップグレードするには、最新バージョンの HealthTools が必要です。
-
-. こちらをダウンロードしてください https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON ファイル"^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740)[] 管理ノードではないコンピュータのネットアップサポートサイトから、「 metadats.json 」に名前を変更します。
-. ISO ファイルを '/tmp のようなアクセス可能な場所にある管理ノードにコピーします
-+
-
-TIP: これは SCP などを使用して実行できます。ISO ファイルをアップロードする際には、ファイル名が変更されないようにしてください。変更されていると以降の手順が失敗します。
-
-
-
-.手順
-. 次のコマンドを実行します。
-+
-[listing]
-----
-sfupdate-healthtools <path-to-healthtools-package>
-----
-. インストールされているバージョンを確認します。
-+
-[listing]
-----
-sfupdate-healthtools -v
-----
-. 最新バージョンをメタデータ JSON ファイルと照合します。
-+
-[listing]
-----
-sfupdate-healthtools -l --metadata=<path-to-metadata-json>
-----
-. クラスタの準備が完了していることを確認します。
-+
-[listing]
-----
-sudo sfupgradecheck -u <cluster_username> -p <cluster_password> MVIP --metadata=<path-to-metadata-json>
-----
-. ISO ファイルとメタデータ JSON ファイルへのパスを指定して 'fsinstall コマンドを実行します
-+
-[listing]
-----
-sfinstall -u <cluster_username> <MVIP> <path-toinstall-file-ISO> --metadata=<path-to-metadata-json-file>
-----
-+
-入力コマンドの例を次に示します。
-
-+
-[listing]
-----
-sfinstall -u admin 10.117.78.244 /tmp/solidfire-rtfi-11.3.0.345.iso --metadata=/tmp/metadata.json
-----
-+
-* オプション * --stage フラグを 'sfcinstall コマンドに追加して ' アップグレードを事前にステージングすることができます
-
-
-
-
-IMPORTANT: H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されているときは、追加のアップグレード手順（）を実行する必要があります<<Upgrading H610S storage nodes to Element 12.3.x (phase 2),フェーズ 2.>>）をクリックします。Element 11.8 以降を実行している場合は、追加のアップグレード手順（フェーズ 2 ）は必要ありません。
-
-
-
-== HealthTools を使用してアップグレードに失敗した場合の動作
-
-ソフトウェアのアップグレードに失敗した場合は、アップグレードを一時停止できます。
-
-
-TIP: アップグレードの一時停止には必ず Ctrl-C を使用してくださいこれにより、システムが自動的にクリーンアップされます。
-
-「 finstall 」がクラスタ障害がクリアされるのを待機しているときに障害が発生すると ' 次のノードに進むことはありません
-
-.手順
-. Ctrl+C で 'sfcinstall' を停止する必要があります
-. ネットアップサポートに問い合わせて、エラーの調査を依頼します。
-. 同じ 'finstall' コマンドを使用してアップグレードを再開します
-. Ctrl+C でアップグレードを一時停止した場合、アップグレード中にノードがアップグレードされているときは、次のいずれかのオプションを選択します。
-+
-** * wait * ：クラスタ定数をリセットする前に、現在アップグレード中のノードの終了を許可します。
-** * 続行 * ：アップグレードを続行します。これにより一時停止がキャンセルされます。
-** * 中止 * ：クラスタ定数をリセットし、アップグレードをただちに中止します。
-+
-
-NOTE: ノードの更新中にクラスタのアップグレードを中止すると、そのノードからドライブが強制的に削除されることがあります。ドライブが強制的に削除された場合、ネットアップサポートに依頼して手動でドライブを元に戻す処理がアップグレード時に必要になります。ノードでファームウェアの更新や更新後の同期処理に時間がかかる可能性があります。アップグレードが停止していると思われる場合は、ネットアップサポートにお問い合わせください。
-
-
-
-
-
-
-
-== H610S ストレージノードの Element 12.3.x へのアップグレード（フェーズ 2 ）
-
-H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されていると、アップグレードプロセスは 2 つのフェーズで構成されます。
-
-最初に実行するフェーズ 1 では、 Element 12.3.x への標準アップグレードプロセスと同じ手順を実行します。Element ソフトウェアと 5 つすべてのファームウェアの更新を、クラスタ内で一度に 1 つのノードずつローリング形式でインストールします。ファームウェアのペイロードが原因で、 H610S ノードあたりの所要時間は約 1.5 ~ 2 時間と推定されます。これには、各ノードのアップグレード終了時のコールドブートサイクルが 1 回含まれます。
-
-フェーズ 2 では、ノード全体を実行するための手順を実行します H610S ノードごとに、シャットダウンと電源切断を行います を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["KB"^]。このフェーズには、 H610S ノード 1 つにつき約 1 時間かかると推定されます。
-
-
-IMPORTANT: フェーズ 1 が完了すると、各 H610S ノードのコールドブート時に 5 つのファームウェア更新のうち 4 つがアクティブになります。ただし、 Complex Programmable Logic Device （ CPLD ；複合プログラマブルロジックデバイス）ファームウェアを完全にインストールするには、完全な電源切断と再接続が必要です。CPLD ファームウェア・アップデートは、再起動または電源再投入時に NVDIMM の障害やメタデータ・ドライブの削除から保護します。この電源リセットには、 H610S ノード 1 つにつき約 1 時間かかると推定されます。ノードをシャットダウンし、電源ケーブルを取り外すか、スマート PDU を介して電源を切断し、約 3 分待ってから電源を再接続する必要があります。
-
-.作業を開始する前に
-* H610S のアップグレードプロセスのフェーズ 1 が完了し、 Element ストレージの標準のアップグレード手順を使用してストレージノードをアップグレードしておきます。
-
-
-
-NOTE: フェーズ 2 にはオンサイトの担当者が必要です。
-
-.手順
-. （フェーズ 2 ）クラスタ内の H610S ノードごとに、電源リセットプロセスを完了します。
-
-
-
-NOTE: H610S 以外のノードもクラスタに含まれている場合、これらの H610S 以外のノードはフェーズ 2 から除外されるため、シャットダウンしたり電源を切断したりする必要はありません。
-
-. このアップグレードのサポートやスケジュールについては、ネットアップサポートにお問い合わせください。
-. このフェーズ 2 のアップグレード手順に従います https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["KB"^] 各 H610S ノードをアップグレードするには、この操作が必要です。
-
 
 [discrete]
 == 詳細については、こちらをご覧ください

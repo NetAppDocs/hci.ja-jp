@@ -14,7 +14,7 @@ keywords: netapp, hci, deployment, review, deploy
 
 
 [role="lead"]
-NetApp HCI を導入したあとは、デフォルトのネットワーク設定に限定的な変更を加えることができます。ただし、円滑な運用と適切なネットワーク検出のために必要な設定もあります。これらの設定を変更すると予期しない動作が発生し、コンピューティングリソースとストレージリソースを拡張できなくなる可能性があります。
+NetApp HCI を導入したあとは、デフォルトのネットワーク設定に限定的な変更を加えることができます。ただし、円滑な運用と正しいネットワーク検出のためには、一定の要件を満たす必要があります。これらの要件を満たしていないと、原因 の想定外の動作が発生し、コンピューティングリソースとストレージリソースを拡張できなくなる可能性があります。
 
 システムの導入後、使用するネットワークの要件に応じて、 VMware vSphere のデフォルトのネットワーク構成を次の点で変更できます。
 
@@ -24,13 +24,32 @@ NetApp HCI を導入したあとは、デフォルトのネットワーク設定
 * 追加のポートの vmnic インターフェイスのフェイルオーバー順序を変更します 追加したグループ
 
 
+H300Eの拡張時に、H500E、H700E、H410C、H610C、 およびH615Cコンピューティングノードの場合、NetApp HCI は、ノードの既存のコンピューティングクラスタが次の要件を満たしている必要があります。
+
+* 最低4つのvmkインターフェイス
+* 管理用vmkインターフェイス×1
+* VMotion vmkインターフェイス×1
+* ソフトウェアiSCSIイニシエータに対するiSCSIバインドが設定された同じサブネット上にある2つのvmks
 
 
-== H300E 、 H500E 、 H700E 、 H410C の各コンピューティングノード
+[NOTE]
+====
+NetApp HCI 1.10以降では、クラスタを拡張しても、NetApp HCI はデフォルトのノード構成を満たしているとは限りません。
 
-NetApp HCI は、 H300E 、 H500E 、 H700E 、 H410C の各ノードについて、次のネットワーク構成をサポートします。
+既存のコンピューティングクラスタ内の1つ以上のノードでVMware vSphereのデフォルト設定を変更すると、新しいノードの設定がクラスタ内の大部分のノードの設定に合わせて調整されます。
 
-VMware vSphere Distributed Switch （ VDS ）で 6 つのインターフェイスを使用する構成を次に示します。この構成は、 VMware vSphere Distributed Switch でのみサポートされ、 VMware vSphere Enterprise Plus ライセンスが必要です。
+====
+
+
+== NetApp Deployment Engineのデフォルトの設定
+
+NetApp Deployment Engineは、システムとケーブルの構成に応じてコンピューティングホストのデフォルトの構成を設定します。
+
+
+
+=== H300E、H500E、H700E、H410Cの各コンピューティングノード
+
+VMware vSphere Distributed Switch（VDS）を使用するH300E、H500E、H700E、H410Cの各ノードについて、6インターフェイス構成を示します。この構成は、 VMware vSphere Distributed Switch でのみサポートされ、 VMware vSphere Enterprise Plus ライセンスが必要です。
 
 |===
 | ネットワーク機能 | VMkernel | vmnic （物理インターフェイス） 
@@ -83,11 +102,9 @@ VMware vSphere Standard Switch （ VSS ）で 6 つのインターフェイス�
 |===
 
 
-== H610C コンピューティングノード
+=== H610C コンピューティングノード
 
-NetApp HCI は、 H610C ノードについて次のネットワーク構成をサポートします。
-
-この構成は、 VMware vSphere Distributed Switch （ VDS ）でのみサポートされ、 VMware vSphere Enterprise Plus ライセンスが必要です。
+H610Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。
 
 
 NOTE: H610C ではポート A とポート B は使用されません。
@@ -109,11 +126,9 @@ NOTE: H610C ではポート A とポート B は使用されません。
 |===
 
 
-== H615C コンピューティングノード
+=== H615C コンピューティングノード
 
-NetApp HCI は H615C ノードのネットワーク構成を以下に示します。
-
-この構成は、 VMware vSphere Distributed Switch （ VDS ）でのみサポートされ、 VMware vSphere Enterprise Plus ライセンスが必要です。
+H615Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。
 
 |===
 | ネットワーク機能 | VMkernel | vmnic （物理インターフェイス） 

@@ -83,6 +83,8 @@ sidebar:
       url: "/docs/hci_prereqs_protection_domains.html"
     - title: 2 ノードストレージクラスタの場合は、監視ノードのリソース要件が必要です
       url: "/docs/hci_prereqs_witness_nodes.html"
+    - title: 導入設定の制限事項
+      url: "/docs/hci_prereqs_deployment_configuration_restriction.html"
   - title: NetApp HCI の利用を開始しましょう
     entries:
     - title: NetApp HCI のインストールと導入の概要
@@ -261,7 +263,7 @@ sidebar:
       url: "/docs/task_hcc_activeiq.html"
     - title: トラブルシューティング用にログを収集する
       url: "/docs/task_hcc_collectlogs.html"
-  - title: NetApp HCI システムのバージョン 1.9 または 1.9P1 をアップグレードします
+  - title: NetApp HCI システムのバージョン1.10をアップグレードします
     entries:
     - title: アップグレード手順の概要
       url: "/docs/concept_hci_upgrade_overview.html"
@@ -269,8 +271,6 @@ sidebar:
       entries:
       - title: 管理サービスを更新
         url: "/docs/task_hcc_update_management_services.html"
-      - title: 最新の HealthTools にアップグレードします
-        url: "/docs/task_upgrade_element_latest_healthtools.html"
       - title: ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します
         url: "/docs/task_hcc_upgrade_element_prechecks.html"
       - title: Element ソフトウェアをアップグレードします

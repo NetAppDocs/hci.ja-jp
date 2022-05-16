@@ -15,23 +15,93 @@ keywords: netapp, hci, element, new, whatsnew
 
 
 [role="lead"]
-ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.9P1 にはストレージクラスタ用の Element 12.3.2 が含まれます。
+ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.10には、ストレージクラスタ用のElement 12.5が含まれます。
 
-* 。 <<NetApp HCI 1.9P1>> セクションでは、 NetApp HCI バージョン 1.9P1 の新機能とアップデートについて説明します。
-* 。 <<Element 12.3.2>> ここでは、 NetApp Element 12.3.2 の新機能およびアップデートについて説明します。
-
-
-
-
-== NetApp HCI 1.9P1
-
-NetApp HCI 1.9P1 では、セキュリティと安定性が向上しています。
+* 。 <<NetApp HCI 1.10>> セクションでは、NetApp HCI バージョン1.10の新機能およびアップデートについて説明します。
+* 。 <<Element software 12.5>> セクションでは、Element 12.5の新機能と更新について説明します。
 
 
 
-== Element 12.3.2
 
-Element ソフトウェア 12.3.2 リリースには、 Apache log4j の脆弱性に対する Element ソフトウェアの影響を軽減する機能が含まれています。Virtual Volumes （ VVol ）機能が有効になっている NetApp SolidFire ストレージクラスタは、この脆弱性の影響を受けやすくなっています。
+== NetApp HCI 1.10の場合
+
+NetApp HCI 1.10では、セキュリティと安定性が向上し、導入後の拡張の柔軟性が向上します。
+
+
+
+=== 導入後の拡張の柔軟性
+
+NetApp HCI 1.10では、コンピューティングノード上のデフォルトの導入vmkおよびvmnic設定を満たす必要がないため、NetApp HCI コンピューティングリソースを柔軟に拡張できます。NetApp HCI 1.10以降では、コンピューティングリソースを拡張する際に、NetApp HCI では、一般的なvmk設定のみが想定されます。 link:task_nde_supported_net_changes.html["詳細はこちら。"]。
+
+
+
+=== NetApp Element Plug-in for vCenter Server 4.9の可用性
+
+NetApp Element Plug-in for vCenter Server 4.9は、管理ノード12.5およびNetApp HCI 1.10のリリース以外で使用できます。プラグインをアップグレードするには、の手順に従います link:concept_hci_upgrade_overview.html["NetApp HCI のアップグレード"] ドキュメント
+
+
+
+=== NetApp Hybrid Cloud Control の機能拡張
+
+NetApp Hybrid Cloud Controlはバージョン1.10で拡張されました。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["詳細はこちら。"^]。
+
+
+
+=== 解決済みの問題と既知の問題
+
+NetApp Bugs Onlineのツールには、NetApp HCI 、Elementソフトウェア、およびその他の製品の解決済みの問題と既知の問題が含まれています。これらの問題は、でキーワードまたはバージョンを使用して参照できます https://mysupport.netapp.com/site/products/all/details/netapp-hci/bugsonline-tab["NetApp Bugs Online では"^]。
+
+
+
+== Elementソフトウェア12.5
+
+Element 12.5では、ストレージノードへのアクセスの向上、カスタム保護ドメインの管理性の強化、クラスタの障害やイベントの新規追加と改善、クラスタUI機能の強化、セキュリティの強化、Ansibleによる自動アップグレードなどが可能になっています。
+
+
+
+=== ストレージノードへのアクセスの向上
+
+Element 12.5では、署名付きSSH証明書を使用して、個々のノードへのリモートアクセスが向上していますストレージノードへのセキュアなリモートアクセスを提供するために、ストレージノードのRTFI実行時に「sfreadonly」という新しい権限制限付きローカルユーザアカウントが作成されるようになりました。sfreadonlyアカウントを使用すると'基本的な保守やトラブルシューティングの目的で'ストレージ・ノードのバックエンドにアクセスできますクラスタ管理者ユーザの「supportAdmin」アクセスタイプを設定し、ネットアップサポートが必要に応じてクラスタにアクセスできるようになりました。
+
+
+
+=== 強化されたカスタム保護ドメインの管理性
+
+Element 12.5には、既存のカスタム保護ドメインをすばやく簡単に表示したり、新しいカスタム保護ドメインを設定したりできる新しいユーザインターフェイスが用意されています。
+
+
+
+=== クラスタの新しい障害、イベント、アラートが追加されました
+
+Element 12.5では、新しいクラスタ障害コード「BmcSelfTestFailed」および「CpuThermalEventThreshold」が導入され、システムのトラブルシューティングが強化されています。Element 12.5では、「nodeOffline」、「volumeOffline」、「driveHealthFault」、「networkEvent」など、既存のクラスタイベントおよびアラートの堅牢性も向上しています。 と「cSumEvent」です。
+
+
+
+=== クラスタ作成UIから保存データのソフトウェア暗号化を有効にします
+
+Element 12.5では、クラスタ作成UIの新しいチェックボックスが追加され、クラスタ作成時にSolidFire オールフラッシュストレージクラスタの保存データの暗号化をクラスタ全体で有効にすることができます。
+
+
+
+=== ストレージノードのファームウェアの更新
+
+Element 12.5には、ストレージノードのファームウェアの更新が含まれています。 link:https://docs.netapp.com/us-en/element-software/concepts/concept_rn_relatedrn_element.html#storage-firmware["詳細はこちら。"^]。
+
+
+
+=== セキュリティの強化
+
+Element 12.5には、Apache log4jの脆弱性に対するElementソフトウェアの影響を緩和する機能が含まれています。仮想ボリューム（VVol）機能が有効になっているNetApp SolidFire ストレージクラスタは、Apache log4jの脆弱性の影響を受けやすくなっています。NetApp Element ソフトウェアのApache log4jの脆弱性に対する回避策 の詳細については、を参照してください link:++https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround++["こちらの技術情報アーティクル"^]。
+
+Element 11.x、12.0、または12.2を実行している場合、またはvVol機能を有効にした状態でストレージクラスタをElement 12.3または12.3.1にアップグレードすることを推奨します。
+
+Element 12.5には、120を超えるCVEセキュリティ脆弱性の修正も含まれています。
+
+
+
+== Ansibleによる自動アップグレード
+
+Element 12.5では、Ansibleを使用してストレージクラスタ全体のローリングアップグレードを実行することで、Elementソフトウェアのアップグレードワークフローを自動化できます。作業を開始するには、に移動します https://github.com/NetApp-Automation["NetApp Ansibleリポジトリ"^] GitHubで'NAR_solidfire_SDS_upgradeロールとドキュメントをダウンロードします
 
 [discrete]
 == 詳細については、こちらをご覧ください
