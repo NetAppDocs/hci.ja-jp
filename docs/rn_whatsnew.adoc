@@ -35,6 +35,18 @@ NetApp HCI 1.10では、コンピューティングノード上のデフォル�
 
 
 
+== ストレージノードのファームウェアの更新
+
+NetApp HCI 1.10には、ストレージ・ノードのファームウェア更新が含まれます。 link:rn_relatedrn.html#storage-firmware["詳細はこちら。"]。
+
+
+
+== コンピューティングノードのファームウェアの更新
+
+NetApp HCI 1.10には、コンピューティングノードのファームウェアアップデートが含まれます。 link:rn_relatedrn.html#compute-firmware["詳細はこちら。"]。
+
+
+
 === NetApp Element Plug-in for vCenter Server 4.9の可用性
 
 NetApp Element Plug-in for vCenter Server 4.9は、管理ノード12.5およびNetApp HCI 1.10のリリース以外で使用できます。プラグインをアップグレードするには、の手順に従います link:concept_hci_upgrade_overview.html["NetApp HCI のアップグレード"] ドキュメント

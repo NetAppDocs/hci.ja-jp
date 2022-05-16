@@ -6071,11 +6071,9 @@
   <block id="02bd6928c03c8f53c18f8a5143bdd5f4" category="list-text">アップグレードする管理ノードのバージョンが 12.0 で、 IPv4 ネットワークを使用している。管理ノードバージョン12.5ではIPv6がサポートされません。</block>
   <block id="37a42081cc0d0c72d69723b5792a6c73" category="list-text">NetApp Hybrid Cloud Control を使用して管理サービスバンドルを最新バージョンに更新しておきます。NetApp Hybrid Cloud Control には、 https://&lt;ManagementNodeIP&gt;` からアクセスできます</block>
   <block id="1e92b13cdf15b50caf5e299263e754d4" category="list-text">管理ノードをバージョン12.5に更新する場合は、管理サービス2.20.69以降が必要です。</block>
-  <block id="4733d6f93dbca188e79e25900eaeacb7" category="list-text">追加のネットワークアダプタを設定しておきます（必要な場合）。 の手順に従ってください <block ref="1f5ebd4d6fe6b214007c2692b1a22cfb" category="inline-link-macro-rx"></block>。</block>
   <block id="dfa645595ef398bf7b6f3c49d39a3426" category="list-text">ストレージノードでElement 12.3以降が実行されている。</block>
   <block id="bc6733dc102d98376848617102ed0352" category="list-text">をダウンロードします<block ref="ef86b20d3f4c031a449af5dec98fb6d8" category="inline-link-rx"></block> ネットアップサポートサイトから管理ノード仮想マシンへの Element ソフトウェアの追加。</block>
   <block id="7af3e8bcf74bc743e6d42428a1ef8e84" category="list-text">ダウンロードしたファイルに対して md5sum を実行し、その出力をネットアップサポートサイトにある Element ソフトウェア用の ISO と比較することで、ダウンロードの整合性をチェックします。以下の例を参照してください。</block>
-  <block id="a2f6f7c35b138d94e9b2424fdbb2d5c7" category="admonition">管理ノードで SSH 機能を無効にしていた場合は、が必要です <block ref="babf2b858a12e4314c7067787e8a0fcb" category="inline-link-macro-rx"></block> リカバリされた管理ノード。提供する SSH 機能 <block ref="9dd7f5719fe61d2f4608af99c83acda9" category="inline-link-macro-rx"></block> 管理ノードではデフォルトで有効になっています。</block>
   <block id="2914d2e1549f2ef461f9b040823e6218" category="list-text">管理サービスを2.20.69以降に更新しておきます。</block>
   <block id="311e83625ce0c896e7a3f811f3ac48c2" category="list-text">ストレージクラスタでElement 12.3以降が実行されている。</block>
   <block id="fa74c37a30199ebd12f7aa7320d0cc0f" category="inline-link">NetApp HCI 1.9および1.9P1</block>
@@ -6083,12 +6081,10 @@
   <block id="6c529facc953c911e43fb9725bdef1f8" category="list-text">* H610Sノードのベースボード管理コントローラ（BMC）を更新*：H610SノードのBMCバージョンをアップグレードしました。を参照してください <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>。</block>
   <block id="477832301b5ab810e59d16b6d6cf05dc" category="paragraph">これらのコンポーネントには、管理サービス、NetApp Hybrid Cloud Control、Elementソフトウェア、管理ノード、コンピューティングファームウェア、コンピューティングドライバ、 and the Element Plug-in for vCenter Server.関係 グループ</block>
   <block id="abad8a22ec62bb4befaee820afb760ef" category="inline-link-macro">HealthToolsを使用してElement 12.3にアップグレードします</block>
-  <block id="e4f2f9baf039ea62b7a0740e3ba88a7a" category="admonition">Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です <block ref="d9103b755f8af19a5128488b4c389687" category="inline-link-macro-rx"></block> NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。</block>
   <block id="27bb76bfb1e4f9966c31f5042348cd1e" category="inline-link-macro">Element ソフトウェア</block>
   <block id="85aed6fa173952d69db4c99c1290921b" category="inline-link-macro">ストレージファームウェア</block>
   <block id="a8c7f4c70c59120de0b33efda8af8aa5" category="list-text">に十分な時間を設定しておきます <block ref="cff6d63ff47747e8e31df90baa037fdf" category="inline-link-macro-rx"></block> および <block ref="64ca0a1c0466cb0bbd500939e8f353f3" category="inline-link-macro-rx"></block> アップグレード：Elementソフトウェア12.5にアップグレードする場合、アップグレードプロセスの所要時間はElementソフトウェアのバージョンとファームウェアの更新によって異なります。</block>
   <block id="356747bc1580f5d7e13f9055ae1f02df" category="paragraph">NetApp Element ソフトウェアをアップグレードするには、NetApp Hybrid Cloud ControlのUIまたはREST APIを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。</block>
-  <block id="ffd4aa64d8f4496c6bf5fe71098c57dd" category="admonition">Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です <block ref="4f4fa541f4efe424c14199907bc39f9a" category="inline-link-macro-rx"></block> NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。</block>
   <block id="7970314795c697c589f52cd629d4a341" category="admonition">Elementソフトウェアをバージョン12.5にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。Elementソフトウェアをバージョン12.5に更新する場合は、管理サービス2.20.69以降が必要です。</block>
   <block id="c89140006bf75078f844d017f1b6efe6" category="list-text">* H610Sノードのベースボード管理コントローラ（BMC）を更新*：H610SノードのBMCバージョンをアップグレードしました。を参照してください <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>。</block>
   <block id="5698bc375e8d546422c418c82337e349" category="admonition">H610SシリーズノードをElement 12.5にアップグレードする場合、ノードで11.8よりも前のバージョンのElementソフトウェアが実行されているときは、こので追加のアップグレード手順を実行する必要があります<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block> ストレージノードごとに割り当てます。Element 11.8以降を実行している場合は、追加のアップグレード手順は必要ありません。</block>
@@ -6116,4 +6112,10 @@
   <block id="96e3de2dc958815b04ec4fa9637d6c82" category="paragraph">H610Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。</block>
   <block id="3f8dc42473404a03daf2d9c6bea23bab" category="paragraph">H615Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。</block>
   <block id="c43e9c45e3f5fec93d3d81eb3dfd26b8" category="sidebar">NetApp HCI システムのバージョン1.10をアップグレードします</block>
+  <block id="dcdf590029e004f9b873add76a7c9b0f" category="paragraph">NetApp HCI 1.10には、ストレージ・ノードのファームウェア更新が含まれます。 <block ref="85b1ca7b9d38c1ae37737e559d029bba" category="inline-link-macro-rx"></block>。</block>
+  <block id="2873f22ff6aadfc4729e3610a34d21d3" category="section-title">コンピューティングノードのファームウェアの更新</block>
+  <block id="1ca4ec9d42e7d5a59eaba19a479f205b" category="paragraph">NetApp HCI 1.10には、コンピューティングノードのファームウェアアップデートが含まれます。 <block ref="ca10623cb3d7fd255749833fc365bfbb" category="inline-link-macro-rx"></block>。</block>
+  <block id="2af95608d9fd504ee8d4e0f92619eb96" category="list-text">追加のネットワークアダプタを設定しておきます（必要な場合）。 の手順に従ってください <block ref="be46399bf51a96ee544de66528d12203" category="inline-link-macro-rx"></block>。</block>
+  <block id="73f0b06b075dc2c13caded9ae137e4cf" category="admonition">管理ノードで SSH 機能を無効にしていた場合は、が必要です <block ref="5b81c87a44b075e9194cc26f66c2b99f" category="inline-link-macro-rx"></block> リカバリされた管理ノード。提供する SSH 機能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 管理ノードではデフォルトで有効になっています。</block>
+  <block id="1c0d3ba5e7a44f6ae998504b246b1227" category="admonition">Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です <block ref="44a31a9a881af2f85b504df3b697bf3f" category="inline-link-macro-rx"></block> NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。</block>
 </blocks>

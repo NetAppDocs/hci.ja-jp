@@ -12,7 +12,7 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 NetApp Element ソフトウェアをアップグレードするには、NetApp Hybrid Cloud ControlのUIまたはREST APIを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。
 
 
-NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:link:https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。
+NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。
 
 .必要なもの
 * * admin 権限 * ：アップグレードを実行する権限がストレージクラスタ管理者に付与されています。

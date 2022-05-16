@@ -46,7 +46,7 @@ TIP: 管理ノードのバージョンを確認するには、管理ノードに
 
 * NetApp Hybrid Cloud Control を使用して管理サービスバンドルを最新バージョンに更新しておきます。NetApp Hybrid Cloud Control には、 https://<ManagementNodeIP>` からアクセスできます
 * 管理ノードをバージョン12.5に更新する場合は、管理サービス2.20.69以降が必要です。
-* 追加のネットワークアダプタを設定しておきます（必要な場合）。 の手順に従ってください link:../mnode/task_mnode_install_add_storage_NIC.html["追加のストレージ NIC の設定"]。
+* 追加のネットワークアダプタを設定しておきます（必要な場合）。 の手順に従ってください link:task_mnode_install_add_storage_NIC.html["追加のストレージ NIC の設定"]。
 +
 
 NOTE: eth0 を SVIP にルーティングできない場合は、永続ボリュームに追加のネットワークアダプタが必要になることがあります。永続ボリュームを設定できるように、 iSCSI ストレージネットワークに新しいネットワークアダプタを設定してください。
@@ -119,7 +119,7 @@ sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 
 
 
-IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:../mnode/task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能 link:../mnode/task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。
+IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が必要です link:task_mnode_ssh_management.html["SSH を再度無効にします"] リカバリされた管理ノード。提供する SSH 機能 link:task_mnode_enable_remote_support_connections.html["ネットアップサポートの Remote Support Tunnel （ RST ）セッションアクセス"] 管理ノードではデフォルトで有効になっています。
 
 
 
