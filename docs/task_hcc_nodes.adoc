@@ -20,7 +20,7 @@ keywords: netapp, hci, on premise, cluster, inventory, nodes, storage, compute
 SolidFire エンタープライズ SDS ノードの場合、 [ ストレージ ] タブでインベントリを監視できます。
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
 +
 [listing]
 ----

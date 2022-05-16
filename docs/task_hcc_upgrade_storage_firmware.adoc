@@ -35,6 +35,25 @@ IMPORTANT: iDRAC / BIOS ファームウェアを更新するには、ネット�
 
 NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"^] （ログインが必要です）。
 
+* *エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してストレージファームウェアをアップグレードする前に、EULAに同意して保存する必要があります。
++
+.. Webブラウザで管理ノードのIPアドレスを開きます。
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
+.. ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
+.. インターフェイスの右上にある [* Upgrade] を選択します。
+.. EULAがポップアップ表示されます。下にスクロールして、[現在および今後のすべての更新を許可する*]を選択し、[保存*]を選択します。
++
+
+NOTE: EULAに同意すると、以後のすべての更新についてそのEULAが記録され、自動ダウンロード機能が有効になります。ネットアップのソフトウェアの更新とアップグレードに関する最新情報が提供されます。この情報はお客様の自由裁量と利便性に基づいてインストールすることができます。ネットアップオンラインソフトウェアリポジトリへのネットワーク接続を無効にすることで、自動ダウンロード機能を無効にできます。
+
+
+
+
+
 次のいずれかのストレージファームウェアアップグレードオプションを選択します。
 
 * <<Use NetApp Hybrid Cloud Control UI to upgrade storage firmware>>
@@ -56,7 +75,7 @@ CAUTION: NetApp Hybrid Cloud Control を使用してストレージクラスタ�
 TIP: アップグレードプロセスは、ストレージノードあたり約 30 分かかります。Element ストレージクラスタをバージョン 2.76 よりも新しいストレージファームウェアにアップグレードする場合、ノードに新しいファームウェアが書き込まれたときのみ、個々のストレージノードがアップグレード中にリブートされます。
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。
+. Webブラウザで管理ノードのIPアドレスを開きます。
 +
 [listing]
 ----

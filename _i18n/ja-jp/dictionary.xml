@@ -85,7 +85,6 @@
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">こちらの技術情報アーティクル</block>
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>。</block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">H610S 以外のプラットフォームでは、ノードあたりのアップグレードプロセスに約 30 分かかります。</block>
-  <block id="76dc87fa8de1da44ac9cde3fec3cb965" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">[* Upgrades] ページで、 [* Storage] を選択します。</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。</block>
@@ -281,7 +280,6 @@
   <block id="ecde3580e42485d3ef8d0227e9ab840a" category="admonition">最大限の信頼性を実現するために、ストレージ容量がすべてのシャーシに均等に分割されていることを確認します。</block>
   <block id="870bd874847cca4294c93fdb50347662" category="section-title">NetApp HCI 1.6P1 以降</block>
   <block id="80fe8777d7b15097b7f93768f900d2f0" category="paragraph">NetApp Hybrid Cloud Control は、 NetApp HCI 環境でバージョン 1.6P1 以降が実行されている場合にのみ使用できます。</block>
-  <block id="7fbed092fb78004f6fd5381fb20279fc" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。たとえば、「 https://&lt;ManagementNodeIP&gt;/manager/login` 」と入力します</block>
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。</block>
   <block id="2671f57229d8ee038d01d4336694d7e0" category="list-text">[ インストールの展開 ] ペインで、 [* 展開 *] を選択します。</block>
   <block id="053ab309f18a77ef5149424304d1c86d" category="list-text">NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Deployment Engine にログインします。</block>
@@ -398,7 +396,6 @@
   <block id="d57d6d6a586f9c13fbd97a299e3dfe3a" category="list-text">NetApp HCI で使用しているすべての vCenter インスタンスと vSphere インスタンスでライセンス期間が終了していないことを確認しておきます。</block>
   <block id="9a0e16aaba5fc23029c3fe1684661ae2" category="list-text">既存のノードと同じネットワークセグメントに未使用の空いている IPv4 アドレスが必要です（新しいノードは、同じタイプの既存のノードと同じネットワークにインストールする必要があります）。</block>
   <block id="94220c63d490d69862d0b6bd8c55bc36" category="list-text">vCenter 管理者アカウントのクレデンシャルを準備しておきます。</block>
-  <block id="38f780db972cee588cfdddc13df9c1dd" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。たとえば、「 https://&lt;ManagementNodeIP&gt;` 」と入力します</block>
   <block id="81dc4810c71d7b8507b965d26011ef81" category="list-text">[ インストールの展開 ] ペインで、 [* 展開 *] を選択します。ブラウザに NetApp Deployment Engine が表示されます。</block>
   <block id="f325a8632fd080a5f3548693673f42c7" category="list-text">ようこそページで、 * はい * を選択します。</block>
   <block id="131a2da3d2e15dfbc9e1264add2b347d" category="list-text">[End User License] ページで、次のアクションを実行します。</block>
@@ -615,7 +612,6 @@
   <block id="853944a94c69869d0cf8951deaff9399" category="inline-link">NetApp HCI ドキュメントセンター</block>
   <block id="b87c5597f41e35e96aea2961ec409f99" category="list-text"><block ref="b87c5597f41e35e96aea2961ec409f99" category="inline-link-rx"></block></block>
   <block id="f5734d4e8acdeb186a1c22c351c4a0bf" category="paragraph">Element ストレージをアップグレードする前に健全性チェックを実行して、クラスタ内のすべてのストレージノードで次回の Element ストレージアップグレードの準備ができていることを確認する必要があります。</block>
-  <block id="a9665a647615566ad8a19d93fbf94aa9" category="list-text">最新の管理サービスバンドル（ 2.10.27 以降）に更新しておきます。</block>
   <block id="1b4d7862ca62ac0691b197c1c4e48017" category="admonition">Element ソフトウェアをアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。</block>
   <block id="d843290a4f160eb5d302fe442b7b62f9" category="list-text">管理ノード 11.3 以降が実行されていることを確認します。</block>
   <block id="fc78a25a814125bdaeb01b28be02a19d" category="list-text">クラスタで NetApp Element ソフトウェア 11.3 以降を実行している必要があります。</block>
@@ -706,7 +702,6 @@
   <block id="8f6d7a4937d5ef994024ec37d0af96db" category="list-text">管理ノード VM の電源をオンにします。</block>
   <block id="291b81212712dc828fee9037f0662499" category="list-text">管理サービスをバージョン 2.1.326 以上にアップグレードしておきます。NetApp Hybrid Cloud Control のアップグレードは、それよりも前のサービスバンドルでは利用できません。</block>
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">管理サービスリリースノート</block>
-  <block id="55d2ac8cdb689c1c5a8537d8871bd39e" category="list-text">Web ブラウザを開き ' 管理ノードの IP アドレス https://&lt;ManagementNodeIP&gt;` を参照します</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">アップグレードページで、 * 管理サービス * タブを選択します。</block>
   <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">Management Services タブには、管理サービスソフトウェアの現在および使用可能なバージョンが表示されます。</block>
   <block id="88cc6eac67699034974d69a75c774238" category="list-text">インターネットにアクセスできない場合は、次の手順を実行します。</block>
@@ -844,15 +839,12 @@
   <block id="334408f0e511aee8b4f25d23c40c9ff2" category="summary">NetApp HCI システムのアップグレードの一環として、ファームウェアの再アップグレードを実行する前にコンピューティングノードの健全性チェックを実行する必要があります。</block>
   <block id="8c00a71d4d6882897094dae8371f9ff5" category="doc">コンピューティングノードの健全性チェックは、コンピューティングファームウェアをアップグレードする前に実行します</block>
   <block id="1627e52c42f9bb2ee66537d3c67b82b5" category="paragraph">コンピューティングファームウェアをアップグレードする前に健全性チェックを実行して、クラスタ内のすべてのコンピューティングノードをアップグレードする準備ができていることを確認する必要があります。コンピューティングノードの健全性チェックは、管理対象の 1 つ以上の NetApp HCI コンピューティングノードのコンピューティングクラスタに対してのみ実行できます。</block>
-  <block id="250d290e0189c5398af860967755925d" category="list-text">最新の管理サービスバンドル（ 2.11 以降）に更新しておきます。</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">ストレージクラスタで NetApp Element ソフトウェア 11.3 以降が実行されている必要があります。</block>
-  <block id="16ef39292d881ef688285bee52bd6fa4" category="paragraph">健全性チェックは、 NetApp Hybrid Cloud Control （ HCC ） UI または HCC API を使用して実行できます。</block>
   <block id="850f0091282b848431e58ee599ce2ab8" category="list-text"><block ref="ee87df619a1436083a67ef0448ea6380" category="inline-xref-macro-rx"></block> （推奨方法）</block>
   <block id="12b76591ab6e6ef299232c09b9015502" category="list-text"><block ref="2b235af1877a670f4d6b71b23f1bdb21" category="inline-xref-macro-rx"></block></block>
   <block id="31ce99d0314d628aeace022f0cba613e" category="paragraph">また、サービスで実行されるコンピューティングノードの健全性チェックの詳細も確認できます。</block>
   <block id="3475ebcb6b9fc096ddec132452d6a634" category="list-text"><block ref="7fb3385292afc47b96c312dd9ef0e7b5" category="inline-xref-macro-rx"></block></block>
   <block id="fd94b110b8a1a6cc261ec5fe42195e7c" category="section-title">NetApp Hybrid Cloud Control を使用して、コンピューティングノードの健全性を実行します ファームウェアをアップグレードする前にチェックします</block>
-  <block id="041efd20e822dd686841db95e66d4ee0" category="paragraph">NetApp Hybrid Cloud Control （ HCC ）を使用して、コンピューティングノードでファームウェアをアップグレードする準備ができているかどうかを確認できます。</block>
   <block id="807a82eaa952baafdd118220e7bd9abc" category="list-text">[* Upgrades] ページで、 [* Compute firmware*] タブを選択します。</block>
   <block id="9dd06da7bba13199d2ce351ef71c8f81" category="list-text">問題がある場合は、ページにレポートが表示されます。次の手順を実行します。</block>
   <block id="eaca9680a0a2978b1ede83548674ce9a" category="inline-link-macro">コンピューティングノードのファームウェアを更新します</block>
@@ -881,7 +873,6 @@
   <block id="7cda90ec29e69ce32eb8a59df666024c" category="list-text">クラスタの問題を解決したら、 * POST /computeates/｛ controller_ID ｝ の一時的な不具合 / 健全性チェック * を再度実行します（手順 2 を参照）。</block>
   <block id="4421a56813acb302bbd36bb157eb1e66" category="paragraph">健全性チェックが問題なく完了した場合は、応答コード 200 が成功したことを示します。</block>
   <block id="a2dc96680bf6b6fc75fa97944f03bc51" category="section-title">コンピューティングノードの健全性チェックはサービスによる機能で</block>
-  <block id="f70cee9dd2f176e0d31d60f85d729ee7" category="paragraph">HCC メソッドと API メソッドのどちらを使用して実行するかに関係なく、ノードごとに次のチェックを実行します。環境によっては、一部のチェックが省略されることがあります。検出された問題を解決したあとに、健全性チェックを再実行する必要があります。</block>
   <block id="9d82e629749ca3f4fd26b49ce0f4b18a" category="cell">説明を確認します</block>
   <block id="8f516cfea9e2ddf7c18eddf1ffd3cf49" category="cell">ノード / クラスタ</block>
   <block id="50cd15450376100fde72a5e9f6493b6c" category="cell">解決に必要なアクション</block>
@@ -1128,7 +1119,6 @@
   <block id="6bfd9e581432c4832c68496880b80299" category="paragraph">* このタスクについて * クラスタ全体の統計の履歴ビューを継続的に更新できます。クラスタで指定したイベント、しきい値、または指標について、通知を設定して迅速に対処できるようにすることができます。</block>
   <block id="ca7f7c3c0d9b756c6569cfe3f828c706" category="paragraph">ネットアップサポートは、通常のサポート契約の一環として、このデータを監視し、潜在的なシステムの問題をユーザに警告します。</block>
   <block id="4839d2f25cc35b249d5db15efa1afd75" category="paragraph">* 手順 *</block>
-  <block id="22a850d72f690cbbd2600492a8add31d" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：</block>
   <block id="12bdc5090a7b6a78d77f6b7f39ea0115" category="list-text">ダッシュボードの右上にあるメニューをクリックします。</block>
   <block id="7cee4fcf0150b764f614b9c92d93488e" category="list-text">「 * View Active IQ * 」を選択します。</block>
   <block id="fa07ce8e9de64ab1ca55cc6d3b85cea5" category="inline-link">SolidFire Active IQ ダッシュボード</block>
@@ -1807,7 +1797,6 @@
   <block id="af5d6250839ed294a7160e4bec91a467" category="list-text">NetApp Deployment Engine のユーザインターフェイス（ UI ）を使用して NetApp HCI を設定します。</block>
   <block id="4db13ecf18990f2ce5d8e4bc5cfd0c24" category="admonition">他のすべての NetApp HCI ノードは自動的に検出されます。</block>
   <block id="6bfd79c0fce4f05b8b10a7cdfd024e31" category="section-title">既存の NetApp HCI インストールを展開します</block>
-  <block id="5e74aa3b306cd24a8ff545742656046e" category="list-text">Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。</block>
   <block id="a5ab2f145ade9fe927d9c5664cce04a7" category="inline-link-macro">NetApp Hybrid Cloud Control にアクセスします</block>
   <block id="e68dd77ececf646c64129165fec43027" category="list-text">ウィザードの手順に従って、ストレージノードとコンピューティングノードを NetApp HCI 環境に追加します。</block>
   <block id="1141055d277af6daa8951036962776b2" category="admonition">H410C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.4 以降を実行している必要があります。H615C コンピューティングノードを追加するには、既存の環境で NetApp HCI 1.7 以降を実行している必要があります。</block>
@@ -2539,7 +2528,6 @@
   <block id="f6b0da1a55a97f968d608a568dbdb093" category="list-text"><block ref="f6b0da1a55a97f968d608a568dbdb093" category="inline-link-macro-rx"></block></block>
   <block id="a11d9a84702eacbceacfe73c6ed81b02" category="inline-link-macro">NetApp HCI のストレージリソースまたはコンピューティングリソースを拡張します</block>
   <block id="01de98522477a417e0769c1c2e4840ea" category="list-text"><block ref="01de98522477a417e0769c1c2e4840ea" category="inline-link-macro-rx"></block></block>
-  <block id="f9af8c4b5a5dd3b6f46e319c0db24366" category="paragraph"><block ref="f29d6ac74a5e8f866b57793d704c5a65" category="inline-link-rx"></block></block>
   <block id="563b9e811f20a61bad36baf4c76bf550" category="paragraph">NetApp Hybrid Cloud Control のインターフェイスが表示されます。</block>
   <block id="60ab2bd7c82926193a03f5c5a737a700" category="summary">管理ノード UI を使用 <block ref="a7b0ad1acc22482b3121a6ffb43d70b9" category="inline-link-rx"></block>を使用して、ネットワークとクラスタの設定を変更したり、システムテストを実行したり、システムユーティリティを使用したりできます。</block>
   <block id="76aaec2f503ca4060e52d3afcacbf7ac" category="doc">管理ノード UI の概要</block>
@@ -3723,7 +3711,6 @@
   <block id="acdaf51e84092f9ece736cf38c23250f" category="doc">Hybrid Cloud Control で NetApp HCI のインベントリを表示します</block>
   <block id="bc7eee2e46f7815a5e4e0a3de181052f" category="paragraph">NetApp HCI システムのインベントリは、 Hybrid Cloud Control で確認できます。</block>
   <block id="9e31323b5cbbe61c6c8c43ad2755958b" category="doc">Element Plug-in for vCenter Server をアップグレードします</block>
-  <block id="03efd38b0802e06b31537f557cd0421f" category="paragraph">既存の vSphere 環境に NetApp Element Plug-in for vCenter Server （ VCP ）が登録されている場合は、プラグインサービスを含む管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">登録ユーティリティを使用して、 vCenter Server Virtual Appliance （ vCSA ）または Windows でプラグインの登録を更新できます。vCenter Plug-in の登録変更は、プラグインを使用するすべての vCenter Server で行う必要があります。</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">このアップグレード手順では、次のアップグレードシナリオについて説明します。</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">7.0 、 6.7 、または 6.5 の HTML5 vSphere Web Client にアップグレードする。</block>
@@ -4305,8 +4292,6 @@
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">出荷時の箱に同梱されている手順に従って、障害が発生したユニットをネットアップに返送してください。</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">NetApp HCI で使用される TCP ポートと UDP ポート。</block>
   <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにし、内部サービスが適切に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。特に記載がないかぎり、ポートはすべて TCP です。</block>
-  <block id="c23be595ff2a6ce3fc50807942a4b8be" category="list-text">URL （ repo.netapp.com など）にアクセスするには、 wget または cURL ユーティリティを使用します。</block>
-  <block id="a6ef25224f54dbfe30361976f2ce77d9" category="list-text">URL へのアクセスに失敗しました（ repo.netapp.com とは異なります）。</block>
   <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">新しい URL を許可するようにファイアウォールルールを編集します。</block>
   <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">アクセスが成功するまで上記の手順を繰り返します。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">この表では次の略語を使用します。</block>
@@ -4631,19 +4616,13 @@
   <block id="7fcdd8ade61a6eaaf6d114269e40d93b" category="list-text">設定手順を実行します。</block>
   <block id="404104237963ba23de34ae175e97c188" category="list-text">H610S ノードが NetApp HCI 環境に含まれている場合は、 NetApp Hybrid Cloud Control を使用してストレージリソースを設定してください。を参照してください <block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block>。</block>
   <block id="705a2e8d73ae72cf801d08ea2ad2dad7" category="list-text">H610S ノードが SolidFire オールフラッシュストレージ環境に含まれている場合は、 NetApp Element のソフトウェアユーザインターフェイス（ UI ）を使用してノードを設定します。ネットアップサポートにお問い合わせください。</block>
-  <block id="b5ecd82e8979ed40797d70974bacb136" category="summary">REST API UI を使用して、管理ノードで SSH サポート接続機能の無効化、有効化、ステータスの確認を行うことができます。</block>
   <block id="4a8504402e610045f6f515076b209af8" category="list-text">* Element ソフトウェア * ：クラスタで NetApp Element ソフトウェア 11.3 以降が実行されている必要があります。</block>
-  <block id="e320643e3f7c80faee482a0df224ffdc" category="list-text">* 管理サービスの更新 * ：を更新しました<block ref="fa63a529ec625e6607508bcea6b40451" category="inline-link-rx"></block> バージョン 2.17 へ。</block>
   <block id="4dcaf58a1a6fd3555d9626cfadc42510" category="inline-link-macro">認証</block>
   <block id="6c037204162665482371752d5cbc4b05" category="paragraph">完了後、次のいずれかのタスクを実行できます <block ref="1e3a79de8ad58046eb273d2d7b15a0d8" category="inline-link-macro-rx"></block>：</block>
-  <block id="746fb73201580f1ce79de5d018bc83e3" category="list-text"><block ref="7ab86ed14fb41c15b39d9fc3f88bb5fb" category="inline-xref-macro-rx"></block></block>
-  <block id="14eea61135a60aa00226fb53ed68b0d6" category="list-text"><block ref="915bb5f173ab674859bad881a235217a" category="inline-xref-macro-rx"></block></block>
-  <block id="027b3ee820565177e41833e702f75a6c" category="section-title">管理ノードで SSH 機能を無効または有効にします</block>
   <block id="ac31d2e8b7cab9b55341fe87e40f4cf0" category="listing-title">API コマンド</block>
   <block id="6b70c036a345ea917a8a1112ea5225b9" category="list-text">管理ノードの IP アドレスのあとに「 /mnode/ 」を入力して、管理ノード API サービスの REST API UI にアクセスします。</block>
   <block id="03917624197381e26d93d8783477b3bf" category="list-text">「 * Authorize * 」（認証）を選択して、次の手順を実行</block>
   <block id="ff6cbc041657a578c9d520790c1efc72" category="list-text">REST API UI から、 * PUT / settingsusel/ssh * を選択します。</block>
-  <block id="e419c387e790d54ef946c619b6e3b391" category="section-title">管理ノードの SSH 機能のステータスを確認します</block>
   <block id="34f75415ccae7652ea5f2cb6678e0d8b" category="list-text">REST API UI から、 * GET / settings拘束 / ssh * を選択します。</block>
   <block id="62d7c05c1f2ce86ed4829bb0d8ede77b" category="paragraph">NetApp HCI を導入したあとは、デフォルトのネットワーク設定に限定的な変更を加えることができます。ただし、円滑な運用と適切なネットワーク検出のために必要な設定もあります。これらの設定を変更すると予期しない動作が発生し、コンピューティングリソースとストレージリソースを拡張できなくなる可能性があります。</block>
   <block id="29abdc81c8b27091c96b142921501ee0" category="paragraph">システムの導入後、使用するネットワークの要件に応じて、 VMware vSphere のデフォルトのネットワーク構成を次の点で変更できます。</block>
@@ -5481,9 +5460,6 @@
   <block id="edce8794351fe0da7c485a7f83c05807" category="list-text">1 つの IQN または WWPN が属することのできるボリュームアクセスグループは 1 つだけです。</block>
   <block id="664201cfc1ee6ed25a90ecc4a544c8b4" category="inline-link">NetApp HCI 1.8 以前</block>
   <block id="f53dca4485e79543df019ec4f0ebb5ea" category="list-text"><block ref="f53dca4485e79543df019ec4f0ebb5ea" category="inline-link-rx"></block></block>
-  <block id="1b1965ab9261b2d5c557a2c1b29aa90a" category="paragraph">NetApp Hybrid Cloud Control の Web UI と API は、ネットアップのオンラインソフトウェアリポジトリからソフトウェアパッケージをダウンロードします。このリポジトリでは、 JFrog Artifactory Cloud をディストリビューションハブとして使用し、ファイルホスティング用に CDN テクノロジを使用します。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
-  <block id="5144ef28ff0fa7b5ab2a36331abbe530" category="paragraph">オンラインのソフトウェアリポジトリ：</block>
-  <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">https://repo.netapp.com/bintray/api/package`</block>
   <block id="3c775c7c4ce05f0bb9c5d395099d545c" category="cell">ノード間 iSCSI</block>
   <block id="ec44888d025d4ddae04c2461c877b1eb" category="summary">REST API UI を使用してコンピューティングノードアセットを管理ノードの構成に追加するには、ハードウェアタグが必要です。</block>
   <block id="c483f82946735c5ca5698f1fc1040122" category="doc">コンピューティングノードのハードウェアタグを確認する方法</block>
@@ -5614,10 +5590,6 @@
   <block id="d84036b22a23f84fa8de705bbe508b0b" category="list-text">特定のエラーを確認し、関連する KB 記事のリンクを取得します。</block>
   <block id="ebf662609bd0c670a5048adf12e5dd87" category="list-text">クラスタの問題を解決したら、 * Get Sedges/health-checksRunges/｛ healthCheckId ｝ /log * を再度実行します。</block>
   <block id="abb3dae171133339f899210b56c4d2b0" category="admonition">環境によっては、管理ノードのリブートが必要になることがあります。</block>
-  <block id="f5395c9793af8a11b406ca7c1ac70da9" category="inline-link">詳細はこちら。</block>
-  <block id="73f6f247f92d43dc1a02705cd9cb72df" category="admonition">ネットアップは現在、 NetApp Hybrid Cloud Control の自動アップグレードワークフローをサポートするソフトウェアとファームウェアのバンドルのダウンロードをホストするオンラインリポジトリを再構築しています。<block ref="d8be8d6cc7cc728c856f13214fa255cd" category="inline-link-rx"></block></block>
-  <block id="387d5419d340e95ff756a4806e220b45" category="list-text">https://repo.netapp.com/downloads`</block>
-  <block id="983c91027e090f85708d6c62fd362220" category="list-text">https://netappdownloads.jfrog.io:443`</block>
   <block id="358a3ff6d008d52e4a816f3c9f4d8d5f" category="inline-link">NetApp HCI ストレージクラスタ用の NetApp HCI ソフトウェアパッケージ</block>
   <block id="0c5c43c7900a58a998c872f937ae33ad" category="inline-link-macro">許可します</block>
   <block id="f5f61ce15f6fc00904ccb602ea18ba4f" category="admonition">API コマンドで使用されるベアラー '$ ｛ token ｝ ' を検索できます <block ref="13f13ef2cfa191d3bfde7dc1932402de" category="inline-link-macro-rx"></block>。ベアラー '$ ｛ token ｝ ' は curl 応答に含まれています。</block>
@@ -5751,8 +5723,6 @@
   <block id="6bb6d01b6b99b9e8e15a22f9dd99d827" category="list-text"><block ref="6bb6d01b6b99b9e8e15a22f9dd99d827" category="inline-link-rx"></block></block>
   <block id="abe4001f167864b261d2fcd34ff58279" category="inline-link">Element API のメンテナンスモードを無効にします</block>
   <block id="08be1f39e223c47d72649fea4369db7f" category="list-text"><block ref="08be1f39e223c47d72649fea4369db7f" category="inline-link-rx"></block></block>
-  <block id="4c671b547a1a811f45797247ec5747c3" category="list-text">VCP 4.8 、 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。</block>
-  <block id="10d52a77bc99042d3e815ba24e48132b" category="admonition">このプラグインは、 VMware vCenter Server 6.5 for VCP 4.7 以降と互換性がありません。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">6.7 Flash vSphere Web Client にアップグレードする。</block>
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client * ：プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしました。Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。vSphere Web Client にすでにログインしている場合は、ログアウトし、 2~3 分待ってから再度ログインする必要があります。</block>
@@ -6213,5 +6183,60 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter Plug-in のアイコンが表示されない場合は、を参照してください <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> プラグインのトラブルシューティングに関するドキュメント。</block>
-  <block id="3d06b6c0430a7ea489938883e0eb617e" category="paragraph">VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードしたあとに、ストレージクラスタが表示されないか、 NetApp Element 構成の「クラスタ * 」および「 QoSSIOC 設定 * 」のセクションにサーバエラーが表示されます。を参照してください <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
+  <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">*管理サービス*：最新の管理サービスバンドル（2.11以降）に更新しました。</block>
+  <block id="2ce38f720dba5ff083bfe1933d11eacc" category="list-text">*管理ノード*：管理ノード11.3以降を実行していることを確認します。</block>
+  <block id="a141fe1c6179ed3e09aa6043ad364ac6" category="list-text">* Elementソフトウェア*：ストレージクラスタでNetApp Element ソフトウェア11.3以降が実行されている必要があります。</block>
+  <block id="53b9f06d2f4963cb4351ee247eee6fc1" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してコンピューティングノードの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
+  <block id="c3dfd82361c52d5d3d1551c20c83f1a6" category="list-text">Webブラウザで管理ノードのIPアドレスを開きます。</block>
+  <block id="be441559765f3e52d513b155b4b59981" category="list-text">EULAがポップアップ表示されます。下にスクロールして、[現在および今後のすべての更新を許可する*]を選択し、[保存*]を選択します。</block>
+  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">EULAに同意すると、以後のすべての更新についてそのEULAが記録され、自動ダウンロード機能が有効になります。ネットアップのソフトウェアの更新とアップグレードに関する最新情報が提供されます。この情報はお客様の自由裁量と利便性に基づいてインストールすることができます。ネットアップオンラインソフトウェアリポジトリへのネットワーク接続を無効にすることで、自動ダウンロード機能を無効にできます。</block>
+  <block id="9e2b6145fca6ee9f745cae210b075880" category="paragraph">健全性チェックは、NetApp Hybrid Cloud ControlのUIまたはNetApp Hybrid Cloud ControlのAPIを使用して実行できます。</block>
+  <block id="1928dedb59bedd7b01427511af34693a" category="paragraph">NetApp Hybrid Cloud Controlを使用して、コンピューティングノードでファームウェアをアップグレードする準備ができているかどうかを確認できます。</block>
+  <block id="c36b19231a4d44de8c3649310ba038d9" category="paragraph">NetApp Hybrid Cloud ControlまたはAPIのどちらのメソッドで実行したかに関係なく、ノードごとに次のチェックを実行します。環境によっては、一部のチェックが省略されることがあります。検出された問題を解決したあとに、健全性チェックを再実行する必要があります。</block>
+  <block id="f9ebc0753ac68177e6d0f29d964386bb" category="list-text">Webブラウザで管理ノードのIPアドレスを開きます。例：</block>
+  <block id="b7d9a056c7aac680c6cb5b95799e2642" category="list-text">Webブラウザで管理ノードのIPアドレスを開きます。</block>
+  <block id="00bbf849ee83f2b3ea6c67bb7bd6c6f8" category="inline-link-macro">管理サービス2.20.69（VCP 4.9.14）に関する注意事項</block>
+  <block id="9631693d741b4476dc21a28cec874b0a" category="list-text"><block ref="9631693d741b4476dc21a28cec874b0a" category="inline-link-macro-rx"></block></block>
+  <block id="573d529ded9f2b66a55c1d25a9498c72" category="paragraph">管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用して管理サービスをアップグレードする前に、エンドユーザライセンス契約（EULA）に同意して保存する必要があります。</block>
+  <block id="c7c27143d481078e23cd4144c0df2f10" category="inline-link">vCenter Plug-in 4.9リリースノート</block>
+  <block id="6452d1b3e56fe38fdc537aeb6fe8d1c8" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block>_ 新規 _</block>
+  <block id="07cc0d856c010a1ee3ff9ee8f5157778" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してストレージファームウェアをアップグレードする前に、EULAに同意して保存する必要があります。</block>
+  <block id="0b2f19b801c71ab42a03e5347b8302ee" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してコンピューティングノードのファームウェアをアップグレードする前に、EULAに同意して保存する必要があります。</block>
+  <block id="62403656f60d86891c7c9ad1ffa2f44f" category="summary">NetApp Hybrid Cloud ControlのUIまたはREST APIのUIを使用して管理ノードでSSH機能を無効にして有効にするか、REST API UIを使用してSSHサポート接続機能のステータスを確認することができます。</block>
+  <block id="de7e6ba1aa5db3f3ecd18e0db7533988" category="paragraph">管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIを使用して管理ノードのSSH機能を有効または無効にすることができます。</block>
+  <block id="3c94e6ce915e7526e3d52ade19785a73" category="list-text">* NetApp Hybrid Cloud Controlの権限*：管理者の権限が必要です。</block>
+  <block id="ac7ca17dbb21ace6afb8d4dca6cabea3" category="list-text">*管理サービスの更新*：</block>
+  <block id="b5fac2f2425ddc92784c5c7e5d8d557e" category="list-text">NetApp Hybrid Cloud ControlのUIを使用するために、を更新しておきます<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> をバージョン2.20にアップグレードします。</block>
+  <block id="43fe8cb39bfeedc36b52f882e1fa6566" category="list-text">REST API UIを使用するために、を更新しておきます<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> バージョン 2.17 へ。</block>
+  <block id="22b10ea78e232391f766c1d30f89f143" category="list-text"><block ref="ceecdddcb31feb92e45b5238bea4a2dd" category="inline-xref-macro-rx"></block></block>
+  <block id="d67941a2c5c95f11d7bc3ffe04663673" category="list-text"><block ref="2a0c666d485e7ff160ef18f3e883e750" category="inline-xref-macro-rx"></block></block>
+  <block id="952dd7ee9f76db5eee00864b27184f09" category="list-text"><block ref="c015de97077c7fae9700ca0f0b057b0c" category="inline-xref-macro-rx"></block></block>
+  <block id="1ac9fe92a4a5c8b73ea917dd0fcc1457" category="section-title">NetApp Hybrid Cloud ControlのUIを使用して、管理ノードのSSH機能を無効または有効にします</block>
+  <block id="7d480381cb8ec5a78271712dba86ed65" category="paragraph">管理ノードで SSH 機能を無効にしたり、再度有効にしたりできます。提供する SSH 機能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 管理サービス 2.18 以降を実行する管理ノードでは、はデフォルトで無効になっています。SSH を無効にしても、管理ノードへの既存の SSH クライアントセッションは終了せず、切断もされません。SSHを無効にしたあとで再度有効にすることを選択した場合、NetApp Hybrid Cloud ControlのUIを使用して再度有効にすることができます。</block>
+  <block id="660ecb933461ee45e6f742dd41d60408" category="inline-link">Element UIクラスタ設定ページ</block>
+  <block id="a6fac1a062589a6dbd660accd83dc4bb" category="admonition">ストレージクラスタに対してSSHを使用してサポートアクセスを有効または無効にするには、を使用する必要があります<block ref="66c673b3de5ad3d6bdd339681caa3221" category="inline-link-rx"></block>。</block>
+  <block id="f5b8f13ee9298406bb5846e6c80e1259" category="list-text">Support Access for Management Node *画面で、スイッチを切り替えて管理ノードSSHを有効にします。</block>
+  <block id="c2ec3d3d7a3c559651551d3d9f14d2b9" category="list-text">トラブルシューティングが完了したら、* Support Access for Management Node *画面で、スイッチを切り替えて管理ノードSSHを無効にします。</block>
+  <block id="bd1ea3213926ecdb3e25a30ccf5157d9" category="section-title">APIを使用して、管理ノードのSSH機能を無効または有効にします</block>
+  <block id="526719701f51876f46433bfa55249a45" category="section-title">APIを使用して、管理ノードのSSH機能のステータスを確認します</block>
+  <block id="a3affadb8671444f8e45462ea7a0de50" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementソフトウェアをアップグレードする前に、EULAに同意して保存する必要があります。</block>
+  <block id="2620c9636e86b36feea9216102a5bec7" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してランチャの導入環境をアップグレードする前に、EULAに同意して保存する必要があります。</block>
+  <block id="f4926605dca5caffd5d52e790b9eb676" category="list-text">*管理サービス*：最新の管理サービスバンドル（2.10.27以降）に更新しました。</block>
+  <block id="cd87cb364b82cfd7ff555087f3e88e59" category="list-text">* Elementソフトウェア*：クラスタバージョンでNetApp Element ソフトウェア11.3以降が実行されている必要があります。</block>
+  <block id="84d8587fb67731ba50262a0ffeacb7ac" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementストレージの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
+  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp Hybrid Cloud ControlのWeb UIおよびAPIのダウンロードソフトウェアパッケージを、ネットアップのオンラインソフトウェアリポジトリからダウンロードします。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
+  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">URL（support-sg-nawest.netapp.comなど）にアクセスするには、wgetまたはcURLユーティリティを使用します。</block>
+  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">次の例に示すように、接続を確認します。</block>
+  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">ポートの接続を確認してください</block>
+  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">URLへのアクセスに失敗しました（support-sg-nawest.netapp.comとは異なります）。</block>
+  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">新しいリリース通知：</block>
+  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">https://support.netapp.com/aods/`</block>
+  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">ソフトウェアのダウンロード：</block>
+  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">https://support-sg-emea.netapp.com`</block>
+  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">https://support-sg-naeast.netapp.com`</block>
+  <block id="219033cd316af31663b173765be6dd78" category="list-text">https://support-sg-nawest.netapp.com`</block>
+  <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
+  <block id="fe7edd9e3b4efc71766ba03d23b51c44" category="list-text">VMware vCenter Server 4.9、4.8、4.7、4.6、4.5、または4.4にアップグレードする。</block>
+  <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">このプラグインは、VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7、および4.8とは互換性がありません。</block>
+  <block id="f31daff1bed8bc4fec4119d69f3093d9" category="paragraph">VMware vCenter Server 6.7U1を使用してVCP 4.8以降にアップグレードしたあと、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示されます。を参照してください <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
 </blocks>

@@ -2,24 +2,24 @@
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: NetApp HCI システムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9 
 ---
 = Element Plug-in for vCenter Server をアップグレードします
 :allow-uri-read: 
 
 
 [role="lead"]
-既存の vSphere 環境に NetApp Element Plug-in for vCenter Server （ VCP ）が登録されている場合は、プラグインサービスを含む管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。
+既存のvSphere環境にNetApp Element Plug-in for vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。
 
 登録ユーティリティを使用して、 vCenter Server Virtual Appliance （ vCSA ）または Windows でプラグインの登録を更新できます。vCenter Plug-in の登録変更は、プラグインを使用するすべての vCenter Server で行う必要があります。
 
 このアップグレード手順では、次のアップグレードシナリオについて説明します。
 
-* VCP 4.8 、 4.7 、 4.6 、 4.5 、または 4.4 にアップグレードする。
+* VMware vCenter Server 4.9、4.8、4.7、4.6、4.5、または4.4にアップグレードする。
 * 7.0 、 6.7 、または 6.5 の HTML5 vSphere Web Client にアップグレードする。
 +
 
-IMPORTANT: このプラグインは、 VMware vCenter Server 6.5 for VCP 4.7 以降と互換性がありません。
+IMPORTANT: このプラグインは、VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7、および4.8とは互換性がありません。
 
 * 6.7 Flash vSphere Web Client にアップグレードする。
 +
@@ -83,7 +83,7 @@ image::vcp_shortcuts_page_accessing_plugin.png[は、アップグレードまた
 ====
 vCenter Plug-in のアイコンが表示されない場合は、を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server 向け Element プラグイン"^] プラグインのトラブルシューティングに関するドキュメント。
 
-VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードしたあとに、ストレージクラスタが表示されないか、 NetApp Element 構成の「クラスタ * 」および「 QoSSIOC 設定 * 」のセクションにサーバエラーが表示されます。を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
+VMware vCenter Server 6.7U1を使用してVCP 4.8以降にアップグレードしたあと、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示されます。を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
 
 ====
 . プラグインの * NetApp Element 構成 * 拡張ポイントの * バージョン情報 * タブでバージョンの変更を確認します。
@@ -94,8 +94,8 @@ VMware vCenter Server 6.7U1 を使用して VCP 4.8 にアップグレードし�
 
 [listing]
 ----
-NetApp Element Plug-in Version: 4.8
-NetApp Element Plug-in Build Number: 34
+NetApp Element Plug-in Version: 4.9
+NetApp Element Plug-in Build Number: 14
 ----
 
 NOTE: vCenter Plug-in には、オンラインヘルプが用意されています。ヘルプの最新のコンテンツが読み込まれるようにするために、プラグインをアップグレードしたあとにブラウザキャッシュをクリアしてください。

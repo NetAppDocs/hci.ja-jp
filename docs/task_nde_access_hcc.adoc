@@ -22,7 +22,7 @@ NetApp Hybrid Cloud Control では NetApp HCI を管理できます。NetApp HCI
 
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
 +
 [listing]
 ----

@@ -29,7 +29,7 @@ NetApp HCI または SolidFire オールフラッシュストレージの設置�
 ログ収集領域には、 NetApp Hybrid Cloud Control のダッシュボードからアクセスできます。
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
 +
 [listing]
 ----

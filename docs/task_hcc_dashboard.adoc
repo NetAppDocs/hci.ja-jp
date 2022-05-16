@@ -28,7 +28,7 @@ Hybrid Cloud Control Dashboard には、管理対象のコンピューティン�
 
 == NetApp HCC ダッシュボードにアクセスします
 
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
 +
 [listing]
 ----

@@ -130,10 +130,12 @@ CAUTION: [ はい ] をクリックすると、クラスタがインストール
 NOTE: 保守モードにできるノードは一度に 1 つだけです。
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。例：
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
 +
-https://<ManagementNodeIP>`
-
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 +
 

@@ -147,7 +147,12 @@ TIP: 最大限の信頼性を実現するために、ストレージ容量がす
 NetApp Hybrid Cloud Control は、 NetApp HCI 環境でバージョン 1.6P1 以降が実行されている場合にのみ使用できます。
 
 .手順
-. Web ブラウザを開き、管理ノードの IP アドレスにアクセスします。たとえば、「 https://<ManagementNodeIP>/manager/login` 」と入力します
+. Webブラウザで管理ノードのIPアドレスを開きます。例：
++
+[listing]
+----
+https://<ManagementNodeIP>/manager/login
+----
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。
 . [ インストールの展開 ] ペインで、 [* 展開 *] を選択します。
 . NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Deployment Engine にログインします。
