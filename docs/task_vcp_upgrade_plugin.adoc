@@ -79,13 +79,9 @@ NOTE: この操作により、新しいデータベースが作成され、 vSph
 image::vcp_shortcuts_page_accessing_plugin.png[は、アップグレードまたはが正常に完了したあとのプラグインの拡張ポイントを示しています をインストールします]
 
 +
-[NOTE]
-====
-vCenter Plug-in のアイコンが表示されない場合は、を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server 向け Element プラグイン"^] プラグインのトラブルシューティングに関するドキュメント。
 
-VMware vCenter Server 6.7U1を使用してVCP 4.8以降にアップグレードしたあと、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示されます。を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
+NOTE: vCenter Plug-in のアイコンが表示されない場合は、を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server 向け Element プラグイン"^] プラグインのトラブルシューティングに関するドキュメント。VMware vCenter Server 6.7U1を使用してVCP 4.8以降にアップグレードしたあと、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示されます。を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
 
-====
 . プラグインの * NetApp Element 構成 * 拡張ポイントの * バージョン情報 * タブでバージョンの変更を確認します。
 +
 次のバージョンの詳細またはより新しいバージョンの詳細が表示されます。
