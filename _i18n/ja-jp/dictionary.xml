@@ -3144,8 +3144,6 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="15eb0cb82eab0a91d0477b28cedc9e6d" category="inline-link-macro">Compute Firmware Bundle 2.27 に関する注意</block>
   <block id="fc252c43c5ce275603b4d02a0185de6e" category="list-text"><block ref="fc252c43c5ce275603b4d02a0185de6e" category="inline-link-macro-rx"></block></block>
-  <block id="4ecde2684e69acd5d2c24072d2d87431" category="inline-link-macro">コンピューティングファームウェアの ISO についての通知</block>
-  <block id="d20a53f0f6934177e690e38a85903142" category="list-text"><block ref="d20a53f0f6934177e690e38a85903142" category="inline-link-macro-rx"></block></block>
   <block id="a04e943dbcdb750d041999712b0c3468" category="inline-link-macro">H610S BMC に関する注意事項が表示されます</block>
   <block id="c0897cc71834939a3e05ac01145a60a3" category="list-text"><block ref="c0897cc71834939a3e05ac01145a60a3" category="inline-link-macro-rx"></block></block>
   <block id="7f3b622424e8f9729d8e5a393a7680c1" category="doc">NetApp HCI に Rancher を導入します</block>
@@ -6108,13 +6106,11 @@
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
   <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">Compute Firmware Bundle 2.154.1リリースノート</block>
-  <block id="1ede45b15f29951945dbf9a93aff5d13" category="list-text"><block ref="da7af753dc484a3dd141f979cd511421" category="inline-link-macro-rx"></block> _ 新規 _</block>
   <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
   <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">『Storage Firmware Bundle 2.150 Release Notes』を参照してください</block>
   <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _ 新規 _</block>
   <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
   <block id="7ab1151c4498ab191b7470333595b532" category="admonition">vCenter Plug-in のアイコンが表示されない場合は、を参照してください <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> プラグインのトラブルシューティングに関するドキュメント。VMware vCenter Server 6.7U1を使用してVCP 4.8以降にアップグレードしたあと、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示されます。を参照してください <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
-  <block id="2ce86d9c954f97c282bf8eed5bf20807" category="paragraph">ストレージファームウェアバンドルバージョン2.150には重大なバグ修正が含まれています。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
   <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">このファームウェアパッケージには、ハードウェアコンポーネント用の次のファームウェアバージョンが含まれています。</block>
   <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11</block>
   <block id="d7d76e22f94a7f97f91de8b48bb8e450" category="cell">3.94.07</block>
@@ -6149,6 +6145,15 @@
   <block id="e678afceed55b1dcc8ebe2ece545090a" category="section-title">Compute Firmware Bundle 2.154.1をダウンロードします</block>
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">ストレージファームウェアバンドル2.150に関する注意事項</block>
   <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
-  <block id="45bcc1809d993bf4834cacf8a3723536" category="inline-link-macro">Compute Firmware Bundle 2.154.1に関する注意</block>
-  <block id="85c8fe6ae514fde647235db86ba4c0a4" category="list-text"><block ref="85c8fe6ae514fde647235db86ba4c0a4" category="inline-link-macro-rx"></block></block>
+  <block id="c6b05958d5d84e06da847e5e05b865f8" category="inline-link-macro">Compute Firmware Bundle 2.154.4リリースノート</block>
+  <block id="4249bb54f0106bb7ec8845d90f3f6dc3" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block> _ 新規 _</block>
+  <block id="a4f57cecae9cc51dbe0e706f0c125ec9" category="paragraph">ストレージファームウェアバンドルバージョン2.150には、H410Sの重大なバグ修正が含まれています（PE-14168）。を参照してください<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> を参照してください。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
+  <block id="04435ca341320fdf8ae3f7ed2b34efab" category="admonition">NetApp Hybrid Cloud Controlには、最新の管理サービスバンドルが必要です。コンピューティングノードのファームウェアをバージョン2.154.4にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。コンピューティングノードのファームウェアをバージョン2.154.4にアップグレードする場合は、管理サービス2.20が先に進む必要があります。</block>
+  <block id="1c1dee2a250a78c000e763a2c9f3c413" category="paragraph">バージョン2.154.4には一般的なバグ修正が含まれています。</block>
+  <block id="7a8c3a3ea58590f9691275c93e28e645" category="admonition">バージョン2.154.4にアップグレードする前に、ESXiドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン2.154.4にアップグレードします。にアクセスします <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
+  <block id="d6f24a7c552da781cf54bcf584415bba" category="section-title">Compute Firmware Bundle 2.154.4をダウンロードします</block>
+  <block id="5eb0bcdf6eff7a408414590c81d98183" category="inline-link-macro">Compute Firmware Bundle 2.154.4の注意事項</block>
+  <block id="007f90b7875049f66b3609b089201095" category="list-text"><block ref="007f90b7875049f66b3609b089201095" category="inline-link-macro-rx"></block></block>
+  <block id="24ebb39da100996506dfec70b3c18c3e" category="inline-link-macro">Compute Firmware ISOの注意</block>
+  <block id="0a3fa8cc98ca1fccda9e33f500cd1a33" category="list-text"><block ref="0a3fa8cc98ca1fccda9e33f500cd1a33" category="inline-link-macro-rx"></block></block>
 </blocks>
