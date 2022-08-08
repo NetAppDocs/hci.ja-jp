@@ -5,7 +5,12 @@ summary: NetApp HCI システムのアップグレードの一環として、管
 keywords: netapp, hci, on premise, cluster, management services 
 ---
 = 管理サービスを更新
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -90,6 +95,9 @@ NOTE: インターネットにアクセスできない環境では、現在の�
 +
 .. ページの指示に従って、管理サービスのアップグレードパッケージをダウンロードし、コンピュータに保存します。
 .. 「 * 参照 * 」を選択して、保存したパッケージを検索し、アップロードします。
++
+パッケージをアップロードすると、アップグレードが自動的に開始されます。
+
 
 
 

@@ -5,7 +5,12 @@ summary: REST API UI を使用して、管理ノードの構成にコンピュ�
 keywords: netapp, hci, mnode, api, management node, add proxy, proxy server 
 ---
 = プロキシサーバを設定します
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

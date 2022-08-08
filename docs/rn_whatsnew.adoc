@@ -7,6 +7,7 @@ keywords: netapp, hci, element, new, whatsnew
 = NetApp HCI の新機能
 :hardbreaks:
 :allow-uri-read: 
+:url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -15,7 +16,7 @@ keywords: netapp, hci, element, new, whatsnew
 
 
 [role="lead"]
-ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.10には、ストレージクラスタ用のElement 12.5が含まれます。
+ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.10には、ストレージクラスタ用のElementソフトウェア12.5が含まれます。
 
 * 。 <<NetApp HCI 1.10>> セクションでは、NetApp HCI バージョン1.10の新機能およびアップデートについて説明します。
 * 。 <<Element software 12.5>> セクションでは、Element 12.5の新機能と更新について説明します。
@@ -103,7 +104,7 @@ Element 12.5には、ストレージノードのファームウェアの更新�
 
 === セキュリティの強化
 
-Element 12.5には、Apache log4jの脆弱性に対するElementソフトウェアの影響を緩和する機能が含まれています。仮想ボリューム（VVol）機能が有効になっているNetApp SolidFire ストレージクラスタは、Apache log4jの脆弱性の影響を受けやすくなっています。NetApp Element ソフトウェアのApache log4jの脆弱性に対する回避策 の詳細については、を参照してください link:++https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround++["こちらの技術情報アーティクル"^]。
+Element 12.5には、Apache log4jの脆弱性に対するElementソフトウェアの影響を緩和する機能が含まれています。仮想ボリューム（VVol）機能が有効になっているNetApp SolidFire ストレージクラスタは、Apache log4jの脆弱性の影響を受けやすくなっています。NetApp Element ソフトウェアのApache log4jの脆弱性に対する回避策 の詳細については、｛url-peak｝[KB Article ^]を参照してください。
 
 Element 11.x、12.0、または12.2を実行している場合、またはvVol機能を有効にした状態でストレージクラスタをElement 12.3または12.3.1にアップグレードすることを推奨します。
 

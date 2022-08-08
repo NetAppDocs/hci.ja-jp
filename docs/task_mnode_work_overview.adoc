@@ -5,7 +5,12 @@ summary: 管理ノード（ mNode ）は、システムサービスの使用、�
 keywords: netapp, mnode, api, rest api, mnode ui, management node ui 
 ---
 = 管理ノードの概要
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

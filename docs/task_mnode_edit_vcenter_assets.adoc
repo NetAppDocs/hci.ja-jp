@@ -5,7 +5,12 @@ summary: vCenter 管理ノードコントローラは、 REST API UI を使用�
 keywords: netapp, mnode, management node, rest api, hci 
 ---
 = 既存のコントローラアセットを表示または編集する
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

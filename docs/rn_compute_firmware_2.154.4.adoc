@@ -56,7 +56,7 @@ NOTE: NetApp Hybrid Cloud Controlには、最新の管理サービスバンド�
 
 
 
-NOTE: バージョン2.154.4にアップグレードする前に、ESXiドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン2.154.4にアップグレードします。にアクセスします link:task_hcc_upgrade_compute_node_drivers.html["コンピューティングノードのドライバを更新"^] ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。
+NOTE: バージョン2.154.4にアップグレードする前に、ESXiドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン2.154.4にアップグレードします。にアクセスします link:task_hcc_upgrade_compute_node_drivers.html["コンピューティングノードのドライバを更新"] ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。
 
 ホスト OS を手動でインストールまたはアップグレードする場合、ネットアップはこれらの OS のドライバとファームウェアを制御できません。
 
@@ -71,7 +71,7 @@ Compute Firmware Bundle をダウンロードするには：
 . [Go*] をクリックします。
 
 
-にアクセスします link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["コンピューティングノードのファームウェアを更新します"^] コンピューティングノードのファームウェアを更新する手順については、を参照してください。
+にアクセスします link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["コンピューティングノードのファームウェアを更新します"] コンピューティングノードのファームウェアを更新する手順については、を参照してください。
 
 
 
