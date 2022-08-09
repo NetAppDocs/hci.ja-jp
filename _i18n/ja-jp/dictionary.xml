@@ -4375,7 +4375,6 @@
   <block id="85583f52dfb2cfcc9c0166993836c13b" category="paragraph">ハードウェアメンテナンスタスクへのリンクを次に示します。</block>
   <block id="b84a36d5b117ccbcc8079334d25bd5e1" category="inline-link-macro">電源装置を交換してください</block>
   <block id="9345b76867dd96005ed1e404ca6e256f" category="list-text"><block ref="9345b76867dd96005ed1e404ca6e256f" category="inline-link-macro-rx"></block></block>
-  <block id="605ec667ea79ce686f82eb8a5a6a3972" category="list-text"><block ref="605ec667ea79ce686f82eb8a5a6a3972" category="inline-link-macro-rx"></block></block>
   <block id="e6e1308f3b0ab7beefc57150e6198b93" category="summary">NetApp HCI には、コンピューティングとストレージの両方に対応するさまざまな設定オプションがあります。NetApp HCI 1.8 以降では、最小構成で 2 つのストレージノードと 2 つのコンピューティングノードを構成できます。以前のバージョンでは、必要な最小構成は 4 つのストレージノードと 2 つのコンピューティングノードでした。</block>
   <block id="4be69240e4b64b58ac6ac62ddbd41e5b" category="paragraph">NetApp HCI には、コンピューティングとストレージの両方に対応するさまざまな設定オプションがあります。NetApp HCI 1.8 以降では、最小構成で 2 つのストレージノードと 2 つのコンピューティングノードを構成できます。NetApp HCI 1.8 より前のバージョンでは、必要な最小構成はストレージノード 4 台とコンピューティングノード 2 台でした。</block>
   <block id="2914ee1492ae95decb6dc5b1ba747138" category="list-text">NetApp HCI では、 H300S 、 H500S 、 H700S 、 H410S 、 H610S など、さまざまな H シリーズストレージノードモデルがサポートされます。</block>
@@ -6157,4 +6156,5 @@
   <block id="72bc06ff4e2b235a52b1bd8ed1e8201b" category="paragraph">手動で実行できます<block ref="51de2eecc77c7894734d39577009251b" category="inline-link-rx"></block> NetApp Element Plug-in for vCenter Server を使用する。ノードドメインまたはシャーシドメインに基づいて保護ドメインのしきい値を選択できます。</block>
   <block id="c887aa2abefbdf59345793bdbe530aa6" category="list-text">障害が発生したノードをラックから物理的に取り外します。実行する手順は、使用するストレージノードのタイプによって異なります。を参照してください <block ref="22268cae5c79b327558b5acefb524b62" category="inline-link-macro-rx"></block> および <block ref="04e6f25ecadf1d5213318ff0863162b7" category="inline-link-macro-rx"></block>。</block>
   <block id="6b488f4677081a24e52d30be5ea2fe98" category="list-text">NetApp Hybrid Cloud Control を使用して、追加した新しいストレージノードを設定します。を参照してください <block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block>。</block>
+  <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
 </blocks>

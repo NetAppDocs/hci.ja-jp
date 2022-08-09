@@ -28,7 +28,7 @@ keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, ra
 * link:task_hci_h610srepl.html["H610S ノードを交換してください"]
 * link:task_hci_psurepl.html["電源装置を交換してください"]
 * link:task_hci_snswitches.html["SN2010 、 SN2100 、および SN2700 の各スイッチを交換してください"]
-* link:task_hci_2noderepl.html["2 ノードクラスタのストレージノードを交換"^]
+* link:task_hci_2noderepl.html["2 ノードクラスタのストレージノードを交換"]
 
 
 [discrete]
