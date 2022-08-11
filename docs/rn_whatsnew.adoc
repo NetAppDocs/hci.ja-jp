@@ -54,6 +54,12 @@ NetApp Element Plug-in for vCenter Server 4.9は、管理ノード12.5およびN
 
 
 
+=== サポートされるVMware vSphere更新のバージョン
+
+NetApp HCI 1.10では、VMware vSphere 7.0が導入と拡張に対応しています。
+
+
+
 === NetApp Hybrid Cloud Control の機能拡張
 
 NetApp Hybrid Cloud Controlはバージョン1.10で拡張されました。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["詳細はこちら。"^]。
