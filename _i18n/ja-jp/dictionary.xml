@@ -1024,15 +1024,11 @@
   <block id="7cee4fcf0150b764f614b9c92d93488e" category="list-text">「 * View Active IQ * 」を選択します。</block>
   <block id="fa07ce8e9de64ab1ca55cc6d3b85cea5" category="inline-link">SolidFire Active IQ ダッシュボード</block>
   <block id="ee9ec48ab8dae93963c5b5c07f420ed4" category="paragraph">。 <block ref="095a58fb83e7246b6e79a66a96e0f27d" category="inline-link-rx"></block> 表示されます。</block>
-  <block id="63b0ea6672e4ac0cdbfd353e47a99673" category="list-text">SolidFire Active IQ の詳細については、ダッシュボードで右上のメニューアイコンをクリックし、 * Documentation * をクリックしてください。</block>
   <block id="18c94039f6a9a2bf969e0ddcad135957" category="list-text">SolidFire Active IQ インターフェイスで、 NetApp HCI のコンピューティングノードとストレージノードから Active IQ にテレメトリが正しく報告されていることを確認します。</block>
-  <block id="2eca3789874739b2e107592e70e89570" category="list-text">複数の NetApp HCI がインストールされている場合は、 * クラスタの選択 * をクリックして、リストからクラスタを選択します。</block>
-  <block id="f782d1135644961264a9464e713c708c" category="list-text">左側のナビゲーションペインで、 * ノード * をクリックします。</block>
   <block id="dd227545ce9014ef2f4c9d23fa80efc1" category="list-text">リストに表示されないノードがある場合は、ネットアップサポートにお問い合わせください。</block>
   <block id="30340c3dfade0706ea3fc7604213665e" category="inline-link-macro">HCC ダッシュボードを使用してストレージリソースとコンピューティングリソースを監視する</block>
   <block id="5438dea440e60cb95336002d251f0b29" category="admonition">ストレージリソースとコンピューティングリソースの数を表示するには、 Hybrid Cloud Control （ HCC ）ダッシュボードを参照します。を参照してください <block ref="7a163f57b183cb5fbbaf136afcd39704" category="inline-link-macro-rx"></block>。</block>
   <block id="642b57ae61fbf875dba06df638def96a" category="inline-link">NetApp SolidFire Active IQ のドキュメント</block>
-  <block id="a433b823eb4cdcee96d4dfcff5931643" category="list-text"><block ref="a433b823eb4cdcee96d4dfcff5931643" category="inline-link-rx"></block></block>
   <block id="5790561c8766bdfa450f5782bf99cc31" category="summary">NetApp HCI に Rancher をインストールしたあと、耐障害性を最適化するために VM の配置を設定する方法について説明します。</block>
   <block id="367e93552960b0b7853ed2a7913cf75a" category="doc">耐障害性を設定</block>
   <block id="601df7bdf217f94745db21d8691eede5" category="paragraph">NetApp HCI に Rancher をインストールした後、仮想マシンの配置を最適な復元力に設定する方法について説明します。</block>
@@ -2684,7 +2680,6 @@
   <block id="f62052d22b7c5c8f9a15b0afff504755" category="inline-link">TR-48820 ：『 NetApp HCI Networking Quick Planning Guide 』</block>
   <block id="85dcef363aee58216fb5391e1fe35922" category="list-text"><block ref="85dcef363aee58216fb5391e1fe35922" category="inline-link-rx"></block></block>
   <block id="d1ba909955f7a2392ac07c215865424a" category="list-text"><block ref="8eb8242e05dec3c7873bd909a6d9def7" category="inline-link-rx"></block> 5.8.1 以降のネットワーク検証ツール</block>
-  <block id="5fab97a8101ee7e9dd22a0c1807b267e" category="list-text"><block ref="5fab97a8101ee7e9dd22a0c1807b267e" category="inline-link-rx"></block></block>
   <block id="620f7ee656b33c2240cf7a78ccac13ae" category="summary">DHCP を使用していない環境で NetApp Deployment Engine にアクセスする方法について説明します。</block>
   <block id="a406955fbdda282fd8c77d471122756f" category="paragraph">ネットワークで DHCP を使用していない場合は、 NetApp Deployment Engine へのアクセスに使用するストレージノード（制御用ストレージノード）の Bond1G インターフェイスに静的 IPv4 アドレスを設定する必要があります。制御用ストレージノードの NetApp Deployment Engine は、他のコンピューティングノードとストレージノードの Bond10G インターフェイスに自動で設定された IPv4 アドレスを使用し、これらのノードを検出して通信を確立します。ネットワークに特別な要件がないかぎり、この方法を使用してください。</block>
   <block id="c8e003c61610ae54bff17cc191088740" category="list-text">自分またはネットワーク管理者が、『セットアップガイド』ドキュメントのタスクを完了している。</block>
@@ -6097,7 +6092,6 @@
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">の詳細を確認してください <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>。</block>
   <block id="be14526a26059bab9604a4dc5056ca86" category="list-text">NetApp Element Plug-in for vCenter Server*は、vSphereのユーザインターフェイス（UI）に統合されたWebベースのツールです。このプラグインは、拡張性と使いやすさを備えた VMware vSphere 用のインターフェイスで、 * NetApp Element ソフトウェア * を実行しているストレージ・クラスタの管理と監視を行うことができます。このプラグインは、 Element UI の代わりに使用できます。プラグインのユーザインターフェイスを使用して、クラスタの検出と設定、ストレージの管理と監視が可能なほか、クラスタ容量からストレージを割り当ててデータストアや仮想データストア（仮想ボリュームの場合）を構成できます。クラスタはネットワーク上では 1 つのローカルグループとして認識され、仮想 IP アドレスによってホストと管理者に示されます。また、クラスタのアクティビティを監視して、さまざまな処理の実行中に発生したイベントのエラーメッセージやアラートメッセージなど、リアルタイムで通知を受け取ることができます。</block>
   <block id="2f071adefcac0181be5f4b8cd9a5ca38" category="admonition">の詳細を確認してください<block ref="2bff74e0d72e73a3a1bf993744683a85" category="inline-link-rx"></block>。</block>
-  <block id="69f62275c49d78f7ceac9db3f0497d6e" category="admonition">の詳細を確認してください <block ref="694d6bc2c166b8de5e6f59269ef5415e" category="inline-link-macro-rx"></block>。</block>
   <block id="9c6922841435a46a2edccbe5bdc3b9a6" category="cell">ノード UI から、ネットワークとクラスタの設定にアクセスし、システムのテストとユーティリティを利用できます。 <block ref="3560bb302b5b977f25884bdb1a7dc5d9" category="inline-link-macro-rx"></block>。</block>
   <block id="6185d522566bca6babef053c2bc1f53d" category="list-text">* カタログ * ：カタログは GitHub リポジトリまたは Helm Chart リポジトリで、すぐに導入できるアプリケーションがいっぱいになっています。Rancher では、 Helm チャートのカタログを使用して、アプリケーションを繰り返し簡単に導入できます。Rancher には、組み込みのグローバルカタログとカスタムカタログの 2 種類のカタログが含まれています。Trident はカタログとして導入されています。を参照してください<block ref="ba870d4de503a3f035878d62b86bb946" category="inline-link-rx"></block>。</block>
   <block id="499c79030e29f88105a315c240050806" category="paragraph">を参照してください <block ref="502a349939ea68203db76329f0b74f74" category="inline-link-rx"></block>。</block>
@@ -6159,4 +6153,13 @@
   <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
   <block id="728e6fd8c429fa825a7f232711ea7ed8" category="section-title">サポートされるVMware vSphere更新のバージョン</block>
   <block id="eb08a40eb36c998c44f480fa50a74b2a" category="paragraph">NetApp HCI 1.10では、VMware vSphere 7.0が導入と拡張に対応しています。</block>
+  <block id="d70c282924b717571aef1cee7fb90bda" category="list-text"><block ref="d70c282924b717571aef1cee7fb90bda" category="inline-link-rx"></block></block>
+  <block id="fff53faaacf5caf81205af3a5996a9cc" category="inline-link">NetApp SolidFire Active IQ のドキュメント</block>
+  <block id="dbc20c2595760ee5c4db75a5e0f52262" category="list-text"><block ref="dbc20c2595760ee5c4db75a5e0f52262" category="inline-link-rx"></block></block>
+  <block id="7cd6919345e02170fb7bcf1b4005cd3c" category="admonition">の詳細を確認してください <block ref="ddf1a582dfb1bd56c32c521fd7c1f8e3" category="inline-link-macro-rx"></block>。</block>
+  <block id="e41f733ab7b14b59356c114dc4bde28a" category="list-text">ダッシュボードの右上にあるメニューを選択します。</block>
+  <block id="5d7560eb59ba019f88b76ae3bf8580a7" category="inline-link">SolidFire Active IQ のドキュメント</block>
+  <block id="8656c1812e255a290a0e3fb243bf9237" category="list-text">SolidFire Active IQ の詳細については、を参照してください<block ref="605461d6a442322fca0bcd236d381ac0" category="inline-link-rx"></block>。</block>
+  <block id="5de7b59e7468f72110ca5bd9b20f7d50" category="paragraph">右上のメニューアイコンを選択して「* SolidFire Active IQ 」を選択すると、ダッシュボードからのドキュメントにアクセスすることもできます。</block>
+  <block id="b742a27bbb38b6f0482e473afd7caf8e" category="list-text">複数のNetApp HCI がインストールされている場合は、「*クラスタの選択」を選択し、リストからクラスタを選択します。</block>
 </blocks>
