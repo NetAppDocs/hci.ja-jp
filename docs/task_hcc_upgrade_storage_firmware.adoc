@@ -33,7 +33,7 @@ IMPORTANT: iDRAC / BIOS ファームウェアを更新するには、ネット�
 
 
 
-NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"^] （ログインが必要です）。
+NOTE: ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["サポートされているファームウェアおよびESXiドライバのバージョン"^]。
 
 [[storage-firmware-upgrade]]
 * *アップグレード処理時間*:アップグレードを実行するための十分な時間を確保しています。Elementソフトウェア12.5にアップグレードする場合、アップグレードプロセスの時間は、Elementソフトウェアの現在のバージョンとファームウェアの更新によって異なります。
@@ -52,7 +52,7 @@ NOTE: ご使用のハードウェアのファームウェアとドライバの�
 | H610S | 11.7以前 | 90分 | 40～70分 | 130～160分も必要です https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["ノードの完全なシャットダウンと電源切断を実行します"^] H610Sノードごとに、 
 |===
 +
-^1ご使用のハードウェアのファームウェアおよびドライバファームウェアの完全なマトリックスについては、こちらを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["こちらの技術情報アーティクル"^] （ログインが必要です）。
+^1ご使用のハードウェアのファームウェアおよびドライバファームウェアの完全なマトリックスについては、を参照してください https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["サポートされているファームウェアおよびESXiドライバのバージョン"^]。
 
 +
 ^2^クラスタに高い書き込みIOPSの負荷があり、ファームウェアの更新時間が長い場合、データの同期時間が長くなります。
@@ -78,8 +78,8 @@ NOTE: EULAに同意すると、以後のすべての更新についてそのEULA
 
 次のいずれかのストレージファームウェアアップグレードオプションを選択します。
 
-* <<Use NetApp Hybrid Cloud Control UI to upgrade storage firmware>>
-* <<Use NetApp Hybrid Cloud Control API to upgrade storage firmware>>
+*  NetApp Hybrid Cloud Control UI to upgrade storage firmware
+*  NetApp Hybrid Cloud Control API to upgrade storage firmware
 
 
 
@@ -91,7 +91,7 @@ NetApp Hybrid Cloud Control の UI を使用して、クラスタ内のストレ
 管理ノードがインターネットに接続されていない場合は、を使用します https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle["NetApp HCI ストレージクラスタのストレージファームウェアパッケージをダウンロードします"^]。
 
 
-CAUTION: NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["こちらの技術情報アーティクル"^]。
+CAUTION: NetApp Hybrid Cloud Controlを使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、このドキュメントを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["こちらの技術情報アーティクル"^]。
 
 
 TIP: アップグレードプロセスは、ストレージノードあたり約 30 分かかります。Element ストレージクラスタをバージョン 2.76 よりも新しいストレージファームウェアにアップグレードする場合、ノードに新しいファームウェアが書き込まれたときのみ、個々のストレージノードがアップグレード中にリブートされます。
@@ -124,7 +124,7 @@ NOTE: [* ストレージ * ] タブには、インストールの一部である
 
 
 
-TIP: アップグレード中は、アップグレードステータス * が変更され、プロセスのステータスが反映されます。また、アップグレードの一時停止など、実行する操作に応じて変更が加えられたか、またはアップグレードでエラーが返された場合も変更されます。を参照してください <<Upgrade status changes>>。
+TIP: アップグレード中は、アップグレードステータス * が変更され、プロセスのステータスが反映されます。また、アップグレードの一時停止など、実行する操作に応じて変更が加えられたか、またはアップグレードでエラーが返された場合も変更されます。を参照してください  status changes。
 
 
 NOTE: アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。クラスタの行が折りたたまれている場合、ページではステータスと現在のバージョンは動的に更新されません。表を更新するには、クラスタの行を展開する必要があります。また、ページを更新することもできます。
@@ -142,7 +142,7 @@ NOTE: アップグレードの実行中は、ページを離れてあとから�
 
 CAUTION: ブラウザウィンドウから別の場所に移動すると、ファイルのアップロードが失われます。
 
-ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。この段階でブラウザウィンドウから移動しても、ファイルのアップロードは維持されます。アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <<Upgrade status changes>>。
+ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。この段階でブラウザウィンドウから移動しても、ファイルのアップロードは維持されます。アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください  status changes。
 
 |===
 

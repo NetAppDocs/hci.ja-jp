@@ -44,9 +44,9 @@ NOTE: EULAに同意すると、以後のすべての更新についてそのEULA
 
 管理サービスは、 NetApp Hybrid Cloud Control の UI または管理ノードの REST API を使用して更新できます。
 
-* <<Update management services using Hybrid Cloud Control>> （推奨方法）
-* <<Update management services using the management node API>>
-* <<Update management services using the management node API for dark sites>>
+*  management services using Hybrid Cloud Control （推奨方法）
+*  management services using the management node API
+*  management services using the management node API for dark sites
 
 
 

@@ -18,8 +18,8 @@ NOTE: 管理ノード12.2以前のアップグレードに関する情報が必�
 
 次のいずれかのオプションを選択します。
 
-* <<Upgrade a management node to version 12.5 from 12.3.x>>
-* <<Reconfigure authentication using the management node REST API>>
+*  a management node to version 12.5 from 12.3.x
+*  authentication using the management node REST API
 +
 このオプションは、管理サービスのバージョンが * シーケンシャル * 更新（ 1 ）であり、（ 2 ） Element ストレージのバージョンが既存の管理ノードを * 保持する場合に選択します。
 
