@@ -11,7 +11,7 @@ keywords: netapp, hci, on premise, cluster, element, compute node
 [role="lead"]
 H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。
 
-のハードウェアのファームウェアとドライバのマトリックスを参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["ネットアップの技術情報アーティクル"^] （ログインが必要です）。
+お使いのハードウェアのファームウェアとドライバのマトリックスを参照してください https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["サポートされているファームウェアおよびESXiドライバのバージョン"^]。
 
 以下の更新処理は一度に 1 つずつ実行します。
 
@@ -30,14 +30,12 @@ NOTE: ネットアップのドライババンドルには、 VMware オフライ
 . VMware vCenter の * VMware Update Manager * にアクセスします。
 . コンピューティングノードのドライバオフラインバンドルファイルを * パッチリポジトリ * にインポートします。
 +
-** VMware ESXi 7.0 では、 NetApp H610C 、 H615C 、 H410C 、および Hx00E コンピューティングノードとそのビルドインシステムコンポーネントに必要なすべてのドライバが、 VMware ESXi 7.0 の標準のインストール ISO イメージに含まれています。VMware ESXi 7.0 （および更新）を実行する NetApp HCI コンピューティングノードのドライバを追加または更新する必要はありません。
-** VMware ESXi 6.x の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。
+VMware ESXi 6.xおよび7.0から7.0のU3の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。
+
 +
-... [* アップデート * （ Updates * ） ] タブを選択します。
-... 「 * ファイルからアップロード」を選択します。
-... 以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。
-
-
+.. [* アップデート * （ Updates * ） ] タブを選択します。
+.. 「 * ファイルからアップロード」を選択します。
+.. 以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。
 
 
 . コンピューティングノードの新しいホストベースラインを作成します。

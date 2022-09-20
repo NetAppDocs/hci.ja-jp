@@ -4729,7 +4729,6 @@
   <block id="14f06c631f2b46db62265e16689f5de0" category="list-text">REST API UI から * POST/upgrade投入 / applyNodeUpdates * を実行します。</block>
   <block id="495a77927689f5e0cb0a71d7b73ee6b7" category="list-text">/tasksanges/{taskID}* 応答から、アップグレードが適用されたことを確認します。</block>
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">NetApp HCI システムのアップグレードの一環として、コンピューティングノードのドライバをアップグレードします。</block>
-  <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">ネットアップの技術情報アーティクル</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">以下の更新処理は一度に 1 つずつ実行します。</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">NetApp HCI ソフトウェアのダウンロード</block>
   <block id="583b2202b6101e8fb6a6243369ac0f58" category="list-text">ダウンロードしたドライババンドルをローカルコンピュータに展開します。</block>
@@ -5641,7 +5640,6 @@
   <block id="f7658c00205041bd6da6d27dbaa7fe7b" category="summary">NetApp HCI システムのアップグレードの一環として、管理ノードをアップグレードします。</block>
   <block id="303c7d52b5c18e714947ecd4996594a2" category="inline-link">管理ノード ISO</block>
   <block id="b8e3af673664eb79ebe128d1f309bdd6" category="list-text">REST API UI から、 * POST /services/reconfigure -auth* を選択します。</block>
-  <block id="de3741b094be24deccfc553754ce0a3a" category="paragraph">のハードウェアのファームウェアとドライバのマトリックスを参照してください<block ref="69b1d186a6529d94f61dae13551aa3aa" category="inline-link-rx"></block> （ログインが必要です）。</block>
   <block id="477a3e44a347d971185a2c3a5140588e" category="list-text">を参照します<block ref="d4caed46ff739416e1ca7149df2744c7" category="inline-link-rx"></block> ページに移動し、正しいバージョンの NetApp HCI のダウンロードリンクを選択します。</block>
   <block id="1288b4af7d9b295a0901b8b5e9b2de64" category="list-text">[* 修正（ Remediate* ） ] を選択し、新しく作成したホストベースラインを選択します。ベースラインに含まれるドライバが選択されていることを確認します。</block>
   <block id="ecd715524a148d3d6e20b711f37ce2c3" category="list-text">ウィザードの [*Ready to Complete] ページに進み、 [*Finish] を選択します。</block>
@@ -5755,8 +5753,6 @@
   <block id="e795a437c10bf5f507140024b096bd0e" category="list-text">CVE-20-15436</block>
   <block id="bfbc343f663cd48849da8b3b6240a9c0" category="list-text">CVE-20-29372</block>
   <block id="c7faa307a21de68e6b2b579eb4dd6238" category="list-text"><block ref="c7faa307a21de68e6b2b579eb4dd6238" category="inline-link-macro-rx"></block></block>
-  <block id="17a3f3fcb25f60a1e4c1a40f1e7eace3" category="list-text">VMware ESXi 7.0 では、 NetApp H610C 、 H615C 、 H410C 、および Hx00E コンピューティングノードとそのビルドインシステムコンポーネントに必要なすべてのドライバが、 VMware ESXi 7.0 の標準のインストール ISO イメージに含まれています。VMware ESXi 7.0 （および更新）を実行する NetApp HCI コンピューティングノードのドライバを追加または更新する必要はありません。</block>
-  <block id="3df9942375d4c2463d762d41ec77a6e1" category="list-text">VMware ESXi 6.x の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。</block>
   <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">[* アップデート * （ Updates * ） ] タブを選択します。</block>
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">「 * ファイルからアップロード」を選択します。</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">以前にダウンロードしたオフラインバンドルを参照し、 * import * を選択します。</block>
@@ -6367,4 +6363,19 @@
   <block id="7f6c7867ac3c62c136dad288b3e3298e" category="paragraph">^1ご使用のハードウェアのファームウェアおよびドライバファームウェアの完全なマトリックスについては、を参照してください<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">* 有効なアップグレードパス * ：アップグレード先の Element バージョンのアップグレードパス情報を確認し、アップグレードパスが有効であることを確認しておきます。を参照してください<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="3c22f77849e3b66d2e0c9c63419afb53" category="admonition">ご使用のハードウェアのファームウェアとドライバのファームウェアの一覧については、を参照してください<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
+  <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXiドライバのバージョン*</block>
+  <block id="1aa66ef3a8e34a7a538960a80d2e1e31" category="cell">ESXi</block>
+  <block id="48cf24486d9a8e65a142b25682f19949" category="cell">ドライバ</block>
+  <block id="01deebfa87b938c89ecb3dcb4effcbe2" category="cell">7.0</block>
+  <block id="4f467eda35ff78e59bbdb4e520ef904c" category="cell">4.19.71.101 4.19.71.1</block>
+  <block id="e5f63614505322239ff5a403089bbab7" category="cell">7.0アップデート1</block>
+  <block id="e3115a7b25952e2b6ea2fb2bf9cca3b3" category="cell">7.0アップデート2</block>
+  <block id="1391518963f261b2531840ce43ab39d4" category="cell">4.21.71.101 4.21.71.1</block>
+  <block id="ccf0280076b3ef40ee8b72dbd3470d53" category="cell">7.0アップデート3</block>
+  <block id="c3e22f2ae1ddef844509890f97faa80b" category="cell">6.7</block>
+  <block id="f884cc5c56f9c9a8d4d61568ff64db9c" category="cell">6.5</block>
+  <block id="391bb6060127038cc328796fa4f0b3c5" category="inline-link-macro">VMware vSphereのダウンロード</block>
+  <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0、7.0 U1、7.0 U2、および7.0 U3のドライバは、から入手できます <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> ページ</block>
+  <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">お使いのハードウェアのファームウェアとドライバのマトリックスを参照してください<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
+  <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">VMware ESXi 6.xおよび7.0から7.0のU3の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。</block>
 </blocks>
