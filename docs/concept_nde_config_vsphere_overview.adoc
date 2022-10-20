@@ -28,7 +28,8 @@ NOTE: vSphere のインベントリ設定がフォルダを使用して vCenter 
 
 新しい vCenter Server をインストールする場合は、ネットワーク構成時に vSphere 標準スイッチまたは vSphere Distributed Switch （ VDS ）をインストールできます。VDS を使用すると、 NetApp HCI の導入後に仮想マシンのネットワーク構成を簡単かつ一元的に管理できます。NetApp HCI のクラウドデータサービス機能には VDS が必要です。クラウドデータサービスでは vSphere Standard Switch はサポートされません。
 
-[discrete]
+
+
 == 詳細については、こちらをご覧ください
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI および NetApp Element のファームウェアとドライバのバージョン ソフトウェア"^]

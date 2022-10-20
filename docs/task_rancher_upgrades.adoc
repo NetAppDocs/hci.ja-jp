@@ -27,7 +27,7 @@ rancher ソフトウェアをアップグレードするには、 NetApp Hybrid 
 IMPORTANT: Rancher 機能を使用するには、最新の管理サービスバンドル 2.17 以降にアップグレードする必要があります。
 
 * * システムポート * ： NetApp Hybrid Cloud Control をアップグレードに使用している場合は、必要なポートが開いていることを確認しておきます。を参照してください link:rancher_prereqs_overview.html#required-ports["ネットワークポート"] を参照してください。
-* *エンドユーザライセンス契約（EULA）*：管理サービス2.20以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してランチャの導入環境をアップグレードする前に、EULAに同意して保存する必要があります。
+* *エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してランチャの導入環境をアップグレードする前に、EULAに同意して保存する必要があります。
 +
 .. Webブラウザで管理ノードのIPアドレスを開きます。
 +

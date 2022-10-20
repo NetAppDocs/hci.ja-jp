@@ -305,39 +305,7 @@ sidebar:
     - title: クラスタの拡張後に監視ノードを削除します
       url: "/docs/task_hci_removewn.html"
   - title: NetApp HCI で Rancher を使用します
-    entries:
-    - title: NetApp HCI の Rancher の概要
-      url: "/docs/concept_rancher_product_overview.html"
-    - title: 概念
-      url: "/docs/concept_rancher_concepts.html"
-    - title: NetApp HCI の Rancher の要件
-      url: "/docs/rancher_prereqs_overview.html"
-    - title: NetApp HCI に Rancher を導入します
-      url: "/docs/task_rancher_deploy.html"
-    - title: 導入後のタスク
-      entries:
-      - title: 導入後のタスクの概要
-        url: "/docs/concept_rancher_post_deployment_overview.html"
-      - title: Rancher サポートパリティを確認します
-        url: "/docs/task_rancher_ensure_rancher_support_parity.html"
-      - title: VM の耐障害性を向上
-        url: "/docs/task_rancher_config_anti_affinity.html"
-      - title: 監視を設定
-        url: "/docs/task_rancher_enable_monitoring.html"
-      - title: Trident をインストール
-        url: "/docs/task_rancher_trident.html"
-      - title: ユーザクラスタで Trident のサポートを有効にします
-        url: "/docs/task_trident_configure_networking.html"
-    - title: ユーザクラスタとアプリケーションを導入
-      url: "/docs/task_rancher_deploy_user_clusters.html"
-    - title: NetApp HCI でランチ元を管理します
-      url: "/docs/task_rancher_manage.html"
-    - title: NetApp HCI でランチをモニターします
-      url: "/docs/task_rancher_monitor.html"
-    - title: NetApp HCI の Rancher をアップグレードします
-      url: "/docs/task_rancher_upgrades.html"
-    - title: NetApp HCI でランチツールをインストールした場合は、取り外します
-      url: "/docs/task_rancher_remove_deployment.html"
+    url: "/docs/concept_rancher_index.html"
   - title: H シリーズハードウェアのメンテナンス
     entries:
     - title: H シリーズハードウェアのメンテナンスの概要
@@ -402,8 +370,6 @@ homepage:
       url: "/docs/task_mnode_work_overview.html"
     - title: NetApp Element Plug-in for vCenter Server を使用します
       url: https://docs.netapp.com/us-en/vcp/index.html
-    - title: Rancher を使用します
-      url: "/docs/concept_rancher_product_overview.html"
     - title: NetApp HCI を展開します
       url: "/docs/concept_hcc_expandoverview.html"
     - title: NetApp HCI をアップグレードします
