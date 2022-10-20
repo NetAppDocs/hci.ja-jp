@@ -14,7 +14,7 @@ keywords: netapp, hci, on premise, cluster, upgrade, element
 これらのコンポーネントには、管理サービス、NetApp Hybrid Cloud Control、Elementソフトウェア、管理ノード、コンピューティングファームウェア、コンピューティングドライバ、 and the Element Plug-in for vCenter Server.関係 グループ
 
 
-NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5以降にアップグレードします。
+NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5にアップグレードします。
 
 。 ,システムのアップグレード順序 コンテンツでは、 NetApp HCI システムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大規模なアップグレードシーケンスの一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。
 
@@ -31,7 +31,7 @@ TIP: バージョンを確認するには、管理ノードにログインし、
 NetApp Hybrid Cloud Control を使用したアップグレードは、それよりも前のバージョンのサービスバンドルでは利用できません。
 
 * すべてのノードのシステム時間が同期され、 NTP がストレージクラスタとノードに対して正しく設定されていることを確認しておきます。各ノードには、ノード Web UI （「 https://[IP address 」： 442 ）に DNS ネームサーバを設定する必要があります。時刻のずれに関連する未解決のクラスタ障害はありません。
-* に十分な時間を設定しておきます link:task_hcc_upgrade_element_software.html#element-upgrade-time["Element ソフトウェア"] および link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade["ストレージファームウェア"] アップグレード：Elementソフトウェア12.5以降にアップグレードする場合は、Elementソフトウェアのバージョンとファームウェアの更新によってアップグレードプロセスの時間が異なります。
+* に十分な時間を設定しておきます link:task_hcc_upgrade_element_software.html#element-upgrade-time["Element ソフトウェア"] および link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade["ストレージファームウェア"] アップグレード：Elementソフトウェア12.5にアップグレードする場合、アップグレードプロセスの所要時間はElementソフトウェアのバージョンとファームウェアの更新によって異なります。
 
 
 
