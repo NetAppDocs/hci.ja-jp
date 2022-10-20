@@ -5942,7 +5942,6 @@
   <block id="94accfc9ce60fbdbc6b912533ff89998" category="list-text">リブート中に* F11 *を押してブートオプションを選択し、コンピューティングファームウェアバンドルをロードします。</block>
   <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
   <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">NetApp Element ソフトウェア 11.8.2 リリースノート</block>
-  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element ソフトウェア 11.8.1 リリースノート</block>
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
@@ -5985,7 +5984,6 @@
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">ストレージファームウェアバンドル2.150に関する注意事項</block>
   <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
   <block id="c6b05958d5d84e06da847e5e05b865f8" category="inline-link-macro">Compute Firmware Bundle 2.154.4リリースノート</block>
-  <block id="4249bb54f0106bb7ec8845d90f3f6dc3" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block> _ 新規 _</block>
   <block id="a4f57cecae9cc51dbe0e706f0c125ec9" category="paragraph">ストレージファームウェアバンドルバージョン2.150には、H410Sの重大なバグ修正が含まれています（PE-14168）。を参照してください<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> を参照してください。の手順に従って、ストレージファームウェアをアップグレードできます <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
   <block id="04435ca341320fdf8ae3f7ed2b34efab" category="admonition">NetApp Hybrid Cloud Controlには、最新の管理サービスバンドルが必要です。コンピューティングノードのファームウェアをバージョン2.154.4にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。コンピューティングノードのファームウェアをバージョン2.154.4にアップグレードする場合は、管理サービス2.20が先に進む必要があります。</block>
   <block id="1c1dee2a250a78c000e763a2c9f3c413" category="paragraph">バージョン2.154.4には一般的なバグ修正が含まれています。</block>
@@ -6383,4 +6381,6 @@
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementストレージの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してコンピューティングノードの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
   <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
+  <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
+  <block id="75dde1dc17bd100ca4331fd989a91f97" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block></block>
 </blocks>
