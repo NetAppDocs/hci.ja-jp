@@ -6367,7 +6367,6 @@
   <block id="46e87a91de6f38f3b1344d05a59270dd" category="inline-link">NetApp HCI 1.9ドキュメント</block>
   <block id="fc55c296a158a74f2203216a080cac11" category="paragraph">既存のRancher展開では、管理サービス2.21.61以降、rancherはサポートされなくなりました。管理サービス2.21.61にアップグレードする場合、NetApp Hybrid Cloud Controlを使用して、既存の導入の管理、監視、アップグレードを行ったり、NetApp HCI システムに新しい導入を行ったりすることはできません。NetApp HCI システムにRancherをすでに導入しており、管理サービス2.20.69以前を実行している場合は、を使用してRancherの管理、監視、およびアップグレードを続行できます<block ref="366a8df179e5c8339fa05bf5fe38a812" category="inline-link-rx"></block>。</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理サービス2.2.1.61（NetApp Element Plug-in for VMware vCenter Server 4.10.12）に関する注意事項</block>
-  <block id="5a4d1edee05c62a7171ceb8c43afb590" category="list-text"><block ref="5a4d1edee05c62a7171ceb8c43afb590" category="inline-link-macro-rx"></block></block>
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用して管理サービスをアップグレードする前に、エンドユーザライセンス契約（EULA）に同意して保存する必要があります。</block>
   <block id="29bba7cbe3dac4ea58cab61272150fe8" category="paragraph">管理ノードをバージョン12.3.x以降から管理ノード12.5以降にアップグレードできます。</block>
   <block id="4ff70a8151851ab1e82db6f0eed42808" category="list-text"><block ref="810c9a492c31390e08f0e76e7c298785" category="inline-xref-macro-rx"></block></block>
@@ -6383,4 +6382,5 @@
   <block id="edb046160eb6ed03c39de5860e72e509" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してランチャの導入環境をアップグレードする前に、EULAに同意して保存する必要があります。</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementストレージの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してコンピューティングノードの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
+  <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
 </blocks>
