@@ -51,11 +51,16 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
 
+* link:../media/NetApp_HCI_1.11_notice.pdf["NetApp HCI 1.11に関する注意事項を参照してください"^]
+* link:../media/Element_Software_12.7.pdf["Elementソフトウェア12.7のご注意ください"^]
+* link:../media/Ember_OS_12.7.pdf["Ember OS 12.7の注意"^]
+* link:../media/mNode_12.7.pdf["管理ノード12.7の注意"^]
 * link:../media/NetApp_HCI_1.10_notice.pdf["NetApp HCI 1.10の注意事項"^]
 * link:../media/Element_Software_12.5.pdf["Elementソフトウェア12.5の場合の注意"^]
 * link:../media/SolidFire_eSDS_12.5.pdf["NetApp SolidFire エンタープライズSDS 12.5に関するお知らせ"^]
 * link:../media/mNode_12.5.pdf["管理ノード12.5に関する注意"^]
 * link:../media/ansible-products-notice.pdf["コンピューティングのアップグレードに向けた Ansible のロールに関する注意事項があります"^]
+* link:../media/storage_firmware_bundle_2.164.0_notices.pdf["ストレージファームウェアバンドル2.164に関する注意事項"^]
 * link:../media/storage_firmware_bundle_2.150_notices.pdf["ストレージファームウェアバンドル2.150に関する注意事項"^]
 * link:../media/compute_firmware_bundle_2.154.4_notices.pdf["Compute Firmware Bundle 2.154.4の注意事項"^]
 * link:../media/storage_firmware_bundle_2.146_notices.pdf["ストレージファームウェアバンドル 2.146 に関する注意事項"^]
