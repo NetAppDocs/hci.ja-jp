@@ -138,15 +138,15 @@ NOTE: HTTP または HTTPS サーバ（ダークサイト）を使用してい�
 NOTE: この操作により、新しいデータベースが作成され、 vSphere Web Client でのインストールが完了します。
 
 . vSphere Web Client で、タスクモニタで次のタスクが完了していることを確認します。「ダウンロードプラグイン」および「デプロイプラグイン」。
-. NetApp Element の設定および管理拡張ポイントが vSphere Web Client の * Shortcuts * タブとサイドパネルに表示されていることを確認します。
+. vSphere Web Clientの* Shortcuts *タブとサイドパネルにプラグインの拡張ポイントが表示されていることを確認します。
 +
-vCenter Server 5向けElementプラグインで始まる：0
+Element Plug-in for vCenter Server 5.0以降では、NetApp Element リモートプラグイン拡張ポイントは次のとおりです。
 
 +
 image::vcp_remote_plugin_icons_home_page.png[は、Element Plug-in 5.10以降のアップグレードまたはインストールが正常に完了したあとのプラグイン拡張ポイントを示しています]
 
 +
-vCenter Server 4.10以前のElementプラグイン：
+Element Plug-in for vCenter Server 4.10以前のバージョンでは、NetApp Element Configuration and Management拡張ポイントは次のとおりです。
 
 +
 image::vcp_shortcuts_page_accessing_plugin.png[に、Element Plug-in 4.10以前のアップグレードまたはインストールが正常に完了したあとのプラグイン拡張ポイントを示します]
