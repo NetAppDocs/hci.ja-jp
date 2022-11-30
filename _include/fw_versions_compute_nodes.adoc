@@ -1,20 +1,7 @@
----
-sidebar: sidebar 
-permalink: docs/fw_compute_nodes.html 
-keywords: documentation, earlier, previous, versions 
-summary: コンピューティングノードでサポートされるファームウェアとドライバのバージョン。 
----
-= コンピューティングノード
-:hardbreaks:
+= H615C
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
-:keywords: hci, earlier, documentation, versions
 
 
-[role="lead"]
 NetApp HCI コンピューティングノードでサポートされるファームウェアとESXiドライバのバージョン。
 
 * 

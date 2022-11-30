@@ -1,20 +1,7 @@
----
-sidebar: sidebar 
-permalink: docs/fw_storage_nodes.html 
-keywords: documentation, earlier, previous, versions 
-summary: ストレージノードでサポートされるファームウェアとドライバのバージョン。 
----
-= ストレージノード
-:hardbreaks:
+= H610S
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
-:keywords: hci, earlier, documentation, versions
 
 
-[role="lead"]
 HシリーズおよびSolidFire ストレージノードでサポートされるファームウェアバージョン。
 
 * 
