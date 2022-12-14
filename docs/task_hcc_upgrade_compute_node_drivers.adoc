@@ -11,8 +11,10 @@ keywords: netapp, hci, on premise, cluster, element, compute node
 [role="lead"]
 H シリーズのコンピューティングノードでは、ノードで使用されているドライバを VMware Update Manager を使用して更新できます。
 
+.必要なもの
 お使いのハードウェアのファームウェアとドライバのマトリックスを参照してください https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["サポートされているファームウェアおよびESXiドライバのバージョン"^]。
 
+.このタスクについて
 以下の更新処理は一度に 1 つずつ実行します。
 
 ファームウェアのアップグレードを実行する前に、 ESXi ドライバの現在のバージョンを確認する必要があります。ドライバが最新でない場合は、まずドライバをアップグレードします。その後、コンピューティングノードのコンピューティングファームウェアをアップグレードします。

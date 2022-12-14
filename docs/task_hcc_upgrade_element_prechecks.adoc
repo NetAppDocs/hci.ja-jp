@@ -38,15 +38,16 @@ NOTE: EULAに同意すると、以後のすべての更新についてそのEULA
 
 
 
+.健全性チェックのオプション
 健全性チェックは、NetApp Hybrid Cloud ControlのUIまたはNetApp Hybrid Cloud ControlのAPIを使用して実行できます。
 
-*  NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage （推奨方法）
-*  API to run Element storage health checks prior to upgrading storage
+* <<NetApp Hybrid Cloud Control を使用して Element ストレージの健全性を実行します ストレージをアップグレードする前にチェックします>> （推奨方法）
+* <<API を使用して、実行前に Element ストレージの健全性チェックを実行 ストレージをアップグレードする>>
 
 
 サービスで実行されるストレージ健全性チェックの詳細についても確認できます。
 
-*  health checks made by the service
+* <<サービスによるストレージの健全性チェック>>
 
 
 

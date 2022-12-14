@@ -21,8 +21,8 @@ keywords: netapp, hci, element, new, whatsnew
 
 NOTE: Elementソフトウェア12.7は最新リリースで、セキュリティおよびシステムコンポーネントのアップデート、運用の改善、および解決済みの問題が含まれています。 https://docs.netapp.com/us-en/element-software/concepts/concept_rn_whats_new_element.html["Element 12.7の新機能の詳細をご確認ください"^]。
 
-* 。  HCI 1.10 セクションでは、NetApp HCI バージョン1.10の新機能およびアップデートについて説明します。
-* 。  software 12.5 セクションでは、Element 12.5の新機能と更新について説明します。
+* 。 <<NetApp HCI 1.10の場合>> セクションでは、NetApp HCI バージョン1.10の新機能およびアップデートについて説明します。
+* 。 <<Elementソフトウェア12.5>> セクションでは、Element 12.5の新機能と更新について説明します。
 
 
 

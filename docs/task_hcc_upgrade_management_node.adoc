@@ -16,10 +16,11 @@ keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10,
 
 NOTE: 管理ノード12.2以前のアップグレードに関する情報が必要な場合は、を参照してください https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["NetApp HCI 1.9管理ノードのアップグレードに関するドキュメント"^]。
 
+.アップグレードオプション
 次のいずれかのオプションを選択します。
 
-*  a management node to version 12.5 or later from version 12.3.x or later
-*  authentication using the management node REST API
+* <<バージョン12.3.x以降から管理ノードをバージョン12.5以降にアップグレードします>>
+* <<管理ノード REST API を使用して認証を再設定します>>
 +
 このオプションは、管理サービスのバージョンが * シーケンシャル * 更新（ 1 ）であり、（ 2 ） Element ストレージのバージョンが既存の管理ノードを * 保持する場合に選択します。
 
