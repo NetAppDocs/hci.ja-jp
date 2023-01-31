@@ -4,7 +4,7 @@ permalink: docs/firmware_driver_versions.html
 keywords: documentation, earlier, previous, versions 
 summary: NetApp HCI およびNetApp Element ソフトウェアでサポートされているファームウェアおよびドライバのバージョン。 
 ---
-= NetApp HCI ストレージノードでサポートされるファームウェアとESXiドライバのバージョン：NetApp HCI およびファームウェアのバージョン
+= NetApp HCI でサポートされるファームウェアとESXiドライバのバージョン、NetApp HCI ストレージノードでサポートされるファームウェアのバージョンとファームウェアのバージョン
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,7 +15,7 @@ summary: NetApp HCI およびNetApp Element ソフトウェアでサポートさ
 
 
 [role="lead"]
-NetApp HCI ストレージノードでサポートされるファームウェアとESXiドライバのバージョン：NetApp HCI およびファームウェアのバージョン。
+NetApp HCI でサポートされるファームウェアとESXiドライバのバージョン、NetApp HCI ストレージノードでサポートされるファームウェアのバージョンとファームウェアのバージョン。
 
 link:fw_storage_nodes.html["ストレージノード"]* H610S * H410S
 

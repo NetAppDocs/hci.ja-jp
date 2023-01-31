@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-NetApp HCI ストレージノードでサポートされるファームウェアとESXiドライバのバージョン：NetApp HCI およびファームウェアのバージョン。
+NetApp HCI でサポートされるファームウェアとESXiドライバのバージョン、NetApp HCI ストレージノードでサポートされるファームウェアのバージョンとファームウェアのバージョン。
 
 link:fw_storage_nodes.html["ストレージノード"]* H610S * H410S
 
