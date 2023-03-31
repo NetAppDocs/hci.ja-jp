@@ -5964,7 +5964,6 @@
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">Element Plug-in for vCenter Server 4.xでは、VMware vCenter Server 7.0 Update 3にアップグレードするとプラグインを導入できません。Spring Framework 4を使用してこの問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for VMware vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">このアップグレード手順 では、次のアップグレードシナリオについて説明します。</block>
   <block id="04e630ae5e9700f09b6ca3715246283d" category="open-title">vCenter 5.0以降向けElementプラグイン</block>
   <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">HTML5 vSphere Web Client 8.0または7.0にアップグレードする。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Element Plug-in for vCenter 5.0以降は、vCenter Server 6.7および6.5と互換性がありません。</block>
@@ -6077,7 +6076,6 @@
   <block id="8157d1d3bb72f3ce50b0672f12f201dd" category="list-text">[参照]を選択して、保存したパッケージを見つけてアップロードします。</block>
   <block id="4ac581155f2c6a4a3a056078e2b122a1" category="list-text">管理ノードで REST API UI を開きます。</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">このアップグレード手順では、次のアップグレードシナリオについて説明します。</block>
-  <block id="0c6a507d40e276c8d0426facc36aaeca" category="list-text">Element Plug-in for vCenter Server 5.0または5.1にアップグレードする。</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Element Plug-in for vCenter Server 4.xを5.xにアップグレードすると、vCenterインスタンスからリモートプラグインにデータをコピーできないため、プラグインが設定されているクラスタは失われます。クラスタをリモートプラグインに再度追加する必要があります。これは、ローカルプラグインからリモートプラグインにアップグレードする場合の1回限りのアクティビティです。</block>
   <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">Element Plug-in for vCenter Server 5.xの[vCenter Plug-in Registration]ページ：</block>
   <block id="04bac97a16b610a555c29c398dc04860" category="paragraph">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。Element 12.0 以降を実行しているクラスタでは、これらのクラスタの現在のファームウェアバンドルバージョンが表示されます。1 つのクラスタ内のノードでファームウェアバージョンが異なる場合やアップグレードが進むにつれて、「 * Current Firmware Bundle Version * 」列に「 * Multiple * 」と表示されます。「 * multiple * 」を選択すると、「 * Nodes * 」ページに移動してファームウェアバージョンを比較できます。すべてのクラスタで 12.0 よりも前のバージョンの Element を実行している場合、ファームウェアバンドルのバージョン番号に関する情報は表示されません。この情報は、 * Nodes * ページでも確認できます。を参照してください <block ref="4d8bfbcb84a29a1601595359b67752e6" category="inline-link-macro-rx"></block>。</block>
@@ -6103,4 +6101,5 @@
   <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
   <block id="631923a687ff82d68973d99b95597b47" category="inline-link">SolidFire and Element Resources ページにアクセスします</block>
   <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">Element Plug-in for vCenter Server 5.1または5.0にアップグレードする。</block>
 </blocks>
