@@ -5868,7 +5868,6 @@
   <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">VMware ESXi 6.xおよび7.0から7.0のU3の場合、次の手順を実行して、ドライバのオフラインバンドルファイルをインポートします。</block>
   <block id="e5f0019a70375a2e883b7840f439118a" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block> _ 新規 _</block>
   <block id="eb66a5e31d8328246fdb5497ed40a7a4" category="inline-link-macro">『Storage Firmware Bundle 2.164.0 Release Notes』を参照してください</block>
-  <block id="fddb0d91393a6472f9894a9e10c5d3b5" category="list-text"><block ref="05897b3b8549d60a9bbb1bea2303559b" category="inline-link-macro-rx"></block> _ 新規 _</block>
   <block id="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block></block>
   <block id="1e27fffa2cb3a38bf6c4f19753e5c750" category="paragraph">Element 12.0以降および管理サービスバージョン2.14以降では、NetApp Hybrid Cloud ControlのUIとREST APIを使用して、ストレージノードでファームウェアのみのアップグレードを実行できます。この手順では、 Element ソフトウェアはアップグレードされず、 Element のメジャーリリース以外のバージョンのストレージファームウェアもアップグレードできます。</block>
   <block id="ab9c2528be862fe9060ba417c0e4592c" category="paragraph">ストレージファームウェアバンドルバージョン2.164.0では、NIC、Mellanox CX5 16.32.1010、およびPM9A3ドライブのファームウェア更新がサポートされます。</block>
@@ -6115,4 +6114,15 @@
   <block id="c411aac8cf32395c454762934e85315b" category="list-text"><block ref="c411aac8cf32395c454762934e85315b" category="inline-link-macro-rx"></block></block>
   <block id="3f8636b2ed4be15cc908d52557ffc327" category="list-text"><block ref="3f8636b2ed4be15cc908d52557ffc327" category="inline-link-macro-rx"></block></block>
   <block id="78997922bf48b612914b49bc22e40752" category="paragraph"><block ref="78997922bf48b612914b49bc22e40752" category="inline-link-rx"></block></block>
+  <block id="a35c2c2e602b46918d896beca9bdff98" category="doc">『Storage Firmware Bundle 2.175.0 Release Notes』を参照してください</block>
+  <block id="1b7df2ed7eecb435d51d1cf325f461e2" category="paragraph">ストレージファームウェアバンドルバージョン2.175.0には、一般的なバグ修正が含まれています。</block>
+  <block id="0a60c14a30cc8f85370185da12d36fa3" category="paragraph">このファームウェアパッケージには、ハードウェアコンポーネント用の次のファームウェアバージョン（*太字*テキストで強調表示）が含まれています。</block>
+  <block id="7e4edf3ad62acb2971d64634bfc0ec11" category="cell">* 3.5 *</block>
+  <block id="20ee78f3a553d428f4ca118e67559535" category="cell">* 2.17 *</block>
+  <block id="a60a89903326c0d44be1974de53bda7d" category="admonition">次の表に、SF38410、SFG19210、SF9605、およびSF4805のストレージノードについて、このストレージファームウェアバンドルリリースでサポートされるコンポーネントファームウェアのバージョンを示します。ただし、これらのコンポーネントファームウェアをストレージファームウェアバンドルを使用して更新することはできません。</block>
+  <block id="d47b937e2f74388bd4fd552f0dc64877" category="list-text">キーワード検索フィールドに「Storage Firmware Bundle」と入力し、* New Search *を選択します。</block>
+  <block id="165ffb421393136ac7930e23c971a009" category="inline-link-macro">ストレージファームウェアバンドル2.175.0に関する注意事項</block>
+  <block id="112f8e7ac3d8ebc58aaf4c3565f340b0" category="list-text"><block ref="112f8e7ac3d8ebc58aaf4c3565f340b0" category="inline-link-macro-rx"></block></block>
+  <block id="0f680f15db273397148c72e656319e45" category="list-text"><block ref="9f2c8b7f9459e99daa861cf963d87ddb" category="inline-link-macro-rx"></block> _ 新規 _</block>
+  <block id="05897b3b8549d60a9bbb1bea2303559b" category="list-text"><block ref="05897b3b8549d60a9bbb1bea2303559b" category="inline-link-macro-rx"></block></block>
 </blocks>
