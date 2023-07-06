@@ -244,7 +244,6 @@
   <block id="4177894d92f9956a6f7250cb8b52d834" category="list-text">シャーシに接続された各ケーブルにラベルを付けておきます。</block>
   <block id="af230ec2183265faedfc900d2b43745d" category="paragraph">VMware vSphere Web Client のアラームでは、ホストで障害が発生するとアラートが通知されます。VMware vSphere Web Client で障害が発生したホストのシリアル番号を、ノード背面のステッカーに記載されているシリアル番号と一致させる必要があります。</block>
   <block id="d7f6ba0367c50b236e879580284dfabe" category="section-title">ノードを交換する準備をします</block>
-  <block id="15e52a108fb327eeb4e05584634031a8" category="paragraph">ノードを交換する前に、ノードでホストされている仮想マシン（ VM ）を使用可能なホストに移行し、クラスタからノードを削除しておく必要があります。シリアル番号やネットワークの情報など、ノードの詳細を確認する必要があります。</block>
   <block id="d8d7c90a9eba54aa51121a64132d7c53" category="list-text">VMware vSphere Web Client で、次の手順を実行して VM を別の使用可能なホストに移行します。</block>
   <block id="e2477b6b77307705f07f9d4a9bce00f5" category="admonition">移行手順については、 VMware のドキュメントを参照してください。</block>
   <block id="ec222debbf462515211b8a9dbc83ea5a" category="list-text">障害が発生したノードを選択し、 * Monitor &gt; Hardware Status &gt; Sensors * を選択します。</block>
@@ -6175,4 +6174,5 @@
   <block id="bc1db729f0157876d24fd3c55560294c" category="list-text">再スキャンが完了したら、クラスタとデータストア内のボリュームが新しいコンピューティングノード（ホスト）で認識されるかどうかを確認します。</block>
   <block id="f096b63658cb95d8f43a07e2d68c70b3" category="paragraph">Element Plug-in for vCenter 4.10以前の場合は、ノード（ホスト）をクラスタに追加します。</block>
   <block id="fc4dbbaeabdf5700f373a65d12b45108" category="list-text">ノードを追加するクラスタを右クリックし、 * ホストの追加 * を選択します。</block>
+  <block id="a4b367d6a2f57fe52d770b2264b7d2d8" category="paragraph">ノードを交換する前に、ノードでホストされている仮想マシン（ VM ）を使用可能なホストに移行し、クラスタからノードを削除しておく必要があります。シリアル番号やネットワーク情報など、ノードに関する詳細を記録しておく必要があります。VMの移行とノードの詳細の記録は、Dual Inline Memory Module（DIMM；デュアルインラインメモリモジュール）の障害など、ノードがオンラインで機能しているコンポーネント障害の場合にも適用されます。</block>
 </blocks>
