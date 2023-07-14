@@ -6175,4 +6175,8 @@
   <block id="f096b63658cb95d8f43a07e2d68c70b3" category="paragraph">Element Plug-in for vCenter 4.10以前の場合は、ノード（ホスト）をクラスタに追加します。</block>
   <block id="fc4dbbaeabdf5700f373a65d12b45108" category="list-text">ノードを追加するクラスタを右クリックし、 * ホストの追加 * を選択します。</block>
   <block id="a4b367d6a2f57fe52d770b2264b7d2d8" category="paragraph">ノードを交換する前に、ノードでホストされている仮想マシン（ VM ）を使用可能なホストに移行し、クラスタからノードを削除しておく必要があります。シリアル番号やネットワーク情報など、ノードに関する詳細を記録しておく必要があります。VMの移行とノードの詳細の記録は、Dual Inline Memory Module（DIMM；デュアルインラインメモリモジュール）の障害など、ノードがオンラインで機能しているコンポーネント障害の場合にも適用されます。</block>
+  <block id="29e13a3bca7d11d4ebec7e6356a5b466" category="cell">*ストレージファームウェアバンドル2.175.0 *</block>
+  <block id="022beb4c9e2bdbe9e3398445a4fad6b2" category="cell">2023年6月15日</block>
+  <block id="804066a6a5042090a2a0b25c55f38e72" category="cell">3.5.</block>
+  <block id="489901e715cade6fe0efc7e21e194576" category="cell">2時17分</block>
 </blocks>
