@@ -188,7 +188,6 @@
   <block id="80fe8777d7b15097b7f93768f900d2f0" category="paragraph">NetApp Hybrid Cloud Control は、 NetApp HCI 環境でバージョン 1.6P1 以降が実行されている場合にのみ使用できます。</block>
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Hybrid Cloud Control にログインします。</block>
   <block id="2671f57229d8ee038d01d4336694d7e0" category="list-text">[ インストールの展開 ] ペインで、 [* 展開 *] を選択します。</block>
-  <block id="053ab309f18a77ef5149424304d1c86d" category="list-text">NetApp HCI ストレージクラスタ管理者のクレデンシャルを指定して NetApp Deployment Engine にログインします。</block>
   <block id="1704d55dca4dda129b0c084d7b0dac9f" category="list-text">ようこそページで、 * いいえ * を選択します。</block>
   <block id="136dc09835924029e4299fa28f17233d" category="list-text">「 * Continue * 」を選択します。</block>
   <block id="c1a72b8e6d0e23818ec5b93d9bebfb17" category="list-text">Available Inventory ページで、既存の NetApp HCI インストールに追加するストレージノードを選択します。</block>
@@ -5845,8 +5844,6 @@
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E / H500E / H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">*モデル番号（ファミリー部分）：* H300E、H500E、H700E</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">NetApp HCI およびNetApp Element ソフトウェアでサポートされているファームウェアおよびドライバのバージョン。</block>
-  <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
-  <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E / H500E / H700E</block>
   <block id="4b8861a11346d673205d074f862db70a" category="inline-link">サポートされているファームウェアおよびESXiドライバのバージョン</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">* 有効なアップグレードパス * ：アップグレード先の Element バージョンのアップグレードパス情報を確認し、アップグレードパスが有効であることを確認しておきます。を参照してください<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXiドライバのバージョン*</block>
@@ -6179,4 +6176,8 @@
   <block id="022beb4c9e2bdbe9e3398445a4fad6b2" category="cell">2023年6月15日</block>
   <block id="804066a6a5042090a2a0b25c55f38e72" category="cell">3.5.</block>
   <block id="489901e715cade6fe0efc7e21e194576" category="cell">2時17分</block>
+  <block id="d44403a904c0446f29d8bc5c2ed4770e" category="list-text">ローカルのNetApp HCIストレージクラスタ管理者のクレデンシャルを指定してNetApp Deployment Engineにログインします。</block>
+  <block id="60099f97c4a82ba2ee2d4a4d593b844b" category="admonition">Lightweight Directory Access Protocolのクレデンシャルを使用してログインすることはできません。</block>
+  <block id="f4e8c07388940da9080e74e50960909d" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block></block>
+  <block id="4fe99558e9030b1914f3007a88f2f74d" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block></block>
 </blocks>
