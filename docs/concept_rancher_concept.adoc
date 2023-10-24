@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: docs/concept_rancher_index.html 
+permalink: docs/concept_rancher_concept.html 
 summary: 管理サービス2.2.1.61以降、Rancherは既存および新規のRancher展開ではサポートされなくなりました。以前のバージョンの管理サービスを使用して、ランチマネージャを引き続き管理できます。 
 keywords: netapp, hci, rancher, control plane, catalog, cluster, kubernetes 
 ---
