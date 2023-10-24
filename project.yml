@@ -314,7 +314,7 @@ sidebar:
     - title: クラスタの拡張後に監視ノードを削除します
       url: "/docs/task_hci_removewn.html"
   - title: NetApp HCI で Rancher を使用します
-    url: "/docs/concept_rancher_concept.html"
+    url: "/docs/concept_rancher_product_overview.html"
   - title: H シリーズハードウェアのメンテナンス
     entries:
     - title: H シリーズハードウェアのメンテナンスの概要
