@@ -3797,13 +3797,11 @@
   <block id="ba290d191b27f0906330958f33e77091" category="admonition">DC 電源装置がオンラインになると、電源装置の LED が点灯します。緑色の LED ライトは、電源装置が正常に動作していることを示します。</block>
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">出荷時の箱に同梱されている手順に従って、障害が発生したユニットをネットアップに返送してください。</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">NetApp HCI で使用される TCP ポートと UDP ポート。</block>
-  <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにし、内部サービスが適切に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。特に記載がないかぎり、ポートはすべて TCP です。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">この表では次の略語を使用します。</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">mip ：管理 IP アドレス。ノードごとのアドレスです</block>
   <block id="b41c14a062a4854e04d459016f1eae73" category="list-text">sip ：ストレージ IP アドレス。ノードごとのアドレスです</block>
   <block id="416d6ad49d8853217a6bb321dc6df5aa" category="list-text">MVIP ：管理仮想 IP アドレス</block>
   <block id="c51558c5b0e3376ab979005c0eadcc9e" category="list-text">SVIP ：ストレージ仮想 IP アドレス</block>
-  <block id="96d2b8e68e9f540a05073cf66ebfb8fb" category="paragraph">特に記載がないかぎり、テーブル内のポートはすべて TCP です。</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">ソース</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">宛先</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">ポート</block>
@@ -6188,4 +6186,6 @@
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="732713df3c4c58fb19fab37e747f6f0d" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block></block>
   <block id="890975e7736a237c513f38124344fb84" category="list-text"><block ref="890975e7736a237c513f38124344fb84" category="inline-link-macro-rx"></block></block>
+  <block id="7149d03eb62017e7cc5192a67ff56c1c" category="paragraph">システムをリモートで管理し、データセンター外部のクライアントがリソースに接続できるようにし、内部サービスが正常に機能するようにするために、データセンターのエッジファイアウォールで次のポートを許可する必要があります。システムの使用方法によっては、これらのポート、 URL 、または IP アドレスの一部は不要な場合もあります。</block>
+  <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">特に記載がないかぎり、すべてのポートがTCPであり、NetAppサポートサーバ、管理ノード、およびElementソフトウェアを実行するノードの間の3ウェイハンドシェイク通信がすべてサポートされている必要があります。たとえば、管理ノードのソースのホストはTCPポート443を介してストレージクラスタのMVIPデスティネーションのホストと通信し、デスティネーションホストは任意のポートを介してソースホストと通信します。</block>
 </blocks>
