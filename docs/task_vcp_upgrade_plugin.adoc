@@ -27,7 +27,7 @@ NOTE: 管理サービス2.22.7には、リモートプラグインを含むEleme
 --
 このアップグレード手順では、次のアップグレードシナリオについて説明します。
 
-* Element Plug-in for vCenter Server 5.2、5.1、または5.0にアップグレードする。
+* Element Plug-in for vCenter Server 5.3、5.2、5.1、または5.0にアップグレードする。
 * HTML5 vSphere Web Client 8.0または7.0にアップグレードする。
 +
 
@@ -69,10 +69,19 @@ IMPORTANT: このプラグインは、 HTML5 vSphere Web Client バージョン 
 * * 管理サービスの更新 * ：を更新しました https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["管理サービスのバンドル"^] を最新バージョンに更新します。vCenter プラグインの更新は、 NetApp HCI のメジャー製品リリース以外でリリースされた管理サービスの更新を使用して配布されます。
 * *管理ノードのアップグレード*：
 +
-** Element vCenterプラグイン5.0以降では、これまで管理ノードを実行しています link:task_hcc_upgrade_management_node.html["アップグレード済み"] をバージョン12.3.x以降にアップグレードします。
-** Element vCenterプラグイン4.4～4.10では、以前から管理ノードを実行しています link:task_hcc_upgrade_management_node.html["アップグレード済み"] バージョン 11.3 以降。vCenter Plug-in 4.4以降では、個別のサービスを提供するモジュラアーキテクチャを備えた11.3以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。
+[role="tabbed-block"]
+====
+.vCenter 5.0以降向けElementプラグイン
+--
+実行している管理ノードは、 link:task_hcc_upgrade_management_node.html["アップグレード済み"] をバージョン12.3.x以降にアップグレードします。
 
+--
+.vCenter 4.10以前のElementプラグイン
+--
+実行している管理ノードは、 link:task_hcc_upgrade_management_node.html["アップグレード済み"] バージョン 11.3 以降。vCenter Plug-in 4.4以降では、個別のサービスを提供するモジュラアーキテクチャを備えた11.3以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。
 
+--
+====
 * * Elementストレージのアップグレード*：
 +
 ** Element vCenterプラグイン5.0以降では、NetApp Element ソフトウェア12.3.x以降を実行するクラスタが必要です。
@@ -89,16 +98,23 @@ image::vcp_registration_utility_ui_qossioc.png[は、プラグインの登録ユ
 
 . vCenter Plug-in Registration * を選択します。
 +
-** Element Plug-in for vCenter Server 5.xの[vCenter Plug-in Registration]ページ：
-+
+[role="tabbed-block"]
+====
+.vCenter 5.0以降向けElementプラグイン
+--
+[vCenter Plug-in Registration]ページが表示されます。
+
 image::vcp_remote_plugin_registration_ui.png[は、リモートプラグインの登録ユーティリティのUIです]
 
-** Element Plug-in for vCenter Server 4.xのvCenter Plug-inの登録ページ：
-+
+--
+.vCenter 4.10以前のElementプラグイン
+--
+[vCenter Plug-in Registration]ページが表示されます。
+
 image::vcp_registration_utility_ui.png[は、ローカルプラグインの登録ユーティリティUIを示しています]
 
-
-
+--
+====
 . Manage vCenter Plug-in * で、 * Update Plug-in * を選択します。
 . 次の情報を確認し、必要に応じて更新します。
 +
@@ -109,20 +125,27 @@ image::vcp_registration_utility_ui.png[は、ローカルプラグインの登�
 NOTE: vCenter Administrator ロールの権限を持つユーザのユーザ名とパスワードを入力する必要があります。
 
 .. vCenter Administrator のパスワード。
-.. （社内サーバ/ダークサイトの場合）Element Plug-in for vCenterのバージョンに応じて、プラグインのJSONファイルまたはプラグインのZIPのカスタムURL：
+.. （社内サーバまたはダークサイトの場合）Element Plug-in for vCenterのバージョンに応じて、プラグインのJSONファイルまたはプラグインのZIPのカスタムURL：
 +
-... Element Plug-in for vCenter Server 5.0以降、プラグインのJSONファイルのカスタムURL。
-+
+[role="tabbed-block"]
+====
+.vCenter 5.0以降向けElementプラグイン
+--
+プラグインJSONファイルのカスタムURL。
+
 
 NOTE: HTTPまたはHTTPSサーバ（ダークサイト）を使用している場合、またはJSONファイル名やネットワーク設定を変更した場合は、「* Custom URL *」を選択してURLをカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。
 
-... Element Plug-in for vCenter Server 4.10以前の場合は、プラグインのZIPのカスタムURL。
-+
+--
+.vCenter 4.10以前のElementプラグイン
+--
+プラグインのZIPのカスタムURL。
+
 
 NOTE: HTTP または HTTPS サーバ（ダークサイト）を使用している場合、または ZIP ファイル名やネットワーク設定を変更した場合は、「 * Custom URL * 」を選択して URL をカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。
 
-
-
+--
+====
 
 
 . 「 * Update * 」を選択します。
@@ -137,14 +160,23 @@ NOTE: この操作により、新しいデータベースが作成され、 vSph
 . vSphere Web Client で、タスクモニタで次のタスクが完了していることを確認します。「ダウンロードプラグイン」および「デプロイプラグイン」。
 . vSphere Web Clientの* Shortcuts *タブとサイドパネルにプラグインの拡張ポイントが表示されていることを確認します。
 +
-** Element Plug-in for vCenter Server 5.0以降では、NetApp Element リモートプラグイン拡張ポイントが表示されます。
-+
+[role="tabbed-block"]
+====
+.vCenter 5.0以降向けElementプラグイン
+--
+NetApp Elementリモートプラグイン拡張ポイントが表示されます。
+
 image::vcp_remote_plugin_icons_home_page.png[は、Element Plug-in 5.10以降のアップグレードまたはインストールが完了したあとのPlug-in拡張ポイントを示しています。]
 
-** Element Plug-in for vCenter Server 4.10以前では、NetApp Element Configuration and Management拡張ポイントが表示されます。
-+
+--
+.vCenter 4.10以前のElementプラグイン
+--
+NetApp Element Configuration拡張ポイントとManagement拡張ポイントが表示されます。
+
 image::vcp_shortcuts_page_accessing_plugin.png[は、Element Plug-in 4.10以前のアップグレードまたはインストールが成功したあとのプラグインの拡張ポイントを示しています。]
 
+--
+====
 +
 [NOTE]
 ====
@@ -153,8 +185,6 @@ vCenter Plug-in のアイコンが表示されない場合は、を参照して�
 VMware vCenter Server 6.7U1を使用してNetApp Element Plug-in for vCenter Server 4.8以降にアップグレードしたあとに、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示される場合は、を参照してください link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#error_vcp48_67u1["vCenter Server 向け Element プラグイン"^] これらのエラーのトラブルシューティングに関するドキュメント。
 
 ====
-
-
 . プラグインの * NetApp Element 構成 * 拡張ポイントの * バージョン情報 * タブでバージョンの変更を確認します。
 +
 次のバージョンの詳細またはより新しいバージョンの詳細が表示されます。
@@ -162,8 +192,8 @@ VMware vCenter Server 6.7U1を使用してNetApp Element Plug-in for vCenter Ser
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.2
-NetApp Element Plug-in Build Number: 12
+NetApp Element Plug-in Version: 5.3
+NetApp Element Plug-in Build Number: 9
 ----
 
 
