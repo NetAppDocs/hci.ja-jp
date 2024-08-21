@@ -911,7 +911,6 @@
   <block id="b4c5d7523b472861778f2afd883b2b2b" category="inline-link">QoSSIOC を有効にします</block>
   <block id="e9649f789dba33069d65dd43f646890f" category="list-text"><block ref="ab3ca5933bb57bf5671eabef88a511cb" category="inline-link-rx"></block> プラグインで制御されているすべてのデータストアが対象です。</block>
   <block id="c238cdf4d684fe1ceb6e88d6f4b60ebe" category="inline-link">NetApp HCI 2 ノードストレージクラスタテクニカルレポート</block>
-  <block id="6a718d1cc3413213dbf56882de72ccb2" category="list-text"><block ref="6a718d1cc3413213dbf56882de72ccb2" category="inline-link-rx"></block></block>
   <block id="2e0d27b933a2e6db1b858a8bcea236a1" category="summary">NetApp Hybrid Cloud Control を使用して NetApp HCI システムを拡張することができます。</block>
   <block id="50bdddc90dcdcbe3759654eefe06e164" category="doc">拡張の概要</block>
   <block id="944e20f3db18d7719ffcc340757b92e4" category="paragraph">NetApp HCI システムは、 NetApp Hybrid Cloud Control を使用して拡張できます。ストレージリソースとコンピューティングリソースは、個別に拡張することも、同時に拡張することもできます。</block>
@@ -1505,7 +1504,6 @@
   <block id="25ded102bd7108bf2ad7ccdfb451169c" category="list-text">ノード管理画面で、 * Settings &gt; Network Settings * と移動し、アウトオブバンド管理ポートのネットワークパラメータを設定します。</block>
   <block id="56e2546f6d8d4f46bdb3d14153ad92ee" category="paragraph">H615C ノードに GPU が搭載されている場合は、設置した H615C ノードごとに ESXi に GPU ドライバをインストールし、その機能を検証します。</block>
   <block id="c94f753aa1baf797e0eea49696404564" category="inline-link">_TR-48820 ：『 NetApp HCI ネットワーククイックプランニングガイド』 _</block>
-  <block id="42f1d5fbe05e1bdd25e119b9262b7dbd" category="list-text"><block ref="42f1d5fbe05e1bdd25e119b9262b7dbd" category="inline-link-rx"></block></block>
   <block id="ece769f3e2342dc1fa85aa0bd64b1b1b" category="summary">環境に応じて、いくつかの方法のいずれかを使用して NetApp HCI を導入する前に、 NetApp Deployment Engine にアクセスします。</block>
   <block id="b52e411998b7d3a95ad5bd8a320bf271" category="doc">NetApp Deployment Engine にアクセスします</block>
   <block id="6f9f3c0f40e6a8a5df48f52090890baf" category="paragraph">NetApp HCI を導入するには、いずれかの NetApp H シリーズストレージノード上の NetApp Deployment Engine に、 Bond1G インターフェイスに割り当てられた IPv4 アドレスを使用してアクセスする必要があります。 Bond1G インターフェイスは、ストレージノードのポート A と B を組み合わせた論理インターフェイスです。このストレージノードを使用して導入プロセスを制御します。環境に応じて、 IPv4 アドレスを設定するか、またはいずれかのストレージノードから取得する必要があります。</block>
@@ -2356,7 +2354,6 @@
   <block id="2fbd4cfd16900b4f22e7f4097fc857d1" category="list-text">インストール前に NetApp HCI インストール検出ワークブック _ を使用してネットワークを設定してください。</block>
   <block id="886bc05c9156ba9a0ef0e59bbe922cc0" category="inline-link">NetApp HCI のインストールとセットアップの手順 _</block>
   <block id="edeed001a7f09dfe7e394923f01fabcb" category="inline-link">TR-4823 ：『 NetApp HCI 2 Node Storage Cluster _ 』</block>
-  <block id="800b3008a6000b89c3546a67908cb985" category="list-text">4 つのストレージノードよりも小規模な NetApp HCI 構成の詳細については、を参照してください<block ref="1f9877144b35a10963cfdabe34a39b35" category="inline-link-rx"></block>。</block>
   <block id="2ddcd8d0a81226eb8f35042ac6c6e593" category="inline-link-macro">ストレージパフォーマンスを最適化するために LCAP を設定します</block>
   <block id="405abbf068b60685bf7c22dc59b5838a" category="list-text">各ストレージノードに使用されるスイッチポートでの Link Aggregation Control Protocol （ LACP ）の設定の詳細については、を参照してください <block ref="ca38e0bcccdbd590268fcccffc4dab9a" category="inline-link-macro-rx"></block>。</block>
   <block id="192476cda33667b77205e5378299fce7" category="paragraph">このセットアップにより、すべてのトラフィックが 2 つの物理冗長ポートに統合されるため、ケーブル配線が削減され、ネットワーク構成が合理化されます。この構成では、ストレージ、 vMotion 、および仮想マシンのネットワークセグメントで VLAN タギングを使用する必要があります。管理ネットワークセグメントでは、ネイティブ VLAN またはタグ付き VLAN を使用できますが、 NetApp Deployment Engine （ NDE ）がネットワークリソースを自動で割り当てることができるように、ネイティブ VLAN が推奨モードです（ Zero Conf ）。</block>
@@ -2455,7 +2452,6 @@
   <block id="3664bb4df59eca4395d94a7c6384dfc0" category="inline-link-macro">NetApp HCI のセットアップガイド</block>
   <block id="07b021dc180c131c18c2e77e5fa1150f" category="list-text"><block ref="07b021dc180c131c18c2e77e5fa1150f" category="inline-link-macro-rx"></block></block>
   <block id="f62052d22b7c5c8f9a15b0afff504755" category="inline-link">TR-48820 ：『 NetApp HCI Networking Quick Planning Guide 』</block>
-  <block id="85dcef363aee58216fb5391e1fe35922" category="list-text"><block ref="85dcef363aee58216fb5391e1fe35922" category="inline-link-rx"></block></block>
   <block id="620f7ee656b33c2240cf7a78ccac13ae" category="summary">DHCP を使用していない環境で NetApp Deployment Engine にアクセスする方法について説明します。</block>
   <block id="a406955fbdda282fd8c77d471122756f" category="paragraph">ネットワークで DHCP を使用していない場合は、 NetApp Deployment Engine へのアクセスに使用するストレージノード（制御用ストレージノード）の Bond1G インターフェイスに静的 IPv4 アドレスを設定する必要があります。制御用ストレージノードの NetApp Deployment Engine は、他のコンピューティングノードとストレージノードの Bond10G インターフェイスに自動で設定された IPv4 アドレスを使用し、これらのノードを検出して通信を確立します。ネットワークに特別な要件がないかぎり、この方法を使用してください。</block>
   <block id="c8e003c61610ae54bff17cc191088740" category="list-text">自分またはネットワーク管理者が、『セットアップガイド』ドキュメントのタスクを完了している。</block>
@@ -3195,7 +3191,6 @@
   <block id="4da92c7240bcf479967105033d357a35" category="summary">NetApp HCI の環境要件について説明します。</block>
   <block id="11144d4ff9f1c8879c32b13d1fe55516" category="paragraph">NetApp HCI の設置に使用するラックの電源が AC 電源コンセントから供給されること、および NetApp HCI の設置規模に応じた十分な冷却をデータセンターが提供できることを確認します。</block>
   <block id="05a04100a1c10fafc9e93be86bb13553" category="inline-link">データシート</block>
-  <block id="6c16ead3b4e36b80345f1e68a56b5630" category="paragraph">NetApp HCI の各コンポーネントの詳細な機能については、『 NetApp HCI 』を参照してください<block ref="3893914a6d59fe23537d16c9f9b61af3" category="inline-link-rx"></block>。</block>
   <block id="ac54e75ab9caed383d040ca6a1ec8507" category="admonition">H410C コンピューティングノードは高電圧（ 200~240VAC ）でのみ動作します。既存の NetApp HCI 環境に H410C ノードを追加する場合は、電源要件が満たされていることを確認しておく必要があります。</block>
   <block id="f50e38bc78c6fa7e67f47ef1895917bb" category="summary">最適なストレージパフォーマンスを実現するために NetApp HCI を設定する方法について説明します。</block>
   <block id="e57c5a7357f3f48428c219fefe91d13e" category="doc">ストレージパフォーマンスを最適化するために LACP を設定します</block>
@@ -4236,7 +4231,6 @@
   <block id="99494896be55aff6e412f1ef0dd3ca4c" category="list-text"><block ref="1f3c51825f286c5250086b5376a2ce29" category="inline-xref-macro-rx"></block></block>
   <block id="e56841e919b23e1af6ae192bcf82f545" category="list-text"><block ref="b85ef421159ab16d832d7cee8cebee71" category="inline-xref-macro-rx"></block></block>
   <block id="e73fbad1f8418c19025f40cdb1b36fc8" category="inline-link">TR-4741 ：『 NetApp Element Software Remote Replication 』</block>
-  <block id="4295c2c146dffb0e501aa5660faa08a6" category="paragraph">を参照してください<block ref="248edd64302142b459fba4dec31bdb70" category="inline-link-rx"></block>。</block>
   <block id="ff5dd3355a0a16a7f2fc734ab2229851" category="section-title">クラスタ間の同期レプリケーションと非同期レプリケーション</block>
   <block id="697cef1ff0b4e36164796a8a21f78548" category="paragraph">NetApp Element ソフトウェアを実行するクラスタでは、リアルタイムレプリケーションを使用してボリュームデータのリモートコピーを迅速に作成できます。</block>
   <block id="0389e516b3bf2b6b34e9309ede779a02" category="paragraph">1 つのストレージクラスタを最大 4 つの他のストレージクラスタとペアリングすることができます。フェイルオーバーやフェイルバックの際には、クラスタペアのどちらかのクラスタからボリュームのデータを同期または非同期でレプリケートできます。</block>
@@ -5535,7 +5529,6 @@
   <block id="9e7f85792d512cae6438c01093dd8f13" category="admonition">バージョン 2.27 にアップグレードする前に、 ESXi ドライバの現在のバージョンを確認します。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン 2.27 にアップグレードします。にアクセスします <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
   <block id="2558aa1c4b088a01ebbd23c6a72472a3" category="admonition">の詳細を確認してください <block ref="0614c1798bfcf6fa1dd2b630cd83d6d6" category="inline-link-macro-rx"></block> および <block ref="9f9f24cd869308f40f7cad49c3f42972" category="inline-link-macro-rx"></block>。</block>
   <block id="88b68b205e674e3025849d8b5b19d8d0" category="admonition">2 ノードストレージクラスタでは、監視ノードに障害が発生した場合の冗長性を確保するために、最低 2 つの監視ノードが導入されます。NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、 2 ノードおよび 3 ノードのストレージクラスタに対する監視ノードの再導入 * を参照してください <block ref="29ec30455b40779461eab8434f6212ca" category="inline-link-macro-rx"></block>。</block>
-  <block id="23d36a99e35a6625ac76fe1f034e722a" category="list-text"><block ref="23d36a99e35a6625ac76fe1f034e722a" category="inline-link-rx"></block></block>
   <block id="9919e22324d983d998afd33f187a0a61" category="paragraph">ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.10には、ストレージクラスタ用のElementソフトウェア12.5が含まれます。</block>
   <block id="f4acceab098d15c508ef563bc36e37fe" category="paragraph">Element 12.5には、Apache log4jの脆弱性に対するElementソフトウェアの影響を緩和する機能が含まれています。仮想ボリューム（VVol）機能が有効になっているNetApp SolidFire ストレージクラスタは、Apache log4jの脆弱性の影響を受けやすくなっています。NetApp Element ソフトウェアのApache log4jの脆弱性に対する回避策 の詳細については、｛url-peak｝[KB Article ^]を参照してください。</block>
   <block id="89cf55eeb9f34a1a360f23ce53a22331" category="paragraph">パッケージをアップロードすると、アップグレードが自動的に開始されます。</block>
@@ -5544,7 +5537,6 @@
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">VMware vCenter Server 6.7U1を使用してNetApp Element Plug-in for vCenter Server 4.8以降にアップグレードしたあとに、ストレージクラスタが表示されないか、NetApp Element 構成の「クラスタ」および「QoSSIOC設定*」のセクションにサーバエラーが表示される場合は、を参照してください <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> これらのエラーのトラブルシューティングに関するドキュメント。</block>
   <block id="c36b368af7c827d8bb3a4d8c46e97a75" category="admonition">バージョン 2.76.10 にアップグレードする前に、 ESXi ドライバの現在のバージョンを確認してください。ドライバが最新でない場合は、まずドライバをアップグレードします。次に、コンピューティングノードのコンピューティングファームウェアをバージョン 2.99 にアップグレードします。にアクセスします <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi ドライバを含むコンピューティングノードのドライバを更新する手順については、を参照してください。</block>
   <block id="c70e7fb85a0bbb75d626cb1d7966ab03" category="admonition">2 ノードストレージクラスタを 4 ノード以上に拡張した場合でも、ストレージクラスタで以前に使用されていた監視ノードのペアは、 vSphere ではスタンバイ仮想マシンとして表示されます。新しく拡張したストレージクラスタでは使用されません。 VM リソースを再利用する場合は、を実行します <block ref="b068a43ec0931fd63c3030d857c1d3cb" category="inline-link-macro-rx"></block> 監視ノードの仮想マシン。</block>
-  <block id="82fd08126fae06d6277e6d275f22adee" category="list-text">その他のサポートされる構成の詳細については、を参照してください<block ref="6bea819619d5f9270163ce0543e87e1e" category="inline-link-rx"></block> および<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>。</block>
   <block id="d921f4dac25eaa654020043661ebf1d8" category="paragraph">詳細については、を参照してください <block ref="aadf487819eba2c7633cf481d9cde909" category="inline-link-macro-rx"></block>。</block>
   <block id="dd41e54aa84e335e4ee862a13b5e6a0c" category="paragraph">保存データの暗号化を有効または無効にする方法については、を参照してください<block ref="599a70c288c4ec9eda9a2cc053c403eb" category="inline-link-rx"></block> SolidFire and Element ドキュメントセンターを参照してください。</block>
   <block id="e64faf772063d25cbb0caf6a1bb47d1f" category="paragraph">外部キー管理の設定の詳細については、を参照してください<block ref="64b5968354f6f57943cb4a3dfcc320f7" category="inline-link-rx"></block> SolidFire and Element ドキュメントセンターを参照してください。</block>
@@ -5900,7 +5892,6 @@
   <block id="59f1e3a87c5b329f2a5a951d9bf325f8" category="cell">ノードリモート制御へのHTTPS UIおよびAPIアクセス</block>
   <block id="1381491a5bb8087f95db0601150c5c28" category="cell">ストレージノードBMC/IPMI H410およびH600シリーズ</block>
   <block id="291dd45cc603b1047e92bf5a13259357" category="cell">RMCPポート。これはIPMI対応のシステムを管理するために必要です。</block>
-  <block id="4fc3110ffa80f16c08c41963de559312" category="admonition">用のコンピューティングノードの ESXi をアップグレードする場合<block ref="c40679731a13cea0e8ba16410d87ab2b" category="inline-link-rx"></block>では、一度に 1 つのコンピューティングノードのみをアップグレードして、一時的に 1 つの監視ノードのみが使用不能になり、クラスタクォーラムを維持できるようにします。</block>
   <block id="ed49450e49f19333986b5262b5e1a4d4" category="paragraph">NetApp HCI コンピューティングノードでサポートされるファームウェアとESXiドライバのバージョン。</block>
   <block id="0b50a6dd18dd8aee8ba17d59674440d3" category="paragraph">HシリーズおよびSolidFire ストレージノードでサポートされるファームウェアバージョン。</block>
   <block id="64e18ac9b2149d7132eaef6563caaaf6" category="paragraph">*モデル番号（ファミリー部）：* H610S *フルモデル番号：* H610S-1、H610S-1-NE、H610S-2、H610S-2-NE、H610S-4H610S-4-NEおよびH610S-2F</block>
@@ -6186,4 +6177,13 @@
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">ネットアップコミュニティ</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">サポートへのアクセス</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 に関するドキュメント</block>
+  <block id="de9f9af3b709ace792d8704d5d9b105f" category="list-text"><block ref="de9f9af3b709ace792d8704d5d9b105f" category="inline-link-rx"></block></block>
+  <block id="68f63921fdce687db3c7510ea1f63df3" category="paragraph">を参照してください<block ref="5fe7d084aafda4fb5c53715a85948ffe" category="inline-link-rx"></block></block>
+  <block id="75f97cab9e9de14d25c05846e421361a" category="paragraph">NetApp HCIの各コンポーネントの詳細な機能については、『NetApp HCI』を参照してください<block ref="cf48105a0f3c2479f34bbdfad268bcc0" category="inline-link-rx"></block>。</block>
+  <block id="5824ec67f2e84250bfcd931d8f2d6a16" category="list-text">詳細およびサポートされるその他の構成については、<block ref="be0a1633f05f833fc37598e3b5d7e95e" category="inline-link-rx"></block>およびを参照して<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>ください。</block>
+  <block id="8a91fe255efcffde80021047735fd330" category="list-text">ストレージノードが4つ未満のNetApp HCI構成については、を参照してください<block ref="54d37355d9369a629af27e51f6998cd4" category="inline-link-rx"></block>。</block>
+  <block id="1e4bf851d18462d626029f69f75339e4" category="list-text"><block ref="1e4bf851d18462d626029f69f75339e4" category="inline-link-rx"></block></block>
+  <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
+  <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">のコンピューティングノードのESXiをアップグレードする<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block>場合は、一度に1つのコンピューティングノードのみをアップグレードして、一時的に使用できなくなり、クラスタクォーラムを維持できるようにします。</block>
+  <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
 </blocks>
