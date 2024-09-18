@@ -4313,7 +4313,6 @@
   <block id="befd59adbc7ca9bef6a93304fb2e0271" category="list-text">ストレージファームウェアのアップグレードを実行します。</block>
   <block id="f5925eb0265a585d14f6a64ad359e976" category="inline-link">NetApp HCI ソリューション</block>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。</block>
-  <block id="ad0a505756223d68dc11afeae3459351" category="doc">NetApp HCI のドキュメント</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">リリースノート</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="4b983fff716674f120176e09551dd445" category="sidebar">製品の概要</block>
@@ -6186,4 +6185,5 @@
   <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
   <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">のコンピューティングノードのESXiをアップグレードする<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block>場合は、一度に1つのコンピューティングノードのみをアップグレードして、一時的に使用できなくなり、クラスタクォーラムを維持できるようにします。</block>
   <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
+  <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">NetApp HCIドキュメント1.10</block>
 </blocks>
