@@ -37,11 +37,17 @@ NetApp HCI コンピューティングノードでサポートされるファー
 10 / 25GbE NICと互換性のあるESXiドライバはCompute Firmware Bundleに含まれていません。参照用に指定されています。
 
 
+IMPORTANT: VMware ESXiバージョン8.0の詳細については、次の技術情報アーティクルを参照してlink:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/What_is_supported_with_NetApp_HCI_and_VMware_ESX_version_8.0_and_beyond["NetApp HCIおよびVMware ESXiバージョン8.0以降でサポートされている機能を教えてください。"^]ください。
+
+
 NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特定のハードウェアコンポーネントがそのリリース車両でサポートされていないことを示しています。
 
 [cols="8*"]
 |===
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | 10 / 25GbE NIC | VMware ESXi 6.5ドライバのバージョン | VMware ESXi 6.7ドライバのバージョン | VMware ESXi 7.0ドライバのバージョン 
+
+
+| * Compute Firmware Bundle 2.179.0* | 2024年10月17日 | 3B14.CO | 4.79.07 | 14.29.1016 | - | - | 4.21.71.1 
 
 
 | * Compute Firmware Bundle 2.174.0* | 2023年4月12日 | 3B12.CO | 4.72.07 | 14.29.1016 | 4.16.71.1 | 4.17.71.1 | 4.21.71.1 
@@ -122,11 +128,17 @@ NetApp HCI 1.0 - NetApp HCI 1.7では、ファームウェアをリリースす�
 10 / 25GbE NICと互換性のあるESXiドライバはCompute Firmware Bundleに含まれていません。参照用に指定されています。
 
 
+IMPORTANT: VMware ESXiバージョン8.0の詳細については、次の技術情報アーティクルを参照してlink:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/What_is_supported_with_NetApp_HCI_and_VMware_ESX_version_8.0_and_beyond["NetApp HCIおよびVMware ESXiバージョン8.0以降でサポートされている機能を教えてください。"^]ください。
+
+
 NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特定のハードウェアコンポーネントがそのリリース車両でサポートされていないことを示しています。
 
 [cols="8*"]
 |===
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | 10 / 25GbE NIC | VMware ESXi 6.5ドライバのバージョン | VMware ESXi 6.7ドライバのバージョン | VMware ESXi 7.0ドライバのバージョン 
+
+
+| * Compute Firmware Bundle 2.179.0* | 2024年10月17日 | 3B09 | 4.11.07 | 14.29.1016 | - | - | 4.21.71.1 
 
 
 | * Compute Firmware Bundle 2.174.0* | 2023年4月12日 | 3B07 | 4.04.07 | 14.29.1016 | 4.16.71.1 | 4.17.71.1 | 4.21.71.1 
@@ -219,11 +231,17 @@ NetApp HCI 1.0 - NetApp HCI 1.7では、ファームウェアをリリースす�
 10 / 25GbE NICと互換性のあるESXiドライバはCompute Firmware Bundleに含まれていません。参照用に指定されています。
 
 
+IMPORTANT: VMware ESXiバージョン8.0の詳細については、次の技術情報アーティクルを参照してlink:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/What_is_supported_with_NetApp_HCI_and_VMware_ESX_version_8.0_and_beyond["NetApp HCIおよびVMware ESXiバージョン8.0以降でサポートされている機能を教えてください。"^]ください。
+
+
 NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特定のハードウェアコンポーネントがそのリリース車両でサポートされていないことを示しています。
 
 [cols="8*"]
 |===
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | 10 / 25GbE NIC | VMware ESXi 6.5ドライバのバージョン | VMware ESXi 6.7ドライバのバージョン | VMware ESXi 7.0ドライバのバージョン 
+
+
+| * Compute Firmware Bundle 2.179.0* | 2024年10月17日 | NATP3.12 | 6.71.26 | 14.29.1016 | - | - | 4.21.71.1 
 
 
 | * Compute Firmware Bundle 2.174.0* | 2023年4月12日 | NATP3.10 | 6.71.20 | 14.29.1016 | 4.16.71.1 | 4.17.71.1 | 4.21.71.1 
@@ -322,11 +340,17 @@ NetApp HCI 1.0 - NetApp HCI 1.7では、ファームウェアをリリースす�
 10 / 25GbE NICと互換性のあるESXiドライバはCompute Firmware Bundleに含まれていません。参照用に指定されています。
 
 
+IMPORTANT: VMware ESXiバージョン8.0の詳細については、次の技術情報アーティクルを参照してlink:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/What_is_supported_with_NetApp_HCI_and_VMware_ESX_version_8.0_and_beyond["NetApp HCIおよびVMware ESXiバージョン8.0以降でサポートされている機能を教えてください。"^]ください。
+
+
 NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特定のハードウェアコンポーネントがそのリリース車両でサポートされていないことを示しています。
 
 [cols="8*"]
 |===
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | 10 / 25GbE NIC | VMware ESXi 6.5ドライバのバージョン | VMware ESXi 6.7ドライバのバージョン | VMware ESXi 7.0ドライバのバージョン 
+
+
+| * Compute Firmware Bundle 2.179.0* | 2024年10月17日 | NAT3.6 | 07.02.00 | 14.29.1016 | - | - | 4.21.71.1 
 
 
 | * Compute Firmware Bundle 2.174.0* | 2023年4月12日 | NAT3.4 | 07.02.00 | 14.29.1016 | 4.16.71.1 | 4.17.71.1 | 4.21.71.1 

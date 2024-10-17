@@ -41,6 +41,9 @@ NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特�
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | CPLD | 10 / 25GbE NIC CX4 | 10 / 25GbE NIC CX5 | NVDIMM NVDIMMモジュールのキャッシュSMART（Gen1） | キャッシュNVDIMMのエナジーソース（BPM）スマート（Gen1） | NVDIMMのキャッシュNVDIMMモジュールスマート（Gen2） | キャッシュNVDIMMの電源（BPM）をスマートにする（Gen2） | NVDIMM NVDIMMモジュールMicron（Gen1）のキャッシュ | キャッシュNVDIMMエネルギーソース（PGEM）Agigatech（Gen1） | NVDIMMのキャッシュNVDIMMモジュールMicron（Gen2） | Cache NVDIMM Energy Source（PGEM）Agigatech（Gen2） | キャッシュNVDIMMエネルギーソース（PGEM）Agigatech（Gen3） | ドライブSamsung PM963（SED） | ドライブSamsung PM963（N-SED） | ドライブSamsung PM983（SED） | ドライブSamsung PM983（N-SED） | ドライブキオキシアCD5（SED） | ドライブキオキシアCD5（N-SED） | ドライブCD5（FIPS） | Samsung PM9A3ドライブ（SED） | ドライブSKハイニックスPE8010（SED） | ドライブSKハイニックスPE8010（N-SED） 
 
 
+| *ストレージファームウェアバンドル2.182.0 * | 2024年10月17日 | 3B14 | 4.01.07 | 122 | 14.25.1020 | 16.32.1010 | 3.1 | 2.16 | 26.2C | 1.30 | 25.3C | 1.40 | 1.10 | 3.5. | 2時17分 | CXV8202Q | CXV8501Q | EDA5602Q | EDA5900Q | 0109 | 0109 | 0108. | GDC5A02Q | 11093A10 | 110B3A10 
+
+
 | *ストレージファームウェアバンドル2.175.0 * | 2023年6月15日 | 3B11 | 3.94.07 | 122 | 14.25.1020 | 16.32.1010 | 3.1 | 2.16 | 26.2C | 1.30 | 25.3C | 1.40 | 1.10 | 3.5. | 2時17分 | CXV8202Q | CXV8501Q | EDA5602Q | EDA5900Q | 0109 | 0109 | 0108. | GDC5602Q | 11092A10 | 110B2A10 
 
 
@@ -152,6 +155,9 @@ NOTE: 次の表にダッシュ（*-*）が表示されている場合は、特�
 [cols="12*"]
 |===
 | 車両をリリースする | リリース日 | BIOS | BMC の場合 | 10 / 25GbE NIC SMCI Mellanox | NVDIMM RMS200をキャッシュします | NVDIMM RMS300をキャッシュします | ドライブSamsung PM863（SED） | ドライブSamsung PM863（N-SED） | ドライブ東芝ホーク-4（SED） | ドライブ東芝ホーク-4 (N-Sドライブ) | ドライブSamsung PM883（SED） 
+
+
+| *ストレージファームウェアバンドル2.182.0 * | 2024年10月17日 | NAT3.6 | 07.02.00 | 14.25.1020 | aeb8cc | 7d8422bc | GXT5404Q | GXT5103Q | 8ENP7101 | 8ENP6101 | HXT7A04Q 
 
 
 | *ストレージファームウェアバンドル2.175.0 * | 2023年6月15日 | NAT3.4 | 07.02.00 | 14.25.1020 | aeb8cc | 7d8422bc | GXT5404Q | GXT5103Q | 8ENP7101 | 8ENP6101 | HXT7A04Q 
