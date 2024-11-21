@@ -6133,11 +6133,9 @@
   <block id="08a91b27b8b81bd9d0b64ba51e61dd98" category="paragraph">コンピューティングノードを交換したあとで、ファームウェアのバージョンのアップグレードが必要になる場合があります。を参照してください <block ref="502434424b58174296cfde9ecff2397f" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="939f531b35412529043c2c302552fa24" category="list-text"><block ref="939f531b35412529043c2c302552fa24" category="inline-link-rx"></block></block>
   <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">vCenter Plug-in 5.3リリースノート</block>
-  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">管理サービス2.25.42（NetApp Element Plug-in for VMware vCenter Server 5.3.9）に関するお知らせ</block>
   <block id="f7e890b0a90e234e4df04fc0c6b8c6a7" category="list-text"><block ref="f7e890b0a90e234e4df04fc0c6b8c6a7" category="inline-link-macro-rx"></block></block>
-  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">Element Plug-in for vCenter Server 5.3、5.2、5.1、または5.0にアップグレードする。</block>
   <block id="1b72ac6198c042d0bd992d1bb6e9d9bd" category="paragraph">実行している管理ノードは、 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> をバージョン12.3.x以降にアップグレードします。</block>
   <block id="08f9e70df1fc159dfb7400ec9dea96a4" category="paragraph">実行している管理ノードは、 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> バージョン 11.3 以降。vCenter Plug-in 4.4以降では、個別のサービスを提供するモジュラアーキテクチャを備えた11.3以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。</block>
   <block id="98e5a822cb59ab0389d49ffe93acad7a" category="paragraph">[vCenter Plug-in Registration]ページが表示されます。</block>
@@ -6229,4 +6227,10 @@
   <block id="2dc3efc642d50fd00d3f873b79e8b213" category="cell">* GDC5A02Q*</block>
   <block id="c94f09ee99212129d406ef397dc89885" category="cell">* 11093A10*</block>
   <block id="0e6ea2d2094482378f9c9eb3acdf6a9d" category="cell">* 110B3A10*</block>
+  <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">管理サービス2.26.30（NetApp Element Plug-in for VMware vCenter Server 5.4.1）に関するお知らせ</block>
+  <block id="a6797c051ad351f2872ce5ea539ca689" category="list-text"><block ref="a6797c051ad351f2872ce5ea539ca689" category="inline-link-macro-rx"></block></block>
+  <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">『 vCenter Plug-in 5.4 Release Notes 』を参照してください</block>
+  <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block>新規_</block>
+  <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
+  <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">Element Plug-in for vCenter Server 5.4、5.3、5.2、5.1、または5.0にアップグレードする。</block>
 </blocks>
