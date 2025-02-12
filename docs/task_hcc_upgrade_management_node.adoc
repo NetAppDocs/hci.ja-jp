@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
 summary: NetApp HCI システムのアップグレードの一環として、管理ノードをアップグレードします。 
-keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7 
+keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7, 12.8 
 ---
 = 管理ノードをアップグレードします
 :allow-uri-read: 
@@ -16,8 +16,30 @@ keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10,
 
 NOTE: 管理ノード12.2以前のアップグレードに関する情報が必要な場合は、を参照してください https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["NetApp HCI 1.9管理ノードのアップグレードに関するドキュメント"^]。
 
-.アップグレードオプション
-次のいずれかのオプションを選択します。
+
+
+== 手順1：管理ノードのVMハードウェアバージョンをアップグレードする
+
+既存の管理ノードをElement 12.8にインプレースアップグレードする場合は、アップグレード前に、管理ノードのVMハードウェアのバージョンがESXi 6.7（VMハードウェアバージョン14）以降に対応していることを確認する必要があります。
+
+
+NOTE: 次の手順に従って、監視ノード上のVMハードウェアのバージョンをアップグレードすることもできます。
+
+.手順
+. vSphere Web Client に vCenter Administrator としてログインします。
+. vSphere Clientのメニューで、*[VMs]*および*[Templates]*を選択します。
+. 仮想マシンを右クリックし、* Compatibility *>* Upgrade VM Compatibility *を選択します。
+. 「 * はい * 」を選択します。
+. vSphere環境のバージョンに応じて、ESXi 6.7以降のバージョンを選択します。
+. 「 * OK 」を選択します。
+. アップグレードが完了したら、* vsphere client refresh *を選択し、VM Compatibilityが目的のバージョンになっていることを確認します。
+
+
+
+
+== 手順2：管理ノードをElement 12.5以降にアップグレードする
+
+次のいずれかのアップグレードオプションを選択します。
 
 * <<バージョン12.3.x以降から管理ノードをバージョン12.5以降にアップグレードします>>
 * <<管理ノード REST API を使用して認証を再設定します>>
@@ -31,14 +53,14 @@ NOTE: 管理サービスと Element ストレージを順番に更新しない�
 
 
 
-== バージョン12.3.x以降から管理ノードをバージョン12.5以降にアップグレードします
+=== バージョン12.3.x以降から管理ノードをバージョン12.5以降にアップグレードします
 
 新しい管理ノード仮想マシンをプロビジョニングすることなく、バージョン12.3.x以降からバージョン12.5以降への管理ノードのインプレースアップグレードを実行できます。
 
 
 NOTE: Element 12.5以降の管理ノードはオプションのアップグレードです。既存の環境では必要ありません。
 
-.必要なもの
+.作業を開始する前に
 * 管理ノード VM の RAM は 24GB です。
 * アップグレードする管理ノードのバージョンが 12.0 で、 IPv4 ネットワークを使用している。管理ノードバージョン12.5以降ではIPv6がサポートされません。
 +
@@ -124,7 +146,7 @@ IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が�
 
 
 
-== 管理ノード REST API を使用して認証を再設定します
+=== 管理ノード REST API を使用して認証を再設定します
 
 既存の管理ノードは、（ 1 ）管理サービスと（ 2 ） Element ストレージを順番にアップグレードした場合でも維持できます。別のアップグレード順序を使用した場合は、インプレース管理ノードのアップグレード手順を参照してください。
 
@@ -157,7 +179,8 @@ https://<ManagementNodeIP>/mnode
 
 
 
-[discrete]
+
+
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

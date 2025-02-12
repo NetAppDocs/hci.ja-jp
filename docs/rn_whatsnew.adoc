@@ -18,7 +18,7 @@ keywords: netapp, hci, element, new, whatsnew
 ネットアップでは、 NetApp HCI を定期的に更新して、新機能、拡張機能、およびバグ修正を提供しています。NetApp HCI 1.10には、ストレージクラスタ用のElementソフトウェア12.5が含まれます。
 
 
-NOTE: Elementソフトウェア12.7は最新リリースで、セキュリティおよびシステムコンポーネントのアップデート、運用の改善、および解決済みの問題が含まれています。 https://docs.netapp.com/us-en/element-software/concepts/concept_rn_whats_new_element.html["Element 12.7の新機能の詳細をご確認ください"^]。
+NOTE: Elementソフトウェア12.8は最新リリースで、セキュリティとシステムコンポーネントの更新、運用の改善、解決済みの問題が含まれています。 https://docs.netapp.com/us-en/element-software/concepts/concept_rn_whats_new_element.html["Element 12.8の新機能の詳細をご確認ください"^]です。
 
 * 。 <<NetApp HCI 1.10の場合>> セクションでは、NetApp HCI バージョン1.10の新機能およびアップデートについて説明します。
 * 。 <<Elementソフトウェア12.5>> セクションでは、Element 12.5の新機能と更新について説明します。
