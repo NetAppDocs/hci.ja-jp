@@ -47,7 +47,7 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
 
 * link:./media/NetApp_HCI_1.11_notice.pdf["NetApp HCI 1.11に関する注意事項を参照してください"^]
-* link:../media/Element_Software_12.8.pdf["Elementソフトウェア12.8のご注意ください"^]
+* link:./media/Element_Software_12.8.pdf["Elementソフトウェア12.8のご注意ください"^]
 * link:./media/Element_Software_12.7.pdf["Elementソフトウェア12.7のご注意ください"^]
 * link:./media/Ember_OS_12.7.pdf["Ember OS 12.7の注意"^]
 * link:./media/mNode_12.7.pdf["管理ノード12.7の注意"^]
