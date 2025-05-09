@@ -32,9 +32,8 @@ NetApp HCI ハードウェアが届く前に、ネットアッププロフェッ
 * link:hci_prereqs_deployment_configuration_restriction.html["導入設定の制限事項"]
 
 
-[discrete]
+
+
 == 詳細については、こちらをご覧ください
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
-* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

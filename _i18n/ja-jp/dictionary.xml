@@ -31,7 +31,6 @@
   <block id="0bddb3bdf080c783b912ff1fa674f754" category="list-text">* オプション * ：リセット操作を実行するための仕様。詳細が必要な場合は、ネットアップサポートにお問い合わせください。</block>
   <block id="f9d55129538f50700280c66af4954a65" category="list-text">* ネットワークの再起動 * ：管理ノード上のすべてのネットワークサービスを再起動します。</block>
   <block id="6d8cb4a54a58f9923479d4340b28d71c" category="floating-title">詳細はこちら</block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">NetApp HCI のリソースページ</block>
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">Element ソフトウェアをアップグレードします</block>
   <block id="af97413bfe0fcaebbe8c8bbf7a552c1e" category="list-text">* admin 権限 * ：アップグレードを実行する権限がストレージクラスタ管理者に付与されています。</block>
   <block id="992d266839a579e9b62b9fbb2193d3bf" category="inline-link">ネットアップの技術情報： NetApp Element ソフトウェアを実行するストレージクラスタのアップグレードマトリックス</block>
@@ -4340,7 +4339,6 @@
   <block id="9a273d2d550df11ef961cf667f623547" category="sidebar">ネットアップストレージとコンピューティングのリソースを拡張</block>
   <block id="b7f7f58ec15cebe706964cdc95d8f5cf" category="sidebar">NetApp HCI で Rancher を使用します</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">H シリーズハードウェアのメンテナンス</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="d2474f66e7104844e66cde87fadc4606" category="image-alt">は、カムハンドルを呼び出せたストレージノードを示しています。</block>
   <block id="6b82508d9077c3b6e79dc42a1b0f9fae" category="list-text">交換用ノードを設置</block>
   <block id="30eff853cab1826b278be3508c5588b6" category="admonition">デフォルトのホスト名を、削除したノードの名前に変更する場合は、ここで変更します。</block>
@@ -4358,7 +4356,6 @@
   <block id="64efe97c16298f313a94633c492bcdba" category="list-text">使用可能なドライブのリストを表示するには、「 * Available * 」を選択します。</block>
   <block id="989e5f78df6a0ad43d822c87676bc3ab" category="list-text">追加するドライブの Actions （アクション）アイコンを選択し、 * Add * （追加）を選択します。</block>
   <block id="6ce4b425965b75929d52b1096702e4aa" category="list-text">Available （使用可能）ドロップダウンリストからドライブを選択し、 * Add * （追加）を選択します。</block>
-  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="1426a14d282b02c953edd5f4f077691a" category="cell">NetApp Hybrid Cloud Control にアクセスして、 NetApp HCI のインストール、拡張、監視、管理サービスの更新を行うことができます。 <block ref="a1c11cad5b609b760f3755aa65408949" category="inline-link-macro-rx"></block></block>
   <block id="7d1f6fad6e68f4a100a700425c505423" category="list-text">エラーを記録したスロットを次のように特定します。</block>
   <block id="5c611f983c31c0bf784d03258576596d" category="list-text">H615C の場合は、次の手順を実行します。</block>
@@ -6233,10 +6230,7 @@
   <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">既存の管理ノードをElement 12.8にインプレースアップグレードする場合は、アップグレード前に、管理ノードのVMハードウェアのバージョンがESXi 6.7（VMハードウェアバージョン14）以降に対応していることを確認する必要があります。</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">次の手順に従って、監視ノード上のVMハードウェアのバージョンをアップグレードすることもできます。</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。</block>
-  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">vSphere Clientのメニューで、*[VMs]*および*[Templates]*を選択します。</block>
-  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">仮想マシンを右クリックし、* Compatibility *&gt;* Upgrade VM Compatibility *を選択します。</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">vSphere環境のバージョンに応じて、ESXi 6.7以降のバージョンを選択します。</block>
-  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">アップグレードが完了したら、* vsphere client refresh *を選択し、VM Compatibilityが目的のバージョンになっていることを確認します。</block>
   <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">手順2：管理ノードをElement 12.5以降にアップグレードする</block>
   <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">次のいずれかのアップグレードオプションを選択します。</block>
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">手順1：ISOまたはOVAをダウンロードしてVMを導入する</block>
@@ -6253,4 +6247,10 @@
   <block id="64391abac346294811422637c6d0a865" category="paragraph">管理ノードの既知のアセットにコンピューティングノードアセットを追加する</block>
   <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Elementソフトウェア12.8のご注意ください</block>
   <block id="2d0be4b4ba388979c4f454ae05179965" category="list-text"><block ref="2d0be4b4ba388979c4f454ae05179965" category="inline-link-macro-rx"></block></block>
+  <block id="6e93fbac14e98fd4eee5f4f560e1d580" category="list-text">vSphere Clientのメニューで、*[仮想マシンおよびテンプレート]*を選択します。</block>
+  <block id="be19667c20f2f3c6b932b48a9c488774" category="list-text">仮想マシン（VM）を右クリックし、*[パワー]*&gt;*[ゲストOSのシャットダウン]*を選択します。</block>
+  <block id="6f5f678ae471ecc070cea185b3d40ed4" category="paragraph">VMの電源がオフになるまで待ちます。</block>
+  <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">VMを右クリックし、* Compatibility *&gt;* Upgrade VM Compatibility *を選択します。</block>
+  <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">アップグレードが完了したら、VMを右クリックし、* Power *&gt;* Power On *を選択します。</block>
+  <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">[vsphere client refresh]*を選択し、VMの互換性が目的のバージョンになっていることを確認します。</block>
 </blocks>

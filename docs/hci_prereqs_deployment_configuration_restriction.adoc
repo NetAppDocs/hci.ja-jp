@@ -18,9 +18,8 @@ VMware vSphereのバージョン、コンピューティングノードのタイ
 
 あなたの場合 link:task_nde_select_inventory.html["[*Inventory*]ページから制限された構成を選択します"] 導入時に、有効な別の設定オプションを含むエラーメッセージが表示されます。
 
-[discrete]
+
+
 == 詳細については、こちらをご覧ください
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
-* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

@@ -27,12 +27,17 @@ NOTE: 次の手順に従って、監視ノード上のVMハードウェアのバ
 
 .手順
 . vSphere Web Client に vCenter Administrator としてログインします。
-. vSphere Clientのメニューで、*[VMs]*および*[Templates]*を選択します。
-. 仮想マシンを右クリックし、* Compatibility *>* Upgrade VM Compatibility *を選択します。
+. vSphere Clientのメニューで、*[仮想マシンおよびテンプレート]*を選択します。
+. 仮想マシン（VM）を右クリックし、*[パワー]*>*[ゲストOSのシャットダウン]*を選択します。
++
+VMの電源がオフになるまで待ちます。
+
+. VMを右クリックし、* Compatibility *>* Upgrade VM Compatibility *を選択します。
 . 「 * はい * 」を選択します。
 . vSphere環境のバージョンに応じて、ESXi 6.7以降のバージョンを選択します。
 . 「 * OK 」を選択します。
-. アップグレードが完了したら、* vsphere client refresh *を選択し、VM Compatibilityが目的のバージョンになっていることを確認します。
+. アップグレードが完了したら、VMを右クリックし、* Power *>* Power On *を選択します。
+. [vsphere client refresh]*を選択し、VMの互換性が目的のバージョンになっていることを確認します。
 
 
 
@@ -183,6 +188,4 @@ https://<ManagementNodeIP>/mnode
 
 == 詳細については、こちらをご覧ください
 
-* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI のリソースページ"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
