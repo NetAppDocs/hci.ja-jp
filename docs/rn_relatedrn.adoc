@@ -35,7 +35,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 == NetApp Element ソフトウェア
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["NetApp Element ソフトウェア12.8リリースノート"^]新規_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["NetApp Element ソフトウェア12.8リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["NetApp Element ソフトウェア12.7リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193["NetApp Element ソフトウェア12.5リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["NetApp Element ソフトウェア 12.3.2 リリースノート"^]
@@ -64,7 +64,8 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 == vCenter Server 向け NetApp Element プラグイン
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["『 vCenter Plug-in 5.4 Release Notes 』を参照してください"^]新規_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3344864["vCenter プラグイン 5.5 リリースノート"^]_新しい_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["『 vCenter Plug-in 5.4 Release Notes 』を参照してください"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3316480["vCenter Plug-in 5.3リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272["vCenter Plug-in 5.2リリースノート"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["vCenter Plug-in 5.1リリースノート"^]
@@ -83,7 +84,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 == ファームウェアを計算します
 
-* link:rn_compute_firmware_2.179.0.html["Compute Firmware Bundle 2.179.0リリースノート"]新規_
+* link:rn_compute_firmware_2.179.0.html["Compute Firmware Bundle 2.179.0リリースノート"]
 * link:rn_compute_firmware_2.174.0.html["Compute Firmware Bundle 2.174.0リリースノート"]
 * link:rn_compute_firmware_2.154.4.html["Compute Firmware Bundle 2.154.4リリースノート"]
 * link:rn_compute_firmware_2.146.html["Compute Firmware Bundle 2.146 リリースノート"]
@@ -97,7 +98,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 == ストレージファームウェア
 
-* link:rn_storage_firmware_2.182.0.html["『Storage Firmware Bundle 2.182.0 Release Notes』を参照してください"]新規_
+* link:rn_storage_firmware_2.182.0.html["『Storage Firmware Bundle 2.182.0 Release Notes』を参照してください"]
 * link:rn_storage_firmware_2.175.0.html["『Storage Firmware Bundle 2.175.0 Release Notes』を参照してください"]
 * link:rn_storage_firmware_2.164.0.html["『Storage Firmware Bundle 2.164.0 Release Notes』を参照してください"]
 * link:rn_storage_firmware_2.150.html["『Storage Firmware Bundle 2.150 Release Notes』を参照してください"]

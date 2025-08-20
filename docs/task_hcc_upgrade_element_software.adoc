@@ -11,21 +11,24 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 [role="lead"]
 NetApp Element ソフトウェアをアップグレードするには、NetApp Hybrid Cloud ControlのUIまたはREST APIを使用します。Element ソフトウェアのアップグレードの実行中は、ノードの追加と削除、ドライブの追加と削除、イニシエータ、ボリュームアクセスグループ、仮想ネットワークに関連するコマンドなど、一部の処理は実行できません。
 
+警告：
 
-NOTE: Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5以降にアップグレードします。
+[]
+====
+管理サービス 2.27 バンドルには、管理ノード 12.8 とのみ互換性のある vCenter Server 5.5 用の Element プラグインが含まれています。管理サービス 2.27 に更新する場合は、管理ノードと管理サービス間の互換性を確保するために、アップグレード シーケンスを変更し、Element 12.8 にアップグレードした後に管理サービス バンドルを更新する必要があります。
 
-.必要なもの
+管理サービス 2.21.61 から 2.26.40 に更新する場合は、Element 12.8 にアップグレードする前に管理サービス バンドルを更新する必要があります。
+
+====
+.作業を開始する前に
 * * admin 権限 * ：アップグレードを実行する権限がストレージクラスタ管理者に付与されています。
 * * 有効なアップグレードパス * ：アップグレード先の Element バージョンのアップグレードパス情報を確認し、アップグレードパスが有効であることを確認しておきます。を参照してください https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software%3F["ネットアップの技術情報： NetApp Element ソフトウェアを実行するストレージクラスタのアップグレードマトリックス"^]
++
+Element 12.5以降では、ElementソフトウェアのアップグレードでNetApp HealthToolsがサポートされなくなりました。Element 11.0または11.1を実行している場合は、最初にが必要です link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthToolsを使用してElement 12.3にアップグレードします"^] NetApp Hybrid Cloud Controlを使用してElement 12.5以降にアップグレードします。
+
 * * システム時間の同期 * ：すべてのノードのシステム時間が同期されており、 NTP がストレージクラスタとノードに対して正しく設定されていることを確認しておきます。各ノードには、ノード Web UI （「 https://[IP address 」： 442 ）に DNS ネームサーバを設定する必要があります。時刻のずれに関連する未解決のクラスタ障害はありません。
 * * システムポート * ： NetApp Hybrid Cloud Control をアップグレードに使用している場合は、必要なポートが開いていることを確認しておきます。を参照してください link:hci_prereqs_required_network_ports.html["ネットワークポート"] を参照してください。
 * * 管理ノード * ： NetApp Hybrid Cloud Control の UI および API では、環境内の管理ノードはバージョン 11.3 を実行しています。
-* * 管理サービス * ：管理サービスバンドルを最新バージョンに更新しました。
-
-
-
-IMPORTANT: Elementソフトウェアをバージョン12.5以降にアップグレードする前に、最新の管理サービスバンドルにアップグレードする必要があります。Elementソフトウェアをバージョン12.5以降に更新する場合は、管理サービス2.21.61以降が必要です。
-
 * * クラスタの健全性 * ：クラスタをアップグレードする準備が完了していることを確認しました。を参照してください link:task_hcc_upgrade_element_prechecks.html["ストレージをアップグレードする前に、 Element ストレージの健全性チェックを実行します"]。
 * * H610Sノードのベースボード管理コントローラ（BMC）を更新*：H610SノードのBMCバージョンをアップグレードしました。を参照してください link:rn_H610S_BMC_3.84.07.html["リリースノートおよびアップグレード手順"]。
 * *アップグレード処理時間*:アップグレードを実行するための十分な時間を確保しています。Elementソフトウェア12.5以降にアップグレードする場合は、Elementソフトウェアの現在のバージョンとファームウェアの更新によってアップグレードプロセスの時間が異なります。
