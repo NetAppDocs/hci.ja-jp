@@ -6214,12 +6214,8 @@
   <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">2 ノードおよび 3 ノードのストレージクラスタの監視ノードの再導入</block>
   <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">NetApp HCI のインストールプロセスで監視ノードがインストールされると、 VM テンプレートが VMware vCenter に格納されます。これを使用して、誤って削除された場合、失われた場合、または破損した場合に監視ノードを再導入できます。また、監視ノードをホストしていた障害コンピューティングノードと交換する必要がある場合は、テンプレートを使用して監視ノードを再導入することもできます。手順については、を参照してください<block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>。</block>
   <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">VMハードウェアバージョンのアップグレード</block>
-  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">既存の監視ノードをElement 12.8にインプレースアップグレードする場合は、アップグレード前に、環境に応じて、監視ノードのVMハードウェアのバージョンがESXi 6.7（VMハードウェアバージョン14）以降と互換性があることを確認する必要があります。を参照して <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block></block>
   <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element ソフトウェア12.8リリースノート</block>
-  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">Element 12.8の新機能の詳細をご確認ください</block>
-  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Elementソフトウェア12.8は最新リリースで、セキュリティとシステムコンポーネントの更新、運用の改善、解決済みの問題が含まれています。<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>です。</block>
   <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">手順1：管理ノードのVMハードウェアバージョンをアップグレードする</block>
-  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">既存の管理ノードをElement 12.8にインプレースアップグレードする場合は、アップグレード前に、管理ノードのVMハードウェアのバージョンがESXi 6.7（VMハードウェアバージョン14）以降に対応していることを確認する必要があります。</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">次の手順に従って、監視ノード上のVMハードウェアのバージョンをアップグレードすることもできます。</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">vSphere環境のバージョンに応じて、ESXi 6.7以降のバージョンを選択します。</block>
@@ -6247,7 +6243,6 @@
   <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">[vsphere client refresh]*を選択し、VMの互換性が目的のバージョンになっていることを確認します。</block>
   <block id="53e04163346326834efd61306c0800b5" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block></block>
   <block id="7373675a8dd923fb7362a663e0cb6e1f" category="inline-link">vCenter プラグイン 5.5 リリースノート</block>
-  <block id="1bb29b9b64a805e59f4873c404e002c4" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block>_新しい_</block>
   <block id="912995e99772bb097b2c7b32940725bb" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block></block>
   <block id="3a1a022151085ffe24dae724b7ca88e3" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block></block>
   <block id="3d25e722329aebc696a982dcb7743d0a" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block></block>
@@ -6260,4 +6255,13 @@
   <block id="6eb41496b0f7ef5be359156d440fc5ea" category="paragraph">次のバージョンの詳細が表示されます。</block>
   <block id="9addfb2ff8ac3a9826d26736c6697320" category="inline-link-macro">管理サービス 2.27.40 (VMware vCenter Server 5.5.16 用NetApp Elementプラグイン) に関するお知らせ</block>
   <block id="5f97199338e05d8d021611cc709fe28f" category="list-text"><block ref="5f97199338e05d8d021611cc709fe28f" category="inline-link-macro-rx"></block></block>
+  <block id="7de7586f0e33815db80af5cc26ab5a42" category="paragraph">既存の Witness Node を Element 12.8 以降にインプレース アップグレードする場合は、アップグレードする前に、環境に応じて Witness Node 上の VM ハードウェア バージョンが ESXi 6.7 (VM ハードウェア バージョン 14) 以降と互換性があることを確認する必要があります。見る<block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="f3910c16a2d3ccfefad3cf6a2990562f" category="inline-link">NetApp Elementソフトウェア 12.9 リリースノート</block>
+  <block id="0a78d79842d809e9ae78fabb8260b585" category="list-text"><block ref="65f476025a11aaf16dc58328cfd02319" category="inline-link-rx"></block>_新しい_</block>
+  <block id="19934d197d6821fc66160fdecbaaf499" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block></block>
+  <block id="3bd4daba204c3f29ed7fddf0efed2bc2" category="inline-link">Element 12.9の新機能について詳しく見る</block>
+  <block id="d7f3db2dc1a21014b46d367c5cc3e266" category="admonition">Element ソフトウェア 12.9 は最新リリースであり、セキュリティとシステム コンポーネントの更新、運用の改善、および解決された問題が含まれています。<block ref="15b1f8dce4dd523137ccbf3f7f3f2745" category="inline-link-rx"></block> 。</block>
+  <block id="ae8bd58eb0b6e5ff8cd67738f2ab773b" category="paragraph">既存の管理ノードを Element 12.8 以降にインプレース アップグレードする場合は、アップグレードする前に、環境に応じて、管理ノード上の VM ハードウェア バージョンが ESXi 6.7 (VM ハードウェア バージョン 14) 以降と互換性があることを確認する必要があります。</block>
+  <block id="576a64066f01cba7e1d9e6cc332e1c1e" category="inline-link-macro">Element ソフトウェア 12.9 に関するお知らせ</block>
+  <block id="0052f32dde4447765e38fcb8d2c7c0fb" category="list-text"><block ref="0052f32dde4447765e38fcb8d2c7c0fb" category="inline-link-macro-rx"></block></block>
 </blocks>
