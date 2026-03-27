@@ -565,4 +565,6 @@ CAUTION: 電源投入プロセス中、約 5 分間、 KVM コンソールに「
 
 == 詳細については、こちらをご覧ください
 
-https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+* link:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/vmnic1_and_vmnic4_is_swapped_by_compute_node_firmware_upgrade["コンピュートノードのファームウェアアップグレードでvmnic1とvmnic4が入れ替わります"^]
+* link:https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
+
