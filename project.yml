@@ -18,8 +18,6 @@ sidebar:
   entries:
   - title: NetApp HCIドキュメント1.10
     url: "/index.html"
-  - title: NetApp HCI ソリューション
-    url: "/docs/hci_solutions_index.html"
   - title: リリースノート
     entries:
     - title: NetApp HCI の新機能
