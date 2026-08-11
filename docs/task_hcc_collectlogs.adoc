@@ -25,6 +25,7 @@ NetApp HCI または SolidFire オールフラッシュストレージの設置�
 
 
 
+[[use-netapp-hybrid-cloud-control-to-collect-logs]]
 == NetApp Hybrid Cloud Control を使用してログを収集します
 
 ログ収集領域には、 NetApp Hybrid Cloud Control のダッシュボードからアクセスできます。
@@ -66,6 +67,7 @@ NOTE: 収集したログによっては、進捗状況バーが数分間一定�
 
 
 
+[[use-the-rest-api-to-collect-logs]]
 == REST API を使用してログを収集する
 
 REST API を使用して NetApp HCI ログまたは Element ログを収集できます。
@@ -163,6 +165,7 @@ https://<ManagementNodeIP>/logs/1/
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

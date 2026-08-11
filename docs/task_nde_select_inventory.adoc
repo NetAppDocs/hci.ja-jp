@@ -56,9 +56,9 @@ NOTE: 制限付き構成には、vSphere 7.0とH610CまたはH615Cコンピュ�
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 

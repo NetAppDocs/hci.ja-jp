@@ -41,12 +41,14 @@ NetApp HCI 1.10以降では、クラスタを拡張しても、NetApp HCI はデ
 ====
 
 
+[[netapp-deployment-engine-default-configurations]]
 == NetApp Deployment Engineのデフォルトの設定
 
 NetApp Deployment Engineは、システムとケーブルの構成に応じてコンピューティングホストのデフォルトの構成を設定します。
 
 
 
+[[h300e-h500e-h700e-and-h410c-compute-nodes]]
 === H300E、H500E、H700E、H410Cの各コンピューティングノード
 
 VMware vSphere Distributed Switch（VDS）を使用するH300E、H500E、H700E、H410Cの各ノードについて、6インターフェイス構成を示します。この構成は、 VMware vSphere Distributed Switch でのみサポートされ、 VMware vSphere Enterprise Plus ライセンスが必要です。
@@ -102,6 +104,7 @@ VMware vSphere Standard Switch （ VSS ）で 6 つのインターフェイス�
 |===
 
 
+[[h610c-compute-nodes]]
 === H610C コンピューティングノード
 
 H610Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。
@@ -126,6 +129,7 @@ NOTE: H610C ではポート A とポート B は使用されません。
 |===
 
 
+[[h615c-compute-nodes]]
 === H615C コンピューティングノード
 
 H615Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）でのみサポートされ、VMware vSphere Enterprise Plusライセンスが必要です。
@@ -147,9 +151,9 @@ H615Cノードのこの構成は、VMware vSphere Distributed Switch（VDS）で
 |===
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 

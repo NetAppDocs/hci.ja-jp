@@ -26,90 +26,105 @@ NOTE: Element ソフトウェア 12.9 は最新リリースであり、セキュ
 
 
 
+[[netapp-hci-1-10]]
 == NetApp HCI 1.10の場合
 
 NetApp HCI 1.10では、セキュリティと安定性が向上し、導入後の拡張の柔軟性が向上します。
 
 
 
+[[post-deployment-scaling-flexibility]]
 === 導入後の拡張の柔軟性
 
 NetApp HCI 1.10では、コンピューティングノード上のデフォルトの導入vmkおよびvmnic設定を満たす必要がないため、NetApp HCI コンピューティングリソースを柔軟に拡張できます。NetApp HCI 1.10以降では、コンピューティングリソースを拡張する際に、NetApp HCI では、一般的なvmk設定のみが想定されます。 link:task_nde_supported_net_changes.html["詳細はこちら。"]。
 
 
 
+[[storage-node-firmware-updates]]
 === ストレージノードのファームウェアの更新
 
 NetApp HCI 1.10には、ストレージ・ノードのファームウェア更新が含まれます。 link:rn_relatedrn.html#storage-firmware["詳細はこちら。"]。
 
 
 
+[[compute-node-firmware-updates]]
 === コンピューティングノードのファームウェアの更新
 
 NetApp HCI 1.10には、コンピューティングノードのファームウェアアップデートが含まれます。 link:rn_relatedrn.html#compute-firmware["詳細はこちら。"]。
 
 
 
+[[netapp-element-plug-in-for-vcenter-server-4-9-availability]]
 === NetApp Element Plug-in for vCenter Server 4.9の可用性
 
 NetApp Element Plug-in for vCenter Server 4.9は、管理ノード12.5およびNetApp HCI 1.10のリリース以外で使用できます。プラグインをアップグレードするには、の手順に従います link:concept_hci_upgrade_overview.html["NetApp HCI のアップグレード"] ドキュメント
 
 
 
+[[supported-versions-of-vmware-vsphere-updates]]
 === サポートされるVMware vSphere更新のバージョン
 
 NetApp HCI 1.10では、VMware vSphere 7.0が導入と拡張に対応しています。
 
 
 
+[[netapp-hybrid-cloud-control-enhancements]]
 === NetApp Hybrid Cloud Control の機能拡張
 
 NetApp Hybrid Cloud Controlはバージョン1.10で拡張されました。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["詳細はこちら。"^]。
 
 
 
+[[resolved-issues-and-known-issues]]
 === 解決済みの問題と既知の問題
 
 NetApp Bugs Onlineのツールには、NetApp HCI 、Elementソフトウェア、およびその他の製品の解決済みの問題と既知の問題が含まれています。これらの問題は、でキーワードまたはバージョンを使用して参照できます https://mysupport.netapp.com/site/products/all/details/netapp-hci/bugsonline-tab["NetApp Bugs Online では"^]。
 
 
 
+[[element-software-12-5]]
 == Elementソフトウェア12.5
 
 Element 12.5では、ストレージノードへのアクセスの向上、カスタム保護ドメインの管理性の強化、クラスタの障害やイベントの新規追加と改善、クラスタUI機能の強化、セキュリティの強化、Ansibleによる自動アップグレードなどが可能になっています。
 
 
 
+[[improved-storage-node-access]]
 === ストレージノードへのアクセスの向上
 
 Element 12.5では、署名付きSSH証明書を使用して、個々のノードへのリモートアクセスが向上していますストレージノードへのセキュアなリモートアクセスを提供するために、ストレージノードのRTFI実行時に「sfreadonly」という新しい権限制限付きローカルユーザアカウントが作成されるようになりました。sfreadonlyアカウントを使用すると'基本的な保守やトラブルシューティングの目的で'ストレージ・ノードのバックエンドにアクセスできますクラスタ管理者ユーザの「supportAdmin」アクセスタイプを設定し、ネットアップサポートが必要に応じてクラスタにアクセスできるようになりました。
 
 
 
+[[enhanced-custom-protection-domains-manageability]]
 === 強化されたカスタム保護ドメインの管理性
 
 Element 12.5には、既存のカスタム保護ドメインをすばやく簡単に表示したり、新しいカスタム保護ドメインを設定したりできる新しいユーザインターフェイスが用意されています。
 
 
 
+[[new-and-improved-cluster-faults-events-and-alerts]]
 === クラスタの新しい障害、イベント、アラートが追加されました
 
 Element 12.5では、新しいクラスタ障害コード「BmcSelfTestFailed」および「CpuThermalEventThreshold」が導入され、システムのトラブルシューティングが強化されています。Element 12.5では、「nodeOffline」、「volumeOffline」、「driveHealthFault」、「networkEvent」など、既存のクラスタイベントおよびアラートの堅牢性も向上しています。 と「cSumEvent」です。
 
 
 
+[[enable-software-encryption-at-rest-from-the-create-cluster-ui]]
 === クラスタ作成UIから保存データのソフトウェア暗号化を有効にします
 
 Element 12.5では、クラスタ作成UIの新しいチェックボックスが追加され、クラスタ作成時にSolidFire オールフラッシュストレージクラスタの保存データの暗号化をクラスタ全体で有効にすることができます。
 
 
 
+[[storage-node-firmware-updates]]
 === ストレージノードのファームウェアの更新
 
 Element 12.5には、ストレージノードのファームウェアの更新が含まれています。 link:https://docs.netapp.com/us-en/element-software/concepts/concept_rn_relatedrn_element.html#storage-firmware["詳細はこちら。"^]。
 
 
 
+[[enhanced-security]]
 === セキュリティの強化
 
 Element 12.5には、Apache log4jの脆弱性に対するElementソフトウェアの影響を緩和する機能が含まれています。仮想ボリューム（VVol）機能が有効になっているNetApp SolidFire ストレージクラスタは、Apache log4jの脆弱性の影響を受けやすくなっています。NetApp Element ソフトウェアのApache log4jの脆弱性に対する回避策 の詳細については、｛url-peak｝[KB Article ^]を参照してください。
@@ -120,6 +135,7 @@ Element 12.5には、120を超えるCVEセキュリティ脆弱性の修正も�
 
 
 
+[[automated-upgrades-using-ansible]]
 == Ansibleによる自動アップグレード
 
 Element 12.5では、Ansibleを使用してストレージクラスタ全体のローリングアップグレードを実行することで、Elementソフトウェアのアップグレードワークフローを自動化できます。作業を開始するには、に移動します https://github.com/NetApp-Automation["NetApp Ansibleリポジトリ"^] GitHubで'NAR_solidfire_SDS_upgradeロールとドキュメントをダウンロードします
@@ -129,7 +145,6 @@ Element 12.5では、Ansibleを使用してストレージクラスタ全体の�
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["『 NetApp Hybrid Cloud Control and Management Services Release Notes 』を参照してください"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 * link:firmware_driver_versions.html["NetApp HCI でサポートされるファームウェアとESXiドライバのバージョン、NetApp HCI ストレージノードでサポートされるファームウェアのバージョンとファームウェアのバージョン"]
 

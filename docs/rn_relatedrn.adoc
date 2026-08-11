@@ -21,6 +21,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[netapp-hci]]
 == NetApp HCI
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2882194["NetApp HCI 1.10リリース・ノート"^]
@@ -33,6 +34,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[netapp-element-software]]
 == NetApp Element ソフトウェア
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3362264["NetApp Elementソフトウェア 12.9 リリースノート"^]_新しい_
@@ -56,6 +58,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[management-services]]
 == 管理サービス
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理サービスリリースノート"^]
@@ -63,6 +66,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == vCenter Server 向け NetApp Element プラグイン
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3344864["vCenter プラグイン 5.5 リリースノート"^]
@@ -83,6 +87,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[compute-firmware]]
 == ファームウェアを計算します
 
 * link:rn_compute_firmware_2.179.0.html["Compute Firmware Bundle 2.179.0リリースノート"]
@@ -97,6 +102,7 @@ NOTE: ネットアップサポートサイトのクレデンシャルでログ�
 
 
 
+[[storage-firmware]]
 == ストレージファームウェア
 
 * link:rn_storage_firmware_2.182.0.html["『Storage Firmware Bundle 2.182.0 Release Notes』を参照してください"]

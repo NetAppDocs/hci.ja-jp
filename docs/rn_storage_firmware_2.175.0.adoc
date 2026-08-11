@@ -18,12 +18,14 @@ Element 12.0以降および管理サービスバージョン2.14以降では、N
 
 
 
+[[whats-new]]
 == 新機能
 
 ストレージファームウェアバンドルバージョン2.175.0には、一般的なバグ修正が含まれています。
 
 
 
+[[updated-firmware-components]]
 === ファームウェアコンポーネントが更新されました
 
 このファームウェアパッケージには、ハードウェアコンポーネント用の次のファームウェアバージョン（*太字*テキストで強調表示）が含まれています。
@@ -186,12 +188,14 @@ NOTE: ストレージファームウェアバンドル2.146以降、ペイロー
 
 
 
+[[resolved-and-known-issues]]
 == 解決済みの問題と既知の問題
 
 を参照してください https://mysupport.netapp.com/site/bugs-online/product["Bugs Online のツール"^] 解決済みの問題と新しい問題の詳細については、を参照してください。
 
 
 
+[[accessing-the-bugs-online-tool]]
 === Bugs Online のツールへのアクセス
 
 . に移動します https://mysupport.netapp.com/site/bugs-online/product["Bugs Online のツール"^] ドロップダウンリストから * Element Software * を選択します。
@@ -210,6 +214,7 @@ image::bol_list_bugs_found.png[ストレージファームウェアバンドル�
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/hci/index.jsp["NetApp HCI ドキュメントセンター"^]

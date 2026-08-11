@@ -4,8 +4,6 @@
   <block id="9c83e144e5481ac6766f4055e566594d" category="floating-title">詳細については、こちらをご覧ください</block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server 向け NetApp Element プラグイン</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI のリソースページ</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="1533f0b23943ba93541a36f85fbb28a0" category="summary">クラスタサポートバンドルを作成または削除したり、ノード設定をリセットしたり、ネットワークを再起動したりできます。</block>
   <block id="38b54f4ae3e42110e03c18e4b1aa6835" category="doc">管理ノードからシステムユーティリティを実行します</block>
   <block id="8fb520f010ef7c328d358e91edcd7812" category="paragraph">管理ノードのノード UI を使用して、クラスタサポートバンドルの作成または削除、ノード設定のリセット、ネットワークの再起動を実行できます。</block>
@@ -507,7 +505,6 @@
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">更新のステータスを監視します。「 get/services/update/status 」</block>
   <block id="1a1bc57a8bba4ae3b3aa6def4721dad7" category="list-text"><block ref="1a1bc57a8bba4ae3b3aa6def4721dad7" category="inline-link-rx"></block></block>
   <block id="49fc376ed35249f3841846ede4dab884" category="inline-link">NetApp Cloud Central</block>
-  <block id="24d234fce5b4e0608a37069ac65a0027" category="list-text"><block ref="24d234fce5b4e0608a37069ac65a0027" category="inline-link-rx"></block></block>
   <block id="6d0eb695a99109617b806676e9610075" category="inline-link">ネットアップのクラウドに関するドキュメント</block>
   <block id="3b4b536e5eddf372cafd89d843b3e90f" category="list-text"><block ref="3b4b536e5eddf372cafd89d843b3e90f" category="inline-link-rx"></block></block>
   <block id="4ec87aa9f0a4cb08c65491141aa767bc" category="summary">NetApp HCI 環境に含まれる製品またはコンポーネントのリリースノートへのリンクを入手できます。</block>
@@ -1842,7 +1839,6 @@
   <block id="f748be22a637481aae225cff9280e791" category="list-text">* イニシエータ * ：ボリュームの iSCSI イニシエータ IQN または Fibre Channel WWPN を確認できます。アクセスグループに追加された各 IQN は、 CHAP 認証なしでグループ内の各ボリュームにアクセスできます。アクセスグループに追加された各 WWPN は、アクセスグループ内のボリュームへの Fibre Channel ネットワークアクセスを許可します。</block>
   <block id="c2fb1f46e0a1dd8e660dc2cf928cf263" category="list-text">* QoS ポリシー * ：ボリュームに適用されている QoS ポリシーを確認できます。QoS ポリシーは、最小 IOPS 、最大 IOPS 、バースト時の IOPS の標準的な設定を複数のボリュームに適用します。</block>
   <block id="a9664f2c069d2936e0d10e7ef1bdf822" category="inline-link-macro">パフォーマンスポリシーと QoS ポリシー</block>
-  <block id="a1fbdd995fe1c1ccce6635a976aff3a7" category="paragraph">については、を参照してください <block ref="c41e4fefd5b14d95ad96eb2c4a1441c5" category="inline-link-macro-rx"></block>。</block>
   <block id="ee5e91bac60dc803970bf1207421ecb6" category="summary">NetApp HCI コンピューティングノードの電源をオフにする方法について説明します。</block>
   <block id="c8cacf1a33d3a6b711871eb6b8296332" category="doc">NetApp HCI システムのストレージリソースの電源をオフにします</block>
   <block id="d8087571d4ac5ca7b17a5f5ddabe9cca" category="paragraph">NetApp HCI のストレージリソースの電源をオフにする場合は、「 Element API メソッド」を使用してストレージノードを適切に停止する必要があります。</block>
@@ -1894,7 +1890,6 @@
   <block id="7053a770bcaf6591077ecf55c1f2c0a4" category="admonition">ケーブルをポートに無理に押し込まないでください。ケーブル、ポート、またはその両方が破損する可能性があります。</block>
   <block id="95697567af66baab5ea5d98383e97223" category="list-text">コンピューティングノード（ホスト）が VMware vSphere Web Client の ESXi クラスタに表示されることを確認します。</block>
   <block id="7d9e1a16a83e11a28fef50d0acce5b90" category="list-text">障害が発生したシャーシ内のすべてのコンピューティングノードで次の手順を実行します。</block>
-  <block id="27e786eaf760a6ac90357b58cb90a1be" category="section-title">ストレージノードを移動</block>
   <block id="2066ccb4f8458a45a23a14ac7e916781" category="paragraph">ストレージノードを新しいシャーシに移動する前に、ドライブを取り外し、ノードを正しくシャットダウンして、すべてのコンポーネントにラベルを付けておく必要があります。</block>
   <block id="12f93d59a7efc0b0e1679f799784e614" category="list-text">次の手順で、削除するノードを特定します。</block>
   <block id="0ef3b9d5d5c8d8652d5a032119943380" category="list-text">ノード背面のステッカーに記載されているノードのシリアル番号をメモします。</block>
@@ -1929,7 +1924,6 @@
   <block id="8296d229fd443d148456ff7747462250" category="section-title">コンピューティングノードをシャットダウンします</block>
   <block id="02fb7ecfe6b7cdd3f0889b302095f20d" category="paragraph">コンピューティングノードを新しいシャーシに移動する前に、 VM を移行して正しくシャットダウンし、ノードに挿入したケーブルにラベルを付けます。</block>
   <block id="76e494e8b99069a5520668a0aa993a90" category="section-title">ストレージノードをシャットダウンします</block>
-  <block id="bfeb80f39c9dc994b57028cbb053580d" category="paragraph">手順を参照してください <block ref="df6122283c464ca330404dd105a96891" category="inline-xref-macro-rx"></block>。</block>
   <block id="af112ce9016255d25cbd51eddef8373d" category="section-title">ノードを削除します</block>
   <block id="9b73926922f6e997518f2dfce7bd6925" category="paragraph">ノードをシャーシから慎重に取り外し、すべてのコンポーネントにラベルを付ける必要があります。ノードを物理的に取り外す手順は、ストレージノードとコンピューティングノードで同じです。ストレージノードの場合は、ノードを削除する前にドライブを取り外してください。</block>
   <block id="3fd7949e55587bdd1d74571734c6fb7b" category="list-text">ストレージノードの場合は、次の手順でシャーシ内のノードからドライブを取り外します。</block>
@@ -2141,7 +2135,6 @@
   <block id="4c7c8af8d2f636be58c2cffb73df599e" category="inline-link-macro">NTP サーバの設定</block>
   <block id="5a9bea8b6ec6d8a6393b9b55bc00d11e" category="list-text">*[mvip IP address]* ：ストレージクラスタの管理仮想 IP アドレス。同じストレージクラスタを使用して管理ノードを設定します の間に使用しました <block ref="27a45bb138de34c76f63ba91c24ab011" category="inline-link-macro-rx"></block>。</block>
   <block id="8ff5d9c0aeeb77f5fe74a3ab2ad278f5" category="list-text">* [persistent volume account name] * ：このストレージクラスタ内のすべての永続ボリュームに関連付けられたアカウントの名前。</block>
-  <block id="869a9eef63e18fff462d7fb6eae2eb50" category="list-text">クラスタでホストされている永続ボリュームに接続し、以前の管理ノードの設定データを使用してサービスを開始するには、管理ノードの再導入コマンドを設定して実行します。</block>
   <block id="58df37229524fed632f3c53880c146c3" category="admonition">セキュアプロンプトにパスワードを入力するように求められます。クラスタがプロキシサーバの背後にある場合、パブリックネットワークに接続できるようにプロキシを設定する必要があります。</block>
   <block id="acdd886bc4045222b632b7cf0f124f21" category="list-text">角かっこ内の値を、管理ノードの管理者アカウントのユーザ名に置き換えます。一般には、管理ノードへのログインに使用したユーザアカウントのユーザ名です。</block>
   <block id="447a2c77b25a29c4b95502c7ce068a00" category="admonition">ユーザ名を追加するか、または情報の入力を求めるプロンプトをスクリプトに表示することができます。</block>
@@ -2860,8 +2853,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">資産管理</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="a3a21bb5101c6a20e1c58197e7443000" category="list-text"><block ref="a3a21bb5101c6a20e1c58197e7443000" category="inline-link-macro-rx"></block></block>
-  <block id="1e553ee8b0d8322a51109417a46f73e3" category="inline-link-macro">REST API を使用して NetApp HCI ログを収集します</block>
-  <block id="091d9ffd182526624821c249c3335c90" category="list-text"><block ref="091d9ffd182526624821c249c3335c90" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="a5790b06c6321c773eca064d8f8b323a" category="inline-link-macro">管理サービスからログを取得しています</block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
@@ -3140,11 +3131,9 @@
   <block id="618b2a6a492417a6fd149f483c611dd6" category="paragraph">NetApp Element ソフトウェアを実行しているクラスタの管理ノードは、構成に応じたイメージを使用して手動でインストールできます。</block>
   <block id="7e6093e52119f18464fc862a969c9f6a" category="admonition">IPv6 のサポートが必要な場合は、管理ノード 11.1 を使用してください。</block>
   <block id="0406c3e25004e3d1dddbc367d2c4010f" category="paragraph">Element 12.2 管理ノードはオプションのアップグレードです。既存の環境では必要ありません。</block>
-  <block id="148f57c4f729acea3c3d95b35553a056" category="list-text">追加するデフォルトのタイムサーバごとに新しい行を追加します。デフォルトのタイムサーバは、同じ NTP サーバである必要があります で使用するストレージクラスタで使用します A <block ref="1d132a4516f2aafec8e6c256f33f26a5" category="inline-link-macro-rx"></block>。</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">管理ノードのセットアップコマンドを設定して実行します。</block>
   <block id="fea104dd45bc0e75d821ddd5af2b02d0" category="admonition">内はコマンドの省略名で、正式な名前の代わりに使用できます。</block>
   <block id="3f124867257c579e7ba689baed3d4f45" category="list-text">* --mnode_admin_user （ -mu ） [username] * ：管理ノードの管理者アカウントのユーザ名。一般には、管理ノードへのログインに使用したユーザアカウントのユーザ名です。</block>
-  <block id="26857b6da47c6d418e7795fa65480fb4" category="list-text">* --storage_mvip （ -SM ） [MVIP アドレス ] * ： Element ソフトウェアを実行しているストレージクラスタの管理仮想 IP アドレス（ MVIP ）。同じストレージクラスタを使用して管理ノードを設定します の間に使用しました <block ref="5d58d27cc80ea9072f2b9ee8ac714542" category="inline-link-macro-rx"></block>。</block>
   <block id="4e1df484ad6625a5245817997c822b47" category="list-text">*--storage_username(-su )[username] * ：「 --storage_mvip 」パラメータで指定したクラスタのストレージクラスタ管理者のユーザ名。</block>
   <block id="d71eed1c64f0531e1c1642b076495af1" category="list-text">* --metal_active （ -t ） [true]* ： Active IQ による分析のためのデータ収集を有効にする値を true のままにします。</block>
   <block id="e4d37c44acea4cf6b1f090b66eb5cdb4" category="list-text">（オプション）： Active IQ エンドポイントのパラメータをコマンドに追加します。</block>
@@ -4297,7 +4286,6 @@
   <block id="cbba2755a405305c04008eba28b81066" category="list-text">前の手順でコピーしたファームウェアパッケージ ID を * id * で入力します。</block>
   <block id="3982b15a7d8608c803ba0fea915a806a" category="list-text">インストールアセット ID を確認します。</block>
   <block id="befd59adbc7ca9bef6a93304fb2e0271" category="list-text">ストレージファームウェアのアップグレードを実行します。</block>
-  <block id="f5925eb0265a585d14f6a64ad359e976" category="inline-link">NetApp HCI ソリューション</block>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">詳細については、 NetApp HCI の設定と管理に関するドキュメントおよび NetApp HCI ソリューションに関する情報を参照してください。</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">リリースノート</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
@@ -4794,10 +4782,8 @@
   <block id="4ff9fc7c23fbbdf410e784b18625c201" category="inline-xref">サブステップ (f)</block>
   <block id="51aa09599efde7b5f904971077e61890" category="list-text">[[[[suf_recover_config_time_sync]] ハイパーバイザーを使用したホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
   <block id="2402451989cd172cbc3b634b598a7bf7" category="inline-xref">再導入コマンド</block>
-  <block id="f495ed37a1bc23c35eb85ae7536b34f8" category="admonition">の実行時は NTP に影響するため、時刻の同期設定の完了後は NTP を編集しないでください <block ref="09beec75f3bf74c9ec51917f2b1066ff" category="inline-xref-macro-rx"></block> 管理ノード。</block>
   <block id="e7538fbaab3148e24ff8ae41d09df5ce" category="list-text">[[[[suf_install_config_time_sync]] ハイパーバイザーを介したホストとの時間同期を無効にします（ VMware の例を次に示します）。</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">Setup コマンド</block>
-  <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">の実行時は NTP に影響するため、時刻の同期設定の完了後は NTP を編集しないでください <block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block> 管理ノード。</block>
   <block id="c86b9778e102ce02a566f2a5f745c6e4" category="list-text">リンクモードの場合は、必要な vCenter を選択します。</block>
   <block id="4c0d90c9ada6ab81f16f3446180ab3a1" category="inline-link-macro">vCenter リンクモード</block>
   <block id="3b34803433d83528840d8e729af0e8bc" category="inline-link">vCenter Plug-in 4.8 リリースノート</block>
@@ -5467,7 +5453,6 @@
   <block id="ab330582aba37a305404f73f3ea56abd" category="list-text">コンピューティング情報の詳細な分析については、を参照してください<block ref="f1f077cd29c39ed6d4c812cbd32dffd4" category="inline-link-rx"></block>。</block>
   <block id="30b6cbdd36bc8a9bb8ba940717869b5f" category="paragraph">NetApp Element ソフトウェアは、をサポートします <block ref="a55edd10823e56dc1fbd8507c9763168" category="inline-link-macro-rx"></block> 機能：データの可用性を最大限に高めるために、ストレージノード上のデータレイアウトを最適化します。この機能を使用するには、 3 台以上の NetApp H シリーズシャーシにストレージ容量を均等に分割して、ストレージの信頼性を最適化する必要があります。この場合、ストレージクラスタで保護ドメインが自動的に有効になります。</block>
   <block id="afde714080ac1fe221a69ff664991df5" category="admonition">ドライブを一度に追加するとシステムが停止する可能性があります。ドライブの追加と取り外しに関するベストプラクティスについては、を参照してください<block ref="e5a621cb9e241baa7c2d331f853e65e6" category="inline-link-rx"></block> （ログインが必要です）。</block>
-  <block id="0d4b8eddcdeb5a25195c2e6412a8f38e" category="list-text">この手順を開始する前に、ネットアップサポートに連絡して交換用パーツを入手しておく必要があります。交換作業にはサポートが必要です。まだ行っていない場合は、にお問い合わせください<block ref="98d845834ac9e1a9127f330339ecea9b" category="inline-link-rx"></block>。</block>
   <block id="09335542e6fb8fe91126771e47605ba2" category="list-text"><block ref="09335542e6fb8fe91126771e47605ba2" category="inline-link-macro-rx"></block></block>
   <block id="63695aa0849707798651ae322ae394ed" category="list-text"><block ref="63695aa0849707798651ae322ae394ed" category="inline-link-macro-rx"></block></block>
   <block id="060f2d3652ce69463a68e80dbf153b87" category="list-text"><block ref="060f2d3652ce69463a68e80dbf153b87" category="inline-link-macro-rx"></block></block>
@@ -5534,10 +5519,6 @@
   <block id="8656c1812e255a290a0e3fb243bf9237" category="list-text">SolidFire Active IQ の詳細については、を参照してください<block ref="605461d6a442322fca0bcd236d381ac0" category="inline-link-rx"></block>。</block>
   <block id="5de7b59e7468f72110ca5bd9b20f7d50" category="paragraph">右上のメニューアイコンを選択して「* SolidFire Active IQ 」を選択すると、ダッシュボードからのドキュメントにアクセスすることもできます。</block>
   <block id="b742a27bbb38b6f0482e473afd7caf8e" category="list-text">複数のNetApp HCI がインストールされている場合は、「*クラスタの選択」を選択し、リストからクラスタを選択します。</block>
-  <block id="3d57c700c41601cb011883231fb4e5b8" category="summary">NetApp HCI を使用すると、複数のパブリッククラウドプロバイダとオンプレミスに クラウド サービス を導入できます。NetApp HCI を使用すると、クラウドプロバイダと同様のサービスをIT部門のサポートなしでセルフサービスモードで導入できます。</block>
-  <block id="4f8fc3e1fce78186b06dfda99cdedd17" category="paragraph">NetApp HCI ソリューションは、複数のワークロードを同じインフラに配置することで、摩擦のない大規模なパフォーマンスを実現します。</block>
-  <block id="921c0975b352bf1530a52271d2abf5c6" category="inline-link">NetApp HCI ソリューションのドキュメント</block>
-  <block id="705d4d08d5af2e9dd1c4616188dd681f" category="paragraph">NetApp HCI ソリューションの詳細については、を参照してください<block ref="80564718f738f8f02fcd8afb2a3d09de" category="inline-link-rx"></block>。</block>
   <block id="fbbe254e45b4762e05a1addfd1b1da7b" category="admonition">の詳細を確認してください <block ref="e8537a9bbe8826a9f8e7b689e79abc77" category="inline-link-macro-rx"></block>。</block>
   <block id="0dc2c3036c99248e0e9f340a2cfc8fb1" category="summary">ストレージノードでサポートされるファームウェアとドライバのバージョン。</block>
   <block id="10a16317486e698f70640e8342028ef1" category="list-text"><block ref="d02062eff89a2ae583064c32a7f5ba19" category="inline-xref-macro-rx"></block></block>
@@ -6070,7 +6051,6 @@
   <block id="6a1419cffec796a0cf9688c584b108e5" category="paragraph">次に、システムに固有の条件がある場合に実行する必要があるその他のタスクを示します。</block>
   <block id="6f2e0dd9461f023001b32f634a66ca39" category="list-text"><block ref="6f2e0dd9461f023001b32f634a66ca39" category="inline-link-macro-rx"></block></block>
   <block id="d5e0ed137993fa47f6c52eaba475f986" category="list-text"><block ref="96458e97c135f9cdca1845fd2743e79f" category="inline-xref-macro-rx"></block></block>
-  <block id="27e4d3a5ce33dd22d6512ac546804968" category="list-text"><block ref="d095c71c5d51f56f74c0c624a25acdfc" category="inline-xref-macro-rx"></block></block>
   <block id="fefc802a17eb78beb3791d194d57c778" category="section-title">手順1：コンピューティングノードを交換する準備</block>
   <block id="c5fe75a9a5a9f7b0e4279644ad5bba34" category="section-title">手順2：シャーシ内のコンピューティングノードを交換する</block>
   <block id="527e6719cbc58f7527999477eaac0dd2" category="section-title">手順3：NetApp HCI 1.7以降でコンピューティングノードアセットを削除する</block>
@@ -6124,12 +6104,8 @@
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">サポートへのアクセス</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 に関するドキュメント</block>
   <block id="de9f9af3b709ace792d8704d5d9b105f" category="list-text"><block ref="de9f9af3b709ace792d8704d5d9b105f" category="inline-link-rx"></block></block>
-  <block id="68f63921fdce687db3c7510ea1f63df3" category="paragraph">を参照してください<block ref="5fe7d084aafda4fb5c53715a85948ffe" category="inline-link-rx"></block></block>
   <block id="75f97cab9e9de14d25c05846e421361a" category="paragraph">NetApp HCIの各コンポーネントの詳細な機能については、『NetApp HCI』を参照してください<block ref="cf48105a0f3c2479f34bbdfad268bcc0" category="inline-link-rx"></block>。</block>
-  <block id="5824ec67f2e84250bfcd931d8f2d6a16" category="list-text">詳細およびサポートされるその他の構成については、<block ref="be0a1633f05f833fc37598e3b5d7e95e" category="inline-link-rx"></block>およびを参照して<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>ください。</block>
   <block id="8a91fe255efcffde80021047735fd330" category="list-text">ストレージノードが4つ未満のNetApp HCI構成については、を参照してください<block ref="54d37355d9369a629af27e51f6998cd4" category="inline-link-rx"></block>。</block>
-  <block id="1e4bf851d18462d626029f69f75339e4" category="list-text"><block ref="1e4bf851d18462d626029f69f75339e4" category="inline-link-rx"></block></block>
-  <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
   <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">のコンピューティングノードのESXiをアップグレードする<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block>場合は、一度に1つのコンピューティングノードのみをアップグレードして、一時的に使用できなくなり、クラスタクォーラムを維持できるようにします。</block>
   <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
   <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">NetApp HCIドキュメント1.10</block>
@@ -6267,4 +6243,23 @@
   <block id="c1e517fe7181e2c5115775d9ea6bc98a" category="inline-link-macro">コンピュートノードのファームウェアアップグレードでvmnic1とvmnic4が入れ替わります</block>
   <block id="82164a18d6c12ce08bfeea322b95b153" category="list-text"><block ref="82164a18d6c12ce08bfeea322b95b153" category="inline-link-macro-rx"></block></block>
   <block id="4f78f9b3af0747f30a363de59d0bb0ad" category="list-text"><block ref="4f78f9b3af0747f30a363de59d0bb0ad" category="inline-link-macro-rx"></block></block>
+  <block id="cd388508451a8326f25b9d7c5d9faa35" category="paragraph">参照してください<block ref="45dfeaa43e9f1dd00a21977e432c35a4" category="inline-link-rx"></block>。</block>
+  <block id="24507f673eef4a19fb23059cc58859ff" category="inline-link">ソースページ</block>
+  <block id="92b06659e9792623f589d67c5ff768f4" category="list-text"><block ref="92b06659e9792623f589d67c5ff768f4" category="inline-link-rx"></block></block>
+  <block id="b2fc1a5e41c41b67c5bace9db877a759" category="list-text"><block ref="b2fc1a5e41c41b67c5bace9db877a759" category="inline-link-rx"></block></block>
+  <block id="f4474b9e29a9baacdc9fa61fae379682" category="paragraph"><block ref="1d3de344b485dd9645e08283cd164260" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="7cf2e19a356ede2034d8f64c67d696db" category="list-text">この手順を開始する前に、NetApp サポートに連絡し、交換部品を受け取っておく必要があります。交換品の取り付けの際には、サポート担当者が対応いたします。まだ連絡していない場合は、お問い合わせください<block ref="40d68d5ad5b72cd7b0aeb54dca582b44" category="inline-link-rx"></block>。</block>
+  <block id="d2976374b903151107a40ab7af908d9e" category="list-text">詳細およびその他のサポートされている構成については、<block ref="f8d4acc3f9aaa36dce166227706d4559" category="inline-link-rx"></block>および<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="d0a969cb5b779e9623c2681ca5acf913" category="list-text"><block ref="d0a969cb5b779e9623c2681ca5acf913" category="inline-link-rx"></block></block>
+  <block id="4365aa4d62fcaed8a61f5851f7c63acc" category="inline-link-macro">ノードのBMCファームウェアをアップグレードする</block>
+  <block id="9dab290e89213456d980870059befb04" category="list-text"><block ref="9dab290e89213456d980870059befb04" category="inline-link-macro-rx"></block></block>
+  <block id="54a25b9525fa344cfd032b23a0a55785" category="section-title">[[first-step]]ストレージ ノードを移動する</block>
+  <block id="4bc6740a60deefa0285a0c720b548842" category="paragraph">手順をご覧ください <block ref="ec97764f469808b2dc22de3d7da48064" category="inline-xref-macro-rx"></block>。</block>
+  <block id="83e38c1e0a56daef5954e61f93fa7a9e" category="list-text"><block ref="83e38c1e0a56daef5954e61f93fa7a9e" category="inline-link-rx"></block></block>
+  <block id="7077dbcc40e302fb098c9302c0c6269c" category="list-text">追加するデフォルトタイムサーバーごとに新しい行を追加してください。デフォルトタイムサーバーは、<block ref="0c2d9dcf26ca39b44a5e8852cef3f0e3" category="inline-link-macro-rx"></block>で使用するストレージクラスターで使用されるNTPサーバーと同じである必要があります。</block>
+  <block id="976d818f45b3fe57b988f6fb568892d9" category="admonition">時刻同期設定が完了した後は、NTP を編集しないでください。管理ノードで <block ref="cffa1335b86456e7f03dd817732877bf" category="inline-link-macro-rx"></block> を実行すると、NTP に影響するためです。</block>
+  <block id="0aeacc7be58cf29fd697c7be15f8be8a" category="list-text">*--storage_mvip (-sm) [MVIPアドレス]*：Elementソフトウェアを実行しているストレージクラスタの管理仮想IPアドレス（MVIP）。管理ノードを、<block ref="8118d1db72d661fee875698000297a70" category="inline-link-macro-rx"></block>で使用したストレージクラスタと同じ構成にします。</block>
+  <block id="306dce65244454f104c560984a933a89" category="admonition">時刻同期設定が完了した後は、NTP を編集しないでください。管理ノードで <block ref="d4cc54860504c9dd35fa60f279389412" category="inline-xref-macro-rx"></block> を実行すると、NTP に影響するためです。</block>
+  <block id="4ca4c5adf5ca889f6c5c1d2260ba3289" category="list-text">[[step-6]]クラスター上でホストされている永続ボリュームに接続し、以前の管理ノード構成データを使用してサービスを開始するには、管理ノード再デプロイコマンドを設定して実行します：</block>
+  <block id="370b6a48ac72103f3329504653be50fe" category="list-text"><block ref="370b6a48ac72103f3329504653be50fe" category="inline-link-macro-rx"></block></block>
 </blocks>

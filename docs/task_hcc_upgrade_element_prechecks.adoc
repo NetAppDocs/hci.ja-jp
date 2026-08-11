@@ -48,6 +48,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == NetApp Hybrid Cloud Control を使用して Element ストレージの健全性を実行します ストレージをアップグレードする前にチェックします
 
 NetApp Hybrid Cloud Control （ HCC ）を使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。
@@ -77,6 +78,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == API を使用して、実行前に Element ストレージの健全性チェックを実行 ストレージをアップグレードする
 
 REST API を使用して、ストレージクラスタをアップグレードする準備が完了していることを確認できます。健全性チェックでは、保留中のノード、ディスクスペースの問題、クラスタ障害など、アップグレードが必要な障害がないことを確認します。
@@ -208,6 +210,7 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == サービスによるストレージの健全性チェック
 
 ストレージの健全性チェックでは、クラスタごとに以下のチェックが行われます。
@@ -241,6 +244,7 @@ https://<ManagementNodeIP>/storage/1/
 |===
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

@@ -40,6 +40,7 @@ NetApp Hybrid Cloud Control を使用したアップグレードは、それよ�
 
 
 
+[[sysupgradeseqsystem-upgrade-sequence]]
 == [sys_upgrade_seq]システムアップグレードシーケンス
 
 NetApp HCI システムをアップグレードするには、次の順序で操作します。

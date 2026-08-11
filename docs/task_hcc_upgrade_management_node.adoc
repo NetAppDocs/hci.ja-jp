@@ -18,6 +18,8 @@ NOTE: 管理ノード12.2以前のアップグレードに関する情報が必�
 
 
 
+[[step-1-upgrade-vm-hardware-version-on-a-management-node]]
+[[upgrade-vm-hardware]]
 == 手順1：管理ノードのVMハードウェアバージョンをアップグレードする
 
 既存の管理ノードを Element 12.8 以降にインプレース アップグレードする場合は、アップグレードする前に、環境に応じて、管理ノード上の VM ハードウェア バージョンが ESXi 6.7 (VM ハードウェア バージョン 14) 以降と互換性があることを確認する必要があります。
@@ -42,6 +44,7 @@ VMの電源がオフになるまで待ちます。
 
 
 
+[[step-2-upgrade-a-management-node-to-element-12-5-or-later]]
 == 手順2：管理ノードをElement 12.5以降にアップグレードする
 
 次のいずれかのアップグレードオプションを選択します。
@@ -58,6 +61,7 @@ NOTE: 管理サービスと Element ストレージを順番に更新しない�
 
 
 
+[[upgrade-a-management-node-to-version-12-5-or-later-from-version-12-3-x-or-later]]
 === バージョン12.3.x以降から管理ノードをバージョン12.5以降にアップグレードします
 
 新しい管理ノード仮想マシンをプロビジョニングすることなく、バージョン12.3.x以降からバージョン12.5以降への管理ノードのインプレースアップグレードを実行できます。
@@ -151,6 +155,7 @@ IMPORTANT: 管理ノードで SSH 機能を無効にしていた場合は、が�
 
 
 
+[[reconfigure-authentication-using-the-management-node-rest-api]]
 === 管理ノード REST API を使用して認証を再設定します
 
 既存の管理ノードは、（ 1 ）管理サービスと（ 2 ） Element ストレージを順番にアップグレードした場合でも維持できます。別のアップグレード順序を使用した場合は、インプレース管理ノードのアップグレード手順を参照してください。
@@ -186,6 +191,7 @@ https://<ManagementNodeIP>/mnode
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 https://docs.netapp.com/us-en/vcp/index.html["vCenter Server 向け NetApp Element プラグイン"^]

@@ -44,6 +44,7 @@ NetApp Deployment Engine のユーザインターフェイスが表示されま�
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * link:firmware_driver_versions.html["NetApp HCI でサポートされるファームウェアとESXiドライバのバージョン、NetApp HCI ストレージノードでサポートされるファームウェアのバージョンとファームウェアのバージョン"]
